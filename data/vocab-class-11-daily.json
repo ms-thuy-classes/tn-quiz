@@ -1,0 +1,58 @@
+{
+  "id": "vocab-class-11-daily",
+  "parts": [
+    {
+      "type": "mcq",
+      "name": "Phần 1 · Trắc nghiệm đục lỗ",
+      "hint": "Choose the correct answer",
+      "questions": [
+        {
+          "q": "What time ________ Minh get up every morning?",
+          "o": ["do", "does", "is", "are"],
+          "a": 1,
+          "vi": "Minh thức dậy lúc mấy giờ mỗi sáng?",
+          "ex": "Câu hỏi thì hiện tại đơn với chủ ngữ số ít (Minh)."
+        },
+        {
+          "q": "He ________ up at five thirty.",
+          "o": ["get", "getting", "gets", "got"],
+          "a": 2,
+          "vi": "Anh ấy thức dậy lúc năm giờ rưỡi.",
+          "ex": "Chủ ngữ số ít (He) động từ thêm -s."
+        },
+        {
+          "q": "My brother loves ________ books in his free time.",
+          "o": ["read", "reads", "reading", "to reading"],
+          "a": 2,
+          "vi": "Anh trai tôi thích đọc sách vào thời gian rảnh.",
+          "ex": "Cấu trúc love + V-ing (thích làm gì)."
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "name": "Phần 2 · Điền từ thích hợp",
+      "hint": "Type the correct word",
+      "questions": [
+        {
+          "q": "She ________ (take) a shower every morning.",
+          "a": ["takes"],
+          "vi": "Cô ấy tắm vòi sen mỗi sáng.",
+          "ex": "Chủ ngữ she → động từ thêm -s: takes."
+        },
+        {
+          "q": "They ________ (go) to school by bus.",
+          "a": ["go"],
+          "vi": "Họ đi học bằng xe buýt.",
+          "ex": "Chủ ngữ số nhiều they → động từ nguyên mẫu."
+        },
+        {
+          "q": "My mother ________ (cook) dinner every evening.",
+          "a": ["cooks"],
+          "vi": "Mẹ tôi nấu bữa tối mỗi chiều.",
+          "ex": "Chủ ngữ số ít → thêm -s."
+        }
+      ]
+    }
+  ]
+}
