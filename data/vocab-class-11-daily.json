@@ -34,13 +34,13 @@
       "hint": "Type the correct word",
       "questions": [
         {
-          "q": "She ________ (take) a shower every morning.",
+          "q": "She ________ (take/ go/ wear/ put/ make/ think/ love) a shower every morning.",
           "a": ["takes"],
           "vi": "Cô ấy tắm vòi sen mỗi sáng.",
           "ex": "Chủ ngữ she → động từ thêm -s: takes."
         },
         {
-          "q": "They ________ (go) to school by bus.",
+          "q": "They ________ (take/ go/ wear/ put/ make/ think/ love) to school by bus.",
           "a": ["go"],
           "vi": "Họ đi học bằng xe buýt.",
           "ex": "Chủ ngữ số nhiều they → động từ nguyên mẫu."
