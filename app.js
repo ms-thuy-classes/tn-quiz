@@ -210,31 +210,44 @@ async function initPostPage(){
     })(t0);
   }
 
-  /* ============================================================
-     FETCH POST DATA
+    /* ============================================================
+     FETCH POST DATA — với xử lý lỗi chi tiết
      ============================================================ */
   if(!postId){
     location.href = 'index.html';
     return;
   }
 
-  // Hiển thị loading ngay intro
   document.getElementById('introTitle').innerHTML = '<div class="spinner" style="margin:0"></div>';
   document.getElementById('introDesc').textContent = 'Đang tải bài học...';
 
+  // Helper tạo path đúng
+  const base = window.BASE_PATH || '';
+  const jsonUrl = base + 'data/' + encodeURIComponent(postId) + '.json';
+
   try {
-    const res = await fetch('data/' + encodeURIComponent(postId) + '.json');
-    if(!res.ok) throw new Error('Không tìm thấy bài');
+    const res = await fetch(jsonUrl, { cache: 'no-cache' });
+    if(res.status === 404){
+      throw new Error(
+        'Không tìm thấy file <b>' + esc(postId) + '.json</b> trong thư mục <b>data/</b>.<br>' +
+        '👉 Kiểm tra lại: (1) file đã được tạo chưa? (2) tên file có khớp với "id" trong articles.json không?'
+      );
+    }
+    if(!res.ok) throw new Error('HTTP ' + res.status + ': ' + res.statusText);
     post = await res.json();
   } catch(e) {
     document.body.innerHTML =
-      '<div style="max-width:500px;margin:100px auto;padding:30px;background:#fff;border-radius:22px;text-align:center;box-shadow:0 10px 30px rgba(60,50,120,.12)">' +
-      '<h2 style="font-family:Fraunces,serif;font-size:2rem;margin-bottom:14px">😢 Không tìm thấy bài</h2>' +
-      '<p style="color:#5d5e7e;margin-bottom:20px">' + esc(e.message) + '</p>' +
-      '<a href="index.html" class="btn btn-primary">← Quay về trang chủ</a></div>';
+      '<div style="max-width:540px;margin:80px auto;padding:30px;background:#fff;border-radius:22px;text-align:center;box-shadow:0 10px 30px rgba(60,50,120,.12)">' +
+      '<h2 style="font-family:Fraunces,serif;font-size:2rem;margin-bottom:14px">😢 Không tải được bài</h2>' +
+      '<p style="color:#5d5e7e;margin-bottom:12px">' + e.message + '</p>' +
+      '<details style="text-align:left;background:var(--paper);padding:12px;border-radius:12px;margin:16px 0;font-size:.82rem">' +
+        '<summary style="cursor:pointer;font-weight:700">🔍 URL đã thử</summary>' +
+        '<code style="word-break:break-all;display:block;margin-top:8px">' + esc(jsonUrl) + '</code>' +
+      '</details>' +
+      '<a href="index.html" class="btn btn-primary" style="display:inline-block;margin-top:10px">← Quay về trang chủ</a>' +
+      '</div>';
     return;
   }
-
   /* ============================================================
      RENDER INTRO
      ============================================================ */
