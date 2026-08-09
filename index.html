@@ -100,34 +100,47 @@
     Made with 💜 by Ms. Thúy · © 2026 · Học tiếng Anh thật dễ dàng
   </footer>
 
-  <!-- CHỈ LOAD app.js MỘT LẦN, KHÔNG CÓ data.js -->
-  
+  <script src="app.js"></script>
   <script>
     /* ============================================================
-       TRANG CHỦ — load articles.json (metadata) từ thư mục data/
+       TRANG CHỦ — load articles.json (metadata)
        ============================================================ */
+    
+    // ✅ THÊM DÒNG NÀY — Định nghĩa esc trực tiếp để không phụ thuộc app.js
+    const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+    
     const $ = s => document.querySelector(s);
 
+    // Hàm tiện ích: tạo đường dẫn tương đối, xử lý subpath
+    function dataPath(file){
+      const base = window.BASE_PATH || '';
+      return base + 'data/' + file;
+    }
+
     async function initHome(){
-      const grid = document.getElementById('articleGrid');
-      const tagRow = document.getElementById('tagRow');
-      const countEl = document.getElementById('articleCount');
+      const grid = $('#articleGrid');
+      const tagRow = $('#tagRow');
+      const countEl = $('#articleCount');
 
       grid.innerHTML = '<div class="loading-row" style="grid-column:1/-1;text-align:center;padding:40px;color:var(--ink-faint)"><div class="spinner"></div><p style="margin-top:12px">Đang tải bài viết...</p></div>';
 
       let posts = [];
       try {
-        // SỬA ĐƯỜNG DẪN: giữ cấu trúc data/
-        const res = await fetch('data/articles.json');
+        const res = await fetch(dataPath('articles.json'));
         if(!res.ok) throw new Error('HTTP ' + res.status);
         posts = await res.json();
       } catch(e) {
-        grid.innerHTML = '<div style="grid-column:1/-1;text-align:center;padding:40px;color:var(--red-deep);background:var(--red-soft);border-radius:16px">❌ Không tải được dữ liệu: ' + e.message + '</div>';
+        grid.innerHTML =
+          '<div style="grid-column:1/-1;text-align:center;padding:40px;color:var(--red-deep);background:var(--red-soft);border-radius:16px">' +
+          '❌ Không tải được <b>data/articles.json</b><br><code style="font-size:.8rem">' + esc(e.message) + '</code>' +
+          '<p style="margin-top:10px;font-size:.85rem">👉 Đảm bảo thư mục <b>data/</b> nằm cùng cấp với index.html.</p>' +
+          '</div>';
         return;
       }
 
       const allTags = Array.from(new Set(posts.flatMap(p => p.tags))).sort();
-      tagRow.innerHTML = '<button class="tag-btn active" data-tag="__all__">🌟 Tất cả</button>' +
+      tagRow.innerHTML =
+        '<button class="tag-btn active" data-tag="__all__">🌟 Tất cả</button>' +
         allTags.map(t => '<button class="tag-btn" data-tag="' + esc(t) + '">' + esc(t) + '</button>').join('');
 
       function renderArticles(filter = '__all__') {
