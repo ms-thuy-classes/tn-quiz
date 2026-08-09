@@ -424,99 +424,127 @@ main{position:relative;z-index:1;max-width:1200px;margin:0 auto;padding:0 clamp(
   padding:5px 10px;border-radius:999px;
   text-transform:uppercase;letter-spacing:.08em;
 }
-  function handleFill(item){
-    const input = document.getElementById('fillInput');
-    const check = document.getElementById('fillCheck');
-    const clear = document.getElementById('fillClear');
-    const chips = [...document.querySelectorAll('#qStage .word-chip')];
-    
-    let selectedChip = null;
-    let done = false;
-    
-    // Click vào word chip → điền vào input
-    chips.forEach(chip => {
-      chip.addEventListener('click', () => {
-        if(done) return;
-        // Bỏ highlight chip cũ
-        if(selectedChip) selectedChip.classList.remove('selected');
-        // Highlight chip mới
-        chip.classList.add('selected');
-        selectedChip = chip;
-        input.value = chip.dataset.word;
-        input.classList.remove('correct','wrong');
-        sfxTick();
-      });
-    });
-    
-    // Nút xóa
-    clear.addEventListener('click', () => {
-      if(done) return;
-      input.value = '';
-      input.classList.remove('correct','wrong');
-      if(selectedChip){
-        selectedChip.classList.remove('selected');
-        selectedChip = null;
-      }
-    });
-    
-    // Kiểm tra đáp án
-    function doCheck(){
-      if(done) return;
-      const val = input.value.trim().toLowerCase();
-      if(!val){ 
-        showToast('💡 Em hãy chọn một từ trong khung trước nhé!', '');
-        return; 
-      }
-      done = true;
-      
-      // Khóa tất cả chip
-      chips.forEach(c => {
-        c.disabled = true;
-        if(c !== selectedChip) c.classList.add('dim');
-      });
-      clear.disabled = true;
-      check.disabled = true;
-      
-      const ok = item.a.some(ans => val === ans.toLowerCase());
-      game.answers[game.idx] = {chosen: input.value.trim(), ok};
-      
-      if(ok){
-        input.classList.add('correct');
-        if(selectedChip){
-          selectedChip.classList.add('chip-correct');
-        }
-        game.correct++;
-        sfxCorrect();
-        showToast('✨ Chính xác! Hay lắm, ' + esc(game.name) + '!', 'good');
-        const pill = document.getElementById('liveScore');
-        pill.textContent = '✓ ' + game.correct;
-        pill.classList.remove('bump'); void pill.offsetWidth; pill.classList.add('bump');
-        setTimeout(nextStep, 1200);
-      } else {
-        input.classList.add('wrong');
-        if(selectedChip){
-          selectedChip.classList.add('chip-wrong');
-        }
-        sfxWrong();
-        
-        // Highlight đáp án đúng trong word bank
-        const correctWord = item.a[0].toLowerCase();
-        chips.forEach(c => {
-          if(c.dataset.word.toLowerCase() === correctWord){
-            c.classList.add('chip-correct');
-            c.classList.remove('dim');
-          }
-        });
-        
-        // Hiển thị giải thích
-        const show = document.createElement('div');
-        show.className = 'fill-show';
-        show.innerHTML = '✅ Đáp án đúng: <b>' + esc(item.a[0]) + '</b>';
-        document.querySelector('.fill-wrap').appendChild(show);
-        showToast('❌ Chưa đúng rồi…', 'bad');
-        setTimeout(nextStep, 2200);
-      }
-    }
-    
-    check.addEventListener('click', doCheck);
-  }
+ /* ========== WORD BANK ========== */
+.word-bank{
+  background:var(--primary-soft);
+  border:1.5px dashed var(--primary);
+  border-radius:var(--r-md);
+  padding:18px 20px;
+  margin-bottom:18px;
+}
+.word-bank-label{
+  font-family:var(--font-mono);
+  font-size:.78rem;
+  font-weight:700;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+  color:var(--primary-deep);
+  margin-bottom:14px;
+  display:flex;
+  align-items:center;
+  gap:8px;
+}
+.word-bank-chips{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+}
+.word-chip{
+  font-family:var(--font-body);
+  font-weight:700;
+  font-size:1rem;
+  padding:10px 20px;
+  background:#fff;
+  color:var(--ink);
+  border:1.5px solid var(--border);
+  border-radius:999px;
+  cursor:pointer;
+  transition:transform .18s, border-color .18s, background .18s, color .18s, box-shadow .18s;
+  box-shadow:var(--shadow-sm);
+  user-select:none;
+  line-height:1.2;
+}
+.word-chip:hover:not(:disabled){
+  transform:translateY(-2px) rotate(-1deg);
+  border-color:var(--primary);
+  color:var(--primary-deep);
+  box-shadow:0 8px 18px rgba(122,103,238,.2);
+}
+.word-chip.selected{
+  background:var(--grad-btn);
+  color:#fff;
+  border-color:transparent;
+  box-shadow:0 8px 22px rgba(122,103,238,.4);
+  transform:translateY(-2px) scale(1.05);
+}
+.word-chip.chip-correct{
+  background:var(--green);
+  color:#fff;
+  border-color:var(--green);
+  box-shadow:0 6px 18px rgba(31,174,118,.35);
+}
+.word-chip.chip-wrong{
+  background:var(--red);
+  color:#fff;
+  border-color:var(--red);
+  text-decoration:line-through;
+  box-shadow:0 6px 18px rgba(239,93,111,.35);
+}
+.word-chip:disabled{
+  cursor:default;
+}
+.word-chip.dim{
+  opacity:.4;
+}
+
+/* Fill input mới */
+.fill-wrap .fill-input{
+  font-family:var(--font-display);
+  font-size:1.25rem;
+  font-weight:600;
+  padding:14px 18px;
+  border:2px solid var(--border);
+  border-radius:var(--r-md);
+  background:var(--paper);
+  text-align:center;
+  letter-spacing:.5px;
+  transition:border-color .2s,box-shadow .2s,background .2s,color .2s;
+  cursor:default;
+  color:var(--ink);
+  width:100%;
+}
+.fill-wrap .fill-input::placeholder{
+  color:var(--ink-faint);
+  font-family:var(--font-body);
+  font-size:.95rem;
+  font-weight:500;
+  letter-spacing:0;
+}
+.fill-wrap .fill-input.correct{
+  border-color:var(--green);
+  background:var(--green-soft);
+  color:var(--green-deep);
+}
+.fill-wrap .fill-input.wrong{
+  border-color:var(--red);
+  background:var(--red-soft);
+  color:var(--red-deep);
+}
+
+.fill-actions{
+  display:grid;
+  grid-template-columns:1fr 2fr;
+  gap:10px;
+  margin-top:14px;
+}
+@media(max-width:480px){
+  .fill-actions{grid-template-columns:1fr}
+  .word-chip{padding:9px 16px;font-size:.92rem}
+}
+.fill-hint{
+  font-size:.82rem;
+  color:var(--ink-faint);
+  text-align:center;
+  font-style:italic;
+  margin-top:10px;
+}
