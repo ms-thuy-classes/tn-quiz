@@ -164,6 +164,8 @@ async function initPostPage(){
           _partName: part.name,
           _partHint: part.hint,
           _pairs: part.pairs,
+          _matches: 0,          // số cặp đã ghép đúng
+          _completed: false,    // đã ghép xong chưa
         }];
       } else {
         return (part.questions || []).map(q => ({
@@ -230,7 +232,6 @@ async function initPostPage(){
       '<div class="q-meta"><span class="part-chip" style="background:var(--primary-soft);color:var(--primary-deep)">' + esc(item._partName) + '</span>' +
       '<span style="color:var(--ink-faint);font-size:.85rem;font-style:italic">' + esc(item._partHint || '') + '</span></div>';
 
-    // Đối với matching, không có q, nên không hiển thị q-text
     if (item._partType !== 'matching') {
       html += '<h2 class="q-text">' + renderQuestionText(item) + '</h2>';
     } else {
@@ -299,9 +300,16 @@ async function initPostPage(){
   function renderMatching(item){
     const left = shuffle(item._pairs.map((p,i) => ({text:p.left, idx:i})));
     const right = shuffle(item._pairs.map((p,i) => ({text:p.right, idx:i})));
-    item._left = left; item._right = right; item._matches = 0;
+    item._left = left; item._right = right;
+    // Đặt lại _matches về 0 mỗi khi render lại (tránh lưu trạng thái cũ)
+    item._matches = 0;
+    item._completed = false;
     return '<div class="matching-wrap">' +
       '<p style="color:var(--ink-soft);font-size:.95rem;margin-bottom:12px">🎯 Ghép từng từ bên trái với nghĩa tiếng Việt bên phải.</p>' +
+      '<div style="display:flex;justify-content:space-between;margin-bottom:12px;font-size:.9rem;color:var(--ink-soft)">' +
+        '<span>Đã ghép: <b id="matchCount">0</b>/' + item._pairs.length + '</span>' +
+        '<span>' + (item._completed ? '✅ Hoàn thành' : '⏳ Đang ghép...') + '</span>' +
+      '</div>' +
       '<div class="matching-grid">' +
         '<div class="matching-col"><div class="matching-col-head">🔤 English</div>' +
           left.map(x => '<div class="match-item" data-side="L" data-i="' + x.idx + '">' + esc(x.text) + '</div>').join('') +
@@ -393,8 +401,12 @@ async function initPostPage(){
 
   function handleMatching(item){
     let selL = null, selR = null;
+    // Nếu đã hoàn thành thì không cho tương tác nữa
+    if (item._completed) return;
+
     document.querySelectorAll('#qStage .match-item').forEach(el => {
       el.addEventListener('click', () => {
+        if(item._completed) return;
         if(el.classList.contains('matched')) return;
         if(el.dataset.side === 'L'){
           if(selL) selL.classList.remove('selected');
@@ -411,13 +423,27 @@ async function initPostPage(){
             selL.classList.add('matched'); selR.classList.add('matched');
             sfxCorrect();
             item._matches++;
-            game.correct++;
-            const pill = document.getElementById('liveScore');
-            pill.textContent = '✓ ' + game.correct;
-            pill.classList.remove('bump'); void pill.offsetWidth; pill.classList.add('bump');
+            // Cập nhật số cặp đã ghép
+            const countEl = document.getElementById('matchCount');
+            if(countEl) countEl.textContent = item._matches;
+
             if(item._matches === item._pairs.length){
+              // Hoàn thành toàn bộ matching
+              item._completed = true;
+              game.correct++; // Tăng điểm cho câu hỏi này
               game.answers[game.idx] = {chosen: 'matched all', ok: true};
+              const pill = document.getElementById('liveScore');
+              pill.textContent = '✓ ' + game.correct;
+              pill.classList.remove('bump'); void pill.offsetWidth; pill.classList.add('bump');
               showToast('🎉 Ghép hết rồi!', 'good');
+              // Cập nhật trạng thái hoàn thành
+              const statusEl = document.querySelector('#qStage .matching-wrap span:last-child');
+              if(statusEl) statusEl.textContent = '✅ Hoàn thành';
+              // Vô hiệu hóa các item còn lại
+              document.querySelectorAll('#qStage .match-item:not(.matched)').forEach(el => {
+                el.style.opacity = '0.5';
+                el.style.cursor = 'default';
+              });
               setTimeout(nextStep, 1000);
             }
           } else {
