@@ -28,24 +28,33 @@
         }
       ]
     },
+   {
+  "type": "fill",
+  "name": "Phần 2 · Điền từ",
+  "hint": "Chọn từ thích hợp trong khung để điền vào chỗ trống",
+  "questions": [
     {
-      "type": "fill",
-      "name": "Phần 2 · Điền từ thích hợp",
-      "hint": "Type the correct word",
-      "questions": [
-        {
-          "q": "She ________ (take/ go/ wear/ put/ make/ think/ love) a shower every morning.",
-          "a": ["takes"],
-          "vi": "Cô ấy tắm vòi sen mỗi sáng.",
-          "ex": "Chủ ngữ she → động từ thêm -s: takes."
-        },
-        {
-          "q": "They ________ (take/ go/ wear/ put/ make/ think/ love) to school by bus.",
-          "a": ["go"],
-          "vi": "Họ đi học bằng xe buýt.",
-          "ex": "Chủ ngữ số nhiều they → động từ nguyên mẫu."
-        }
-      ]
+      "q": "She ________ a shower every morning.",
+      "words": ["takes", "take", "taking", "took", "taken"],
+      "a": ["takes"],
+      "vi": "Cô ấy tắm vòi sen mỗi sáng.",
+      "ex": "Chủ ngữ she → động từ thêm -s: takes."
+    },
+    {
+      "q": "They ________ to school by bus.",
+      "words": ["goes", "go", "going", "went", "gone"],
+      "a": ["go"],
+      "vi": "Họ đi học bằng xe buýt.",
+      "ex": "Chủ ngữ số nhiều they → động từ nguyên mẫu: go."
+    },
+    {
+      "q": "My mother ________ dinner every evening.",
+      "words": ["cooks", "cook", "cooking", "cooked", "chef"],
+      "a": ["cooks"],
+      "vi": "Mẹ tôi nấu bữa tối mỗi chiều.",
+      "ex": "Chủ ngữ số ít → động từ thêm -s: cooks."
     }
+  ]
+}
   ]
 }
