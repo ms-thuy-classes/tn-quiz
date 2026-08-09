@@ -103,70 +103,83 @@
 
   <script src="data.js"></script>
   <script src="app.js"></script>
+   <script src="app.js"></script>
   <script>
-    // ---- Khởi tạo trang chủ ----
+    /* ============================================================
+       TRANG CHỦ — load articles.json (metadata)
+       ============================================================ */
     const $ = s => document.querySelector(s);
     const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 
-    // Thu thập tất cả tag từ POSTS (định nghĩa trong data.js)
-    const allTags = Array.from(new Set(POSTS.flatMap(p => p.tags))).sort();
-
-    // Render tag filter
-    const tagRow = $('#tagRow');
-    const tagAll = document.createElement('button');
-    tagAll.className = 'tag-btn active';
-    tagAll.dataset.tag = '__all__';
-    tagAll.textContent = '🌟 Tất cả';
-    tagRow.appendChild(tagAll);
-    allTags.forEach(t => {
-      const b = document.createElement('button');
-      b.className = 'tag-btn';
-      b.dataset.tag = t;
-      b.textContent = t;
-      tagRow.appendChild(b);
-    });
-
-    function renderArticles(filter = '__all__') {
-      const list = filter === '__all__' ? POSTS : POSTS.filter(p => p.tags.includes(filter));
-      $('#articleCount').textContent = list.length + ' bài viết';
+    async function initHome(){
       const grid = $('#articleGrid');
-      grid.innerHTML = '';
-      if (!list.length) {
-        grid.innerHTML = '<p class="muted" style="grid-column:1/-1;text-align:center;padding:40px">Không có bài nào với tag này. Hãy thử tag khác nhé! 💜</p>';
+      const tagRow = $('#tagRow');
+      const countEl = $('#articleCount');
+
+      // Hiển thị loading
+      grid.innerHTML = '<div class="loading-row" style="grid-column:1/-1;text-align:center;padding:40px;color:var(--ink-faint)"><div class="spinner"></div><p style="margin-top:12px">Đang tải bài viết...</p></div>';
+
+      let posts = [];
+      try {
+        const res = await fetch('data/articles.json');
+        if(!res.ok) throw new Error('HTTP ' + res.status);
+        posts = await res.json();
+      } catch(e) {
+        grid.innerHTML = '<div style="grid-column:1/-1;text-align:center;padding:40px;color:var(--red-deep);background:var(--red-soft);border-radius:16px">❌ Không tải được dữ liệu: ' + e.message + '</div>';
         return;
       }
-      list.forEach(p => {
-        const card = document.createElement('a');
-        card.className = 'article-card';
-        card.href = 'post.html?id=' + encodeURIComponent(p.id);
-        card.innerHTML =
-          '<div class="card-cover" style="background:' + p.gradient + '">' +
-            '<span class="cover-emoji">' + p.cover + '</span>' +
-            '<span class="card-duration">⏱️ ' + esc(p.duration) + '</span>' +
-          '</div>' +
-          '<div class="card-body">' +
-            '<div class="card-tags">' + p.tags.map(t => '<span class="tag-mini">' + esc(t) + '</span>').join('') + '</div>' +
-            '<h3 class="card-title">' + esc(p.title) + '</h3>' +
-            '<p class="card-desc">' + esc(p.description) + '</p>' +
-            '<div class="card-meta">' +
-              '<span>📝 ' + p.questionCount + ' câu</span>' +
-              '<span>·</span>' +
-              '<span class="read-more">Bắt đầu →</span>' +
+
+      // Tạo tag filter
+      const allTags = Array.from(new Set(posts.flatMap(p => p.tags))).sort();
+      tagRow.innerHTML = '<button class="tag-btn active" data-tag="__all__">🌟 Tất cả</button>' +
+        allTags.map(t => '<button class="tag-btn" data-tag="' + esc(t) + '">' + esc(t) + '</button>').join('');
+
+      function renderArticles(filter = '__all__') {
+        const list = filter === '__all__' ? posts : posts.filter(p => p.tags.includes(filter));
+        countEl.textContent = list.length + ' bài viết';
+        grid.innerHTML = '';
+        if (!list.length) {
+          grid.innerHTML = '<p class="muted" style="grid-column:1/-1;text-align:center;padding:40px">Không có bài nào với tag này.</p>';
+          return;
+        }
+        list.forEach(p => {
+          const card = document.createElement('a');
+          card.className = 'article-card';
+          card.href = 'post.html?id=' + encodeURIComponent(p.id);
+          card.innerHTML =
+            '<div class="card-cover" style="background:' + p.gradient + '">' +
+              '<span class="cover-emoji">' + p.cover + '</span>' +
+              (p.featured ? '<span class="card-badge">⭐ Nổi bật</span>' : '') +
+              '<span class="card-duration">⏱️ ' + esc(p.duration) + '</span>' +
             '</div>' +
-          '</div>';
-        grid.appendChild(card);
+            '<div class="card-body">' +
+              '<div class="card-tags">' + p.tags.map(t => '<span class="tag-mini">' + esc(t) + '</span>').join('') + '</div>' +
+              '<h3 class="card-title">' + esc(p.title) + '</h3>' +
+              '<p class="card-desc">' + esc(p.description) + '</p>' +
+              '<div class="card-meta">' +
+                '<span>📝 ' + p.questionCount + ' câu</span>' +
+                '<span>·</span>' +
+                '<span class="read-more">Bắt đầu →</span>' +
+              '</div>' +
+            '</div>';
+          grid.appendChild(card);
+        });
+      }
+
+      tagRow.addEventListener('click', e => {
+        const btn = e.target.closest('.tag-btn');
+        if (!btn) return;
+        tagRow.querySelectorAll('.tag-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        renderArticles(btn.dataset.tag);
       });
+
+      renderArticles();
     }
 
-    tagRow.addEventListener('click', e => {
-      const btn = e.target.closest('.tag-btn');
-      if (!btn) return;
-      tagRow.querySelectorAll('.tag-btn').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      renderArticles(btn.dataset.tag);
-    });
-
-    renderArticles();
+    initHome();
   </script>
+</body>
+</html>
 </body>
 </html>
