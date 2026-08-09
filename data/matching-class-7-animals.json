@@ -1,0 +1,38 @@
+{
+  "id": "matching-class-7-animals",
+  "title": "Matching & Synonyms · Lớp 7 · Animals",
+  "tags": ["Lớp 7", "Vocabulary", "Matching"],
+  "cover": "🦁",
+  "gradient": "linear-gradient(135deg,#ffb62e,#ffb28f 55%,#ff8fb1)",
+  "description": "Ghép từ vựng về động vật với nghĩa tiếng Việt, và chọn từ đồng nghĩa.",
+  "duration": "15 phút",
+  "parts": [
+    {
+      "type": "matching",
+      "name": "Phần 1 · Ghép từ vựng – nghĩa",
+      "hint": "Ghép mỗi từ bên trái với nghĩa đúng bên phải",
+      "pairs": [
+        { "left": "habitat",   "right": "môi trường sống" },
+        { "left": "endangered", "right": "có nguy cơ tuyệt chủng" },
+        { "left": "predator",  "right": "động vật săn mồi" },
+        { "left": "mammal",    "right": "động vật có vú" },
+        { "left": "reptile",   "right": "bò sát" }
+      ]
+    },
+    {
+      "type": "synonym",
+      "name": "Phần 2 · Từ đồng nghĩa",
+      "hint": "Choose the word CLOSEST in meaning to the highlighted word",
+      "questions": [
+        {
+          "q": "The tiger is a fierce predator.",
+          "keyword": "fierce",
+          "o": ["gentle", "aggressive", "friendly", "quiet"],
+          "a": 1,
+          "vi": "Con hổ là một kẻ săn mồi hung dữ.",
+          "ex": "Fierce = hung dữ. Aggressive là từ gần nghĩa nhất."
+        }
+      ]
+    }
+  ]
+}
