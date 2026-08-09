@@ -424,3 +424,99 @@ main{position:relative;z-index:1;max-width:1200px;margin:0 auto;padding:0 clamp(
   padding:5px 10px;border-radius:999px;
   text-transform:uppercase;letter-spacing:.08em;
 }
+  function handleFill(item){
+    const input = document.getElementById('fillInput');
+    const check = document.getElementById('fillCheck');
+    const clear = document.getElementById('fillClear');
+    const chips = [...document.querySelectorAll('#qStage .word-chip')];
+    
+    let selectedChip = null;
+    let done = false;
+    
+    // Click vào word chip → điền vào input
+    chips.forEach(chip => {
+      chip.addEventListener('click', () => {
+        if(done) return;
+        // Bỏ highlight chip cũ
+        if(selectedChip) selectedChip.classList.remove('selected');
+        // Highlight chip mới
+        chip.classList.add('selected');
+        selectedChip = chip;
+        input.value = chip.dataset.word;
+        input.classList.remove('correct','wrong');
+        sfxTick();
+      });
+    });
+    
+    // Nút xóa
+    clear.addEventListener('click', () => {
+      if(done) return;
+      input.value = '';
+      input.classList.remove('correct','wrong');
+      if(selectedChip){
+        selectedChip.classList.remove('selected');
+        selectedChip = null;
+      }
+    });
+    
+    // Kiểm tra đáp án
+    function doCheck(){
+      if(done) return;
+      const val = input.value.trim().toLowerCase();
+      if(!val){ 
+        showToast('💡 Em hãy chọn một từ trong khung trước nhé!', '');
+        return; 
+      }
+      done = true;
+      
+      // Khóa tất cả chip
+      chips.forEach(c => {
+        c.disabled = true;
+        if(c !== selectedChip) c.classList.add('dim');
+      });
+      clear.disabled = true;
+      check.disabled = true;
+      
+      const ok = item.a.some(ans => val === ans.toLowerCase());
+      game.answers[game.idx] = {chosen: input.value.trim(), ok};
+      
+      if(ok){
+        input.classList.add('correct');
+        if(selectedChip){
+          selectedChip.classList.add('chip-correct');
+        }
+        game.correct++;
+        sfxCorrect();
+        showToast('✨ Chính xác! Hay lắm, ' + esc(game.name) + '!', 'good');
+        const pill = document.getElementById('liveScore');
+        pill.textContent = '✓ ' + game.correct;
+        pill.classList.remove('bump'); void pill.offsetWidth; pill.classList.add('bump');
+        setTimeout(nextStep, 1200);
+      } else {
+        input.classList.add('wrong');
+        if(selectedChip){
+          selectedChip.classList.add('chip-wrong');
+        }
+        sfxWrong();
+        
+        // Highlight đáp án đúng trong word bank
+        const correctWord = item.a[0].toLowerCase();
+        chips.forEach(c => {
+          if(c.dataset.word.toLowerCase() === correctWord){
+            c.classList.add('chip-correct');
+            c.classList.remove('dim');
+          }
+        });
+        
+        // Hiển thị giải thích
+        const show = document.createElement('div');
+        show.className = 'fill-show';
+        show.innerHTML = '✅ Đáp án đúng: <b>' + esc(item.a[0]) + '</b>';
+        document.querySelector('.fill-wrap').appendChild(show);
+        showToast('❌ Chưa đúng rồi…', 'bad');
+        setTimeout(nextStep, 2200);
+      }
+    }
+    
+    check.addEventListener('click', doCheck);
+  }
