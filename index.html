@@ -1,0 +1,172 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Learn with Ms. Thúy · Home</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500..900;1,9..144,500..900&family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="home">
+  <div class="bg-dots"></div>
+  <span class="floaty" style="top:12%;left:5%;font-size:70px;color:var(--primary);--d:11s;--r:-8deg">A</span>
+  <span class="floaty" style="top:60%;left:3%;font-size:52px;color:var(--peach);--d:14s;--r:6deg">?</span>
+  <span class="floaty" style="top:22%;right:6%;font-size:60px;color:var(--green);--d:12s;--r:10deg">✓</span>
+  <span class="floaty" style="bottom:14%;right:9%;font-size:66px;color:var(--sky);--d:10s;--r:-6deg">B</span>
+
+  <header class="topbar">
+    <a href="index.html" class="brand">
+      <span class="brand-badge">M</span>
+      <div>
+        <span class="brand-name">Learn with <em>Ms. Thúy</em></span>
+        <span class="brand-sub">English for Vietnamese Students</span>
+      </div>
+    </a>
+    <nav class="nav">
+      <a href="#articles" class="btn btn-ghost">📚 Bài viết</a>
+      <a href="#about" class="btn btn-ghost">👩‍🏫 Về cô Thúy</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <span class="eyebrow">✨ Miễn phí · Cập nhật mỗi tuần</span>
+      <h1 class="display">Học tiếng Anh<br>thật <em>ngọt ngào</em> cùng cô Thúy</h1>
+      <p class="lede">Hàng trăm bài quiz được soạn kỹ cho học sinh <b>Lớp 1 → Lớp 12</b>, <b>IELTS</b>, <b>TOEIC</b>. Vừa chơi vừa học, có giải thích tiếng Việt cho từng câu.</p>
+      <div class="hero-ctas">
+        <a href="#articles" class="btn btn-primary">🚀 Bắt đầu ngay</a>
+        <a href="#tags" class="btn btn-ghost">🔍 Lọc theo chủ đề</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><b>150+</b><span>bài quiz</span></div>
+        <div class="stat"><b>12</b><span>khối lớp</span></div>
+        <div class="stat"><b>5</b><span>dạng bài</span></div>
+        <div class="stat"><b>24/7</b><span>miễn phí</span></div>
+      </div>
+    </div>
+    <div class="hero-art">
+      <div class="hero-card hc-1">
+        <div class="mini-tag">Lớp 11</div>
+        <div class="mini-q">“Honesty” means…</div>
+        <div class="mini-row picked">B · sự trung thực ✓</div>
+      </div>
+      <div class="hero-card hc-2">
+        <div class="mini-tag">IELTS</div>
+        <div class="mini-q">The word <mark>sustainable</mark> is closest in meaning to...</div>
+        <div class="mini-row">A · temporary</div>
+        <div class="mini-row picked">C · enduring ✓</div>
+      </div>
+      <div class="hero-chip">👩‍🏫 Cô Thúy luôn tin ở em!</div>
+    </div>
+  </section>
+
+  <!-- TAG FILTER -->
+  <section class="filter-section" id="tags">
+    <div class="section-head">
+      <h2 class="h2">🏷️ Lọc bài theo cấp độ</h2>
+      <p class="muted">Chọn cấp độ hoặc chủ đề em quan tâm</p>
+    </div>
+    <div class="tag-row" id="tagRow"></div>
+  </section>
+
+  <!-- ARTICLES -->
+  <section class="articles" id="articles">
+    <div class="section-head">
+      <h2 class="h2">📖 Bài viết mới nhất</h2>
+      <p class="muted" id="articleCount"></p>
+    </div>
+    <div class="article-grid" id="articleGrid"></div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="about-card">
+      <div class="about-avatar">👩‍🏫</div>
+      <h2>Về <em>cô Thúy</em></h2>
+      <p>Hơn 10 năm giảng dạy tiếng Anh cho học sinh Việt Nam. Cô tin rằng: <b>"Học ngoại ngữ phải thật vui và gần gũi"</b>. Tất cả bài quiz ở đây đều do cô tự soạn, kèm giải thích tiếng Việt để em hiểu sâu, nhớ lâu.</p>
+      <div class="about-chips">
+        <span class="chip">🎓 Thạc sĩ Ngôn ngữ Anh</span>
+        <span class="chip">📜 IELTS 8.5</span>
+        <span class="chip">💜 100% miễn phí</span>
+      </div>
+    </div>
+  </section>
+
+  <footer class="foot">
+    Made with 💜 by Ms. Thúy · © 2026 · Học tiếng Anh thật ngọt ngào
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+  <script>
+    // ---- Khởi tạo trang chủ ----
+    const $ = s => document.querySelector(s);
+    const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+    // Thu thập tất cả tag từ POSTS (định nghĩa trong data.js)
+    const allTags = Array.from(new Set(POSTS.flatMap(p => p.tags))).sort();
+
+    // Render tag filter
+    const tagRow = $('#tagRow');
+    const tagAll = document.createElement('button');
+    tagAll.className = 'tag-btn active';
+    tagAll.dataset.tag = '__all__';
+    tagAll.textContent = '🌟 Tất cả';
+    tagRow.appendChild(tagAll);
+    allTags.forEach(t => {
+      const b = document.createElement('button');
+      b.className = 'tag-btn';
+      b.dataset.tag = t;
+      b.textContent = t;
+      tagRow.appendChild(b);
+    });
+
+    function renderArticles(filter = '__all__') {
+      const list = filter === '__all__' ? POSTS : POSTS.filter(p => p.tags.includes(filter));
+      $('#articleCount').textContent = list.length + ' bài viết';
+      const grid = $('#articleGrid');
+      grid.innerHTML = '';
+      if (!list.length) {
+        grid.innerHTML = '<p class="muted" style="grid-column:1/-1;text-align:center;padding:40px">Không có bài nào với tag này. Hãy thử tag khác nhé! 💜</p>';
+        return;
+      }
+      list.forEach(p => {
+        const card = document.createElement('a');
+        card.className = 'article-card';
+        card.href = 'post.html?id=' + encodeURIComponent(p.id);
+        card.innerHTML =
+          '<div class="card-cover" style="background:' + p.gradient + '">' +
+            '<span class="cover-emoji">' + p.cover + '</span>' +
+            '<span class="card-duration">⏱️ ' + esc(p.duration) + '</span>' +
+          '</div>' +
+          '<div class="card-body">' +
+            '<div class="card-tags">' + p.tags.map(t => '<span class="tag-mini">' + esc(t) + '</span>').join('') + '</div>' +
+            '<h3 class="card-title">' + esc(p.title) + '</h3>' +
+            '<p class="card-desc">' + esc(p.description) + '</p>' +
+            '<div class="card-meta">' +
+              '<span>📝 ' + p.questionCount + ' câu</span>' +
+              '<span>·</span>' +
+              '<span class="read-more">Bắt đầu →</span>' +
+            '</div>' +
+          '</div>';
+        grid.appendChild(card);
+      });
+    }
+
+    tagRow.addEventListener('click', e => {
+      const btn = e.target.closest('.tag-btn');
+      if (!btn) return;
+      tagRow.querySelectorAll('.tag-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      renderArticles(btn.dataset.tag);
+    });
+
+    renderArticles();
+  </script>
+</body>
+</html>
