@@ -7,7 +7,8 @@
     "gradient": "linear-gradient(135deg,#7a67ee,#5a9df5 55%,#3ecfa0)",
     "description": "30 câu đục lỗ & đồng nghĩa về thói quen hàng ngày. Kèm giải thích tiếng Việt.",
     "duration": "45 phút",
-    "questionCount": 30
+    "questionCount": 30,
+    "featured": true
   },
   {
     "id": "reading-class-10-environment",
@@ -17,7 +18,8 @@
     "gradient": "linear-gradient(135deg,#3ecfa0,#5a9df5 55%,#8ecdfd)",
     "description": "Đọc đoạn văn về bảo vệ môi trường và trả lời 5 câu hỏi.",
     "duration": "20 phút",
-    "questionCount": 5
+    "questionCount": 5,
+    "featured": false
   },
   {
     "id": "matching-class-7-animals",
@@ -27,7 +29,8 @@
     "gradient": "linear-gradient(135deg,#ffb62e,#ffb28f 55%,#ff8fb1)",
     "description": "Ghép từ vựng về động vật với nghĩa tiếng Việt, và chọn từ đồng nghĩa.",
     "duration": "15 phút",
-    "questionCount": 8
+    "questionCount": 8,
+    "featured": false
   },
   {
     "id": "vocab-class-5-colors",
@@ -37,7 +40,8 @@
     "gradient": "linear-gradient(135deg,#ff8fb1,#ffb28f 55%,#ffb62e)",
     "description": "Làm quen với màu sắc và hình khối cơ bản bằng tiếng Anh.",
     "duration": "10 phút",
-    "questionCount": 6
+    "questionCount": 6,
+    "featured": false
   },
   {
     "id": "ielts-academic-vocab",
@@ -47,7 +51,8 @@
     "gradient": "linear-gradient(135deg,#5a48d6,#7a67ee 55%,#3ecfa0)",
     "description": "Từ vựng học thuật trình độ cao dành cho IELTS 6.5+.",
     "duration": "25 phút",
-    "questionCount": 10
+    "questionCount": 10,
+    "featured": true
   },
   {
     "id": "toeic-business-vocab",
@@ -57,6 +62,7 @@
     "gradient": "linear-gradient(135deg,#39a7e6,#5a9df5 55%,#7a67ee)",
     "description": "Từ vựng tiếng Anh thương mại thường gặp trong bài thi TOEIC.",
     "duration": "20 phút",
-    "questionCount": 6
+    "questionCount": 6,
+    "featured": false
   }
 ]
