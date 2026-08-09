@@ -106,9 +106,6 @@
        TRANG CHỦ — load articles.json (metadata)
        ============================================================ */
     
-    // ✅ THÊM DÒNG NÀY — Định nghĩa esc trực tiếp để không phụ thuộc app.js
-    const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-    
     const $ = s => document.querySelector(s);
 
     // Hàm tiện ích: tạo đường dẫn tương đối, xử lý subpath
