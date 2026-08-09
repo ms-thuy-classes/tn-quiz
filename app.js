@@ -1,12 +1,10 @@
 /* ============================================================
    Learn with Ms. Thúy — Quiz Engine
-   Tất cả utility được gắn vào window để dùng toàn cục
+   Hỗ trợ: mcq | fill | reading | matching | synonym | antonym
    ============================================================ */
 
-// Gán global (không dùng const để tránh trùng lặp khi load nhiều lần)
-window.esc = function(s){
-  return String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&
-
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const REDUCED = matchMedia('(prefers-reduced-motion: reduce)').matches;
 function shuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
 
 /* ========== AUDIO (Web Audio API) ========== */
@@ -97,52 +95,19 @@ function launchConfetti(){
 }
 
 /* ============================================================
-   POST PAGE INIT
-   ============================================================ */
-/* ============================================================
    POST PAGE — fetch detail JSON theo ?id=...
    ============================================================ */
 async function initPostPage(){
   const params = new URLSearchParams(location.search);
   const postId = params.get('id');
 
-  // State chung (sẽ gán sau khi fetch xong)
-  let post = null;
-  let game = null;
+  if(!postId){
+    location.href = 'index.html';
+    return;
+  }
 
-  /* ========== UTILS ========== */
-  const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-  const REDUCED = matchMedia('(prefers-reduced-motion: reduce)').matches;
-  function shuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
-
-  /* ========== AUDIO ========== */
-  let audioCtx = null;
-  let soundOn = localStorage.getItem('lwm-sound') !== '0';
+  // sound button
   const soundBtn = document.getElementById('soundBtn');
-
-  function ctx(){
-    if(!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
-    if(audioCtx.state === 'suspended') audioCtx.resume();
-    return audioCtx;
-  }
-  function tone(freq, delay, dur, type='triangle', vol=.18){
-    if(!soundOn) return;
-    try{
-      const c = ctx(), t = c.currentTime + delay;
-      const o = c.createOscillator(), g = c.createGain();
-      o.type = type; o.frequency.value = freq;
-      g.gain.setValueAtTime(.0001, t);
-      g.gain.exponentialRampToValueAtTime(vol, t + .02);
-      g.gain.exponentialRampToValueAtTime(.0001, t + dur);
-      o.connect(g).connect(c.destination);
-      o.start(t); o.stop(t + dur + .05);
-    }catch(e){}
-  }
-  const sfxTick = () => tone(740, 0, .06, 'sine', .07);
-  const sfxCorrect = () => { tone(659.25,0,.14); tone(830.61,.09,.14); tone(987.77,.18,.22); };
-  const sfxWrong = () => { tone(233.08,0,.2,'sawtooth',.1); tone(164.81,.17,.32,'sawtooth',.1); };
-  const sfxFanfare = () => [523.25,659.25,783.99,1046.5].forEach((f,i)=>tone(f,i*.11,.25));
-
   function updateSoundBtn(){
     soundBtn.textContent = soundOn ? '🔊' : '🔇';
     soundBtn.setAttribute('aria-pressed', soundOn);
@@ -155,102 +120,26 @@ async function initPostPage(){
     if(soundOn) sfxTick();
   };
 
-  /* ========== TOAST + MODAL + CONFETTI (giữ nguyên) ========== */
-  let toastTimer;
-  function showToast(html, type=''){
-    const el = document.getElementById('toast');
-    el.innerHTML = html;
-    el.className = 'toast show ' + type;
-    clearTimeout(toastTimer);
-    toastTimer = setTimeout(() => el.classList.remove('show'), 1900);
-  }
-
-  let modalAction = null;
-  function openModal(title, msg, okText, cb){
-    document.getElementById('modalTitle').textContent = title;
-    document.getElementById('modalMsg').textContent = msg;
-    document.getElementById('modalOk').textContent = okText;
-    modalAction = cb;
-    document.getElementById('modal').hidden = false;
-  }
-  function closeModal(){
-    document.getElementById('modal').hidden = true;
-    modalAction = null;
-  }
-
-  function launchConfetti(){
-    if(REDUCED) return;
-    const cv = document.getElementById('confettiCanvas');
-    const cctx = cv.getContext('2d');
-    cv.width = innerWidth; cv.height = innerHeight;
-    const COLORS = ['#7a67ee','#3ecfa0','#ffb62e','#ff8fb1','#8ecdfd','#ffb28f'];
-    const P = [];
-    const make = (x,y,vx,vy) => P.push({
-      x,y,vx,vy,s:6+Math.random()*6,
-      c:COLORS[Math.floor(Math.random()*COLORS.length)],
-      r:Math.random()*Math.PI, vr:(Math.random()-.5)*.28,
-      round:Math.random()<.3
-    });
-    for(let i=0;i<90;i++) make(-10, cv.height*(.15+Math.random()*.4), 4+Math.random()*7, -(3+Math.random()*5));
-    for(let i=0;i<90;i++) make(cv.width+10, cv.height*(.15+Math.random()*.4), -(4+Math.random()*7), -(3+Math.random()*5));
-    const t0 = performance.now();
-    (function loop(now){
-      cctx.clearRect(0,0,cv.width,cv.height);
-      for(let i=P.length-1;i>=0;i--){
-        const p = P[i];
-        p.vy += .14; p.vx *= .992; p.x += p.vx; p.y += p.vy; p.r += p.vr;
-        if(p.y > cv.height + 30){ P.splice(i,1); continue; }
-        cctx.save(); cctx.translate(p.x,p.y); cctx.rotate(p.r); cctx.fillStyle = p.c;
-        if(p.round){ cctx.beginPath(); cctx.arc(0,0,p.s/2,0,7); cctx.fill(); }
-        else cctx.fillRect(-p.s/2,-p.s/2,p.s,p.s*.62);
-        cctx.restore();
-      }
-      if(P.length && now - t0 < 7500) requestAnimationFrame(loop);
-      else cctx.clearRect(0,0,cv.width,cv.height);
-    })(t0);
-  }
-
-    /* ============================================================
-     FETCH POST DATA — với xử lý lỗi chi tiết
-     ============================================================ */
-  if(!postId){
-    location.href = 'index.html';
-    return;
-  }
-
+  // ===== FETCH POST DATA =====
+  let post = null;
   document.getElementById('introTitle').innerHTML = '<div class="spinner" style="margin:0"></div>';
   document.getElementById('introDesc').textContent = 'Đang tải bài học...';
 
-  // Helper tạo path đúng
-  const base = window.BASE_PATH || '';
-  const jsonUrl = base + 'data/' + encodeURIComponent(postId) + '.json';
-
   try {
-    const res = await fetch(jsonUrl, { cache: 'no-cache' });
-    if(res.status === 404){
-      throw new Error(
-        'Không tìm thấy file <b>' + esc(postId) + '.json</b> trong thư mục <b>data/</b>.<br>' +
-        '👉 Kiểm tra lại: (1) file đã được tạo chưa? (2) tên file có khớp với "id" trong articles.json không?'
-      );
-    }
-    if(!res.ok) throw new Error('HTTP ' + res.status + ': ' + res.statusText);
+    // SỬA ĐƯỜNG DẪN: giữ cấu trúc data/
+    const res = await fetch('data/' + encodeURIComponent(postId) + '.json');
+    if(!res.ok) throw new Error('Không tìm thấy bài');
     post = await res.json();
   } catch(e) {
     document.body.innerHTML =
-      '<div style="max-width:540px;margin:80px auto;padding:30px;background:#fff;border-radius:22px;text-align:center;box-shadow:0 10px 30px rgba(60,50,120,.12)">' +
-      '<h2 style="font-family:Fraunces,serif;font-size:2rem;margin-bottom:14px">😢 Không tải được bài</h2>' +
-      '<p style="color:#5d5e7e;margin-bottom:12px">' + e.message + '</p>' +
-      '<details style="text-align:left;background:var(--paper);padding:12px;border-radius:12px;margin:16px 0;font-size:.82rem">' +
-        '<summary style="cursor:pointer;font-weight:700">🔍 URL đã thử</summary>' +
-        '<code style="word-break:break-all;display:block;margin-top:8px">' + esc(jsonUrl) + '</code>' +
-      '</details>' +
-      '<a href="index.html" class="btn btn-primary" style="display:inline-block;margin-top:10px">← Quay về trang chủ</a>' +
-      '</div>';
+      '<div style="max-width:500px;margin:100px auto;padding:30px;background:#fff;border-radius:22px;text-align:center;box-shadow:0 10px 30px rgba(60,50,120,.12)">' +
+      '<h2 style="font-family:Fraunces,serif;font-size:2rem;margin-bottom:14px">😢 Không tìm thấy bài</h2>' +
+      '<p style="color:#5d5e7e;margin-bottom:20px">' + esc(e.message) + '</p>' +
+      '<a href="index.html" class="btn btn-primary">← Quay về trang chủ</a></div>';
     return;
   }
-  /* ============================================================
-     RENDER INTRO
-     ============================================================ */
+
+  // ===== RENDER INTRO =====
   document.title = post.title + ' · Learn with Ms. Thúy';
   document.getElementById('introTitle').innerHTML = esc(post.title).replace(/ · /g, '<br>');
   document.getElementById('introDesc').innerHTML = '<b>' + esc(post.description) + '</b>';
@@ -265,10 +154,8 @@ async function initPostPage(){
     chips.appendChild(li);
   });
 
-  /* ============================================================
-     GAME STATE
-     ============================================================ */
-  game = {
+  // ===== GAME STATE =====
+  let game = {
     post,
     items: post.parts.flatMap(part =>
       (part.questions || []).map(q => ({
@@ -291,9 +178,7 @@ async function initPostPage(){
   const nameInput = document.getElementById('playerName');
   nameInput.value = localStorage.getItem('lwm-name') || '';
 
-  /* ============================================================
-     SCREEN SWITCH + EVENTS
-     ============================================================ */
+  // ===== SCREEN SWITCH =====
   function showScreen(name){
     document.querySelectorAll('.screen').forEach(s => { s.classList.remove('active'); s.hidden = true; });
     const el = document.getElementById('screen' + name.charAt(0).toUpperCase() + name.slice(1));
@@ -322,9 +207,9 @@ async function initPostPage(){
   document.getElementById('modal').addEventListener('click', e => { if(e.target.dataset.close !== undefined) closeModal(); });
   document.addEventListener('keydown', e => { if(e.key === 'Escape' && !document.getElementById('modal').hidden) closeModal(); });
 
-  /* ============================================================
-     RENDER QUESTION THEO TYPE
-     ============================================================ */
+  // ============================================================
+  // RENDER QUESTION THEO TYPE
+  // ============================================================
   function renderQuestion(){
     const item = game.items[game.idx];
     const stage = document.getElementById('qStage');
