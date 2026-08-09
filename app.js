@@ -1,10 +1,12 @@
 /* ============================================================
    Learn with Ms. Thúy — Quiz Engine
-   Hỗ trợ: mcq | fill | reading | matching | synonym | antonym
+   Tất cả utility được gắn vào window để dùng toàn cục
    ============================================================ */
 
-const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-const REDUCED = matchMedia('(prefers-reduced-motion: reduce)').matches;
+// Gán global (không dùng const để tránh trùng lặp khi load nhiều lần)
+window.esc = function(s){
+  return String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&
+
 function shuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
 
 /* ========== AUDIO (Web Audio API) ========== */
