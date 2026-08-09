@@ -1,5 +1,11 @@
 {
   "id": "vocab-class-11-daily",
+  "title": "Vocabulary & Grammar · Lớp 11 · Daily Routines",
+  "tags": ["Lớp 11", "Vocabulary", "Grammar"],
+  "cover": "🌞",
+  "gradient": "linear-gradient(135deg,#7a67ee,#5a9df5 55%,#3ecfa0)",
+  "description": "30 câu đục lỗ & đồng nghĩa về thói quen hàng ngày.",
+  "duration": "45 phút",
   "parts": [
     {
       "type": "mcq",
@@ -19,13 +25,6 @@
           "a": 2,
           "vi": "Anh ấy thức dậy lúc năm giờ rưỡi.",
           "ex": "Chủ ngữ số ít (He) động từ thêm -s."
-        },
-        {
-          "q": "My brother loves ________ books in his free time.",
-          "o": ["read", "reads", "reading", "to reading"],
-          "a": 2,
-          "vi": "Anh trai tôi thích đọc sách vào thời gian rảnh.",
-          "ex": "Cấu trúc love + V-ing (thích làm gì)."
         }
       ]
     },
@@ -45,12 +44,6 @@
           "a": ["go"],
           "vi": "Họ đi học bằng xe buýt.",
           "ex": "Chủ ngữ số nhiều they → động từ nguyên mẫu."
-        },
-        {
-          "q": "My mother ________ (cook) dinner every evening.",
-          "a": ["cooks"],
-          "vi": "Mẹ tôi nấu bữa tối mỗi chiều.",
-          "ex": "Chủ ngữ số ít → thêm -s."
         }
       ]
     }
