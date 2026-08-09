@@ -13,7 +13,7 @@
       "hint": "Choose the correct answer",
       "questions": [
         {
-          "q": "What time ________ Minh get up every morning?",
+          "q": "What time ________ Minh get up every morning? (nǐhǎonǚshēng) ",
           "o": ["do", "does", "is", "are"],
           "a": 1,
           "vi": "Minh thức dậy lúc mấy giờ mỗi sáng?",
