@@ -1,0 +1,32 @@
+{
+  "id": "reading-class-10-environment",
+  "title": "Reading Comprehension · Lớp 10 · Environment",
+  "tags": ["Lớp 10", "Reading", "Environment"],
+  "cover": "🌍",
+  "gradient": "linear-gradient(135deg,#3ecfa0,#5a9df5 55%,#8ecdfd)",
+  "description": "Đọc đoạn văn về bảo vệ môi trường và trả lời 5 câu hỏi.",
+  "duration": "20 phút",
+  "parts": [
+    {
+      "type": "reading",
+      "name": "Reading · Environment",
+      "passage": "Climate change is one of the most serious problems facing our planet today. Rising temperatures are causing ice caps to melt, sea levels to rise, and extreme weather events to become more frequent.\n\nTo help protect the environment, we can take simple actions in our daily lives. For example, we can reduce energy consumption by turning off lights when we leave a room, use public transportation instead of driving, and recycle paper, plastic, and glass.\n\nMany countries are also developing renewable energy sources such as solar, wind, and hydroelectric power. If everyone works together, we can create a healthier planet for future generations.",
+      "questions": [
+        {
+          "q": "What is the main cause of global warming according to the passage?",
+          "o": ["Natural disasters", "Human activities", "Volcanic eruptions", "Animal migration"],
+          "a": 1,
+          "vi": "Nguyên nhân chính là hoạt động của con người.",
+          "ex": "Dòng 4–5: 'Scientists agree that human activities... are the main cause'."
+        },
+        {
+          "q": "Which is NOT mentioned as a way to help the environment?",
+          "o": ["Turning off lights", "Using public transport", "Buying electric cars", "Planting trees"],
+          "a": 2,
+          "vi": "Mua xe điện KHÔNG được đề cập.",
+          "ex": "Bài chỉ nói đến: tiết kiệm điện, phương tiện công cộng, tái chế, trồng cây."
+        }
+      ]
+    }
+  ]
+}
