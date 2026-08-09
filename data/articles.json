@@ -1,0 +1,62 @@
+[
+  {
+    "id": "vocab-class-11-daily",
+    "title": "Vocabulary & Grammar · Lớp 11 · Daily Routines",
+    "tags": ["Lớp 11", "Vocabulary", "Grammar"],
+    "cover": "🌞",
+    "gradient": "linear-gradient(135deg,#7a67ee,#5a9df5 55%,#3ecfa0)",
+    "description": "30 câu đục lỗ & đồng nghĩa về thói quen hàng ngày. Kèm giải thích tiếng Việt.",
+    "duration": "45 phút",
+    "questionCount": 30
+  },
+  {
+    "id": "reading-class-10-environment",
+    "title": "Reading Comprehension · Lớp 10 · Environment",
+    "tags": ["Lớp 10", "Reading", "Environment"],
+    "cover": "🌍",
+    "gradient": "linear-gradient(135deg,#3ecfa0,#5a9df5 55%,#8ecdfd)",
+    "description": "Đọc đoạn văn về bảo vệ môi trường và trả lời 5 câu hỏi.",
+    "duration": "20 phút",
+    "questionCount": 5
+  },
+  {
+    "id": "matching-class-7-animals",
+    "title": "Matching & Synonyms · Lớp 7 · Animals",
+    "tags": ["Lớp 7", "Vocabulary", "Matching"],
+    "cover": "🦁",
+    "gradient": "linear-gradient(135deg,#ffb62e,#ffb28f 55%,#ff8fb1)",
+    "description": "Ghép từ vựng về động vật với nghĩa tiếng Việt, và chọn từ đồng nghĩa.",
+    "duration": "15 phút",
+    "questionCount": 8
+  },
+  {
+    "id": "vocab-class-5-colors",
+    "title": "Vocabulary · Lớp 5 · Colors & Shapes",
+    "tags": ["Lớp 5", "Vocabulary"],
+    "cover": "🎨",
+    "gradient": "linear-gradient(135deg,#ff8fb1,#ffb28f 55%,#ffb62e)",
+    "description": "Làm quen với màu sắc và hình khối cơ bản bằng tiếng Anh.",
+    "duration": "10 phút",
+    "questionCount": 6
+  },
+  {
+    "id": "ielts-academic-vocab",
+    "title": "IELTS Academic · Advanced Vocabulary",
+    "tags": ["IELTS", "Vocabulary", "Academic"],
+    "cover": "🎓",
+    "gradient": "linear-gradient(135deg,#5a48d6,#7a67ee 55%,#3ecfa0)",
+    "description": "Từ vựng học thuật trình độ cao dành cho IELTS 6.5+.",
+    "duration": "25 phút",
+    "questionCount": 10
+  },
+  {
+    "id": "toeic-business-vocab",
+    "title": "TOEIC · Business English Vocabulary",
+    "tags": ["TOEIC", "Business", "Vocabulary"],
+    "cover": "💼",
+    "gradient": "linear-gradient(135deg,#39a7e6,#5a9df5 55%,#7a67ee)",
+    "description": "Từ vựng tiếng Anh thương mại thường gặp trong bài thi TOEIC.",
+    "duration": "20 phút",
+    "questionCount": 6
+  }
+]
