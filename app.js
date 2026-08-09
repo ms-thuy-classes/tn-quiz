@@ -261,7 +261,7 @@ async function initPostPage(){
       case 'reading':
         return renderMCQ(item);
       case 'fill':
-        return renderFill();
+        return renderFill(item);   // ✅ ĐÃ SỬA: thêm (item)
       case 'matching':
         return renderMatching(item);
       default: return '<p>Chưa hỗ trợ dạng này.</p>';
