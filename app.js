@@ -289,11 +289,30 @@ async function initPostPage(){
     return html;
   }
 
-  function renderFill(){
+    function renderFill(item){
+    // Xáo trộn các từ trong word bank
+    const pool = item.words && item.words.length ? item.words : item.a;
+    const shuffledWords = shuffle(pool);
+    item._shuffledWords = shuffledWords;
+    
     return '<div class="fill-wrap">' +
-      '<input class="fill-input" id="fillInput" type="text" autocomplete="off" placeholder="Gõ đáp án của em...">' +
-      '<div class="fill-hint">💡 Nhấn <b>Enter</b> hoặc nút <b>Kiểm tra</b> để xác nhận</div>' +
-      '<button class="btn btn-primary" id="fillCheck">✓ Kiểm tra</button>' +
+      '<div class="word-bank">' +
+        '<div class="word-bank-label">💎 Chọn từ trong khung:</div>' +
+        '<div class="word-bank-chips">' +
+          shuffledWords.map((w,i) => 
+            '<button class="word-chip" data-word="' + esc(w) + '" data-i="' + i + '" type="button">' + 
+              esc(w) + 
+            '</button>'
+          ).join('') +
+        '</div>' +
+      '</div>' +
+      '<input class="fill-input" id="fillInput" type="text" autocomplete="off" ' +
+        'placeholder="Từ em chọn sẽ hiện ở đây..." readonly>' +
+      '<div class="fill-actions">' +
+        '<button class="btn btn-ghost" id="fillClear" type="button">🗑️ Xóa chọn</button>' +
+        '<button class="btn btn-primary" id="fillCheck" type="button">✓ Kiểm tra</button>' +
+      '</div>' +
+      '<div class="fill-hint">💡 Bấm vào một từ ở khung trên, rồi bấm <b>Kiểm tra</b></div>' +
     '</div>';
   }
 
@@ -365,37 +384,97 @@ async function initPostPage(){
   function handleFill(item){
     const input = document.getElementById('fillInput');
     const check = document.getElementById('fillCheck');
-    input.focus();
+    const clear = document.getElementById('fillClear');
+    const chips = [...document.querySelectorAll('#qStage .word-chip')];
+    
+    let selectedChip = null;
     let done = false;
+    
+    // Click vào word chip → điền vào input
+    chips.forEach(chip => {
+      chip.addEventListener('click', () => {
+        if(done) return;
+        // Bỏ highlight chip cũ
+        if(selectedChip) selectedChip.classList.remove('selected');
+        // Highlight chip mới
+        chip.classList.add('selected');
+        selectedChip = chip;
+        input.value = chip.dataset.word;
+        input.classList.remove('correct','wrong');
+        sfxTick();
+      });
+    });
+    
+    // Nút xóa
+    clear.addEventListener('click', () => {
+      if(done) return;
+      input.value = '';
+      input.classList.remove('correct','wrong');
+      if(selectedChip){
+        selectedChip.classList.remove('selected');
+        selectedChip = null;
+      }
+    });
+    
+    // Kiểm tra đáp án
     function doCheck(){
       if(done) return;
       const val = input.value.trim().toLowerCase();
-      if(!val){ input.focus(); return; }
+      if(!val){ 
+        showToast('💡 Em hãy chọn một từ trong khung trước nhé!', '');
+        return; 
+      }
       done = true;
+      
+      // Khóa tất cả chip
+      chips.forEach(c => {
+        c.disabled = true;
+        if(c !== selectedChip) c.classList.add('dim');
+      });
+      clear.disabled = true;
+      check.disabled = true;
+      
       const ok = item.a.some(ans => val === ans.toLowerCase());
       game.answers[game.idx] = {chosen: input.value.trim(), ok};
+      
       if(ok){
         input.classList.add('correct');
+        if(selectedChip){
+          selectedChip.classList.add('chip-correct');
+        }
         game.correct++;
         sfxCorrect();
-        showToast('✨ Chính xác!', 'good');
+        showToast('✨ Chính xác! Hay lắm, ' + esc(game.name) + '!', 'good');
         const pill = document.getElementById('liveScore');
         pill.textContent = '✓ ' + game.correct;
         pill.classList.remove('bump'); void pill.offsetWidth; pill.classList.add('bump');
         setTimeout(nextStep, 1200);
       } else {
         input.classList.add('wrong');
+        if(selectedChip){
+          selectedChip.classList.add('chip-wrong');
+        }
         sfxWrong();
+        
+        // Highlight đáp án đúng trong word bank
+        const correctWord = item.a[0].toLowerCase();
+        chips.forEach(c => {
+          if(c.dataset.word.toLowerCase() === correctWord){
+            c.classList.add('chip-correct');
+            c.classList.remove('dim');
+          }
+        });
+        
+        // Hiển thị giải thích
         const show = document.createElement('div');
         show.className = 'fill-show';
         show.innerHTML = '✅ Đáp án đúng: <b>' + esc(item.a[0]) + '</b>';
         document.querySelector('.fill-wrap').appendChild(show);
         showToast('❌ Chưa đúng rồi…', 'bad');
-        input.disabled = true; check.disabled = true;
         setTimeout(nextStep, 2200);
       }
     }
-    input.addEventListener('keydown', e => { if(e.key === 'Enter') doCheck(); });
+    
     check.addEventListener('click', doCheck);
   }
 
