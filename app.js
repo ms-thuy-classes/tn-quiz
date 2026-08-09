@@ -154,21 +154,41 @@ async function initPostPage(){
   });
 
   // ===== GAME STATE =====
+    // ===== GAME STATE =====
   let game = {
     post,
     items: post.parts.flatMap(part => {
-      // Xử lý đặc biệt cho matching: tạo một câu hỏi ảo
+      
+      // 🔹 Xử lý đặc biệt cho Matching: không xáo trộn câu hỏi,
+      // vì bản thân Matching đã tự xáo trộn 2 cột trái/phải trong renderMatching()
       if (part.type === 'matching') {
         return [{
           _partType: part.type,
           _partName: part.name,
           _partHint: part.hint,
           _pairs: part.pairs,
-          _matches: 0,          // số cặp đã ghép đúng
-          _completed: false,    // đã ghép xong chưa
+          _matches: 0,
+          _completed: false,
         }];
-      } else {
-        return (part.questions || []).map(q => ({
+      } 
+      
+      // 🔹 Xử lý cho Reading: giữ nguyên đoạn văn, chỉ xáo trộn câu hỏi
+      else if (part.type === 'reading') {
+        const shuffledQuestions = shuffle(part.questions || []);
+        return shuffledQuestions.map(q => ({
+          ...q,
+          _partType: part.type,
+          _partName: part.name,
+          _partHint: part.hint,
+          _passage: part.passage,   // ⚠️ Giữ nguyên đoạn văn, không xáo trộn
+          _pairs: part.pairs
+        }));
+      }
+      
+      // 🔹 Xử lý cho các dạng còn lại: mcq, fill, synonym, antonym
+      else {
+        const shuffledQuestions = shuffle(part.questions || []);
+        return shuffledQuestions.map(q => ({
           ...q,
           _partType: part.type,
           _partName: part.name,
