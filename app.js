@@ -126,7 +126,6 @@ async function initPostPage(){
   document.getElementById('introDesc').textContent = 'Đang tải bài học...';
 
   try {
-    // SỬA ĐƯỜNG DẪN: giữ cấu trúc data/
     const res = await fetch('data/' + encodeURIComponent(postId) + '.json');
     if(!res.ok) throw new Error('Không tìm thấy bài');
     post = await res.json();
@@ -157,16 +156,26 @@ async function initPostPage(){
   // ===== GAME STATE =====
   let game = {
     post,
-    items: post.parts.flatMap(part =>
-      (part.questions || []).map(q => ({
-        ...q,
-        _partType: part.type,
-        _partName: part.name,
-        _partHint: part.hint,
-        _passage: part.passage,
-        _pairs: part.pairs
-      }))
-    ),
+    items: post.parts.flatMap(part => {
+      // Xử lý đặc biệt cho matching: tạo một câu hỏi ảo
+      if (part.type === 'matching') {
+        return [{
+          _partType: part.type,
+          _partName: part.name,
+          _partHint: part.hint,
+          _pairs: part.pairs,
+        }];
+      } else {
+        return (part.questions || []).map(q => ({
+          ...q,
+          _partType: part.type,
+          _partName: part.name,
+          _partHint: part.hint,
+          _passage: part.passage,
+          _pairs: part.pairs
+        }));
+      }
+    }),
     idx: 0,
     correct: 0,
     answers: [],
@@ -219,8 +228,14 @@ async function initPostPage(){
     let html = '<div class="q-card">' +
       '<span class="q-num">' + String(game.idx+1).padStart(2,'0') + '</span>' +
       '<div class="q-meta"><span class="part-chip" style="background:var(--primary-soft);color:var(--primary-deep)">' + esc(item._partName) + '</span>' +
-      '<span style="color:var(--ink-faint);font-size:.85rem;font-style:italic">' + esc(item._partHint || '') + '</span></div>' +
-      '<h2 class="q-text">' + renderQuestionText(item) + '</h2>';
+      '<span style="color:var(--ink-faint);font-size:.85rem;font-style:italic">' + esc(item._partHint || '') + '</span></div>';
+
+    // Đối với matching, không có q, nên không hiển thị q-text
+    if (item._partType !== 'matching') {
+      html += '<h2 class="q-text">' + renderQuestionText(item) + '</h2>';
+    } else {
+      html += '<p style="font-weight:600;font-size:1.1rem;margin-bottom:16px;">🔗 Ghép từ vựng</p>';
+    }
 
     html += renderBodyByType(item);
     html += '</div>';
