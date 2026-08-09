@@ -11,8 +11,14 @@
   --peach:#ffb28f; --sky:#8ecdfd;
   --grad-main:linear-gradient(135deg,#7a67ee,#5a9df5 55%,#3ecfa0);
   --grad-btn:linear-gradient(135deg,#7a67ee,#5f4fe0);
-  --font-display:'Fraunces',Georgia,serif;
-  --font-body:'Be Vietnam Pro',system-ui,sans-serif;
+  /* Font hiển thị: ưu tiên Fraunces cho tiếng Anh, Noto Serif SC cho pinyin/Hán */
+  --font-display:'Fraunces', 'Noto Serif SC', Georgia, serif;
+  
+  /* Font nội dung: Be Vietnam Pro cho tiếng Việt/Anh, Noto Sans SC fallback cho pinyin/Hán */
+  --font-body:'Be Vietnam Pro', 'Noto Sans SC', system-ui, sans-serif;
+  
+  /* Font riêng cho pinyin nếu muốn chủ động */
+  --font-pinyin:'Noto Sans SC', 'Be Vietnam Pro', sans-serif;
   --font-mono:'Space Mono',monospace;
   --shadow-sm:0 2px 10px rgba(60,50,120,.08);
   --shadow-md:0 10px 30px rgba(60,50,120,.12);
@@ -22,7 +28,7 @@
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{
-  font-family:var(--font-body); color:var(--ink);
+  font-family:var(--font-body);
   background:
     radial-gradient(1100px 520px at 88% -10%, #ddefff 0%, transparent 60%),
     radial-gradient(900px 480px at -12% 28%, #eae4ff 0%, transparent 55%),
