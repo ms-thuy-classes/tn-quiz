@@ -126,10 +126,10 @@
     "hint": "Choose the correct word from the word bank",
     "questions": [
       {
-        "q": "Taylor Swift is known for her _______.",
+        "q": "Taylor Swift is known for her _______. She can write many meaningful songs. ",
         "words": ["talent", "inspiration", "humility", "activism", "charisma"],
         "a": ["talent"],
-        "vi": "Taylor Swift nổi tiếng vì tài năng của cô ấy.",
+        "vi": "Taylor Swift nổi tiếng vì tài năng của cô ấy. Cô ây có thể viết nhiều bài hát ý nghĩa. ",
         "ex": "Talent = tài năng."
       },
       {
@@ -140,10 +140,10 @@
         "ex": "Activism = hoạt động xã hội."
       },
       {
-        "q": "Many people admire Keanu Reeves for his _______.",
+        "q": "Many people admire Keanu Reeves for his _______. He is very down-to-earth and close to his fans.",
         "words": ["humility", "talent", "influence", "passion", "charisma"],
         "a": ["humility"],
-        "vi": "Nhiều người ngưỡng mộ Keanu Reeves vì sự khiêm tốn của anh ấy.",
+        "vi": "Nhiều người ngưỡng mộ Keanu Reeves vì sự khiêm tốn của anh ấy. Anh ấy rất thực tế và gần gữi với người hâm mộ.",
         "ex": "Humility = sự khiêm tốn."
       },
       {
@@ -154,24 +154,24 @@
         "ex": "Charitable work = công việc từ thiện."
       },
       {
-        "q": "H'Hen Nie is an _______ to many young Vietnamese people.",
+        "q": "H'Hen Nie is an _______ to many young Vietnamese people. She inspires the young through her incredible life story.",
         "words": ["inspiration", "influence", "activism", "kindness", "talent"],
         "a": ["inspiration"],
-        "vi": "H'Hen Niê là nguồn cảm hứng cho nhiều người trẻ.",
+        "vi": "H'Hen Niê là nguồn cảm hứng cho nhiều người trẻ. Cô ấy truyền cảm hứng với người trẻ qua câu chuyện cuộc đời phi thường.",
         "ex": "Inspiration = nguồn cảm hứng."
       },
       {
-        "q": "His strong _______ helps him overcome difficulties.",
+        "q": "His strong _______ helps him overcome difficulties. He never gives up no matter how hard it is. ",
         "words": ["determination", "passion", "charisma", "humility", "kindness"],
         "a": ["determination"],
-        "vi": "Sự quyết tâm giúp anh ấy vượt qua khó khăn.",
+        "vi": "Sự quyết tâm giúp anh ấy vượt qua khó khăn. Anh ấy không bao giờ bỏ cuộc dù cho nó khó đến nhường nào.",
         "ex": "Determination = sự quyết tâm."
       },
       {
-        "q": "The singer's _______ attracts millions of fans.",
+        "q": "The singer's _______ attracts millions of fans. She has a beautiful appearance and wonderful voice.",
         "words": ["charisma", "kindness", "activism", "humility", "determination"],
         "a": ["charisma"],
-        "vi": "Sức hút của ca sĩ thu hút hàng triệu người hâm mộ.",
+        "vi": "Sức hút của ca sĩ thu hút hàng triệu người hâm mộ. Cô ấy có ngoại hình xinh đẹp và giọng hát hay.",
         "ex": "Charisma = sức hấp dẫn."
       },
       {
@@ -182,10 +182,10 @@
         "ex": "Influence = sức ảnh hưởng."
       },
       {
-        "q": "Her _______ for music started when she was young.",
+        "q": "Her _______ for music started when she was young. At the age of five, she started to write her own songs.",
         "words": ["passion", "humility", "activism", "kindness", "influence"],
         "a": ["passion"],
-        "vi": "Niềm đam mê âm nhạc của cô ấy bắt đầu từ khi còn nhỏ.",
+        "vi": "Niềm đam mê âm nhạc của cô ấy bắt đầu từ khi còn nhỏ. Vào lúc 5 tuổi, cô ấy đã bắt đầu sáng tác nhạc.",
         "ex": "Passion = đam mê."
       },
       {
@@ -196,24 +196,24 @@
         "ex": "Kindness = sự tử tế."
       },
       {
-        "q": "The athlete's _______ impressed everyone.",
+        "q": "The athlete's _______ impressed everyone. She has been defeated many times but she has never given up.",
         "words": ["determination", "humility", "charisma", "passion", "kindness"],
         "a": ["determination"],
-        "vi": "Sự quyết tâm của vận động viên gây ấn tượng với mọi người.",
+        "vi": "Sự quyết tâm của vận động viên gây ấn tượng với mọi người. Cô ấy đã bị đánh bại nhiều lần nhưng chưa boa giờ bỏ cuộc.",
         "ex": "Determination = sự quyết tâm."
       },
       {
-        "q": "Her life story became a source of _______.",
+        "q": "Her life story became a source of _______. Many teacher tell their students about her life to encourage them to be determined.",
         "words": ["inspiration", "influence", "kindness", "activism", "passion"],
         "a": ["inspiration"],
-        "vi": "Câu chuyện cuộc đời cô ấy trở thành nguồn cảm hứng.",
+        "vi": "Câu chuyện cuộc đời cô ấy trở thành nguồn cảm hứng. Giáo viên thường hay kể câu chuyện cô ấy cho học sinh nghe để khuyến khích chúng trở nên quyết tâm.",
         "ex": "Source of inspiration = nguồn cảm hứng."
       },
       {
-        "q": "The celebrity is respected for her _______ and generosity.",
+        "q": "The celebrity is respected for her _______ and generosity. She usually gives back to community and she is always friendly to the poor. ",
         "words": ["humility", "charisma", "talent", "passion", "activism"],
         "a": ["humility"],
-        "vi": "Người nổi tiếng được kính trọng vì sự khiêm tốn và hào phóng.",
+        "vi": "Người nổi tiếng được kính trọng vì sự khiêm tốn và hào phóng. Cô ấy thường giúp đỡ cộng đồng và luôn luôn thân thiện với người nghèo.",
         "ex": "Humility = sự khiêm tốn."
       },
       {
