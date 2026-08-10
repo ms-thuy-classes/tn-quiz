@@ -610,3 +610,184 @@ main{position:relative;z-index:1;max-width:1200px;margin:0 auto;padding:0 clamp(
 .row-hint{font-weight:800;color:var(--green-deep);font-size:.85rem}
 
 .listen-submit{width:100%;margin-top:18px;font-size:1.05rem}
+/* ============================================================
+   SEARCH BAR
+   ============================================================ */
+.search-wrap{
+  max-width:720px;
+  margin:30px auto 0;
+}
+.search-box{
+  position:relative;
+  display:flex;
+  align-items:center;
+  background:#fff;
+  border:2px solid var(--border);
+  border-radius:999px;
+  padding:6px 6px 6px 22px;
+  box-shadow:var(--shadow-sm);
+  transition:border-color .2s, box-shadow .25s, transform .18s;
+}
+.search-box:focus-within{
+  border-color:var(--primary);
+  box-shadow:0 0 0 5px var(--primary-soft), var(--shadow-md);
+  transform:translateY(-1px);
+}
+.search-icon{
+  font-size:1.05rem;
+  color:var(--ink-faint);
+  margin-right:10px;
+  flex-shrink:0;
+}
+.search-box input{
+  flex:1;
+  border:none;
+  outline:none;
+  background:transparent;
+  font-family:var(--font-body);
+  font-size:1rem;
+  font-weight:500;
+  color:var(--ink);
+  padding:10px 4px;
+  min-width:0;
+}
+.search-box input::placeholder{
+  color:var(--ink-faint);
+  font-weight:400;
+}
+/* Xóa nút X mặc định của Chrome/Safari */
+.search-box input::-webkit-search-cancel-button{ -webkit-appearance:none; }
+
+.search-clear{
+  width:34px;
+  height:34px;
+  border:none;
+  background:var(--red-soft);
+  color:var(--red-deep);
+  border-radius:50%;
+  cursor:pointer;
+  font-size:.95rem;
+  font-weight:700;
+  margin-left:6px;
+  display:grid;
+  place-items:center;
+  transition:transform .18s, background .18s;
+  flex-shrink:0;
+}
+.search-clear:hover{
+  transform:rotate(90deg) scale(1.08);
+  background:var(--red);
+  color:#fff;
+}
+.search-hint{
+  text-align:center;
+  color:var(--ink-faint);
+  font-size:.82rem;
+  margin-top:12px;
+  font-style:italic;
+}
+
+/* ============================================================
+   PAGINATION
+   ============================================================ */
+.pagination{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:8px;
+  margin:36px auto 0;
+  padding:16px 12px;
+  flex-wrap:wrap;
+}
+
+.page-btn{
+  font-family:var(--font-body);
+  font-weight:700;
+  font-size:.95rem;
+  min-width:42px;
+  height:42px;
+  padding:0 14px;
+  border:1.5px solid var(--border);
+  border-radius:12px;
+  background:#fff;
+  color:var(--ink);
+  cursor:pointer;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:4px;
+  transition:transform .18s, border-color .18s, background .18s, color .18s, box-shadow .18s;
+  box-shadow:var(--shadow-sm);
+  user-select:none;
+}
+.page-btn:hover:not(.disabled):not(.active){
+  transform:translateY(-2px);
+  border-color:var(--primary);
+  color:var(--primary-deep);
+  box-shadow:0 8px 18px rgba(122,103,238,.18);
+}
+.page-btn:active:not(.disabled){
+  transform:translateY(0) scale(.97);
+}
+
+/* Nút trang hiện tại */
+.page-btn.active{
+  background:var(--grad-btn);
+  color:#fff;
+  border-color:transparent;
+  box-shadow:0 8px 22px rgba(122,103,238,.4);
+  transform:translateY(-1px) scale(1.05);
+  cursor:default;
+}
+
+/* Nút Prev / Next */
+.page-nav{
+  font-size:.88rem;
+  padding:0 18px;
+}
+.page-nav span{
+  font-size:1.3rem;
+  font-weight:800;
+  line-height:1;
+}
+
+/* Disabled */
+.page-btn.disabled{
+  opacity:.4;
+  cursor:not-allowed;
+  pointer-events:none;
+  box-shadow:none;
+}
+
+/* Dấu ... */
+.page-dots{
+  font-weight:700;
+  color:var(--ink-faint);
+  padding:0 6px;
+  letter-spacing:2px;
+  user-select:none;
+}
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+@media(max-width:640px){
+  .search-wrap{margin:24px 0 0}
+  .search-box{padding:4px 4px 4px 16px}
+  .search-box input{font-size:.95rem}
+  .page-btn{
+    min-width:38px;
+    height:38px;
+    font-size:.88rem;
+    padding:0 10px;
+    border-radius:10px;
+  }
+  .page-nav{padding:0 12px}
+  .page-nav span{font-size:1.15rem}
+  .pagination{gap:6px}
+}
+
+@media(max-width:400px){
+  .page-nav span{display:none}  /* Ẩn icon ‹ › trên màn rất nhỏ */
+  .page-nav{padding:0 10px;font-size:.8rem}
+}
