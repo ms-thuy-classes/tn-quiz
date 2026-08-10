@@ -1,1 +1,272 @@
+{
+  "id": "vocab-class-11-daily",
+  "title": "Từ vựng miêu tả tính cách",
+  "tags": ["IELTS", "Vocabulary", "Grammar"],
+  "cover": "🌞",
+  "gradient": "linear-gradient(135deg,#7a67ee,#5a9df5 55%,#3ecfa0)",
+  "description": "câu hỏi ôn lại từ vựng",
+  "duration": "45 phút",
+  "parts": [
+  {
+    "type": "mcq",
+    "name": "PHẦN 1 · MULTIPLE CHOICE (15 CÂU)",
+    "hint": "Choose the best answer",
+    "questions": [
+      {
+        "q": "Taylor Swift is famous for her _______.",
+        "o": ["humility", "talent", "kindness", "activism"],
+        "a": 1,
+        "vi": "Taylor Swift nổi tiếng vì tài năng của cô ấy.",
+        "ex": "Talent = tài năng."
+      },
+      {
+        "q": "Someone who always works hard to achieve a goal is _______.",
+        "o": ["determined", "stubborn", "generous", "easy-going"],
+        "a": 0,
+        "vi": "Người luôn nỗ lực để đạt mục tiêu là người quyết tâm.",
+        "ex": "Determined = quyết tâm."
+      },
+      {
+        "q": "Emma Watson often speaks out on gender equality. She is known for her _______.",
+        "o": ["talent", "kindness", "activism", "modesty"],
+        "a": 2,
+        "vi": "Emma Watson nổi tiếng với các hoạt động xã hội của mình.",
+        "ex": "Activism = hoạt động xã hội."
+      },
+      {
+        "q": "A person who likes exploring new places is _______.",
+        "o": ["ambitious", "adventurous", "careful", "charismatic"],
+        "a": 1,
+        "vi": "Người thích khám phá những nơi mới là người thích phiêu lưu.",
+        "ex": "Adventurous = thích phiêu lưu."
+      },
+      {
+        "q": "The noun form of 'humble' is _______.",
+        "o": ["humility", "kindness", "influence", "inspiration"],
+        "a": 0,
+        "vi": "Danh từ của humble là humility.",
+        "ex": "Humble → Humility."
+      },
+      {
+        "q": "Someone who gives money or gifts to others is _______.",
+        "o": ["determined", "generous", "stubborn", "influential"],
+        "a": 1,
+        "vi": "Người hay cho tiền hoặc quà là người hào phóng.",
+        "ex": "Generous = hào phóng."
+      },
+      {
+        "q": "Keanu Reeves is admired because he remains _______ despite being famous.",
+        "o": ["optimistic", "ambitious", "humble", "stubborn"],
+        "a": 2,
+        "vi": "Keanu Reeves vẫn khiêm tốn dù rất nổi tiếng.",
+        "ex": "Humble = khiêm tốn."
+      },
+      {
+        "q": "A person who inspires others is _______.",
+        "o": ["inspirational", "inspired", "inspiringly", "inspiration"],
+        "a": 0,
+        "vi": "Người truyền cảm hứng cho người khác.",
+        "ex": "Inspirational = truyền cảm hứng."
+      },
+      {
+        "q": "The opposite of 'optimistic' is _______.",
+        "o": ["positive", "hopeful", "pessimistic", "cheerful"],
+        "a": 2,
+        "vi": "Trái nghĩa của optimistic là pessimistic.",
+        "ex": "Pessimistic = bi quan."
+      },
+      {
+        "q": "A person with great _______ can affect many people's opinions.",
+        "o": ["charisma", "influence", "talent", "modesty"],
+        "a": 1,
+        "vi": "Người có ảnh hưởng lớn có thể tác động đến ý kiến của nhiều người.",
+        "ex": "Influence = sức ảnh hưởng."
+      },
+      {
+        "q": "Someone who always checks everything carefully is _______.",
+        "o": ["adventurous", "ambitious", "careful", "generous"],
+        "a": 2,
+        "vi": "Người luôn kiểm tra mọi thứ cẩn thận.",
+        "ex": "Careful = cẩn thận."
+      },
+      {
+        "q": "The adjective form of 'charisma' is _______.",
+        "o": ["charismatic", "charismal", "charming", "charmed"],
+        "a": 0,
+        "vi": "Tính từ của charisma là charismatic.",
+        "ex": "Charisma → Charismatic."
+      },
+      {
+        "q": "Someone who never gives up is _______.",
+        "o": ["determined", "easy-going", "modest", "kind"],
+        "a": 0,
+        "vi": "Người không bao giờ bỏ cuộc là người quyết tâm.",
+        "ex": "Determined = quyết tâm."
+      },
+      {
+        "q": "\"My Tam often helps poor children.\" This is an example of _______.",
+        "o": ["influence", "activism", "charitable work", "determination"],
+        "a": 2,
+        "vi": "Mỹ Tâm thường giúp trẻ em nghèo.",
+        "ex": "Charitable work = công việc từ thiện."
+      },
+      {
+        "q": "The phrase 'look on the bright side' means _______.",
+        "o": ["be ambitious", "think positively", "be careful", "be stubborn"],
+        "a": 1,
+        "vi": "Nhìn vào mặt tích cực của vấn đề.",
+        "ex": "Think positively = suy nghĩ tích cực."
+      }
+    ]
+  },
 
+  {
+    "type": "fill",
+    "name": "PHẦN 2 · FILL IN THE BLANKS (15 CÂU)",
+    "hint": "Choose the correct word from the word bank",
+    "questions": [
+      {
+        "q": "Taylor Swift is known for her _______. She can write many meaningful songs. ",
+        "words": ["talent", "inspiration", "humility", "activism", "charisma"],
+        "a": ["talent"],
+        "vi": "Taylor Swift nổi tiếng vì tài năng của cô ấy. Cô ây có thể viết nhiều bài hát ý nghĩa. ",
+        "ex": "Talent = tài năng."
+      },
+      {
+        "q": "Emma Watson uses her platform to support gender equality through her _______.",
+        "words": ["activism", "kindness", "passion", "charisma", "influence"],
+        "a": ["activism"],
+        "vi": "Emma Watson ủng hộ bình đẳng giới thông qua các hoạt động xã hội.",
+        "ex": "Activism = hoạt động xã hội."
+      },
+      {
+        "q": "Many people admire Keanu Reeves for his _______. He is very down-to-earth and close to his fans.",
+        "words": ["humility", "talent", "influence", "passion", "charisma"],
+        "a": ["humility"],
+        "vi": "Nhiều người ngưỡng mộ Keanu Reeves vì sự khiêm tốn của anh ấy. Anh ấy rất thực tế và gần gữi với người hâm mộ.",
+        "ex": "Humility = sự khiêm tốn."
+      },
+      {
+        "q": "My Tam often participates in _______ to help disadvantaged children.",
+        "words": ["charitable work", "talent", "determination", "kindness", "passion"],
+        "a": ["charitable work"],
+        "vi": "Mỹ Tâm thường tham gia công tác từ thiện.",
+        "ex": "Charitable work = công việc từ thiện."
+      },
+      {
+        "q": "H'Hen Nie is an _______ to many young Vietnamese people. She inspires the young through her incredible life story.",
+        "words": ["inspiration", "influence", "activism", "kindness", "talent"],
+        "a": ["inspiration"],
+        "vi": "H'Hen Niê là nguồn cảm hứng cho nhiều người trẻ. Cô ấy truyền cảm hứng với người trẻ qua câu chuyện cuộc đời phi thường.",
+        "ex": "Inspiration = nguồn cảm hứng."
+      },
+      {
+        "q": "His strong _______ helps him overcome difficulties. He never gives up no matter how hard it is. ",
+        "words": ["determination", "passion", "charisma", "humility", "kindness"],
+        "a": ["determination"],
+        "vi": "Sự quyết tâm giúp anh ấy vượt qua khó khăn. Anh ấy không bao giờ bỏ cuộc dù cho nó khó đến nhường nào.",
+        "ex": "Determination = sự quyết tâm."
+      },
+      {
+        "q": "The singer's _______ attracts millions of fans. She has a beautiful appearance and wonderful voice.",
+        "words": ["charisma", "kindness", "activism", "humility", "determination"],
+        "a": ["charisma"],
+        "vi": "Sức hút của ca sĩ thu hút hàng triệu người hâm mộ. Cô ấy có ngoại hình xinh đẹp và giọng hát hay.",
+        "ex": "Charisma = sức hấp dẫn."
+      },
+      {
+        "q": "Teachers can have a positive _______ on students.",
+        "words": ["influence", "talent", "passion", "kindness", "charisma"],
+        "a": ["influence"],
+        "vi": "Giáo viên có thể tạo ảnh hưởng tích cực lên học sinh.",
+        "ex": "Influence = sức ảnh hưởng."
+      },
+      {
+        "q": "Her _______ for music started when she was young. At the age of five, she started to write her own songs.",
+        "words": ["passion", "humility", "activism", "kindness", "influence"],
+        "a": ["passion"],
+        "vi": "Niềm đam mê âm nhạc của cô ấy bắt đầu từ khi còn nhỏ. Vào lúc 5 tuổi, cô ấy đã bắt đầu sáng tác nhạc.",
+        "ex": "Passion = đam mê."
+      },
+      {
+        "q": "Showing _______ to others can make the world better.",
+        "words": ["kindness", "charisma", "talent", "determination", "activism"],
+        "a": ["kindness"],
+        "vi": "Sự tử tế có thể làm thế giới tốt đẹp hơn.",
+        "ex": "Kindness = sự tử tế."
+      },
+      {
+        "q": "The athlete's _______ impressed everyone. She has been defeated many times but she has never given up.",
+        "words": ["determination", "humility", "charisma", "passion", "kindness"],
+        "a": ["determination"],
+        "vi": "Sự quyết tâm của vận động viên gây ấn tượng với mọi người. Cô ấy đã bị đánh bại nhiều lần nhưng chưa boa giờ bỏ cuộc.",
+        "ex": "Determination = sự quyết tâm."
+      },
+      {
+        "q": "Her life story became a source of _______. Many teacher tell their students about her life to encourage them to be determined.",
+        "words": ["inspiration", "influence", "kindness", "activism", "passion"],
+        "a": ["inspiration"],
+        "vi": "Câu chuyện cuộc đời cô ấy trở thành nguồn cảm hứng. Giáo viên thường hay kể câu chuyện cô ấy cho học sinh nghe để khuyến khích chúng trở nên quyết tâm.",
+        "ex": "Source of inspiration = nguồn cảm hứng."
+      },
+      {
+        "q": "The celebrity is respected for her _______ and generosity. She usually gives back to community and she is always friendly to the poor. ",
+        "words": ["humility", "charisma", "talent", "passion", "activism"],
+        "a": ["humility"],
+        "vi": "Người nổi tiếng được kính trọng vì sự khiêm tốn và hào phóng. Cô ấy thường giúp đỡ cộng đồng và luôn luôn thân thiện với người nghèo.",
+        "ex": "Humility = sự khiêm tốn."
+      },
+      {
+        "q": "The organization is famous for its _______.",
+        "words": ["charitable work", "talent", "kindness", "determination", "charisma"],
+        "a": ["charitable work"],
+        "vi": "Tổ chức này nổi tiếng vì các hoạt động từ thiện.",
+        "ex": "Charitable work = công việc từ thiện."
+      },
+      {
+        "q": "His speech had a great _______ on the audience.",
+        "words": ["influence", "passion", "charisma", "kindness", "talent"],
+        "a": ["influence"],
+        "vi": "Bài phát biểu của anh ấy có ảnh hưởng lớn tới khán giả.",
+        "ex": "Have an influence on = có ảnh hưởng tới."
+      }
+    ]
+  },
+
+  {
+    "type": "matching",
+    "name": "PHẦN 3 · MATCHING (TỪ ↔ NGHĨA TIẾNG VIỆT)",
+    "hint": "Match each word with its Vietnamese meaning",
+    "pairs": [
+      { "left": "determined", "right": "quyết tâm" },
+      { "left": "adventurous", "right": "thích phiêu lưu" },
+      { "left": "optimistic", "right": "lạc quan" },
+      { "left": "humble", "right": "khiêm tốn" },
+      { "left": "generous", "right": "hào phóng" },
+      { "left": "influential", "right": "có sức ảnh hưởng" },
+      { "left": "charismatic", "right": "có sức hút" },
+      { "left": "passionate", "right": "đầy đam mê" },
+      { "left": "careful", "right": "cẩn thận" },
+      { "left": "ambitious", "right": "tham vọng" }
+    ]
+  },
+
+  {
+    "type": "matching",
+    "name": "PHẦN 4 · MATCHING (CỤM TỪ ↔ NGHĨA)",
+    "hint": "Match the phrases with their meanings",
+    "pairs": [
+      { "left": "give back to the community", "right": "đóng góp cho cộng đồng" },
+      { "left": "raise funds", "right": "gây quỹ" },
+      { "left": "stay humble", "right": "giữ khiêm tốn" },
+      { "left": "pursue a passion", "right": "theo đuổi đam mê" },
+      { "left": "set high goals", "right": "đặt mục tiêu cao" },
+      { "left": "double-check", "right": "kiểm tra lại" },
+      { "left": "motivate others", "right": "truyền động lực cho người khác" },
+      { "left": "speak out on gender equality", "right": "lên tiếng về bình đẳng giới" },
+      { "left": "look on the bright side", "right": "nhìn vào mặt tích cực" },
+      { "left": "down-to-earth", "right": "thực tế, gần gũi" }
+    ]
+  }
+]
+}
