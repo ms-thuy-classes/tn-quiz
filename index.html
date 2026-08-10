@@ -51,7 +51,7 @@
     <div class="hero-art">
       <div class="hero-card hc-1">
         <div class="mini-tag">Lớp 11</div>
-        <div class="mini-q">“Honesty” means…</div>
+        <div class="mini-q">"Honesty" means…</div>
         <div class="mini-row picked">B · sự trung thực ✓</div>
       </div>
       <div class="hero-card hc-2">
@@ -71,6 +71,16 @@
       <p class="muted">Chọn cấp độ hoặc chủ đề em quan tâm</p>
     </div>
     <div class="tag-row" id="tagRow"></div>
+
+    <!-- 🔎 THANH SEARCH (thêm mới) -->
+    <div class="search-wrap">
+      <div class="search-box">
+        <span class="search-icon" aria-hidden="true">🔍</span>
+        <input id="searchInput" type="search" placeholder="Tìm bài viết theo tên hoặc mô tả..." autocomplete="off">
+        <button id="searchClear" class="search-clear" type="button" aria-label="Xóa tìm kiếm" hidden>✕</button>
+      </div>
+      <p class="search-hint" id="searchHint">💡 Gõ tên bài, cấp độ, hoặc từ khóa (VD: "IELTS", "lớp 11", "reading")</p>
+    </div>
   </section>
 
   <!-- ARTICLES -->
@@ -80,6 +90,9 @@
       <p class="muted" id="articleCount"></p>
     </div>
     <div class="article-grid" id="articleGrid"></div>
+
+    <!-- 📄 PHÂN TRANG (thêm mới) -->
+    <nav class="pagination" id="pagination" aria-label="Chuyển trang"></nav>
   </section>
 
   <!-- ABOUT -->
@@ -103,29 +116,40 @@
   <script src="app.js"></script>
   <script>
     /* ============================================================
-       TRANG CHỦ — load articles.json (metadata)
+       TRANG CHỦ — load articles.json + phân trang + search
        ============================================================ */
     
     const $ = s => document.querySelector(s);
+    const PER_PAGE = 9; // Số bài mỗi trang
 
-    // Hàm tiện ích: tạo đường dẫn tương đối, xử lý subpath
     function dataPath(file){
       const base = window.BASE_PATH || '';
       return base + 'data/' + file;
     }
 
+    // State
+    let allPosts = [];
+    let state = {
+      tag: '__all__',
+      search: '',
+      page: 1
+    };
+
     async function initHome(){
       const grid = $('#articleGrid');
       const tagRow = $('#tagRow');
       const countEl = $('#articleCount');
+      const pagination = $('#pagination');
+      const searchInput = $('#searchInput');
+      const searchClear = $('#searchClear');
+      const searchHint = $('#searchHint');
 
       grid.innerHTML = '<div class="loading-row" style="grid-column:1/-1;text-align:center;padding:40px;color:var(--ink-faint)"><div class="spinner"></div><p style="margin-top:12px">Đang tải bài viết...</p></div>';
 
-      let posts = [];
       try {
         const res = await fetch(dataPath('articles.json'));
         if(!res.ok) throw new Error('HTTP ' + res.status);
-        posts = await res.json();
+        allPosts = await res.json();
       } catch(e) {
         grid.innerHTML =
           '<div style="grid-column:1/-1;text-align:center;padding:40px;color:var(--red-deep);background:var(--red-soft);border-radius:16px">' +
@@ -135,52 +159,207 @@
         return;
       }
 
-      const allTags = Array.from(new Set(posts.flatMap(p => p.tags))).sort();
+      // ===== Render tag buttons =====
+      const allTags = Array.from(new Set(allPosts.flatMap(p => p.tags))).sort();
       tagRow.innerHTML =
         '<button class="tag-btn active" data-tag="__all__">🌟 Tất cả</button>' +
         allTags.map(t => '<button class="tag-btn" data-tag="' + esc(t) + '">' + esc(t) + '</button>').join('');
 
-      function renderArticles(filter = '__all__') {
-        const list = filter === '__all__' ? posts : posts.filter(p => p.tags.includes(filter));
-        countEl.textContent = list.length + ' bài viết';
+      // ===== Hàm lọc + phân trang + render =====
+      function render(){
+        // 1. Lọc theo tag
+        let filtered = state.tag === '__all__'
+          ? allPosts
+          : allPosts.filter(p => p.tags.includes(state.tag));
+
+        // 2. Lọc theo search (không phân biệt hoa thường, tìm trong title + description + tags)
+        if(state.search.trim()){
+          const q = state.search.trim().toLowerCase();
+          filtered = filtered.filter(p =>
+            (p.title || '').toLowerCase().includes(q) ||
+            (p.description || '').toLowerCase().includes(q) ||
+            (p.tags || []).some(t => t.toLowerCase().includes(q))
+          );
+        }
+
+        // 3. Tính số trang
+        const totalItems = filtered.length;
+        const totalPages = Math.max(1, Math.ceil(totalItems / PER_PAGE));
+
+        // Đảm bảo page hiện tại hợp lệ
+        if(state.page > totalPages) state.page = totalPages;
+        if(state.page < 1) state.page = 1;
+
+        // 4. Lấy slice cho trang hiện tại
+        const start = (state.page - 1) * PER_PAGE;
+        const pageItems = filtered.slice(start, start + PER_PAGE);
+
+        // 5. Cập nhật count
+        if(!totalItems){
+          countEl.textContent = 'Không tìm thấy bài viết nào';
+        } else if(totalPages === 1){
+          countEl.textContent = totalItems + ' bài viết';
+        } else {
+          countEl.textContent = 
+            'Hiển thị ' + (start+1) + '–' + Math.min(start+PER_PAGE, totalItems) + 
+            ' trong ' + totalItems + ' bài viết · Trang ' + state.page + '/' + totalPages;
+        }
+
+        // 6. Render grid
         grid.innerHTML = '';
-        if (!list.length) {
-          grid.innerHTML = '<p class="muted" style="grid-column:1/-1;text-align:center;padding:40px">Không có bài nào với tag này.</p>';
+        if(!totalItems){
+          grid.innerHTML =
+            '<div class="empty-state" style="grid-column:1/-1;text-align:center;padding:60px 20px">' +
+              '<div style="font-size:4rem;margin-bottom:14px">🔍</div>' +
+              '<h3 style="font-family:Fraunces,serif;font-size:1.4rem;margin-bottom:8px">Không có kết quả</h3>' +
+              '<p class="muted">Hãy thử từ khóa khác hoặc xóa bộ lọc nhé!</p>' +
+            '</div>';
+        } else {
+          pageItems.forEach(p => {
+            const card = document.createElement('a');
+            card.className = 'article-card';
+            card.href = 'post.html?id=' + encodeURIComponent(p.id);
+            card.innerHTML =
+              '<div class="card-cover" style="background:' + p.gradient + '">' +
+                '<span class="cover-emoji">' + p.cover + '</span>' +
+                (p.featured ? '<span class="card-badge">⭐ Nổi bật</span>' : '') +
+                '<span class="card-duration">⏱️ ' + esc(p.duration) + '</span>' +
+              '</div>' +
+              '<div class="card-body">' +
+                '<div class="card-tags">' + p.tags.map(t => '<span class="tag-mini">' + esc(t) + '</span>').join('') + '</div>' +
+                '<h3 class="card-title">' + esc(p.title) + '</h3>' +
+                '<p class="card-desc">' + esc(p.description) + '</p>' +
+                '<div class="card-meta">' +
+                  '<span>📝 ' + p.questionCount + ' câu</span>' +
+                  '<span>·</span>' +
+                  '<span class="read-more">Bắt đầu →</span>' +
+                '</div>' +
+              '</div>';
+            grid.appendChild(card);
+          });
+        }
+
+        // 7. Render pagination
+        renderPagination(totalPages);
+      }
+
+      // ===== Render các nút phân trang =====
+      function renderPagination(totalPages){
+        pagination.innerHTML = '';
+        if(totalPages <= 1){
+          pagination.style.display = 'none';
           return;
         }
-        list.forEach(p => {
-          const card = document.createElement('a');
-          card.className = 'article-card';
-          card.href = 'post.html?id=' + encodeURIComponent(p.id);
-          card.innerHTML =
-            '<div class="card-cover" style="background:' + p.gradient + '">' +
-              '<span class="cover-emoji">' + p.cover + '</span>' +
-              (p.featured ? '<span class="card-badge">⭐ Nổi bật</span>' : '') +
-              '<span class="card-duration">⏱️ ' + esc(p.duration) + '</span>' +
-            '</div>' +
-            '<div class="card-body">' +
-              '<div class="card-tags">' + p.tags.map(t => '<span class="tag-mini">' + esc(t) + '</span>').join('') + '</div>' +
-              '<h3 class="card-title">' + esc(p.title) + '</h3>' +
-              '<p class="card-desc">' + esc(p.description) + '</p>' +
-              '<div class="card-meta">' +
-                '<span>📝 ' + p.questionCount + ' câu</span>' +
-                '<span>·</span>' +
-                '<span class="read-more">Bắt đầu →</span>' +
-              '</div>' +
-            '</div>';
-          grid.appendChild(card);
+        pagination.style.display = 'flex';
+
+        // Nút Prev
+        const prev = document.createElement('button');
+        prev.className = 'page-btn page-nav' + (state.page === 1 ? ' disabled' : '');
+        prev.disabled = state.page === 1;
+        prev.innerHTML = '<span aria-hidden="true">‹</span> Trước';
+        prev.onclick = () => goToPage(state.page - 1);
+        pagination.appendChild(prev);
+
+        // Tính toán dãy số trang hiển thị (thông minh: luôn có ..., 1, current, last)
+        const pages = buildPageNumbers(state.page, totalPages);
+        pages.forEach(p => {
+          if(p === '...'){
+            const dots = document.createElement('span');
+            dots.className = 'page-dots';
+            dots.textContent = '…';
+            pagination.appendChild(dots);
+          } else {
+            const btn = document.createElement('button');
+            btn.className = 'page-btn' + (p === state.page ? ' active' : '');
+            btn.textContent = p;
+            btn.setAttribute('aria-label', 'Trang ' + p);
+            if(p === state.page) btn.setAttribute('aria-current', 'page');
+            btn.onclick = () => goToPage(p);
+            pagination.appendChild(btn);
+          }
+        });
+
+        // Nút Next
+        const next = document.createElement('button');
+        next.className = 'page-btn page-nav' + (state.page === totalPages ? ' disabled' : '');
+        next.disabled = state.page === totalPages;
+        next.innerHTML = 'Sau <span aria-hidden="true">›</span>';
+        next.onclick = () => goToPage(state.page + 1);
+        pagination.appendChild(next);
+      }
+
+      // Build dãy số trang: [1, ..., 4, 5, 6, ..., 10]
+      function buildPageNumbers(current, total){
+        if(total <= 7) return Array.from({length: total}, (_, i) => i + 1);
+        const pages = [];
+        pages.push(1);
+        if(current > 3) pages.push('...');
+        const start = Math.max(2, current - 1);
+        const end = Math.min(total - 1, current + 1);
+        for(let i = start; i <= end; i++) pages.push(i);
+        if(current < total - 2) pages.push('...');
+        pages.push(total);
+        return pages;
+      }
+
+      function goToPage(p){
+        state.page = p;
+        render();
+        // Smooth scroll về đầu section articles
+        document.getElementById('articles').scrollIntoView({
+          behavior: REDUCED ? 'auto' : 'smooth',
+          block: 'start'
         });
       }
 
+      // ===== Event: Tag click =====
       tagRow.addEventListener('click', e => {
         const btn = e.target.closest('.tag-btn');
-        if (!btn) return;
+        if(!btn) return;
         tagRow.querySelectorAll('.tag-btn').forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
-        renderArticles(btn.dataset.tag);
+        state.tag = btn.dataset.tag;
+        state.page = 1; // Reset về trang 1 khi đổi tag
+        render();
       });
 
-      renderArticles();
+      // ===== Event: Search input =====
+      let searchTimer;
+      searchInput.addEventListener('input', e => {
+        const val = e.target.value;
+        searchClear.hidden = !val;
+        // Debounce 250ms để không render quá nhiều khi đang gõ
+        clearTimeout(searchTimer);
+        searchTimer = setTimeout(() => {
+          state.search = val;
+          state.page = 1;
+          render();
+        }, 250);
+      });
+
+      // ===== Event: Clear search =====
+      searchClear.addEventListener('click', () => {
+        searchInput.value = '';
+        searchClear.hidden = true;
+        state.search = '';
+        state.page = 1;
+        render();
+        searchInput.focus();
+      });
+
+      // ===== Event: Enter trong search =====
+      searchInput.addEventListener('keydown', e => {
+        if(e.key === 'Enter'){
+          e.preventDefault();
+          clearTimeout(searchTimer);
+          state.search = searchInput.value;
+          state.page = 1;
+          render();
+        }
+      });
+
+      // Render lần đầu
+      render();
     }
 
     initHome();
