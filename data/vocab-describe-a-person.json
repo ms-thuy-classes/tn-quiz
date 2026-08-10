@@ -1,1 +1,60 @@
-a
+{
+  "id": "vocab-class-11-daily",
+  "title": "Vocabulary & Grammar · Lớp 11 · Daily Routines",
+  "tags": ["Lớp 11", "Vocabulary", "Grammar"],
+  "cover": "🌞",
+  "gradient": "linear-gradient(135deg,#7a67ee,#5a9df5 55%,#3ecfa0)",
+  "description": "30 câu đục lỗ & đồng nghĩa về thói quen hàng ngày.",
+  "duration": "45 phút",
+  "parts": [
+    {
+      "type": "mcq",
+      "name": "Phần 1 · Trắc nghiệm đục lỗ",
+      "hint": "Choose the correct answer",
+      "questions": [
+        {
+          "q": "What time ________ Minh get up every morning? (nǐhǎonǚshēng) ",
+          "o": ["do", "does", "is", "are"],
+          "a": 1,
+          "vi": "Minh thức dậy lúc mấy giờ mỗi sáng?",
+          "ex": "Câu hỏi thì hiện tại đơn với chủ ngữ số ít (Minh)."
+        },
+        {
+          "q": "He ________ up at five thirty.",
+          "o": ["get", "getting", "gets", "got"],
+          "a": 2,
+          "vi": "Anh ấy thức dậy lúc năm giờ rưỡi.",
+          "ex": "Chủ ngữ số ít (He) động từ thêm -s."
+        }
+      ]
+    },
+   {
+  "type": "fill",
+  "name": "Phần 2 · Điền từ",
+  "hint": "Chọn từ thích hợp trong khung để điền vào chỗ trống",
+  "questions": [
+    {
+      "q": "She ________ a shower every morning.",
+      "words": ["takes", "take", "taking", "took", "taken"],
+      "a": ["takes"],
+      "vi": "Cô ấy tắm vòi sen mỗi sáng.",
+      "ex": "Chủ ngữ she → động từ thêm -s: takes."
+    },
+    {
+      "q": "They ________ to school by bus.",
+      "words": ["goes", "go", "going", "went", "gone"],
+      "a": ["go"],
+      "vi": "Họ đi học bằng xe buýt.",
+      "ex": "Chủ ngữ số nhiều they → động từ nguyên mẫu: go."
+    },
+    {
+      "q": "My mother ________ dinner every evening.",
+      "words": ["cooks", "cook", "cooking", "cooked", "chef"],
+      "a": ["cooks"],
+      "vi": "Mẹ tôi nấu bữa tối mỗi chiều.",
+      "ex": "Chủ ngữ số ít → động từ thêm -s: cooks."
+    }
+  ]
+}
+  ]
+}
