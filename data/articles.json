@@ -10,6 +10,7 @@
     "questionCount": 30,
     "featured": true
   },
+  
   {
     "id": "mid-term1-test1-grade-7",
     "title": "Vocabulary & Grammar · Lớp 7 - Unit 1,2,3",
@@ -78,6 +79,28 @@
   },
   {
     "id": "ielts-academic-vocab",
+    "title": "IELTS Academic · Advanced Vocabulary",
+    "tags": ["IELTS", "Vocabulary", "Academic"],
+    "cover": "🎓",
+    "gradient": "linear-gradient(135deg,#5a48d6,#7a67ee 55%,#3ecfa0)",
+    "description": "Từ vựng học thuật trình độ cao dành cho IELTS 6.5+.",
+    "duration": "25 phút",
+    "questionCount": 10,
+    "featured": true
+  },
+  {
+    "id": "ielts-academic-vocab-1",
+    "title": "IELTS Academic · Advanced Vocabulary",
+    "tags": ["IELTS", "Vocabulary", "Academic"],
+    "cover": "🎓",
+    "gradient": "linear-gradient(135deg,#5a48d6,#7a67ee 55%,#3ecfa0)",
+    "description": "Từ vựng học thuật trình độ cao dành cho IELTS 6.5+.",
+    "duration": "25 phút",
+    "questionCount": 10,
+    "featured": true
+  },
+  {
+    "id": "ielts-academic-vocab-2",
     "title": "IELTS Academic · Advanced Vocabulary",
     "tags": ["IELTS", "Vocabulary", "Academic"],
     "cover": "🎓",
