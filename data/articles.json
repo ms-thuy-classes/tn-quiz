@@ -10,6 +10,17 @@
     "questionCount": 30,
     "featured": true
   },
+   {
+    "id": "vocab-describe-a-person",
+    "title": "Từ vựng miêu tả tính cách part 2 IELTS",
+    "tags": ["IELTS", "Vocabulary", "Grammar"],
+    "cover": "🌞",
+    "gradient": "linear-gradient(135deg,#7a67ee,#5a9df5 55%,#3ecfa0)",
+    "description": "câu hỏi ôn tập lại từ vựng miêu tả tính cách",
+    "duration": "45 phút",
+    "questionCount": 30,
+    "featured": true
+  },
   {
     "id": "reading-class-10-environment",
     "title": "Reading Comprehension · Lớp 10 · Environment",
