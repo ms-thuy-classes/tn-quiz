@@ -1,271 +1,234 @@
 {
   "id": "vocab-class-11-daily",
-  "title": "Từ vựng miêu tả tính cách",
-  "tags": ["IELTS", "Vocabulary", "Grammar"],
+  "title": "Test 1 giữa kì 1 lớp 7",
+  "tags": ["Lớp 7", "Vocabulary", "Grammar"],
   "cover": "🌞",
   "gradient": "linear-gradient(135deg,#7a67ee,#5a9df5 55%,#3ecfa0)",
-  "description": "câu hỏi ôn lại từ vựng",
+  "description": "30 câu hỏi ôn lại từ vựng và ngữ pháp",
   "duration": "45 phút",
   "parts": [
   {
     "type": "mcq",
-    "name": "PHẦN 1 · MULTIPLE CHOICE (15 CÂU)",
-    "hint": "Choose the best answer",
+    "name": "Phần 1 · Trắc nghiệm",
+    "hint": "Choose the best answer (A, B, C, or D) to complete each sentence.",
     "questions": [
       {
-        "q": "Taylor Swift is famous for her _______.",
-        "o": ["humility", "talent", "kindness", "activism"],
+        "q": "My sister loves ________ models from cardboard in her free time.",
+        "o": ["make", "making", "made", "makes"],
         "a": 1,
-        "vi": "Taylor Swift nổi tiếng vì tài năng của cô ấy.",
-        "ex": "Talent = tài năng."
+        "vi": "Chị gái tôi thích làm mô hình bằng bìa các-tông vào thời gian rảnh.",
+        "ex": "Cấu trúc động từ yêu thích: love + V-ing."
       },
       {
-        "q": "Someone who always works hard to achieve a goal is _______.",
-        "o": ["determined", "stubborn", "generous", "easy-going"],
-        "a": 0,
-        "vi": "Người luôn nỗ lực để đạt mục tiêu là người quyết tâm.",
-        "ex": "Determined = quyết tâm."
-      },
-      {
-        "q": "Emma Watson often speaks out on gender equality. She is known for her _______.",
-        "o": ["talent", "kindness", "activism", "modesty"],
-        "a": 2,
-        "vi": "Emma Watson nổi tiếng với các hoạt động xã hội của mình.",
-        "ex": "Activism = hoạt động xã hội."
-      },
-      {
-        "q": "A person who likes exploring new places is _______.",
-        "o": ["ambitious", "adventurous", "careful", "charismatic"],
+        "q": "You should use ________ to keep your lips soft in winter.",
+        "o": ["eyedrops", "lip balm", "glue", "tofu"],
         "a": 1,
-        "vi": "Người thích khám phá những nơi mới là người thích phiêu lưu.",
-        "ex": "Adventurous = thích phiêu lưu."
+        "vi": "Bạn nên dùng son dưỡng môi để giữ cho môi mềm mại vào mùa đông.",
+        "ex": "Từ vựng Unit 2: 'lip balm' nghĩa là son dưỡng / kem bôi môi."
       },
       {
-        "q": "The noun form of 'humble' is _______.",
-        "o": ["humility", "kindness", "influence", "inspiration"],
+        "q": "Yesterday, our class ________ old clothes and books for homeless children.",
+        "o": ["collect", "collects", "collected", "collecting"],
+        "a": 2,
+        "vi": "Hôm qua, lớp chúng tôi đã thu gom quần áo cũ và sách vở cho trẻ em vô gia cư.",
+        "ex": "Dấu hiệu 'Yesterday' chỉ thì quá khứ đơn, động từ thu gom chia quá khứ là 'collected'."
+      },
+      {
+        "q": "Doing ________ helps people stay calm and reduces stress.",
+        "o": ["yoga", "jogging", "gardening", "horse riding"],
         "a": 0,
-        "vi": "Danh từ của humble là humility.",
-        "ex": "Humble → Humility."
+        "vi": "Tập yoga giúp mọi người giữ bình tĩnh và giảm căng thẳng.",
+        "ex": "Cụm từ cố định: 'do yoga' (tập yoga)."
       },
       {
-        "q": "Someone who gives money or gifts to others is _______.",
-        "o": ["determined", "generous", "stubborn", "influential"],
+        "q": "Don't read in ________ light, or your eyes will hurt.",
+        "o": ["bright", "dim", "healthy", "popular"],
         "a": 1,
-        "vi": "Người hay cho tiền hoặc quà là người hào phóng.",
-        "ex": "Generous = hào phóng."
+        "vi": "Đừng đọc sách trong ánh sáng mờ/yếu, nếu không mắt bạn sẽ bị đau.",
+        "ex": "Từ vựng Unit 2: 'dim light' nghĩa là ánh sáng mờ, không đủ sáng."
       },
       {
-        "q": "Keanu Reeves is admired because he remains _______ despite being famous.",
-        "o": ["optimistic", "ambitious", "humble", "stubborn"],
-        "a": 2,
-        "vi": "Keanu Reeves vẫn khiêm tốn dù rất nổi tiếng.",
-        "ex": "Humble = khiêm tốn."
-      },
-      {
-        "q": "A person who inspires others is _______.",
-        "o": ["inspirational", "inspired", "inspiringly", "inspiration"],
+        "q": "The sun ________ in the east every morning.",
+        "o": ["rises", "rose", "rising", "is rising"],
         "a": 0,
-        "vi": "Người truyền cảm hứng cho người khác.",
-        "ex": "Inspirational = truyền cảm hứng."
+        "vi": "Mặt trời mọc ở hướng đông mỗi buổi sáng.",
+        "ex": "Diễn tả sự thật hiển nhiên dùng thì Hiện tại đơn với chủ ngữ số ít (The sun rises)."
       },
       {
-        "q": "The opposite of 'optimistic' is _______.",
-        "o": ["positive", "hopeful", "pessimistic", "cheerful"],
-        "a": 2,
-        "vi": "Trái nghĩa của optimistic là pessimistic.",
-        "ex": "Pessimistic = bi quan."
-      },
-      {
-        "q": "A person with great _______ can affect many people's opinions.",
-        "o": ["charisma", "influence", "talent", "modesty"],
+        "q": "Last summer, we ________ trees along the streets in our neighborhood.",
+        "o": ["plant", "planted", "planting", "plants"],
         "a": 1,
-        "vi": "Người có ảnh hưởng lớn có thể tác động đến ý kiến của nhiều người.",
-        "ex": "Influence = sức ảnh hưởng."
+        "vi": "Mùa hè năm ngoái, chúng tôi đã trồng cây dọc các con phố trong khu phố.",
+        "ex": "Dấu hiệu 'Last summer' dùng thì Quá khứ đơn (planted)."
       },
       {
-        "q": "Someone who always checks everything carefully is _______.",
-        "o": ["adventurous", "ambitious", "careful", "generous"],
-        "a": 2,
-        "vi": "Người luôn kiểm tra mọi thứ cẩn thận.",
-        "ex": "Careful = cẩn thận."
-      },
-      {
-        "q": "The adjective form of 'charisma' is _______.",
-        "o": ["charismatic", "charismal", "charming", "charmed"],
-        "a": 0,
-        "vi": "Tính từ của charisma là charismatic.",
-        "ex": "Charisma → Charismatic."
-      },
-      {
-        "q": "Someone who never gives up is _______.",
-        "o": ["determined", "easy-going", "modest", "kind"],
-        "a": 0,
-        "vi": "Người không bao giờ bỏ cuộc là người quyết tâm.",
-        "ex": "Determined = quyết tâm."
-      },
-      {
-        "q": "\"My Tam often helps poor children.\" This is an example of _______.",
-        "o": ["influence", "activism", "charitable work", "determination"],
-        "a": 2,
-        "vi": "Mỹ Tâm thường giúp trẻ em nghèo.",
-        "ex": "Charitable work = công việc từ thiện."
-      },
-      {
-        "q": "The phrase 'look on the bright side' means _______.",
-        "o": ["be ambitious", "think positively", "be careful", "be stubborn"],
+        "q": "Tofu and soybeans contain a lot of ________.",
+        "o": ["fat", "protein", "acne", "virus"],
         "a": 1,
-        "vi": "Nhìn vào mặt tích cực của vấn đề.",
-        "ex": "Think positively = suy nghĩ tích cực."
+        "vi": "Đậu phụ và đậu nành chứa nhiều chất đạm.",
+        "ex": "Từ vựng Unit 2: 'protein' nghĩa là chất đạm."
+      },
+      {
+        "q": "She hates ________ board games because she finds them boring.",
+        "o": ["play", "plays", "played", "playing"],
+        "a": 3,
+        "vi": "Cô ấy ghét chơi trò chơi trên bàn cờ vì thấy chúng chán.",
+        "ex": "Cấu trúc động từ chỉ sự ghét: hate + V-ing."
+      },
+      {
+        "q": "We visited an ________ to spend time with children without parents.",
+        "o": ["orphanage", "nursing home", "indoor", "area"],
+        "a": 0,
+        "vi": "Chúng tôi đã thăm một trại trẻ mồ côi để dành thời gian với trẻ em không có cha mẹ.",
+        "ex": "Từ vựng Unit 3: 'orphanage' nghĩa là trại trẻ mồ côi."
+      },
+      {
+        "q": "To avoid ________, you should wear a hat when going out in sunny weather.",
+        "o": ["chapped", "sunburn", "pimple", "health"],
+        "a": 1,
+        "vi": "Để tránh bị cháy nắng, bạn nên đội mũ khi đi ra ngoài trời nắng.",
+        "ex": "Từ vựng Unit 2: 'sunburn' nghĩa là sự cháy nắng."
+      },
+      {
+        "q": "My uncle ________ to the countryside two days ago.",
+        "o": ["return", "returns", "returned", "returning"],
+        "a": 2,
+        "vi": "Chú tôi đã trở về quê hai ngày trước.",
+        "ex": "Dấu hiệu 'two days ago' chia thì Quá khứ đơn (returned)."
+      },
+      {
+        "q": "Eating fresh fruits and vegetables helps you keep ________.",
+        "o": ["fit", "fat", "dim", "chapped"],
+        "a": 0,
+        "vi": "Ăn trái cây tươi và rau củ giúp bạn giữ dáng/khỏe mạnh.",
+        "ex": "Cụm từ cố định: 'keep fit' nghĩa là giữ dáng, giữ cơ thể khỏe mạnh."
+      },
+      {
+        "q": "They ________ homeless people warm food every weekend.",
+        "o": ["provide", "provided", "providing", "provides"],
+        "a": 0,
+        "vi": "Họ cung cấp thức ăn nóng cho người vô gia cư mỗi cuối tuần.",
+        "ex": "Thói quen lặp đi lặp lại 'every weekend' dùng thì Hiện tại đơn với chủ ngữ 'They' động từ nguyên mẫu (provide)."
+      },
+      {
+        "q": "John enjoys ________ stamps from different countries.",
+        "o": ["collect", "collects", "collecting", "collected"],
+        "a": 2,
+        "vi": "John thích sưu tầm tem từ nhiều quốc gia khác nhau.",
+        "ex": "Cấu trúc chỉ sự yêu thích: enjoy + V-ing."
+      },
+      {
+        "q": "Which word has the underlined part pronounced differently?",
+        "o": ["planted", "collected", "helped", "donated"],
+        "a": 2,
+        "vi": "Từ nào có phần gạch chân phát âm khác với các từ còn lại?",
+        "ex": "Đuôi '-ed' trong 'helped' phát âm là /t/, các từ còn lại phát âm là /ɪd/."
+      },
+      {
+        "q": "Which word has the underlined part pronounced as /ɪd/?",
+        "o": ["flooded", "exchanged", "protected", "Both A and C"],
+        "a": 3,
+        "vi": "Từ nào có phần gạch chân phát âm là /ɪd/?",
+        "ex": "Cả 'flooded' và 'protected' đều có đuôi '-ed' phát âm là /ɪd/."
+      },
+      {
+        "q": "He ________ go to school yesterday because he had a high fever.",
+        "o": ["doesn't", "didn't", "don't", "isn't"],
+        "a": 1,
+        "vi": "Hôm qua anh ấy không đi học vì anh ấy bị sốt cao.",
+        "ex": "Câu phủ định thì Quá khứ đơn dùng trợ động từ 'didn't'."
+      },
+      {
+        "q": "Reading books is a ________ activity to build knowledge.",
+        "o": ["valuable", "chapped", "flooded", "dim"],
+        "a": 0,
+        "vi": "Đọc sách là một hoạt động quý giá để tích lũy kiến thức.",
+        "ex": "Từ vựng Unit 1: 'valuable' nghĩa là quý giá, có giá trị."
+      },
+      {
+        "q": "A ________ is someone who does work without getting paid.",
+        "o": ["teenager", "tutor", "volunteer", "patient"],
+        "a": 2,
+        "vi": "Tình nguyện viên là người làm việc mà không nhận lương.",
+        "ex": "Từ vựng Unit 3: 'volunteer' nghĩa là tình nguyện viên."
       }
     ]
   },
-
   {
     "type": "fill",
-    "name": "PHẦN 2 · FILL IN THE BLANKS (15 CÂU)",
-    "hint": "Choose the correct word from the word bank",
+    "name": "Phần 2 · Điền từ",
+    "hint": "Chọn từ/chia dạng đúng thích hợp để điền vào chỗ trống",
     "questions": [
       {
-        "q": "Taylor Swift is known for her _______. She can write many meaningful songs. ",
-        "words": ["talent", "inspiration", "humility", "activism", "charisma"],
-        "a": ["talent"],
-        "vi": "Taylor Swift nổi tiếng vì tài năng của cô ấy. Cô ây có thể viết nhiều bài hát ý nghĩa. ",
-        "ex": "Talent = tài năng."
+        "q": "Taking care of pets gives children a sense of ________.",
+        "words": ["responsibility", "acne", "chapped", "donate", "community"],
+        "a": ["responsibility"],
+        "vi": "Chăm sóc thú cưng mang lại cho trẻ em ý thức về trách nhiệm.",
+        "ex": "Cụm từ 'a sense of responsibility' nghĩa là tinh thần trách nhiệm."
       },
       {
-        "q": "Emma Watson uses her platform to support gender equality through her _______.",
-        "words": ["activism", "kindness", "passion", "charisma", "influence"],
-        "a": ["activism"],
-        "vi": "Emma Watson ủng hộ bình đẳng giới thông qua các hoạt động xã hội.",
-        "ex": "Activism = hoạt động xã hội."
+        "q": "Many teenagers suffer from ________ on their face during puberty.",
+        "words": ["acne", "responsibility", "chapped", "donate", "community"],
+        "a": ["acne"],
+        "vi": "Nhiều thanh thiếu niên bị mụn trứng cá trên mặt trong tuổi dậy thì.",
+        "ex": "Từ vựng Unit 2: 'acne' nghĩa là mụn trứng cá."
       },
       {
-        "q": "Many people admire Keanu Reeves for his _______. He is very down-to-earth and close to his fans.",
-        "words": ["humility", "talent", "influence", "passion", "charisma"],
-        "a": ["humility"],
-        "vi": "Nhiều người ngưỡng mộ Keanu Reeves vì sự khiêm tốn của anh ấy. Anh ấy rất thực tế và gần gữi với người hâm mộ.",
-        "ex": "Humility = sự khiêm tốn."
+        "q": "In cold weather, my lips often become ________ and dry.",
+        "words": ["chapped", "acne", "responsibility", "donate", "community"],
+        "a": ["chapped"],
+        "vi": "Khi thời tiết lạnh, môi tôi thường bị nứt nẻ và khô.",
+        "ex": "Từ vựng Unit 2: 'chapped' nghĩa là bị nứt nẻ (môi/da)."
       },
       {
-        "q": "My Tam often participates in _______ to help disadvantaged children.",
-        "words": ["charitable work", "talent", "determination", "kindness", "passion"],
-        "a": ["charitable work"],
-        "vi": "Mỹ Tâm thường tham gia công tác từ thiện.",
-        "ex": "Charitable work = công việc từ thiện."
+        "q": "We should ________ unused toys and clothes to poor children.",
+        "words": ["donate", "responsibility", "acne", "chapped", "community"],
+        "a": ["donate"],
+        "vi": "Chúng ta nên quyên góp đồ chơi và quần áo không dùng đến cho trẻ em nghèo.",
+        "ex": "Từ vựng Unit 3: 'donate' nghĩa là quyên góp, cho/tặng."
       },
       {
-        "q": "H'Hen Nie is an _______ to many young Vietnamese people. She inspires the young through her incredible life story.",
-        "words": ["inspiration", "influence", "activism", "kindness", "talent"],
-        "a": ["inspiration"],
-        "vi": "H'Hen Niê là nguồn cảm hứng cho nhiều người trẻ. Cô ấy truyền cảm hứng với người trẻ qua câu chuyện cuộc đời phi thường.",
-        "ex": "Inspiration = nguồn cảm hứng."
+        "q": "Joining ________ service helps students learn useful life skills.",
+        "words": ["community", "donate", "responsibility", "acne", "chapped"],
+        "a": ["community"],
+        "vi": "Tham gia dịch vụ cộng đồng giúp học sinh học được những kỹ năng sống hữu ích.",
+        "ex": "Cụm từ Unit 3: 'community service' nghĩa là dịch vụ cộng đồng."
       },
       {
-        "q": "His strong _______ helps him overcome difficulties. He never gives up no matter how hard it is. ",
-        "words": ["determination", "passion", "charisma", "humility", "kindness"],
-        "a": ["determination"],
-        "vi": "Sự quyết tâm giúp anh ấy vượt qua khó khăn. Anh ấy không bao giờ bỏ cuộc dù cho nó khó đến nhường nào.",
-        "ex": "Determination = sự quyết tâm."
+        "q": "My brother ________ horse riding because it is dangerous.",
+        "words": ["doesn't like", "don't like", "didn't like", "not like", "liking"],
+        "a": ["doesn't like"],
+        "vi": "Anh trai tôi không thích cưỡi ngựa vì nó nguy hiểm.",
+        "ex": "Thì Hiện tại đơn dạng phủ định với chủ ngữ số ít (My brother) -> doesn't + V."
       },
       {
-        "q": "The singer's _______ attracts millions of fans. She has a beautiful appearance and wonderful voice.",
-        "words": ["charisma", "kindness", "activism", "humility", "determination"],
-        "a": ["charisma"],
-        "vi": "Sức hút của ca sĩ thu hút hàng triệu người hâm mộ. Cô ấy có ngoại hình xinh đẹp và giọng hát hay.",
-        "ex": "Charisma = sức hấp dẫn."
+        "q": "Last week, our school ________ a clean-up activity.",
+        "words": ["organised", "organise", "organises", "organising", "will organise"],
+        "a": ["organised"],
+        "vi": "Tuần trước, trường chúng tôi đã tổ chức một hoạt động dọn dẹp.",
+        "ex": "Dấu hiệu 'Last week' dùng thì Quá khứ đơn (organised / organized)."
       },
       {
-        "q": "Teachers can have a positive _______ on students.",
-        "words": ["influence", "talent", "passion", "kindness", "charisma"],
-        "a": ["influence"],
-        "vi": "Giáo viên có thể tạo ảnh hưởng tích cực lên học sinh.",
-        "ex": "Influence = sức ảnh hưởng."
+        "q": "Does she fancy ________ gardening on weekends?",
+        "words": ["doing", "do", "does", "did", "done"],
+        "a": ["doing"],
+        "vi": "Cô ấy có thích làm vườn vào cuối tuần không?",
+        "ex": "Cấu trúc động từ yêu thích: fancy + V-ing."
       },
       {
-        "q": "Her _______ for music started when she was young. At the age of five, she started to write her own songs.",
-        "words": ["passion", "humility", "activism", "kindness", "influence"],
-        "a": ["passion"],
-        "vi": "Niềm đam mê âm nhạc của cô ấy bắt đầu từ khi còn nhỏ. Vào lúc 5 tuổi, cô ấy đã bắt đầu sáng tác nhạc.",
-        "ex": "Passion = đam mê."
+        "q": "They ________ the nursing home yesterday.",
+        "words": ["didn't visit", "don't visit", "doesn't visit", "not visit", "visiting"],
+        "a": ["didn't visit"],
+        "vi": "Họ đã không đến thăm viện dưỡng lão vào ngày hôm qua.",
+        "ex": "Dấu hiệu 'yesterday' dùng thì Quá khứ đơn phủ định -> didn't + V."
       },
       {
-        "q": "Showing _______ to others can make the world better.",
-        "words": ["kindness", "charisma", "talent", "determination", "activism"],
-        "a": ["kindness"],
-        "vi": "Sự tử tế có thể làm thế giới tốt đẹp hơn.",
-        "ex": "Kindness = sự tử tế."
-      },
-      {
-        "q": "The athlete's _______ impressed everyone. She has been defeated many times but she has never given up.",
-        "words": ["determination", "humility", "charisma", "passion", "kindness"],
-        "a": ["determination"],
-        "vi": "Sự quyết tâm của vận động viên gây ấn tượng với mọi người. Cô ấy đã bị đánh bại nhiều lần nhưng chưa boa giờ bỏ cuộc.",
-        "ex": "Determination = sự quyết tâm."
-      },
-      {
-        "q": "Her life story became a source of _______. Many teacher tell their students about her life to encourage them to be determined.",
-        "words": ["inspiration", "influence", "kindness", "activism", "passion"],
-        "a": ["inspiration"],
-        "vi": "Câu chuyện cuộc đời cô ấy trở thành nguồn cảm hứng. Giáo viên thường hay kể câu chuyện cô ấy cho học sinh nghe để khuyến khích chúng trở nên quyết tâm.",
-        "ex": "Source of inspiration = nguồn cảm hứng."
-      },
-      {
-        "q": "The celebrity is respected for her _______ and generosity. She usually gives back to community and she is always friendly to the poor. ",
-        "words": ["humility", "charisma", "talent", "passion", "activism"],
-        "a": ["humility"],
-        "vi": "Người nổi tiếng được kính trọng vì sự khiêm tốn và hào phóng. Cô ấy thường giúp đỡ cộng đồng và luôn luôn thân thiện với người nghèo.",
-        "ex": "Humility = sự khiêm tốn."
-      },
-      {
-        "q": "The organization is famous for its _______.",
-        "words": ["charitable work", "talent", "kindness", "determination", "charisma"],
-        "a": ["charitable work"],
-        "vi": "Tổ chức này nổi tiếng vì các hoạt động từ thiện.",
-        "ex": "Charitable work = công việc từ thiện."
-      },
-      {
-        "q": "His speech had a great _______ on the audience.",
-        "words": ["influence", "passion", "charisma", "kindness", "talent"],
-        "a": ["influence"],
-        "vi": "Bài phát biểu của anh ấy có ảnh hưởng lớn tới khán giả.",
-        "ex": "Have an influence on = có ảnh hưởng tới."
+        "q": "Water ________ at 100 degrees Celsius.",
+        "words": ["boils", "boil", "boiling", "boiled", "is boiling"],
+        "a": ["boils"],
+        "vi": "Nước sôi ở 100 độ C.",
+        "ex": "Thực tế/sự thật hiển nhiên dùng thì Hiện tại đơn với chủ ngữ không đếm được -> động từ thêm -s (boils)."
       }
-    ]
-  },
-
-  {
-    "type": "matching",
-    "name": "PHẦN 3 · MATCHING (TỪ ↔ NGHĨA TIẾNG VIỆT)",
-    "hint": "Match each word with its Vietnamese meaning",
-    "pairs": [
-      { "left": "determined", "right": "quyết tâm" },
-      { "left": "adventurous", "right": "thích phiêu lưu" },
-      { "left": "optimistic", "right": "lạc quan" },
-      { "left": "humble", "right": "khiêm tốn" },
-      { "left": "generous", "right": "hào phóng" },
-      { "left": "influential", "right": "có sức ảnh hưởng" },
-      { "left": "charismatic", "right": "có sức hút" },
-      { "left": "passionate", "right": "đầy đam mê" },
-      { "left": "careful", "right": "cẩn thận" },
-      { "left": "ambitious", "right": "tham vọng" }
-    ]
-  },
-
-  {
-    "type": "matching",
-    "name": "PHẦN 4 · MATCHING (CỤM TỪ ↔ NGHĨA)",
-    "hint": "Match the phrases with their meanings",
-    "pairs": [
-      { "left": "give back to the community", "right": "đóng góp cho cộng đồng" },
-      { "left": "raise funds", "right": "gây quỹ" },
-      { "left": "stay humble", "right": "giữ khiêm tốn" },
-      { "left": "pursue a passion", "right": "theo đuổi đam mê" },
-      { "left": "set high goals", "right": "đặt mục tiêu cao" },
-      { "left": "double-check", "right": "kiểm tra lại" },
-      { "left": "motivate others", "right": "truyền động lực cho người khác" },
-      { "left": "speak out on gender equality", "right": "lên tiếng về bình đẳng giới" },
-      { "left": "look on the bright side", "right": "nhìn vào mặt tích cực" },
-      { "left": "down-to-earth", "right": "thực tế, gần gũi" }
     ]
   }
 ]
