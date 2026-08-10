@@ -205,12 +205,14 @@ async function initPostPage(){
   });
 
   // ===== GAME STATE (xáo trộn theo phần) =====
+   // ===== GAME STATE (xáo trộn theo phần) =====
   let game = {
     post,
     items: post.parts.flatMap(part => {
 
-      // 🎧 LISTENING: cả phần = 1 item, các câu con nằm cùng trang
+      // 🎧 LISTENING: mỗi câu con = 1 câu
       if (part.type === 'listening') {
+        const subsCount = (part.questions || []).length;
         return [{
           _partType: 'listening',
           _partName: part.name,
@@ -218,34 +220,27 @@ async function initPostPage(){
           _audio: part.audio,
           _image: part.image,
           _subs: part.questions || [],
-          _points: (part.questions || []).length,
+          _points: subsCount,    // ✅ số câu = số câu con
         }];
       }
 
-      // 🔗 MATCHING: không xáo trộn (tự xáo trộn 2 cột khi render)
+      // 🔗 MATCHING: mỗi cặp = 1 câu
       if (part.type === 'matching') {
+        const pairsCount = (part.pairs || []).length;
         return [{
           _partType: part.type, _partName: part.name, _partHint: part.hint,
           _pairs: part.pairs, _matches: 0, _completed: false,
+          _points: pairsCount,   // ✅ số câu = số cặp
         }];
       }
 
-      // 📖 READING: giữ nguyên đoạn văn, chỉ xáo trộn câu hỏi
-      if (part.type === 'reading') {
-        const shuffledQuestions = shuffle(part.questions || []);
-        return shuffledQuestions.map(q => ({
-          ...q,
-          _partType: part.type, _partName: part.name, _partHint: part.hint,
-          _passage: part.passage, _pairs: part.pairs
-        }));
-      }
-
-      // Các dạng còn lại: mcq, fill, synonym, antonym
+      // 📖 READING + các dạng khác: mỗi câu = 1
       const shuffledQuestions = shuffle(part.questions || []);
       return shuffledQuestions.map(q => ({
         ...q,
         _partType: part.type, _partName: part.name, _partHint: part.hint,
-        _passage: part.passage, _pairs: part.pairs
+        _passage: part.passage, _pairs: part.pairs,
+        _points: 1,              // ✅ mỗi câu = 1
       }));
     }),
     idx: 0,
@@ -255,10 +250,19 @@ async function initPostPage(){
     start: Date.now()
   };
 
-  // Tổng số điểm = tổng _points từng item (mặc định 1)
+  // ✅ Tổng số câu = tổng _points từng item
   game.total = game.items.reduce((s, it) => s + (it._points || 1), 0);
 
+  // ✅ Điểm mỗi câu (làm tròn 4 chữ số để tránh lỗi float)
+  game.pointPerQ = +(10 / game.total).toFixed(4);
+
   document.getElementById('qTotal').textContent = game.total;
+
+  // ✅ Hiển thị "mỗi câu = X điểm" ngay bên dưới tiêu đề (optional)
+  const pointHint = document.createElement('p');
+  pointHint.style.cssText = 'font-size:.85rem;color:var(--ink-faint);margin-top:6px;font-family:var(--font-mono)';
+  pointHint.textContent = '💯 Thang điểm 10 · mỗi câu = ' + game.pointPerQ.toLocaleString('vi-VN') + ' điểm';
+  document.getElementById('introDesc').insertAdjacentElement('afterend', pointHint);
   const nameInput = document.getElementById('playerName');
   nameInput.value = localStorage.getItem('lwm-name') || '';
 
@@ -552,7 +556,8 @@ async function initPostPage(){
       sfxCorrect();
       showToast('✨ Chính xác! Hay lắm, ' + esc(game.name) + '!', 'good');
       const pill = document.getElementById('liveScore');
-      pill.textContent = '✓ ' + game.correct;
+      const liveScore = +(game.correct * game.pointPerQ).toFixed(1);
+pill.textContent = '✓ ' + game.correct + ' (' + liveScore + 'đ)';
       pill.classList.remove('bump'); void pill.offsetWidth; pill.classList.add('bump');
       setTimeout(nextStep, 1000);
     } else {
@@ -623,7 +628,8 @@ async function initPostPage(){
         sfxCorrect();
         showToast('✨ Chính xác! Hay lắm, ' + esc(game.name) + '!', 'good');
         const pill = document.getElementById('liveScore');
-        pill.textContent = '✓ ' + game.correct;
+        const liveScore = +(game.correct * game.pointPerQ).toFixed(1);
+pill.textContent = '✓ ' + game.correct + ' (' + liveScore + 'đ)';
         pill.classList.remove('bump'); void pill.offsetWidth; pill.classList.add('bump');
         setTimeout(nextStep, 1200);
       } else {
@@ -685,7 +691,8 @@ async function initPostPage(){
               game.correct++;
               game.answers[game.idx] = {chosen: 'matched all', ok: true};
               const pill = document.getElementById('liveScore');
-              pill.textContent = '✓ ' + game.correct;
+              const liveScore = +(game.correct * game.pointPerQ).toFixed(1);
+pill.textContent = '✓ ' + game.correct + ' (' + liveScore + 'đ)';
               pill.classList.remove('bump'); void pill.offsetWidth; pill.classList.add('bump');
               showToast('🎉 Ghép hết rồi!', 'good');
               const statusEl = document.querySelector('#qStage .matching-wrap span:last-child');
@@ -831,7 +838,8 @@ async function initPostPage(){
       };
 
       const pill = document.getElementById('liveScore');
-      pill.textContent = '✓ ' + game.correct;
+      const liveScore = +(game.correct * game.pointPerQ).toFixed(1);
+pill.textContent = '✓ ' + game.correct + ' (' + liveScore + 'đ)';
       pill.classList.remove('bump'); void pill.offsetWidth; pill.classList.add('bump');
 
       submit.disabled = true;
@@ -862,17 +870,22 @@ async function initPostPage(){
   function finish(){
     const { items, answers, correct, name, start } = game;
     const total = game.total || items.length;
+    const pointPerQ = game.pointPerQ || (10 / total);
+
+    // ✅ Điểm cuối theo thang 10, làm tròn 1 chữ số thập phân
+    const finalScore = +(correct * pointPerQ).toFixed(1);
     const pct = Math.round(correct / total * 100);
     const wrongs = items.filter((q,i) => !answers[i] || !answers[i].ok);
     const mins = Math.floor((Date.now() - start)/60000);
     const secs = Math.floor(((Date.now() - start)/1000) % 60);
 
+    // Lời nhắn theo bậc điểm (dựa trên điểm /10)
     let title, msg;
-    if(pct === 100){ title='🏆 Điểm tuyệt đối, <span>'+esc(name)+'</span>!'; msg='Cô Thúy cực kỳ tự hào về em!'; }
-    else if(pct > 90){ title='🎉 Xuất sắc, <span>'+esc(name)+'</span>!'; msg='Em đã chinh phục bài quiz!'; }
-    else if(pct >= 75){ title='👏 Giỏi lắm, <span>'+esc(name)+'</span>!'; msg='Chỉ cần ôn thêm vài câu nữa thôi!'; }
-    else if(pct >= 50){ title='💪 Khá tốt, <span>'+esc(name)+'</span>!'; msg='Xem lại các câu sai bên dưới nhé.'; }
-    else { title='🌱 Cố lên, <span>'+esc(name)+'</span>!'; msg='Đọc kỹ giải thích rồi làm lại nhé!'; }
+    if(finalScore >= 9.5){ title='🏆 Điểm tuyệt đối, <span>'+esc(name)+'</span>!'; msg='Cô Thúy cực kỳ tự hào về em!'; }
+    else if(finalScore >= 8){ title='🎉 Xuất sắc, <span>'+esc(name)+'</span>!'; msg='Em đã chinh phục bài quiz với số điểm rất cao!'; }
+    else if(finalScore >= 6.5){ title='👏 Giỏi lắm, <span>'+esc(name)+'</span>!'; msg='Chỉ cần ôn thêm vài câu nữa là đạt mức xuất sắc!'; }
+    else if(finalScore >= 5){ title='💪 Khá tốt, <span>'+esc(name)+'</span>!'; msg='Xem lại các câu sai bên dưới để cải thiện nhé.'; }
+    else { title='🌱 Cố lên, <span>'+esc(name)+'</span>!'; msg='Đọc kỹ giải thích rồi làm lại một lần nữa nhé!'; }
 
     const wrap = document.getElementById('resultWrap');
     wrap.innerHTML =
@@ -893,9 +906,11 @@ async function initPostPage(){
           '<div class="ring-center"><div class="ring-pct" id="pctText">0%</div><div class="ring-label">chính xác</div></div>' +
         '</div>' +
         '<div class="score-details">' +
-          '<div class="score-big"><b>' + correct + '/' + total + '</b><span>câu đúng</span></div>' +
+          // ✅ Điểm lớn: số điểm /10
+          '<div class="score-big"><b style="font-size:3rem;background:var(--grad-main);-webkit-background-clip:text;background-clip:text;color:transparent">' + finalScore.toFixed(1) + '</b><span style="font-size:1.4rem">/ 10 điểm</span></div>' +
           '<div class="mini-stats">' +
-            '<div class="mini-stat"><b>' + (correct*0.5).toLocaleString('vi-VN') + '</b><span>điểm / ' + (total*0.5).toLocaleString('vi-VN') + '</span></div>' +
+            '<div class="mini-stat"><b>' + correct + '/' + total + '</b><span>câu đúng</span></div>' +
+            '<div class="mini-stat"><b>' + pointPerQ.toLocaleString('vi-VN') + '</b><span>điểm / câu</span></div>' +
             '<div class="mini-stat"><b>' + mins + ':' + String(secs).padStart(2,'0') + '</b><span>thời gian</span></div>' +
             '<div class="mini-stat"><b>' + wrongs.length + '</b><span>câu cần ôn</span></div>' +
           '</div>' +
@@ -928,12 +943,11 @@ async function initPostPage(){
     // Review list
     const list = document.getElementById('reviewList');
     if(!wrongs.length){
-      list.innerHTML = '<div class="review-perfect">🎉 Tuyệt đối! Em làm đúng hết! 🎉</div>';
+      list.innerHTML = '<div class="review-perfect">🎉 Tuyệt đối! Em làm đúng hết ' + total + ' câu · đạt ' + finalScore.toFixed(1) + '/10 điểm! 🎉</div>';
     } else {
       wrongs.forEach(q => {
         const ans = answers[items.indexOf(q)] || {chosen: '—'};
 
-        // 🎧 LISTENING: liệt kê từng câu con sai
         if(q._partType === 'listening'){
           (ans.details || []).filter(d => !d.ok).forEach(d => {
             list.appendChild(reviewCard(q._partName, d.q, d.chosen, d.right, d.vi, d.ex));
@@ -951,6 +965,6 @@ async function initPostPage(){
     document.getElementById('reviewBtn').onclick = () =>
       document.querySelector('.review').scrollIntoView({behavior:'smooth'});
 
-    if(pct > 90){ setTimeout(launchConfetti, 350); setTimeout(sfxFanfare, 300); }
+    if(finalScore >= 8){ setTimeout(launchConfetti, 350); setTimeout(sfxFanfare, 300); }
   }
 }
