@@ -1,0 +1,57 @@
+{
+  "id": "listening-class-6-routine",
+  "title": "Listening · Lớp 6 · My Daily Routine",
+  "tags": ["Lớp 6", "Listening"],
+  "cover": "🎧",
+  "gradient": "linear-gradient(135deg,#5a9df5,#8ecdfd 55%,#3ecfa0)",
+  "description": "Nghe audio về thói quen hàng ngày của Minh và trả lời 4 câu hỏi trên cùng một trang.",
+  "duration": "15 phút",
+  "questionCount": 4,
+  "parts": [
+    {
+      "type": "listening",
+      "name": "Listening · My Daily Routine",
+      "hint": "Nghe audio, có thể tua lại nhiều lần rồi trả lời nhé!",
+      "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+      "image": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=1200",
+      "questions": [
+        {
+          "qtype": "single",
+          "q": "What time does Minh get up?",
+          "o": ["5:30", "6:00", "6:30", "7:00"],
+          "a": 1,
+          "vi": "Minh thức dậy lúc 6 giờ.",
+          "ex": "Audio: 'I get up at six o'clock.'"
+        },
+        {
+          "qtype": "multi",
+          "q": "Which TWO things does Minh do in the morning?",
+          "o": ["brushes his teeth", "takes a shower", "watches TV", "plays games"],
+          "a": [0, 1],
+          "vi": "Minh đánh răng và tắm vòi sen vào buổi sáng.",
+          "ex": "Audio: 'I brush my teeth and take a shower.'"
+        },
+        {
+          "qtype": "fill",
+          "q": "Minh catches the ________ to school.",
+          "a": ["bus"],
+          "words": ["bus", "bike", "train", "car"],
+          "vi": "Minh bắt xe buýt đến trường.",
+          "ex": "Audio: 'I catch the bus to school.'"
+        },
+        {
+          "qtype": "match",
+          "q": "Nghe và nối mỗi người với một hoạt động:",
+          "options": ["gets up at 5:30", "catches the bus at 7:00", "does homework in the evening"],
+          "rows": [
+            { "left": "1. Minh's father", "a": 0 },
+            { "left": "2. Minh", "a": 1 },
+            { "left": "3. Minh's sister", "a": 2 }
+          ],
+          "vi": "Bố Minh dậy 5:30 · Minh bắt xe 7:00 · Chị gái làm bài tối.",
+          "ex": "Nghe kỹ các mốc thời gian trong audio."
+        }
+      ]
+    }
+  ]
+}
