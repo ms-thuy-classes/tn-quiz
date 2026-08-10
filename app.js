@@ -1,6 +1,7 @@
 /* ============================================================
-   Learn with Ms. Thúy — Quiz Engine (Full)
+   Learn with Ms. Thúy — Quiz Engine (Full v3)
    Hỗ trợ: mcq | fill | reading | matching | synonym | antonym | listening
+   Tính điểm: Thang 10 · điểm mỗi câu = 10 / tổng_số_câu
    ============================================================ */
 
 // ===== Helpers (global safe) =====
@@ -120,7 +121,7 @@ function launchConfetti(){
 }
 
 /* ============================================================
-   REVIEW CARD HELPER (dùng trong finish)
+   REVIEW CARD HELPER
    ============================================================ */
 function reviewCard(partName, qText, chosen, right, vi, ex, q){
   const art = document.createElement('article');
@@ -204,13 +205,18 @@ async function initPostPage(){
     chips.appendChild(li);
   });
 
-  // ===== GAME STATE (xáo trộn theo phần) =====
-   // ===== GAME STATE (xáo trộn theo phần) =====
+  /* ============================================================
+     GAME STATE — tính điểm thang 10
+     Quy tắc đếm câu:
+       • MCQ, Fill, Reading, Synonym, Antonym: mỗi câu = 1
+       • Matching: mỗi cặp = 1 câu
+       • Listening: mỗi câu con = 1 câu
+     ============================================================ */
   let game = {
     post,
     items: post.parts.flatMap(part => {
 
-      // 🎧 LISTENING: mỗi câu con = 1 câu
+      // 🎧 LISTENING: số câu = số câu con
       if (part.type === 'listening') {
         const subsCount = (part.questions || []).length;
         return [{
@@ -220,27 +226,27 @@ async function initPostPage(){
           _audio: part.audio,
           _image: part.image,
           _subs: part.questions || [],
-          _points: subsCount,    // ✅ số câu = số câu con
+          _points: subsCount,
         }];
       }
 
-      // 🔗 MATCHING: mỗi cặp = 1 câu
+      // 🔗 MATCHING: số câu = số cặp
       if (part.type === 'matching') {
         const pairsCount = (part.pairs || []).length;
         return [{
           _partType: part.type, _partName: part.name, _partHint: part.hint,
           _pairs: part.pairs, _matches: 0, _completed: false,
-          _points: pairsCount,   // ✅ số câu = số cặp
+          _points: pairsCount,
         }];
       }
 
-      // 📖 READING + các dạng khác: mỗi câu = 1
+      // 📖 Các dạng còn lại: mỗi câu = 1
       const shuffledQuestions = shuffle(part.questions || []);
       return shuffledQuestions.map(q => ({
         ...q,
         _partType: part.type, _partName: part.name, _partHint: part.hint,
         _passage: part.passage, _pairs: part.pairs,
-        _points: 1,              // ✅ mỗi câu = 1
+        _points: 1,
       }));
     }),
     idx: 0,
@@ -250,19 +256,20 @@ async function initPostPage(){
     start: Date.now()
   };
 
-  // ✅ Tổng số câu = tổng _points từng item
+  // ✅ Tổng số câu toàn bài
   game.total = game.items.reduce((s, it) => s + (it._points || 1), 0);
 
-  // ✅ Điểm mỗi câu (làm tròn 4 chữ số để tránh lỗi float)
+  // ✅ Điểm mỗi câu (thang 10)
   game.pointPerQ = +(10 / game.total).toFixed(4);
 
   document.getElementById('qTotal').textContent = game.total;
 
-  // ✅ Hiển thị "mỗi câu = X điểm" ngay bên dưới tiêu đề (optional)
+  // ✅ Hiển thị "mỗi câu = X điểm" dưới mô tả
   const pointHint = document.createElement('p');
   pointHint.style.cssText = 'font-size:.85rem;color:var(--ink-faint);margin-top:6px;font-family:var(--font-mono)';
-  pointHint.textContent = '💯 Thang điểm 10 · mỗi câu = ' + game.pointPerQ.toLocaleString('vi-VN') + ' điểm';
+  pointHint.textContent = '💯 Thang điểm 10 · ' + game.total + ' câu · mỗi câu = ' + game.pointPerQ.toLocaleString('vi-VN') + ' điểm';
   document.getElementById('introDesc').insertAdjacentElement('afterend', pointHint);
+
   const nameInput = document.getElementById('playerName');
   nameInput.value = localStorage.getItem('lwm-name') || '';
 
@@ -295,6 +302,14 @@ async function initPostPage(){
   document.getElementById('modal').addEventListener('click', e => { if(e.target.dataset.close !== undefined) closeModal(); });
   document.addEventListener('keydown', e => { if(e.key === 'Escape' && !document.getElementById('modal').hidden) closeModal(); });
 
+  // ===== Helper cập nhật live score =====
+  function updateLiveScore(){
+    const pill = document.getElementById('liveScore');
+    const liveScore = +(game.correct * game.pointPerQ).toFixed(1);
+    pill.textContent = '✓ ' + game.correct + ' (' + liveScore + 'đ)';
+    pill.classList.remove('bump'); void pill.offsetWidth; pill.classList.add('bump');
+  }
+
   /* ============================================================
      RENDER QUESTION
      ============================================================ */
@@ -306,7 +321,7 @@ async function initPostPage(){
 
     let html = '';
 
-    // 🎧 LISTENING: audio-bar + image nằm NGOÀI q-card (để sticky hoạt động)
+    // 🎧 LISTENING: audio-bar + image nằm NGOÀI q-card
     if (item._partType === 'listening') {
       html += '<div class="audio-bar">' +
         '<div class="audio-info"><span class="audio-emoji">🎧</span>' +
@@ -553,12 +568,9 @@ async function initPostPage(){
       btn.classList.add('correct');
       all.forEach((b,j) => { if(j !== i) b.classList.add('dim'); });
       game.correct++;
+      updateLiveScore();
       sfxCorrect();
-      showToast('✨ Chính xác! Hay lắm, ' + esc(game.name) + '!', 'good');
-      const pill = document.getElementById('liveScore');
-      const liveScore = +(game.correct * game.pointPerQ).toFixed(1);
-pill.textContent = '✓ ' + game.correct + ' (' + liveScore + 'đ)';
-      pill.classList.remove('bump'); void pill.offsetWidth; pill.classList.add('bump');
+      showToast('✨ Chính xác! + ' + game.pointPerQ.toLocaleString('vi-VN') + ' điểm', 'good');
       setTimeout(nextStep, 1000);
     } else {
       btn.classList.add('wrong');
@@ -625,12 +637,9 @@ pill.textContent = '✓ ' + game.correct + ' (' + liveScore + 'đ)';
           selectedChip.classList.add('chip-correct');
         }
         game.correct++;
+        updateLiveScore();
         sfxCorrect();
-        showToast('✨ Chính xác! Hay lắm, ' + esc(game.name) + '!', 'good');
-        const pill = document.getElementById('liveScore');
-        const liveScore = +(game.correct * game.pointPerQ).toFixed(1);
-pill.textContent = '✓ ' + game.correct + ' (' + liveScore + 'đ)';
-        pill.classList.remove('bump'); void pill.offsetWidth; pill.classList.add('bump');
+        showToast('✨ Chính xác! + ' + game.pointPerQ.toLocaleString('vi-VN') + ' điểm', 'good');
         setTimeout(nextStep, 1200);
       } else {
         input.classList.add('wrong');
@@ -683,17 +692,14 @@ pill.textContent = '✓ ' + game.correct + ' (' + liveScore + 'đ)';
             selL.classList.add('matched'); selR.classList.add('matched');
             sfxCorrect();
             item._matches++;
+            game.correct++;          // ✅ mỗi cặp đúng = 1 câu đúng
+            updateLiveScore();
             const countEl = document.getElementById('matchCount');
             if(countEl) countEl.textContent = item._matches;
 
             if(item._matches === item._pairs.length){
               item._completed = true;
-              game.correct++;
               game.answers[game.idx] = {chosen: 'matched all', ok: true};
-              const pill = document.getElementById('liveScore');
-              const liveScore = +(game.correct * game.pointPerQ).toFixed(1);
-pill.textContent = '✓ ' + game.correct + ' (' + liveScore + 'đ)';
-              pill.classList.remove('bump'); void pill.offsetWidth; pill.classList.add('bump');
               showToast('🎉 Ghép hết rồi!', 'good');
               const statusEl = document.querySelector('#qStage .matching-wrap span:last-child');
               if(statusEl) statusEl.textContent = '✅ Hoàn thành';
@@ -830,17 +836,13 @@ pill.textContent = '✓ ' + game.correct + ' (' + liveScore + 'đ)';
         details.push({ q: sub.q, chosen: chosenText, right: rightText, ok, vi: sub.vi, ex: sub.ex });
       });
 
-      game.correct += correctCount;
+      game.correct += correctCount;   // ✅ mỗi câu con đúng = 1 câu
+      updateLiveScore();
       game.answers[game.idx] = {
         chosen: correctCount + '/' + subs.length,
         ok: correctCount === subs.length,
         details
       };
-
-      const pill = document.getElementById('liveScore');
-      const liveScore = +(game.correct * game.pointPerQ).toFixed(1);
-pill.textContent = '✓ ' + game.correct + ' (' + liveScore + 'đ)';
-      pill.classList.remove('bump'); void pill.offsetWidth; pill.classList.add('bump');
 
       submit.disabled = true;
       submit.textContent = '✅ Đã nộp · Đúng ' + correctCount + '/' + subs.length;
@@ -872,14 +874,14 @@ pill.textContent = '✓ ' + game.correct + ' (' + liveScore + 'đ)';
     const total = game.total || items.length;
     const pointPerQ = game.pointPerQ || (10 / total);
 
-    // ✅ Điểm cuối theo thang 10, làm tròn 1 chữ số thập phân
+    // ✅ Điểm cuối theo thang 10
     const finalScore = +(correct * pointPerQ).toFixed(1);
     const pct = Math.round(correct / total * 100);
     const wrongs = items.filter((q,i) => !answers[i] || !answers[i].ok);
     const mins = Math.floor((Date.now() - start)/60000);
     const secs = Math.floor(((Date.now() - start)/1000) % 60);
 
-    // Lời nhắn theo bậc điểm (dựa trên điểm /10)
+    // Lời nhắn theo bậc điểm /10
     let title, msg;
     if(finalScore >= 9.5){ title='🏆 Điểm tuyệt đối, <span>'+esc(name)+'</span>!'; msg='Cô Thúy cực kỳ tự hào về em!'; }
     else if(finalScore >= 8){ title='🎉 Xuất sắc, <span>'+esc(name)+'</span>!'; msg='Em đã chinh phục bài quiz với số điểm rất cao!'; }
@@ -906,7 +908,6 @@ pill.textContent = '✓ ' + game.correct + ' (' + liveScore + 'đ)';
           '<div class="ring-center"><div class="ring-pct" id="pctText">0%</div><div class="ring-label">chính xác</div></div>' +
         '</div>' +
         '<div class="score-details">' +
-          // ✅ Điểm lớn: số điểm /10
           '<div class="score-big"><b style="font-size:3rem;background:var(--grad-main);-webkit-background-clip:text;background-clip:text;color:transparent">' + finalScore.toFixed(1) + '</b><span style="font-size:1.4rem">/ 10 điểm</span></div>' +
           '<div class="mini-stats">' +
             '<div class="mini-stat"><b>' + correct + '/' + total + '</b><span>câu đúng</span></div>' +
