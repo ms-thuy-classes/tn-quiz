@@ -1,13 +1,32 @@
 /* ============================================================
-   Learn with Ms. Thúy — Quiz Engine
-   Hỗ trợ: mcq | fill | reading | matching | synonym | antonym
+   Learn with Ms. Thúy — Quiz Engine (Full)
+   Hỗ trợ: mcq | fill | reading | matching | synonym | antonym | listening
    ============================================================ */
 
-const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-const REDUCED = matchMedia('(prefers-reduced-motion: reduce)').matches;
-function shuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+// ===== Helpers (global safe) =====
+if (typeof window.esc !== 'function') {
+  window.esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+}
+if (typeof window.shuffle !== 'function') {
+  window.shuffle = function(a){
+    a = a.slice();
+    for(let i = a.length - 1; i > 0; i--){
+      const j = Math.floor(Math.random() * (i + 1));
+      [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+  };
+}
+if (typeof window.REDUCED === 'undefined') {
+  window.REDUCED = matchMedia('(prefers-reduced-motion: reduce)').matches;
+}
+const esc = window.esc;
+const shuffle = window.shuffle;
+const REDUCED = window.REDUCED;
 
-/* ========== AUDIO (Web Audio API) ========== */
+/* ============================================================
+   AUDIO — Web Audio API (SFX)
+   ============================================================ */
 let audioCtx = null;
 let soundOn = localStorage.getItem('lwm-sound') !== '0';
 
@@ -29,12 +48,14 @@ function tone(freq, delay, dur, type='triangle', vol=.18){
     o.start(t); o.stop(t + dur + .05);
   }catch(e){}
 }
-const sfxTick = () => tone(740, 0, .06, 'sine', .07);
+const sfxTick    = () => tone(740, 0, .06, 'sine', .07);
 const sfxCorrect = () => { tone(659.25,0,.14); tone(830.61,.09,.14); tone(987.77,.18,.22); };
-const sfxWrong = () => { tone(233.08,0,.2,'sawtooth',.1); tone(164.81,.17,.32,'sawtooth',.1); };
+const sfxWrong   = () => { tone(233.08,0,.2,'sawtooth',.1); tone(164.81,.17,.32,'sawtooth',.1); };
 const sfxFanfare = () => [523.25,659.25,783.99,1046.5].forEach((f,i)=>tone(f,i*.11,.25));
 
-/* ========== TOAST ========== */
+/* ============================================================
+   TOAST
+   ============================================================ */
 let toastTimer;
 function showToast(html, type=''){
   const el = document.getElementById('toast');
@@ -45,7 +66,9 @@ function showToast(html, type=''){
   toastTimer = setTimeout(() => el.classList.remove('show'), 1900);
 }
 
-/* ========== MODAL ========== */
+/* ============================================================
+   MODAL
+   ============================================================ */
 let modalAction = null;
 function openModal(title, msg, okText, cb){
   const m = document.getElementById('modal');
@@ -60,7 +83,9 @@ function closeModal(){
   modalAction = null;
 }
 
-/* ========== CONFETTI ========== */
+/* ============================================================
+   CONFETTI
+   ============================================================ */
 function launchConfetti(){
   if(REDUCED) return;
   const cv = document.getElementById('confettiCanvas');
@@ -75,8 +100,8 @@ function launchConfetti(){
     r:Math.random()*Math.PI, vr:(Math.random()-.5)*.28,
     round:Math.random()<.3
   });
-  for(let i=0;i<90;i++) make(-10, cv.height*(.15+Math.random()*.4), 4+Math.random()*7, -(3+Math.random()*5));
-  for(let i=0;i<90;i++) make(cv.width+10, cv.height*(.15+Math.random()*.4), -(4+Math.random()*7), -(3+Math.random()*5));
+  for(let i=0;i<90;i++)  make(-10, cv.height*(.15+Math.random()*.4), 4+Math.random()*7, -(3+Math.random()*5));
+  for(let i=0;i<90;i++)  make(cv.width+10, cv.height*(.15+Math.random()*.4), -(4+Math.random()*7), -(3+Math.random()*5));
   const t0 = performance.now();
   (function loop(now){
     cctx.clearRect(0,0,cv.width,cv.height);
@@ -95,7 +120,29 @@ function launchConfetti(){
 }
 
 /* ============================================================
-   POST PAGE — fetch detail JSON theo ?id=...
+   REVIEW CARD HELPER (dùng trong finish)
+   ============================================================ */
+function reviewCard(partName, qText, chosen, right, vi, ex, q){
+  const art = document.createElement('article');
+  art.className = 'review-item';
+  let qHtml = esc(qText || '').split('____').join('<span class="blank">&nbsp;</span>');
+  if(q && (q._partType === 'synonym' || q._partType === 'antonym') && q.keyword){
+    const regex = new RegExp('\\b' + q.keyword.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + '\\b','i');
+    qHtml = qHtml.replace(regex, '<mark>' + q.keyword + '</mark>');
+  }
+  art.innerHTML =
+    '<div class="review-head"><span class="badge-wrong">Chưa đúng</span>' +
+    '<span style="font-family:Space Mono,monospace;font-size:.75rem;color:var(--ink-faint)">' + esc(partName || '') + '</span></div>' +
+    '<p class="review-q">' + qHtml + '</p>' +
+    '<div class="review-ans wrong">❌ Em chọn: <b>&nbsp;' + esc(chosen) + '</b></div>' +
+    '<div class="review-ans right">✅ Đáp án: <b>&nbsp;' + esc(right) + '</b></div>' +
+    (vi ? '<p class="review-vi">🇻🇳 ' + esc(vi) + '</p>' : '') +
+    (ex ? '<p class="review-ex">💡 ' + esc(ex) + '</p>' : '');
+  return art;
+}
+
+/* ============================================================
+   POST PAGE INIT
    ============================================================ */
 async function initPostPage(){
   const params = new URLSearchParams(location.search);
@@ -106,7 +153,7 @@ async function initPostPage(){
     return;
   }
 
-  // sound button
+  // ===== Sound button =====
   const soundBtn = document.getElementById('soundBtn');
   function updateSoundBtn(){
     soundBtn.textContent = soundOn ? '🔊' : '🔇';
@@ -146,57 +193,60 @@ async function initPostPage(){
 
   const chips = document.getElementById('introChips');
   chips.innerHTML = '';
-  const labelMap = {mcq:'🧩 Trắc nghiệm', fill:'✏️ Điền từ', reading:'📖 Reading', matching:'🔗 Matching', synonym:'🔁 Đồng nghĩa', antonym:'↔️ Trái nghĩa'};
+  const labelMap = {
+    mcq:'🧩 Trắc nghiệm', fill:'✏️ Điền từ', reading:'📖 Reading',
+    matching:'🔗 Matching', synonym:'🔁 Đồng nghĩa', antonym:'↔️ Trái nghĩa',
+    listening:'🎧 Listening'
+  };
   [...new Set(post.parts.map(p => p.type))].forEach(t => {
     const li = document.createElement('li');
     li.textContent = labelMap[t] || t;
     chips.appendChild(li);
   });
 
-  // ===== GAME STATE =====
-    // ===== GAME STATE =====
+  // ===== GAME STATE (xáo trộn theo phần) =====
   let game = {
     post,
     items: post.parts.flatMap(part => {
-      
-      // 🔹 Xử lý đặc biệt cho Matching: không xáo trộn câu hỏi,
-      // vì bản thân Matching đã tự xáo trộn 2 cột trái/phải trong renderMatching()
+
+      // 🎧 LISTENING: cả phần = 1 item, các câu con nằm cùng trang
+      if (part.type === 'listening') {
+        return [{
+          _partType: 'listening',
+          _partName: part.name,
+          _partHint: part.hint,
+          _audio: part.audio,
+          _image: part.image,
+          _subs: part.questions || [],
+          _points: (part.questions || []).length,
+        }];
+      }
+
+      // 🔗 MATCHING: không xáo trộn (tự xáo trộn 2 cột khi render)
       if (part.type === 'matching') {
         return [{
-          _partType: part.type,
-          _partName: part.name,
-          _partHint: part.hint,
-          _pairs: part.pairs,
-          _matches: 0,
-          _completed: false,
+          _partType: part.type, _partName: part.name, _partHint: part.hint,
+          _pairs: part.pairs, _matches: 0, _completed: false,
         }];
-      } 
-      
-      // 🔹 Xử lý cho Reading: giữ nguyên đoạn văn, chỉ xáo trộn câu hỏi
-      else if (part.type === 'reading') {
+      }
+
+      // 📖 READING: giữ nguyên đoạn văn, chỉ xáo trộn câu hỏi
+      if (part.type === 'reading') {
         const shuffledQuestions = shuffle(part.questions || []);
         return shuffledQuestions.map(q => ({
           ...q,
-          _partType: part.type,
-          _partName: part.name,
-          _partHint: part.hint,
-          _passage: part.passage,   // ⚠️ Giữ nguyên đoạn văn, không xáo trộn
-          _pairs: part.pairs
+          _partType: part.type, _partName: part.name, _partHint: part.hint,
+          _passage: part.passage, _pairs: part.pairs
         }));
       }
-      
-      // 🔹 Xử lý cho các dạng còn lại: mcq, fill, synonym, antonym
-      else {
-        const shuffledQuestions = shuffle(part.questions || []);
-        return shuffledQuestions.map(q => ({
-          ...q,
-          _partType: part.type,
-          _partName: part.name,
-          _partHint: part.hint,
-          _passage: part.passage,
-          _pairs: part.pairs
-        }));
-      }
+
+      // Các dạng còn lại: mcq, fill, synonym, antonym
+      const shuffledQuestions = shuffle(part.questions || []);
+      return shuffledQuestions.map(q => ({
+        ...q,
+        _partType: part.type, _partName: part.name, _partHint: part.hint,
+        _passage: part.passage, _pairs: part.pairs
+      }));
     }),
     idx: 0,
     correct: 0,
@@ -205,7 +255,10 @@ async function initPostPage(){
     start: Date.now()
   };
 
-  document.getElementById('qTotal').textContent = game.items.length;
+  // Tổng số điểm = tổng _points từng item (mặc định 1)
+  game.total = game.items.reduce((s, it) => s + (it._points || 1), 0);
+
+  document.getElementById('qTotal').textContent = game.total;
   const nameInput = document.getElementById('playerName');
   nameInput.value = localStorage.getItem('lwm-name') || '';
 
@@ -238,24 +291,38 @@ async function initPostPage(){
   document.getElementById('modal').addEventListener('click', e => { if(e.target.dataset.close !== undefined) closeModal(); });
   document.addEventListener('keydown', e => { if(e.key === 'Escape' && !document.getElementById('modal').hidden) closeModal(); });
 
-  // ============================================================
-  // RENDER QUESTION THEO TYPE
-  // ============================================================
+  /* ============================================================
+     RENDER QUESTION
+     ============================================================ */
   function renderQuestion(){
     const item = game.items[game.idx];
     const stage = document.getElementById('qStage');
     document.getElementById('progressFill').style.width = (game.idx / game.items.length * 100) + '%';
     document.getElementById('qNow').textContent = game.idx + 1;
 
-    let html = '<div class="q-card">' +
+    let html = '';
+
+    // 🎧 LISTENING: audio-bar + image nằm NGOÀI q-card (để sticky hoạt động)
+    if (item._partType === 'listening') {
+      html += '<div class="audio-bar">' +
+        '<div class="audio-info"><span class="audio-emoji">🎧</span>' +
+          '<div><b>' + esc(item._partName) + '</b>' +
+          '<span class="audio-hint">' + esc(item._partHint || 'Nghe audio và trả lời các câu hỏi bên dưới nhé!') + '</span></div>' +
+        '</div>' +
+        '<audio id="listenAudio" controls preload="metadata" src="' + esc(item._audio || '') + '"></audio>' +
+      '</div>';
+      if (item._image) {
+        html += '<div class="listening-img-wrap"><img class="listening-img" src="' + esc(item._image) + '" alt="Hình minh họa bài nghe" loading="lazy"></div>';
+      }
+    }
+
+    html += '<div class="q-card">' +
       '<span class="q-num">' + String(game.idx+1).padStart(2,'0') + '</span>' +
       '<div class="q-meta"><span class="part-chip" style="background:var(--primary-soft);color:var(--primary-deep)">' + esc(item._partName) + '</span>' +
       '<span style="color:var(--ink-faint);font-size:.85rem;font-style:italic">' + esc(item._partHint || '') + '</span></div>';
 
-    if (item._partType !== 'matching') {
+    if (item._partType !== 'matching' && item._partType !== 'listening') {
       html += '<h2 class="q-text">' + renderQuestionText(item) + '</h2>';
-    } else {
-      html += '<p style="font-weight:600;font-size:1.1rem;margin-bottom:16px;">🔗 Ghép từ vựng</p>';
     }
 
     html += renderBodyByType(item);
@@ -281,13 +348,18 @@ async function initPostPage(){
       case 'reading':
         return renderMCQ(item);
       case 'fill':
-        return renderFill(item);   // ✅ ĐÃ SỬA: thêm (item)
+        return renderFill(item);
       case 'matching':
         return renderMatching(item);
+      case 'listening':
+        return renderListening(item);
       default: return '<p>Chưa hỗ trợ dạng này.</p>';
     }
   }
 
+  /* ============================================================
+     MCQ / SYNONYM / ANTONYM / READING
+     ============================================================ */
   function renderMCQ(item){
     const shuffled = shuffle(item.o.map((t,i) => ({text:t, correct:i===item.a})));
     item._shuffled = shuffled;
@@ -309,19 +381,23 @@ async function initPostPage(){
     return html;
   }
 
-    function renderFill(item){
-    // Xáo trộn các từ trong word bank
-    const pool = item.words && item.words.length ? item.words : item.a;
+  /* ============================================================
+     FILL (word bank)
+     ============================================================ */
+  function renderFill(item){
+    const pool = (item && Array.isArray(item.words) && item.words.length)
+      ? item.words
+      : (item && Array.isArray(item.a) ? item.a : ['answer']);
     const shuffledWords = shuffle(pool);
     item._shuffledWords = shuffledWords;
-    
+
     return '<div class="fill-wrap">' +
       '<div class="word-bank">' +
         '<div class="word-bank-label">💎 Chọn từ trong khung:</div>' +
         '<div class="word-bank-chips">' +
-          shuffledWords.map((w,i) => 
-            '<button class="word-chip" data-word="' + esc(w) + '" data-i="' + i + '" type="button">' + 
-              esc(w) + 
+          shuffledWords.map((w,i) =>
+            '<button class="word-chip" data-word="' + esc(w) + '" data-i="' + i + '" type="button">' +
+              esc(w) +
             '</button>'
           ).join('') +
         '</div>' +
@@ -336,11 +412,13 @@ async function initPostPage(){
     '</div>';
   }
 
+  /* ============================================================
+     MATCHING (ghép 2 cột)
+     ============================================================ */
   function renderMatching(item){
     const left = shuffle(item._pairs.map((p,i) => ({text:p.left, idx:i})));
     const right = shuffle(item._pairs.map((p,i) => ({text:p.right, idx:i})));
     item._left = left; item._right = right;
-    // Đặt lại _matches về 0 mỗi khi render lại (tránh lưu trạng thái cũ)
     item._matches = 0;
     item._completed = false;
     return '<div class="matching-wrap">' +
@@ -360,6 +438,88 @@ async function initPostPage(){
     '</div>';
   }
 
+  /* ============================================================
+     LISTENING — nhiều câu con trên 1 trang
+     ============================================================ */
+  function subTypeLabel(t){
+    return {single:'Chọn 1 đáp án', multi:'Chọn nhiều đáp án', fill:'Điền từ', match:'Ghép (dropdown)'}[t] || t;
+  }
+
+  function renderListening(item){
+    const LETTERS = ['A','B','C','D','E','F','G','H'];
+
+    // Xáo trộn đáp án từng câu con
+    (item._subs || []).forEach(sub => {
+      if(sub.qtype === 'single'){
+        sub._shuffled = shuffle((sub.o || []).map((t,i) => ({text:t, correct:i === sub.a})));
+      } else if(sub.qtype === 'multi'){
+        sub._shuffled = shuffle((sub.o || []).map((t,i) => ({text:t, correct:(sub.a || []).includes(i)})));
+      } else if(sub.qtype === 'fill'){
+        if(sub.words && sub.words.length) sub._shuffledWords = shuffle(sub.words);
+      }
+    });
+
+    let html = '<div class="sub-list">';
+    (item._subs || []).forEach((sub, si) => {
+      html += '<div class="sub-q" data-sub="' + si + '">';
+      html += '<div class="sub-head"><span class="sub-no">' + (si+1) + '</span><span class="sub-type">' + subTypeLabel(sub.qtype) + '</span></div>';
+      html += '<p class="sub-text">' + esc(sub.q || '').split('____').join('<span class="blank">&nbsp;</span>') + '</p>';
+
+      // 1️⃣ Single choice
+      if(sub.qtype === 'single'){
+        html += '<div class="options">' + sub._shuffled.map((opt,i) =>
+          '<button class="opt sub-opt" data-sub="' + si + '" data-i="' + i + '" type="button">' +
+            '<span class="opt-letter">' + LETTERS[i] + '</span>' +
+            '<span class="opt-text">' + esc(opt.text) + '</span>' +
+          '</button>').join('') + '</div>';
+      }
+      // 2️⃣ Multiple choice
+      else if(sub.qtype === 'multi'){
+        html += '<div class="options">' + sub._shuffled.map((opt,i) =>
+          '<button class="opt sub-multi" data-sub="' + si + '" data-i="' + i + '" type="button">' +
+            '<span class="opt-letter">' + LETTERS[i] + '</span>' +
+            '<span class="opt-text">' + esc(opt.text) + '</span>' +
+            '<span class="multi-check" aria-hidden="true">✓</span>' +
+          '</button>').join('') + '</div>';
+      }
+      // 3️⃣ Fill (word bank optional)
+      else if(sub.qtype === 'fill'){
+        if(sub._shuffledWords){
+          html += '<div class="word-bank"><div class="word-bank-label">💎 Chọn từ:</div><div class="word-bank-chips">' +
+            sub._shuffledWords.map(w =>
+              '<button class="word-chip sub-chip" data-sub="' + si + '" data-word="' + esc(w) + '" type="button">' + esc(w) + '</button>'
+            ).join('') + '</div></div>';
+        }
+        html += '<input class="fill-input sub-fill-input" data-sub="' + si + '" type="text" autocomplete="off" ' +
+          'placeholder="' + (sub._shuffledWords ? 'Từ đã chọn...' : 'Gõ từ em nghe được...') + '"' +
+          (sub._shuffledWords ? ' readonly' : '') + '>';
+      }
+      // 4️⃣ Matching dropdown
+      else if(sub.qtype === 'match'){
+        html += '<div class="match-opts"><b>📋 Phương án:</b><br>' +
+          (sub.options || []).map((op,i) => '<b>' + LETTERS[i] + '.</b> ' + esc(op) + '<br>').join('') +
+        '</div>';
+        html += '<div class="match-rows">';
+        (sub.rows || []).forEach((row, ri) => {
+          html += '<div class="match-row"><span class="row-label">' + esc(row.left) + '</span>' +
+            '<select data-row="' + ri + '"><option value="">— ? —</option>' +
+            (sub.options || []).map((op,i) => '<option value="' + i + '">' + LETTERS[i] + '</option>').join('') +
+            '</select></div>';
+        });
+        html += '</div>';
+      }
+
+      html += '</div>';
+    });
+    html += '</div>';
+
+    html += '<button class="btn btn-primary listen-submit" id="listenSubmit" type="button">✅ Nộp bài nghe</button>';
+    return html;
+  }
+
+  /* ============================================================
+     ATTACH EVENTS
+     ============================================================ */
   function attachEventsByType(item){
     switch(item._partType){
       case 'mcq':
@@ -372,10 +532,13 @@ async function initPostPage(){
         break;
       case 'fill': handleFill(item); break;
       case 'matching': handleMatching(item); break;
+      case 'listening': handleListening(item); break;
     }
   }
 
-  /* ----- HANDLERS ----- */
+  /* ============================================================
+     HANDLERS
+     ============================================================ */
   function handleMCQ(btn, item){
     const all = [...document.querySelectorAll('#qStage .opt')];
     all.forEach(b => b.disabled = true);
@@ -406,17 +569,14 @@ async function initPostPage(){
     const check = document.getElementById('fillCheck');
     const clear = document.getElementById('fillClear');
     const chips = [...document.querySelectorAll('#qStage .word-chip')];
-    
+
     let selectedChip = null;
     let done = false;
-    
-    // Click vào word chip → điền vào input
+
     chips.forEach(chip => {
       chip.addEventListener('click', () => {
         if(done) return;
-        // Bỏ highlight chip cũ
         if(selectedChip) selectedChip.classList.remove('selected');
-        // Highlight chip mới
         chip.classList.add('selected');
         selectedChip = chip;
         input.value = chip.dataset.word;
@@ -424,8 +584,7 @@ async function initPostPage(){
         sfxTick();
       });
     });
-    
-    // Nút xóa
+
     clear.addEventListener('click', () => {
       if(done) return;
       input.value = '';
@@ -435,28 +594,26 @@ async function initPostPage(){
         selectedChip = null;
       }
     });
-    
-    // Kiểm tra đáp án
+
     function doCheck(){
       if(done) return;
       const val = input.value.trim().toLowerCase();
-      if(!val){ 
+      if(!val){
         showToast('💡 Em hãy chọn một từ trong khung trước nhé!', '');
-        return; 
+        return;
       }
       done = true;
-      
-      // Khóa tất cả chip
+
       chips.forEach(c => {
         c.disabled = true;
         if(c !== selectedChip) c.classList.add('dim');
       });
       clear.disabled = true;
       check.disabled = true;
-      
+
       const ok = item.a.some(ans => val === ans.toLowerCase());
       game.answers[game.idx] = {chosen: input.value.trim(), ok};
-      
+
       if(ok){
         input.classList.add('correct');
         if(selectedChip){
@@ -475,8 +632,7 @@ async function initPostPage(){
           selectedChip.classList.add('chip-wrong');
         }
         sfxWrong();
-        
-        // Highlight đáp án đúng trong word bank
+
         const correctWord = item.a[0].toLowerCase();
         chips.forEach(c => {
           if(c.dataset.word.toLowerCase() === correctWord){
@@ -484,8 +640,7 @@ async function initPostPage(){
             c.classList.remove('dim');
           }
         });
-        
-        // Hiển thị giải thích
+
         const show = document.createElement('div');
         show.className = 'fill-show';
         show.innerHTML = '✅ Đáp án đúng: <b>' + esc(item.a[0]) + '</b>';
@@ -494,13 +649,13 @@ async function initPostPage(){
         setTimeout(nextStep, 2200);
       }
     }
-    
+
+    input.addEventListener('keydown', e => { if(e.key === 'Enter') doCheck(); });
     check.addEventListener('click', doCheck);
   }
 
   function handleMatching(item){
     let selL = null, selR = null;
-    // Nếu đã hoàn thành thì không cho tương tác nữa
     if (item._completed) return;
 
     document.querySelectorAll('#qStage .match-item').forEach(el => {
@@ -522,23 +677,19 @@ async function initPostPage(){
             selL.classList.add('matched'); selR.classList.add('matched');
             sfxCorrect();
             item._matches++;
-            // Cập nhật số cặp đã ghép
             const countEl = document.getElementById('matchCount');
             if(countEl) countEl.textContent = item._matches;
 
             if(item._matches === item._pairs.length){
-              // Hoàn thành toàn bộ matching
               item._completed = true;
-              game.correct++; // Tăng điểm cho câu hỏi này
+              game.correct++;
               game.answers[game.idx] = {chosen: 'matched all', ok: true};
               const pill = document.getElementById('liveScore');
               pill.textContent = '✓ ' + game.correct;
               pill.classList.remove('bump'); void pill.offsetWidth; pill.classList.add('bump');
               showToast('🎉 Ghép hết rồi!', 'good');
-              // Cập nhật trạng thái hoàn thành
               const statusEl = document.querySelector('#qStage .matching-wrap span:last-child');
               if(statusEl) statusEl.textContent = '✅ Hoàn thành';
-              // Vô hiệu hóa các item còn lại
               document.querySelectorAll('#qStage .match-item:not(.matched)').forEach(el => {
                 el.style.opacity = '0.5';
                 el.style.cursor = 'default';
@@ -560,19 +711,158 @@ async function initPostPage(){
     });
   }
 
+  function handleListening(item){
+    const stage = document.getElementById('qStage');
+    const subs = item._subs || [];
+    const LETTERS = ['A','B','C','D','E','F','G','H'];
+
+    // Single: chọn 1
+    stage.querySelectorAll('.sub-opt').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const si = btn.dataset.sub;
+        stage.querySelectorAll('.sub-opt[data-sub="'+si+'"]').forEach(b => b.classList.remove('selected'));
+        btn.classList.add('selected');
+        sfxTick();
+      });
+    });
+
+    // Multi: toggle
+    stage.querySelectorAll('.sub-multi').forEach(btn => {
+      btn.addEventListener('click', () => { btn.classList.toggle('picked'); sfxTick(); });
+    });
+
+    // Word chips cho fill
+    stage.querySelectorAll('.sub-chip').forEach(chip => {
+      chip.addEventListener('click', () => {
+        const si = chip.dataset.sub;
+        stage.querySelectorAll('.sub-chip[data-sub="'+si+'"]').forEach(c => c.classList.remove('selected'));
+        chip.classList.add('selected');
+        const input = stage.querySelector('.sub-fill-input[data-sub="'+si+'"]');
+        if(input){ input.value = chip.dataset.word; input.classList.remove('correct','wrong'); }
+        sfxTick();
+      });
+    });
+
+    // ===== NỘP BÀI =====
+    document.getElementById('listenSubmit').addEventListener('click', function(){
+      const submit = this;
+      if(submit.disabled) return;
+      let correctCount = 0;
+      const details = [];
+
+      subs.forEach((sub, si) => {
+        const wrap = stage.querySelector('.sub-q[data-sub="'+si+'"]');
+        let ok = false, chosenText = '—', rightText = '—';
+
+        if(sub.qtype === 'single'){
+          const sel = wrap.querySelector('.sub-opt.selected');
+          const selI = sel ? +sel.dataset.i : -1;
+          chosenText = selI >= 0 ? sub._shuffled[selI].text : '(không chọn)';
+          rightText = sub.o[sub.a];
+          ok = selI >= 0 && sub._shuffled[selI].correct;
+          wrap.querySelectorAll('.sub-opt').forEach((b,bi) => {
+            b.disabled = true;
+            if(sub._shuffled[bi].correct) b.classList.add('correct');
+            else if(bi === selI) b.classList.add('wrong');
+            else b.classList.add('dim');
+          });
+        }
+        else if(sub.qtype === 'multi'){
+          const picked = [...wrap.querySelectorAll('.sub-multi.picked')].map(b => +b.dataset.i);
+          const correctSet = sub._shuffled.map((o,i) => o.correct ? i : -1).filter(i => i >= 0);
+          chosenText = picked.map(i => sub._shuffled[i].text).join(', ') || '(không chọn)';
+          rightText = sub._shuffled.filter(o => o.correct).map(o => o.text).join(', ');
+          ok = picked.length === correctSet.length && picked.every(i => correctSet.includes(i));
+          wrap.querySelectorAll('.sub-multi').forEach((b,bi) => {
+            b.disabled = true;
+            if(sub._shuffled[bi].correct) b.classList.add('correct');
+            else if(picked.includes(bi)) b.classList.add('wrong');
+            else b.classList.add('dim');
+          });
+        }
+        else if(sub.qtype === 'fill'){
+          const input = wrap.querySelector('.sub-fill-input');
+          const val = (input.value || '').trim().toLowerCase();
+          chosenText = input.value.trim() || '(không điền)';
+          rightText = sub.a[0];
+          ok = sub.a.some(ans => val === ans.toLowerCase());
+          input.disabled = true;
+          input.classList.add(ok ? 'correct' : 'wrong');
+          wrap.querySelectorAll('.sub-chip').forEach(c => c.disabled = true);
+          if(!ok){
+            const show = document.createElement('div');
+            show.className = 'fill-show';
+            show.innerHTML = '✅ Đáp án: <b>' + esc(sub.a[0]) + '</b>';
+            wrap.appendChild(show);
+          }
+        }
+        else if(sub.qtype === 'match'){
+          const rows = sub.rows || [];
+          const picks = []; let rowOk = true;
+          rows.forEach((row, ri) => {
+            const sel = wrap.querySelector('select[data-row="'+ri+'"]');
+            const v = sel.value === '' ? -1 : +sel.value;
+            sel.disabled = true;
+            const good = v === row.a;
+            if(!good) rowOk = false;
+            sel.classList.add(good ? 'sel-correct' : 'sel-wrong');
+            picks.push(v >= 0 ? LETTERS[v] : '—');
+            if(!good){
+              const hint = document.createElement('span');
+              hint.className = 'row-hint';
+              hint.textContent = '✅ ' + LETTERS[row.a];
+              sel.parentNode.appendChild(hint);
+            }
+          });
+          ok = rowOk;
+          chosenText = picks.join(', ');
+          rightText = rows.map(r => LETTERS[r.a]).join(', ');
+        }
+
+        if(ok) correctCount++;
+        details.push({ q: sub.q, chosen: chosenText, right: rightText, ok, vi: sub.vi, ex: sub.ex });
+      });
+
+      game.correct += correctCount;
+      game.answers[game.idx] = {
+        chosen: correctCount + '/' + subs.length,
+        ok: correctCount === subs.length,
+        details
+      };
+
+      const pill = document.getElementById('liveScore');
+      pill.textContent = '✓ ' + game.correct;
+      pill.classList.remove('bump'); void pill.offsetWidth; pill.classList.add('bump');
+
+      submit.disabled = true;
+      submit.textContent = '✅ Đã nộp · Đúng ' + correctCount + '/' + subs.length;
+
+      if(correctCount === subs.length){ sfxCorrect(); showToast('🎧 Tuyệt vời! Đúng hết ' + subs.length + ' câu!', 'good'); }
+      else if(correctCount > 0){ sfxTick(); showToast('🎧 Đúng ' + correctCount + '/' + subs.length + ' câu!', ''); }
+      else { sfxWrong(); showToast('🎧 Chưa đúng câu nào… xem đáp án nhé!', 'bad'); }
+
+      setTimeout(nextStep, 2600);
+    });
+  }
+
+  /* ============================================================
+     NEXT / FINISH
+     ============================================================ */
   function nextStep(){
+    // Tạm dừng audio khi chuyển câu
+    const au = document.getElementById('listenAudio');
+    if(au) au.pause();
+
     if(game.idx >= game.items.length - 1){ finish(); return; }
     const card = document.querySelector('#qStage .q-card');
     if(card) card.style.animation = 'screenIn .25s reverse forwards';
     setTimeout(() => { game.idx++; renderQuestion(); }, 220);
   }
 
-  /* ============================================================
-     FINISH
-     ============================================================ */
   function finish(){
     const { items, answers, correct, name, start } = game;
-    const pct = Math.round(correct / items.length * 100);
+    const total = game.total || items.length;
+    const pct = Math.round(correct / total * 100);
     const wrongs = items.filter((q,i) => !answers[i] || !answers[i].ok);
     const mins = Math.floor((Date.now() - start)/60000);
     const secs = Math.floor(((Date.now() - start)/1000) % 60);
@@ -603,9 +893,9 @@ async function initPostPage(){
           '<div class="ring-center"><div class="ring-pct" id="pctText">0%</div><div class="ring-label">chính xác</div></div>' +
         '</div>' +
         '<div class="score-details">' +
-          '<div class="score-big"><b>' + correct + '/' + items.length + '</b><span>câu đúng</span></div>' +
+          '<div class="score-big"><b>' + correct + '/' + total + '</b><span>câu đúng</span></div>' +
           '<div class="mini-stats">' +
-            '<div class="mini-stat"><b>' + (correct*0.5).toLocaleString('vi-VN') + '</b><span>điểm / ' + (items.length*0.5).toLocaleString('vi-VN') + '</span></div>' +
+            '<div class="mini-stat"><b>' + (correct*0.5).toLocaleString('vi-VN') + '</b><span>điểm / ' + (total*0.5).toLocaleString('vi-VN') + '</span></div>' +
             '<div class="mini-stat"><b>' + mins + ':' + String(secs).padStart(2,'0') + '</b><span>thời gian</span></div>' +
             '<div class="mini-stat"><b>' + wrongs.length + '</b><span>câu cần ôn</span></div>' +
           '</div>' +
@@ -622,6 +912,7 @@ async function initPostPage(){
 
     showScreen('result');
 
+    // Ring animation
     const C = 439.82;
     const ring = document.getElementById('ringFg');
     ring.style.strokeDashoffset = C;
@@ -634,29 +925,26 @@ async function initPostPage(){
       if(k<1) requestAnimationFrame(count);
     })(t0);
 
+    // Review list
     const list = document.getElementById('reviewList');
     if(!wrongs.length){
       list.innerHTML = '<div class="review-perfect">🎉 Tuyệt đối! Em làm đúng hết! 🎉</div>';
     } else {
       wrongs.forEach(q => {
-        const gi = items.indexOf(q);
-        const ans = answers[gi] || {chosen: '—'};
+        const ans = answers[items.indexOf(q)] || {chosen: '—'};
+
+        // 🎧 LISTENING: liệt kê từng câu con sai
+        if(q._partType === 'listening'){
+          (ans.details || []).filter(d => !d.ok).forEach(d => {
+            list.appendChild(reviewCard(q._partName, d.q, d.chosen, d.right, d.vi, d.ex));
+          });
+          return;
+        }
+
         const rightAns = (q._partType === 'fill') ? q.a[0] :
                           (q._partType === 'matching') ? 'matched all' :
                           (q.o ? q.o[q.a] : '—');
-        const art = document.createElement('article');
-        art.className = 'review-item';
-        art.innerHTML =
-          '<div class="review-head">' +
-            '<span class="badge-wrong">Chưa đúng</span>' +
-            '<span style="font-family:Space Mono,monospace;font-size:.75rem;color:var(--ink-faint)">Câu ' + (gi+1) + '</span>' +
-          '</div>' +
-          '<p class="review-q">' + renderQuestionText(q) + '</p>' +
-          '<div class="review-ans wrong">❌ Em chọn: <b>&nbsp;' + esc(ans.chosen) + '</b></div>' +
-          '<div class="review-ans right">✅ Đáp án: <b>&nbsp;' + esc(rightAns) + '</b></div>' +
-          (q.vi ? '<p class="review-vi">🇻🇳 ' + esc(q.vi) + '</p>' : '') +
-          (q.ex ? '<p class="review-ex">💡 ' + esc(q.ex) + '</p>' : '');
-        list.appendChild(art);
+        list.appendChild(reviewCard(q._partName, q.q, ans.chosen, rightAns, q.vi, q.ex, q));
       });
     }
 
