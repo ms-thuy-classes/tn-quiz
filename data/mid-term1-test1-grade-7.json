@@ -126,7 +126,7 @@
       },
       {
         "q": "Which word has the underlined part pronounced as /ɪd/?",
-        "o": ["flooded", "exchanged", "protected", "Both A and C"],
+        "o": ["flooded", "exchanged", "protected", "Both flooded and protected"],
         "a": 3,
         "vi": "Từ nào có phần gạch chân phát âm là /ɪd/?",
         "ex": "Cả 'flooded' và 'protected' đều có đuôi '-ed' phát âm là /ɪd/."
