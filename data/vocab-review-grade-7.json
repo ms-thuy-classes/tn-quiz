@@ -1,1 +1,200 @@
-a
+{
+  "id": "vocab-review-grade-7",
+  "title": "Vocabulary & Grammar · Lớp 7 ",
+  "tags": ["Lớp 11", "Vocabulary", "Grammar"],
+  "cover": "🌞",
+  "gradient": "linear-gradient(135deg,#7a67ee,#5a9df5 55%,#3ecfa0)",
+  "description": "30 câu đục lỗ & đồng nghĩa về thói quen hàng ngày.",
+  "duration": "45 phút",
+  "parts": [
+  {
+    "type": "mcq",
+    "name": "Phần 1 · Trắc nghiệm",
+    "hint": "Choose the best answer to complete each sentence",
+    "questions": [
+      {
+        "q": "Last Sunday, our class ________ money for poor students.",
+        "o": ["raises", "raised", "raising", "raise"],
+        "a": 1,
+        "vi": "Chủ nhật tuần trước, lớp chúng tôi đã gây quỹ cho học sinh nghèo.",
+        "ex": "Có 'Last Sunday' nên chia động từ ở thì Quá khứ đơn: raised."
+      },
+      {
+        "q": "My mother often does ________ work at the local hospital.",
+        "o": ["charity", "hobby", "stamp", "sport"],
+        "a": 0,
+        "vi": "Mẹ tôi thường làm công việc từ thiện ở bệnh viện địa phương.",
+        "ex": "Cụm từ 'charity work' nghĩa là công việc từ thiện."
+      },
+      {
+        "q": "Lan usually ________ as a volunteer every summer.",
+        "o": ["worked", "works", "work", "working"],
+        "a": 1,
+        "vi": "Lan thường làm tình nguyện viên vào mỗi mùa hè.",
+        "ex": "Có 'usually' và 'every summer' diễn tả thói quen ở hiện tại, chủ ngữ số ít (Lan) nên động từ chia 'works'."
+      },
+      {
+        "q": "Nam enjoys ________ in his free time.",
+        "o": ["collecting stamps", "collect stamp", "collected stamps", "collects stamp"],
+        "a": 0,
+        "vi": "Nam thích sưu tầm tem vào thời gian rảnh rỗi.",
+        "ex": "Sau động từ 'enjoy' dùng V-ing: collecting stamps."
+      },
+      {
+        "q": "Yesterday, my brother ________ football with his friends.",
+        "o": ["does sport", "do sport", "did sport", "doing sport"],
+        "a": 2,
+        "vi": "Hôm qua, anh trai tôi đã chơi thể thao (bóng đá) với bạn bè.",
+        "ex": "Có 'Yesterday' nên chia động từ ở thì Quá khứ đơn: did sport."
+      },
+      {
+        "q": "Many ________ need help from kind people.",
+        "o": ["hobbies", "communities", "street children", "vegetables"],
+        "a": 2,
+        "vi": "Nhiều trẻ em đường phố cần sự giúp đỡ từ những người tốt bụng.",
+        "ex": "Danh từ 'street children' nghĩa là trẻ em đường phố."
+      },
+      {
+        "q": "What is your favorite ________?",
+        "o": ["volunteer", "hobby", "community", "photo"],
+        "a": 1,
+        "vi": "Sở thích yêu thích của bạn là gì?",
+        "ex": "Danh từ 'hobby' nghĩa là sở thích."
+      },
+      {
+        "q": "Last winter, I had ________ because the weather was very cold.",
+        "o": ["street children", "hobby", "chapped lips", "stamps"],
+        "a": 2,
+        "vi": "Mùa đông năm ngoái, tôi bị nứt nẻ môi vì thời tiết rất lạnh.",
+        "ex": "Cụm từ 'chapped lips' nghĩa là môi bị nứt nẻ."
+      },
+      {
+        "q": "My father usually ________ photos when he travels.",
+        "o": ["takes", "took", "taking", "take"],
+        "a": 0,
+        "vi": "Bố tôi thường chụp ảnh khi ông ấy đi du lịch.",
+        "ex": "Có 'usually' diễn tả thói quen ở hiện tại, chủ ngữ số ít (My father) nên chia 'takes'."
+      },
+      {
+        "q": "Last weekend, we cleaned the park to help our ________.",
+        "o": ["community", "stamp", "hobby", "lip"],
+        "a": 0,
+        "vi": "Cuối tuần trước, chúng tôi đã dọn dẹp công viên để giúp đỡ cộng đồng.",
+        "ex": "Danh từ 'community' nghĩa là cộng đồng."
+      },
+      {
+        "q": "People in ________ often have difficult lives.",
+        "o": ["mountainous areas", "photos", "hobbies", "sports"],
+        "a": 0,
+        "vi": "Người dân ở vùng núi thường có cuộc sống khó khăn.",
+        "ex": "Cụm danh từ 'mountainous areas' nghĩa là các vùng núi."
+      },
+      {
+        "q": "My grandmother grows many ________ in her garden.",
+        "o": ["volunteers", "coloured vegetables", "stamps", "photos"],
+        "a": 1,
+        "vi": "Bà tôi trồng nhiều rau củ quả có màu trong vườn.",
+        "ex": "Cụm từ 'coloured vegetables' nghĩa là rau củ quả có màu."
+      },
+      {
+        "q": "Every year, students ________ money for charity projects.",
+        "o": ["raise", "raised", "raising", "raisesed"],
+        "a": 0,
+        "vi": "Mỗi năm, học sinh gây quỹ tiền cho các dự án từ thiện.",
+        "ex": "Có 'Every year' chia thì Hiện tại đơn, chủ ngữ số nhiều (students) dùng động từ nguyên mẫu 'raise'."
+      },
+      {
+        "q": "Yesterday, Hoa ________ some beautiful photos of flowers.",
+        "o": ["takes", "taking", "took", "take"],
+        "a": 2,
+        "vi": "Hôm qua, Hoa đã chụp một số bức ảnh hoa rất đẹp.",
+        "ex": "Có 'Yesterday' nên chia Quá khứ đơn của 'take' là 'took'."
+      },
+      {
+        "q": "My sister usually ________ stamps from different countries.",
+        "o": ["collected", "collecting", "collects", "collect"],
+        "a": 2,
+        "vi": "Chị gái tôi thường sưu tầm tem từ các quốc gia khác nhau.",
+        "ex": "Có 'usually' chia Hiện tại đơn, chủ ngữ số ít (My sister) nên chia 'collects'."
+      },
+      {
+        "q": "Last month, a group of volunteers ________ books for street children.",
+        "o": ["collects", "collected", "collecting", "collect"],
+        "a": 1,
+        "vi": "Tháng trước, một nhóm tình nguyện viên đã thu gom sách cho trẻ em đường phố.",
+        "ex": "Có 'Last month' nên chia động từ ở thì Quá khứ đơn: collected."
+      },
+      {
+        "q": "We often ________ sport after school.",
+        "o": ["did", "do", "does", "doing"],
+        "a": 1,
+        "vi": "Chúng tôi thường chơi thể thao sau giờ học.",
+        "ex": "Có 'often' chia Hiện tại đơn, chủ ngữ 'We' dùng động từ nguyên mẫu 'do'."
+      },
+      {
+        "q": "Last year, my family ________ to a mountainous area.",
+        "o": ["travels", "travel", "traveled", "traveling"],
+        "a": 2,
+        "vi": "Năm ngoái, gia đình tôi đã đi du lịch tới một vùng núi.",
+        "ex": "Có 'Last year' nên chia động từ ở thì Quá khứ đơn: traveled."
+      },
+      {
+        "q": "The children usually ________ in community activities.",
+        "o": ["join", "joined", "joining", "joinsed"],
+        "a": 0,
+        "vi": "Trẻ em thường tham gia vào các hoạt động cộng đồng.",
+        "ex": "Có 'usually' chia Hiện tại đơn, chủ ngữ số nhiều (The children) dùng động từ nguyên mẫu 'join'."
+      },
+      {
+        "q": "Yesterday, our school ________ a charity event and raised a lot of money.",
+        "o": ["organizes", "organize", "organized", "organizing"],
+        "a": 2,
+        "vi": "Hôm qua, trường chúng tôi đã tổ chức một sự kiện từ thiện và quyên góp được nhiều tiền.",
+        "ex": "Có 'Yesterday' nên chia động từ ở thì Quá khứ đơn: organized."
+      }
+    ]
+  },
+  {
+    "type": "fill",
+    "name": "Phần 2 · Điền từ",
+    "hint": "Điền từ/cụm từ thích hợp vào chỗ trống (và chia thì của động từ nếu cần)",
+    "questions": [
+      {
+        "q": "Cold weather in winter often causes ________, so you should use lip balm every day.",
+        "words": ["chapped lips", "organized", "street children", "mountainous area", "coloured vegetables"],
+        "a": ["chapped lips"],
+        "vi": "Thời tiết lạnh vào mùa đông thường gây ra môi nứt nẻ, vì vậy bạn nên dùng son dưỡng môi mỗi ngày.",
+        "ex": "Hiện tại đơn diễn tả sự thật chung. Từ cần điền là 'chapped lips' (môi nứt nẻ)."
+      },
+      {
+        "q": "Last week, our class ________ to support poor people in our local ________.",
+        "words": ["raised money", "community", "raise money","organized",  "charity"],
+        "a": ["raised money", "community"],
+        "vi": "Tuần trước, lớp chúng tôi đã gây quỹ để hỗ trợ những người khó khăn trong cộng đồng địa phương.",
+        "ex": "Có 'Last week' -> chia Quá khứ đơn: raised money. Từ thứ hai điền danh từ 'community'."
+      },
+      {
+        "q": "Eating ________ like carrots, tomatoes, and pumpkins provides many essential vitamins.",
+        "words": ["coloured vegetables", "chapped lips", "mountainous area","organized", "hobbies"],
+        "a": ["coloured vegetables"],
+        "vi": "Ăn rau củ quả có màu như cà rốt, cà chua và bí đỏ cung cấp nhiều vitamin thiết yếu.",
+        "ex": "Hiện tại đơn diễn tả sự thật về dinh dưỡng. Cụm từ cần điền là 'coloured vegetables'."
+      },
+      {
+        "q": "Yesterday, Lan and her friends ________ to teach English to ________ in the city center.",
+        "words": ["volunteered", "street children", "volunteer", "community", "organized"],
+        "a": ["volunteered", "street children"],
+        "vi": "Hôm qua, Lan và các bạn của cô ấy đã tình nguyện dạy tiếng Anh cho trẻ em đường phố ở trung tâm thành phố.",
+        "ex": "Có 'Yesterday' -> chia Quá khứ đơn: volunteered. Từ thứ hai điền 'street children'."
+      },
+      {
+        "q": "My father's favorite ________ is to ________; he has hundreds of them now.",
+        "words": ["hobby", "collect stamps", "hobbies", "collected stamps", "organized"],
+        "a": ["hobby", "collect stamps"],
+        "vi": "Sở thích yêu thích của bố tôi là sưu tầm tem; hiện tại ông có hàng trăm con tem.",
+        "ex": "Sở thích ở hiện tại: từ thứ nhất điền 'hobby', từ thứ hai điền 'collect stamps'."
+      }
+    ]
+  }
+]
+}
