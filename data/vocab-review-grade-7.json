@@ -167,11 +167,11 @@
         "ex": "Hiện tại đơn diễn tả sự thật chung. Từ cần điền là 'chapped lips' (môi nứt nẻ)."
       },
       {
-        "q": "Last week, our class ________ to support poor people in our local ________.",
+        "q": "Last week, our class ________ to support poor people in our local community.",
         "words": ["raised money", "community", "raise money","organized",  "charity"],
-        "a": ["raised money", "community"],
+        "a": ["raised money"],
         "vi": "Tuần trước, lớp chúng tôi đã gây quỹ để hỗ trợ những người khó khăn trong cộng đồng địa phương.",
-        "ex": "Có 'Last week' -> chia Quá khứ đơn: raised money. Từ thứ hai điền danh từ 'community'."
+        "ex": "Có 'Last week' -> chia Quá khứ đơn: raised money."
       },
       {
         "q": "Eating ________ like carrots, tomatoes, and pumpkins provides many essential vitamins.",
@@ -181,18 +181,18 @@
         "ex": "Hiện tại đơn diễn tả sự thật về dinh dưỡng. Cụm từ cần điền là 'coloured vegetables'."
       },
       {
-        "q": "Yesterday, Lan and her friends ________ to teach English to ________ in the city center.",
+        "q": "Yesterday, Lan and her friends ________ to teach English to street schildren in the city center.",
         "words": ["volunteered", "street children", "volunteer", "community", "organized"],
-        "a": ["volunteered", "street children"],
+        "a": ["volunteered"],
         "vi": "Hôm qua, Lan và các bạn của cô ấy đã tình nguyện dạy tiếng Anh cho trẻ em đường phố ở trung tâm thành phố.",
-        "ex": "Có 'Yesterday' -> chia Quá khứ đơn: volunteered. Từ thứ hai điền 'street children'."
+        "ex": "Có 'Yesterday' -> chia Quá khứ đơn: volunteered."
       },
       {
         "q": "My father's favorite ________ is to ________; he has hundreds of them now.",
         "words": ["hobby", "collect stamps", "hobbies", "collected stamps", "organized"],
-        "a": ["hobby", "collect stamps"],
+        "a": ["hobby"],
         "vi": "Sở thích yêu thích của bố tôi là sưu tầm tem; hiện tại ông có hàng trăm con tem.",
-        "ex": "Sở thích ở hiện tại: từ thứ nhất điền 'hobby', từ thứ hai điền 'collect stamps'."
+        "ex": "Sở thích: từ cần điền 'hobby'"
       }
     ]
   }
