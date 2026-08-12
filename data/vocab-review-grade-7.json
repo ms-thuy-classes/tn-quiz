@@ -188,7 +188,7 @@
         "ex": "Có 'Yesterday' -> chia Quá khứ đơn: volunteered."
       },
       {
-        "q": "My father's favorite ________ is to ________; he has hundreds of them now.",
+        "q": "My father's favorite ________ is to collect stamps; he has hundreds of them now.",
         "words": ["hobby", "collect stamps", "hobbies", "collected stamps", "organized"],
         "a": ["hobby"],
         "vi": "Sở thích yêu thích của bố tôi là sưu tầm tem; hiện tại ông có hàng trăm con tem.",
