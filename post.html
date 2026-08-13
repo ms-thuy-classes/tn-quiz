@@ -48,16 +48,32 @@
       <footer class="foot">Made with 💜 by Ms. Thúy</footer>
     </section>
 
-    <!-- MÀN 2: Quiz -->
+    <!-- MÀN 2: Quiz (ĐÃ CẬP NHẬT HEADER MỚI) -->
     <section class="screen" id="screenQuiz" hidden>
-      <div class="quiz-top">
-        <button id="exitBtn" class="icon-btn" title="Thoát">✕</button>
-        <div class="progress"><div class="progress-fill" id="progressFill"></div></div>
-        <div class="quiz-stats">
-          <span class="q-counter">Câu <b id="qNow">1</b>/<b id="qTotal">0</b></span>
-          <span class="score-pill" id="liveScore">✓ 0</span>
+      
+      <!-- Quiz Header: Timer, Exit, Progress, Score -->
+      <div class="quiz-header" id="quizHeader">
+        <div class="quiz-header-top">
+          <button id="exitBtn" class="icon-btn" title="Thoát" style="margin-right: 8px;">✕</button>
+          
+          <div class="timer-pill" id="timerPill">
+            <span>⏱️</span>
+            <span id="timerDisplay">00:00</span>
+          </div>
+          
+          <div class="question-counter">
+            Câu <b id="qNow">1</b> / <b id="qTotal">0</b>
+          </div>
+          
+          <div class="score-pill" id="liveScore">✓ 0 (0.0đ)</div>
+        </div>
+        
+        <div class="progress-bar-bg">
+          <div class="progress-bar-fill" id="progressFill"></div>
         </div>
       </div>
+      <!-- Hết Quiz Header -->
+
       <div class="q-stage" id="qStage"></div>
       <div class="sr-only" aria-live="polite" id="ariaFeedback"></div>
     </section>
