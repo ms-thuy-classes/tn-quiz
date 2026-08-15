@@ -1,4 +1,15 @@
 [
+    {
+    "id": "vocab-review-buying-selling",
+    "title": "Quiz ôn từ vựng về mua sắm",
+    "tags": ["IELTS", "Vocabulary", "Grammar"],
+    "cover": "️🎧",
+    "gradient": "linear-gradient(135deg,#7a67ee,#5a9df5 55%,#3ecfa0)",
+    "description": "20 trắc nghiệm và 10 câu điền từ.",
+    "duration": "45 phút",
+    "questionCount": 30,
+    "featured": true
+  },
    {
     "id": "vocab-review-grade-7",
     "title": "Quiz ôn từ vựng lớp 7",
