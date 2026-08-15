@@ -1,1 +1,235 @@
-a
+{
+  "id": "vocab-topic-vocabulary-buying-selling",
+  "title": "Vocabulary & Grammar · Topic Vocabulary & Phrasal Verbs",
+  "tags": ["Vocabulary", "Grammar", "Phrasal Verbs"],
+  "cover": "🛒",
+  "gradient": "linear-gradient(135deg,#7a67ee,#5a9df5 55%,#3ecfa0)",
+  "description": "30 câu trắc nghiệm & điền từ về chủ đề mua sắm, tài chính và từ vựng liên quan.",
+  "duration": "45 phút",
+  "parts": [
+    {
+      "type": "mcq",
+      "name": "Phần 1 · Trắc nghiệm đục lỗ",
+      "hint": "Choose the correct answer",
+      "questions": [
+        {
+          "q": "Can I pay for this shirt ________ cash, or do you only accept cards?",
+          "o": ["on", "in", "by", "for"],
+          "a": 1,
+          "vi": "Tôi có thể trả cho chiếc áo sơ mi này bằng tiền mặt không, hay bạn chỉ nhận thẻ?",
+          "ex": "Cụm từ 'in cash' có nghĩa là thanh toán bằng tiền mặt."
+        },
+        {
+          "q": "The company hopes to make a huge ________ from its new line of electronics.",
+          "o": ["profit", "debt", "fee", "bargain"],
+          "a": 0,
+          "vi": "Công ty hy vọng đạt được lợi nhuận lớn từ dòng sản phẩm điện tử mới.",
+          "ex": "'profit' nghĩa là lợi nhuận."
+        },
+        {
+          "q": "Buying a house in the city center will cost a ________.",
+          "o": ["variety", "receipt", "fortune", "change"],
+          "a": 2,
+          "vi": "Mua một ngôi nhà ở trung tâm thành phố sẽ tốn cả một gia tài.",
+          "ex": "Thành ngữ 'cost a fortune' nghĩa là tốn rất nhiều tiền / tốn cả gia tài."
+        },
+        {
+          "q": "Don't forget to keep your ________ in case you want to return the dress.",
+          "o": ["catalogue", "receipt", "advertisement", "coin"],
+          "a": 1,
+          "vi": "Đừng quên giữ lại hóa đơn / biên lai phòng trường hợp bạn muốn trả lại chiếc váy.",
+          "ex": "'receipt' nghĩa là hóa đơn, biên lai."
+        },
+        {
+          "q": "The supermarket offers a wide ________ of fresh fruits and vegetables.",
+          "o": ["change", "brand", "property", "variety"],
+          "a": 3,
+          "vi": "Siêu thị cung cấp sự đa dạng các loại trái cây và rau củ tươi.",
+          "ex": "Cụm 'a wide variety of' nghĩa là đa dạng các loại."
+        },
+        {
+          "q": "We need to ________ money every month if we want to buy a new car next year.",
+          "o": ["save", "waste", "owe", "import"],
+          "a": 0,
+          "vi": "Chúng ta cần tiết kiệm tiền mỗi tháng nếu muốn mua một chiếc ô tô mới vào năm tới.",
+          "ex": "'save' nghĩa là tiết kiệm."
+        },
+        {
+          "q": "He paid for the luxury dinner ________ credit card.",
+          "o": ["in", "at", "by", "with"],
+          "a": 2,
+          "vi": "Anh ấy đã trả tiền cho bữa tối sang trọng bằng thẻ tín dụng.",
+          "ex": "Cụm từ 'by credit card' nghĩa là thanh toán bằng thẻ tín dụng."
+        },
+        {
+          "q": "The shop assistant gave me the wrong ________ after I handed her a $50 note.",
+          "o": ["change", "fee", "debt", "bargain"],
+          "a": 0,
+          "vi": "Nhân viên bán hàng đã đưa nhầm tiền thừa cho tôi sau khi tôi đưa cô ấy tờ 50 đô la.",
+          "ex": "'change' có nghĩa là tiền thừa / tiền thối lại."
+        },
+        {
+          "q": "This laptop is in very bad ________, so I don't think you should buy it.",
+          "o": ["debt", "rent", "condition", "sale"],
+          "a": 2,
+          "vi": "Chiếc máy tính xách tay này ở trong tình trạng rất tồi tệ, vì vậy tôi không nghĩ bạn nên mua nó.",
+          "ex": "Cụm từ 'in bad condition' nghĩa là ở trong tình trạng tồi tệ/kém chất lượng."
+        },
+        {
+          "q": "Vietnam ________ a large amount of rice to other countries every year.",
+          "o": ["imports", "exports", "demands", "wastes"],
+          "a": 1,
+          "vi": "Việt Nam xuất khẩu một lượng lớn gạo sang các nước khác mỗi năm.",
+          "ex": "'export' nghĩa là xuất khẩu."
+        },
+        {
+          "q": "I can't ________ to buy that expensive jacket right now; my budget is limited.",
+          "o": ["afford", "require", "obtain", "select"],
+          "a": 0,
+          "vi": "Tôi không thể chi trả để mua chiếc áo chất lượng đắt tiền đó ngay lúc này; ngân sách của tôi có hạn.",
+          "ex": "'afford' nghĩa là có thể chi trả / có đủ tiền mua."
+        },
+        {
+          "q": "Is this apartment ________ rent or ________ sale?",
+          "o": ["for / for", "in / in", "by / by", "on / on"],
+          "a": 0,
+          "vi": "Căn hộ này để cho thuê hay để bán?",
+          "ex": "Cụm 'for rent' (để cho thuê) và 'for sale' (để bán)."
+        },
+        {
+          "q": "The supermarket is ________ free samples of their new coffee to all customers.",
+          "o": ["giving away", "taking back", "adding up", "taking down"],
+          "a": 0,
+          "vi": "Siêu thị đang phát miễn phí mẫu cà phê mới cho tất cả khách hàng.",
+          "ex": "'give away' nghĩa là tặng miễn phí."
+        },
+        {
+          "q": "Please ________! We only have five minutes before the store closes.",
+          "o": ["pay back", "save up", "hurry up", "come back"],
+          "a": 2,
+          "vi": "Xin hãy nhanh lên! Chúng ta chỉ còn năm phút trước khi cửa hàng đóng cửa.",
+          "ex": "'hurry up' nghĩa là nhanh lên."
+        },
+        {
+          "q": "I will loan you $20, but you must ________ me ________ by next Monday.",
+          "o": ["take / back", "pay / back", "add / up", "give / away"],
+          "a": 1,
+          "vi": "Tôi sẽ cho bạn vay 20 đô la, nhưng bạn phải trả lại tiền cho tôi trước thứ Hai tuần sau.",
+          "ex": "'pay back' nghĩa là trả lại tiền."
+        },
+        {
+          "q": "If the shoes don't fit, you can ________ them ________ to the shop for a full refund.",
+          "o": ["take / back", "take / down", "come / back", "add / up"],
+          "a": 0,
+          "vi": "Nếu đôi giày không vừa, bạn có thể mang trả lại cửa hàng để được hoàn tiền đầy đủ.",
+          "ex": "'take back' nghĩa là mang trả lại."
+        },
+        {
+          "q": "The worker used a ladder to ________ the old banner from the wall.",
+          "o": ["give away", "take down", "save up", "hurry up"],
+          "a": 1,
+          "vi": "Người công nhân đã dùng thang để dỡ tấm biểu ngữ cũ xuống khỏi tường.",
+          "ex": "'take down' nghĩa là gỡ xuống / dời đi xuống."
+        },
+        {
+          "q": "The accountant had to ________ all the figures on the bill to make sure there were no mistakes.",
+          "o": ["add up", "pay back", "take back", "come back"],
+          "a": 0,
+          "vi": "Kế toán phải cộng tất cả các con số trên hóa đơn để đảm bảo không có sai sót.",
+          "ex": "'add up' nghĩa là tính tổng / cộng lại."
+        },
+        {
+          "q": "After spending too much money on luxury goods, he found himself deep ________ debt.",
+          "o": ["for", "by", "in", "on"],
+          "a": 2,
+          "vi": "Sau khi chi quá nhiều tiền vào hàng hóa xa xỉ, anh ta thấy mình mắc nợ ngập đầu.",
+          "ex": "Cụm 'in debt' nghĩa là đang mắc nợ."
+        },
+        {
+          "q": "My brother is currently ________ for a new gaming console.",
+          "o": ["saving up", "taking down", "giving away", "adding up"],
+          "a": 0,
+          "vi": "Anh trai tôi hiện đang tiết kiệm tiền để mua một máy chơi game mới.",
+          "ex": "'save up (for)' nghĩa là tiết kiệm tiền cho một mục đích cụ thể."
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "name": "Phần 2 · Điền từ vào chỗ trống",
+      "hint": "Chọn từ thích hợp trong khung để điền vào chỗ trống",
+      "questions": [
+        {
+          "q": "You can look through our product ________ to see all available items and prices.",
+          "words": ["catalogue", "advertisement", "bargain", "brand", "customer", "invest", "obtain", "owe", "purchase", "require"],
+          "a": ["catalogue"],
+          "vi": "Bạn có thể xem qua danh mục sản phẩm của chúng tôi để biết tất cả các mặt hàng hiện có và giá cả.",
+          "ex": "'catalogue' nghĩa là danh mục sản phẩm."
+        },
+        {
+          "q": "The cashier greeted every ________ with a warm smile.",
+          "words": ["customer", "advertisement", "bargain", "brand", "catalogue", "invest", "obtain", "owe", "purchase", "require"],
+          "a": ["customer"],
+          "vi": "Thu ngân chào đón mỗi khách hàng bằng một nụ cười ấm áp.",
+          "ex": "'customer' nghĩa là khách hàng."
+        },
+        {
+          "q": "I managed to get a real ________ at the market—this coat was half price!",
+          "words": ["bargain", "advertisement", "brand", "catalogue", "customer", "invest", "obtain", "owe", "purchase", "require"],
+          "a": ["bargain"],
+          "vi": "Tôi đã mua được một món hời lớn ở chợ—chiếc áo khoác này giảm giá một nửa!",
+          "ex": "'bargain' nghĩa là món hời / giá rẻ."
+        },
+        {
+          "q": "You must show a valid ID if you wish to ________ official documents from the office.",
+          "words": ["obtain", "advertisement", "bargain", "brand", "catalogue", "customer", "invest", "owe", "purchase", "require"],
+          "a": ["obtain"],
+          "vi": "Bạn phải xuất trình giấy tờ tùy thân hợp lệ nếu muốn có được các tài liệu chính thức từ văn phòng.",
+          "ex": "'obtain' nghĩa là đạt được / lấy được."
+        },
+        {
+          "q": "Which ________ of shoes do you prefer: Nike or Adidas?",
+          "words": ["brand", "advertisement", "bargain", "catalogue", "customer", "invest", "obtain", "owe", "purchase", "require"],
+          "a": ["brand"],
+          "vi": "Bạn thích thương hiệu giày nào hơn: Nike hay Adidas?",
+          "ex": "'brand' nghĩa là thương hiệu / nhãn hàng."
+        },
+        {
+          "q": "I saw an interesting ________ on TV for a new smartphone yesterday.",
+          "words": ["advertisement", "bargain", "brand", "catalogue", "customer", "invest", "obtain", "owe", "purchase", "require"],
+          "a": ["advertisement"],
+          "vi": "Hôm qua tôi thấy một quảng cáo thú vị trên TV về chiếc điện thoại thông minh mới.",
+          "ex": "'advertisement' nghĩa là quảng cáo."
+        },
+        {
+          "q": "I still ________ my friend $50 that I borrowed last week.",
+          "words": ["owe", "advertisement", "bargain", "brand", "catalogue", "customer", "invest", "obtain", "purchase", "require"],
+          "a": ["owe"],
+          "vi": "Tôi vẫn còn nợ bạn tôi 50 đô la mà tôi đã vay tuần trước.",
+          "ex": "'owe' nghĩa là nợ."
+        },
+        {
+          "q": "Smart businessmen always try to ________ their money in promising startups.",
+          "words": ["invest", "advertisement", "bargain", "brand", "catalogue", "customer", "obtain", "owe", "purchase", "require"],
+          "a": ["invest"],
+          "vi": "Các doanh nhân thông minh luôn cố gắng đầu tư tiền của họ vào các công ty khởi nghiệp đầy triển vọng.",
+          "ex": "'invest' nghĩa là đầu tư."
+        },
+        {
+          "q": "Please keep your proof of ________ if you want to request a replacement.",
+          "words": ["purchase", "advertisement", "bargain", "brand", "catalogue", "customer", "invest", "obtain", "owe", "require"],
+          "a": ["purchase"],
+          "vi": "Vui lòng giữ lại bằng chứng mua hàng nếu bạn muốn yêu cầu đổi trả.",
+          "ex": "'purchase' nghĩa là sự mua hàng / vật mua."
+        },
+        {
+          "q": "Most modern jobs ________ employees to have basic computer skills.",
+          "words": ["require", "advertisement", "bargain", "brand", "catalogue", "customer", "invest", "obtain", "owe", "purchase"],
+          "a": ["require"],
+          "vi": "Hầu hết các công việc hiện đại đều yêu cầu nhân viên phải có kỹ năng tin học cơ bản.",
+          "ex": "'require' nghĩa là yêu cầu."
+        }
+      ]
+    }
+  ]
+}
