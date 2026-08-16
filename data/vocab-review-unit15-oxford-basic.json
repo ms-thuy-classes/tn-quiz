@@ -1,1 +1,469 @@
-
+{
+  "id": "vocab-review-unit15-oxford-basic",
+  "title": "Vocabulary · Unit 15 · Relationships",
+  "tags": [
+    "Relationships",
+    "Vocabulary",
+    "Unit 15"
+  ],
+  "cover": "❤️",
+  "gradient": "linear-gradient(135deg,#7a67ee,#5a9df5 55%,#3ecfa0)",
+  "description": "30 câu trắc nghiệm & điền từ về chủ đề Relationships.",
+  "duration": "45 phút",
+  "parts": [
+    {
+      "type": "mcq",
+      "name": "Phần 1 · Trắc nghiệm",
+      "hint": "Choose the correct answer",
+      "questions": [
+        {
+          "q": "Tom and Sarah decided to get __________ after dating for five years.",
+          "o": [
+            "married",
+            "together",
+            "divorced",
+            "split"
+          ],
+          "a": 0,
+          "vi": "Tom và Sarah quyết định kết hôn sau khi hẹn hò được 5 năm.",
+          "ex": "Cụm từ 'get married' nghĩa là kết hôn."
+        },
+        {
+          "q": "A person you live with, but not in a romantic relationship, is called a __________.",
+          "o": [
+            "partner",
+            "flatmate",
+            "couple",
+            "ex-boyfriend"
+          ],
+          "a": 1,
+          "vi": "Người mà bạn sống cùng nhưng không phải mối quan hệ yêu đương được gọi là bạn cùng phòng.",
+          "ex": "'flatmate' là bạn cùng sống trong một căn hộ."
+        },
+        {
+          "q": "My sister and her husband are a very happy __________.",
+          "o": [
+            "flatmates",
+            "advice",
+            "couple",
+            "relationship"
+          ],
+          "a": 2,
+          "vi": "Chị tôi và chồng chị ấy là một cặp đôi rất hạnh phúc.",
+          "ex": "'couple' chỉ hai người/một cặp đôi."
+        },
+        {
+          "q": "If two people stopped having a romantic relationship, they __________.",
+          "o": [
+            "get to know each other",
+            "split up",
+            "get on well",
+            "become friends"
+          ],
+          "a": 1,
+          "vi": "Nếu hai người chấm dứt mối quan hệ tình cảm, họ chia tay.",
+          "ex": "'split up' nghĩa là chia tay/chấm dứt mối quan hệ."
+        },
+        {
+          "q": "Max is my __________. We have been together for two years.",
+          "o": [
+            "partner",
+            "advice",
+            "flatmate",
+            "ex-husband"
+          ],
+          "a": 0,
+          "vi": "Max là bạn đời/người yêu của tôi. Chúng tôi đã ở bên nhau 2 năm.",
+          "ex": "'partner' chỉ người yêu, bạn đời."
+        },
+        {
+          "q": "They used to be married, but now they are __________.",
+          "o": [
+            "together",
+            "divorced",
+            "flatmates",
+            "close friends"
+          ],
+          "a": 1,
+          "vi": "Họ từng kết hôn, nhưng bây giờ họ đã ly hôn.",
+          "ex": "'divorced' nghĩa là đã ly hôn."
+        },
+        {
+          "q": "I need some __________ on how to solve this problem. Can you help me?",
+          "o": [
+            "relationship",
+            "partner",
+            "couple",
+            "advice"
+          ],
+          "a": 3,
+          "vi": "Tôi cần xin một vài lời khuyên về cách giải quyết vấn đề này. Bạn có thể giúp tôi không?",
+          "ex": "'advice' nghĩa là lời khuyên."
+        },
+        {
+          "q": "Mark is her __________; they broke up last year.",
+          "o": [
+            "husband",
+            "partner",
+            "ex-boyfriend",
+            "closest friend"
+          ],
+          "a": 2,
+          "vi": "Mark là bạn trai cũ của cô ấy; họ đã chia tay năm ngoái.",
+          "ex": "'ex-boyfriend' là bạn trai cũ."
+        },
+        {
+          "q": "Pam and Mike really love __________.",
+          "o": [
+            "flatmates",
+            "each other",
+            "together",
+            "advice"
+          ],
+          "a": 1,
+          "vi": "Pam và Mike thực sự yêu thương lẫn nhau.",
+          "ex": "'each other' nghĩa là lẫn nhau."
+        },
+        {
+          "q": "We first __________ at university in 2018.",
+          "o": [
+            "met",
+            "split up",
+            "divorced",
+            "married"
+          ],
+          "a": 0,
+          "vi": "Chúng tôi gặp nhau lần đầu tại trường đại học vào năm 2018.",
+          "ex": "'met' là dạng quá khứ của 'meet' (gặp gỡ lần đầu)."
+        },
+        {
+          "q": "Do you __________ well with your roommates?",
+          "o": [
+            "become",
+            "get on",
+            "split",
+            "see"
+          ],
+          "a": 1,
+          "vi": "Bạn có hòa hợp tốt với những người bạn cùng phòng không?",
+          "ex": "Cụm từ 'get on (well) with someone' có nghĩa là hòa hợp/có mối quan hệ tốt với ai."
+        },
+        {
+          "q": "It takes time to __________ someone when you move to a new city.",
+          "o": [
+            "get to know",
+            "split up",
+            "be divorced",
+            "give advice"
+          ],
+          "a": 0,
+          "vi": "Cần có thời gian để tìm hiểu/làm quen với ai đó khi bạn chuyển đến một thành phố mới.",
+          "ex": "'get to know someone' nghĩa là tìm hiểu, làm quen với ai."
+        },
+        {
+          "q": "Anna is my __________ friend. I tell her all my secrets.",
+          "o": [
+            "ex",
+            "divorced",
+            "closest",
+            "split"
+          ],
+          "a": 2,
+          "vi": "Anna là người bạn thân nhất của tôi. Tôi kể cho cô ấy nghe mọi bí mật.",
+          "ex": "'closest friend' có nghĩa là bạn thân nhất."
+        },
+        {
+          "q": "They are planning to have a __________ next year.",
+          "o": [
+            "baby",
+            "flatmate",
+            "advice",
+            "couple"
+          ],
+          "a": 0,
+          "vi": "Họ đang có kế hoạch sinh con vào năm tới.",
+          "ex": "'have a baby' nghĩa là sinh con."
+        },
+        {
+          "q": "I haven't __________ my best friend for weeks because she's busy with work.",
+          "o": [
+            "known",
+            "seen",
+            "split",
+            "married"
+          ],
+          "a": 1,
+          "vi": "Tôi đã không gặp người bạn thân nhất của mình nhiều tuần rồi vì cô ấy bận công việc.",
+          "ex": "'see someone' nghĩa là gặp gỡ/thăm hỏi ai đó."
+        },
+        {
+          "q": "I have known her for a long time, so we have a good __________.",
+          "o": [
+            "advice",
+            "flatmate",
+            "relationship",
+            "couple"
+          ],
+          "a": 2,
+          "vi": "Tôi đã biết cô ấy một thời gian dài, nên chúng tôi có một mối quan hệ tốt đẹp.",
+          "ex": "'relationship' là mối quan hệ."
+        },
+        {
+          "q": "John and Mary have __________ together for three years.",
+          "o": [
+            "met",
+            "been",
+            "split",
+            "asked"
+          ],
+          "a": 1,
+          "vi": "John và Mary đã ở bên nhau được 3 năm.",
+          "ex": "'be together' nghĩa là ở bên nhau/hẹn hò."
+        },
+        {
+          "q": "He started to __________ her after meeting at a party.",
+          "o": [
+            "go out with",
+            "split up",
+            "give advice",
+            "become flatmate"
+          ],
+          "a": 0,
+          "vi": "Anh ấy bắt đầu hẹn hò với cô ấy sau khi gặp nhau tại một bữa tiệc.",
+          "ex": "'go out with someone' nghĩa là hẹn hò với ai."
+        },
+        {
+          "q": "When you start living together as roommates in an apartment, you become __________.",
+          "o": [
+            "couples",
+            "ex-boyfriends",
+            "flatmates",
+            "partners"
+          ],
+          "a": 2,
+          "vi": "Khi các bạn bắt đầu sống chung như bạn phòng trong một căn hộ, các bạn trở thành bạn cùng phòng.",
+          "ex": "'become flatmates' có nghĩa là trở thành bạn cùng phòng."
+        },
+        {
+          "q": "She always gives me good __________ when I have trouble at work.",
+          "o": [
+            "advice",
+            "partner",
+            "relationship",
+            "couple"
+          ],
+          "a": 0,
+          "vi": "Cô ấy luôn cho tôi những lời khuyên tốt khi tôi gặp rắc rối trong công việc.",
+          "ex": "'give advice' nghĩa là đưa ra lời khuyên."
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "name": "Phần 2 · Điền từ",
+      "hint": "Chọn từ thích hợp trong khung để điền vào chỗ trống",
+      "questions": [
+        {
+          "q": "My parents were married for twenty years, but now they are __________.",
+          "words": [
+            "partner",
+            "split up",
+            "get on",
+            "met",
+            "flatmates",
+            "advice",
+            "get to know",
+            "divorced",
+            "closest",
+            "each other"
+          ],
+          "a": [
+            "divorced"
+          ],
+          "vi": "Bố mẹ tôi đã kết hôn 20 năm, nhưng giờ họ đã ly hôn.",
+          "ex": "Đáp án đúng là 'divorced' (đã ly hôn)."
+        },
+        {
+          "q": "We first __________ at a coffee shop three years ago.",
+          "words": [
+            "partner",
+            "split up",
+            "get on",
+            "met",
+            "flatmates",
+            "advice",
+            "get to know",
+            "divorced",
+            "closest",
+            "each other"
+          ],
+          "a": [
+            "met"
+          ],
+          "vi": "Chúng tôi gặp nhau lần đầu tại một quán cà phê 3 năm trước.",
+          "ex": "Đáp án đúng là 'met' (gặp mặt)."
+        },
+        {
+          "q": "If you have a problem, you should ask your parents for __________.",
+          "words": [
+            "partner",
+            "split up",
+            "get on",
+            "met",
+            "flatmates",
+            "advice",
+            "get to know",
+            "divorced",
+            "closest",
+            "each other"
+          ],
+          "a": [
+            "advice"
+          ],
+          "vi": "Nếu bạn có vấn đề, bạn nên xin lời khuyên từ bố mẹ.",
+          "ex": "Đáp án đúng là 'advice' (lời khuyên)."
+        },
+        {
+          "q": "It took a long time for us to __________ each other after we first moved in.",
+          "words": [
+            "partner",
+            "split up",
+            "get on",
+            "met",
+            "flatmates",
+            "advice",
+            "get to know",
+            "divorced",
+            "closest",
+            "each other"
+          ],
+          "a": [
+            "get to know"
+          ],
+          "vi": "Mất một thời gian dài để chúng tôi tìm hiểu lẫn nhau sau khi mới chuyển vào sống chung.",
+          "ex": "Đáp án đúng là 'get to know' (tìm hiểu/làm quen)."
+        },
+        {
+          "q": "They decided to __________ after arguing for months.",
+          "words": [
+            "partner",
+            "split up",
+            "get on",
+            "met",
+            "flatmates",
+            "advice",
+            "get to know",
+            "divorced",
+            "closest",
+            "each other"
+          ],
+          "a": [
+            "split up"
+          ],
+          "vi": "Họ quyết định chia tay sau nhiều tháng cãi vã.",
+          "ex": "Đáp án đúng là 'split up' (chia tay)."
+        },
+        {
+          "q": "She lives in a two-bedroom apartment with two __________.",
+          "words": [
+            "partner",
+            "split up",
+            "get on",
+            "met",
+            "flatmates",
+            "advice",
+            "get to know",
+            "divorced",
+            "closest",
+            "each other"
+          ],
+          "a": [
+            "flatmates"
+          ],
+          "vi": "Cô ấy sống trong một căn hộ hai phòng ngủ với hai người bạn cùng phòng.",
+          "ex": "Đáp án đúng là 'flatmates' (bạn cùng phòng)."
+        },
+        {
+          "q": "David is my __________ friend; I can share everything with him.",
+          "words": [
+            "partner",
+            "split up",
+            "get on",
+            "met",
+            "flatmates",
+            "advice",
+            "get to know",
+            "divorced",
+            "closest",
+            "each other"
+          ],
+          "a": [
+            "closest"
+          ],
+          "vi": "David là người bạn thân nhất của tôi; tôi có thể chia sẻ mọi thứ với anh ấy.",
+          "ex": "Đáp án đúng là 'closest' (thân nhất)."
+        },
+        {
+          "q": "Do you __________ well with your brother?",
+          "words": [
+            "partner",
+            "split up",
+            "get on",
+            "met",
+            "flatmates",
+            "advice",
+            "get to know",
+            "divorced",
+            "closest",
+            "each other"
+          ],
+          "a": [
+            "get on"
+          ],
+          "vi": "Bạn có hòa thuận với anh/em trai của bạn không?",
+          "ex": "Cụm 'get on well' mang nghĩa hòa thuận."
+        },
+        {
+          "q": "They always help __________ when one of them faces difficulties.",
+          "words": [
+            "partner",
+            "split up",
+            "get on",
+            "met",
+            "flatmates",
+            "advice",
+            "get to know",
+            "divorced",
+            "closest",
+            "each other"
+          ],
+          "a": [
+            "each other"
+          ],
+          "vi": "Họ luôn giúp đỡ lẫn nhau khi một trong hai gặp khó khăn.",
+          "ex": "Đáp án đúng là 'each other' (lẫn nhau)."
+        },
+        {
+          "q": "She lives with her __________ in London.",
+          "words": [
+            "partner",
+            "split up",
+            "get on",
+            "met",
+            "flatmates",
+            "advice",
+            "get to know",
+            "divorced",
+            "closest",
+            "each other"
+          ],
+          "a": [
+            "partner"
+          ],
+          "vi": "Cô ấy sống cùng bạn đời/người yêu của mình ở London.",
+          "ex": "Đáp án đúng là 'partner' (bạn đời/người yêu)."
+        }
+      ]
+    }
+  ]
+}
