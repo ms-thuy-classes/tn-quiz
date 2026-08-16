@@ -9,6 +9,7 @@
   "cover": "❤️",
   "gradient": "linear-gradient(135deg,#7a67ee,#5a9df5 55%,#3ecfa0)",
   "description": "30 câu trắc nghiệm & điền từ về chủ đề Relationships.",
+   "timeLimit": 600,
   "duration": "45 phút",
   "parts": [
     {
