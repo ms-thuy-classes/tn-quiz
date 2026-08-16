@@ -173,46 +173,31 @@
           "vi": "Ntakos là một món salad Crete làm từ pho mát dê tươi, cà chua và bánh mì.",
           "ex": "Audio: '...ntakos, a Cretan salad made with fresh goat's cheese, tomato, and bread.'"
         },
-        {
-          "qtype": "fill",
-          "q": "When Marianna was eighteen, she came to the UK to study at ________ University.",
-          "a": ["Kent"],
-          "words": ["Kent", "Oxford", "Cambridge", "London"],
-          "vi": "Khi Marianna mười tám tuổi, cô ấy đến Anh để học tại Đại học Kent.",
-          "ex": "Audio: '...when I was eighteen, I came to the UK to study at Kent University.'"
-        },
-        {
-          "qtype": "fill",
-          "q": "She saved money at university because she worked in the ________.",
-          "a": ["evenings"],
-          "words": ["mornings", "evenings", "weekends", "library"],
-          "vi": "Cô ấy đã tiết kiệm tiền ở đại học vì cô ấy làm việc vào buổi tối.",
-          "ex": "Audio: 'I'd saved some money at university because I worked in the evenings.'"
-        },
-        {
-          "qtype": "fill",
-          "q": "After travelling, she went back to Crete and worked in her ________ restaurant for two years.",
-          "a": ["family's"],
-          "words": ["friend's", "family's", "uncle's", "grandmother's"],
-          "vi": "Sau chuyến du lịch, cô ấy quay lại Crete và làm việc tại nhà hàng của gia đình trong hai năm.",
-          "ex": "Audio: '...so I went back to Crete and worked in our family restaurant for two years.'"
-        },
-        {
-          "qtype": "fill",
-          "q": "The owners of Moro are Samantha and Samuel ________.",
-          "a": ["Clark"],
-          "words": ["Clark", "Clarke", "Clerk", "Claire"],
-          "vi": "Chủ sở hữu của Moro là Samantha và Samuel Clark.",
-          "ex": "Audio: '...the owners of Moro, Samantha and Samuel Clark...'"
-        },
-        {
-          "qtype": "fill",
-          "q": "Marianna goes back to Crete maybe four or five ________ a year.",
-          "a": ["times"],
-          "words": ["times", "months", "weeks", "seasons"],
-          "vi": "Marianna quay lại Crete có lẽ bốn hoặc năm lần một năm.",
-          "ex": "Audio: 'I go to Crete maybe four or five times a year.'"
-        },
+     {
+  "qtype": "type-in",
+  "q": "At the age of eighteen, Marianna moved to the UK to pursue her higher education at ________ University.",
+  "a": ["Kent", "kent"]
+},
+{
+  "qtype": "type-in",
+  "q": "To build up her savings while studying, Marianna took on part-time work during the ________.",
+  "a": ["evenings", "evening", "Evenings", "Evening"]
+},
+{
+  "qtype": "type-in",
+  "q": "Upon returning to Crete after her travels, Marianna spent two years working at a ________ restaurant business.",
+  "a": ["family's", "familys", "family", "Family's", "Familys", "Family"]
+},
+{
+  "qtype": "type-in",
+  "q": "The husband-and-wife team behind Moro were Samantha and Samuel ________.",
+  "a": ["Clark", "clark", "Clarke", "clarke"]
+},
+{
+  "qtype": "type-in",
+  "q": "Marianna still keeps close connections with Crete, travelling back there approximately four or five ________ each year.",
+  "a": ["times", "time", "Times", "Time"]
+},
         {
           "qtype": "match",
           "q": "Listen and match each sentence beginning with the correct ending:",
