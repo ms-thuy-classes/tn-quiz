@@ -7,6 +7,7 @@
   "description": "Đọc đoạn văn về bảo vệ môi trường và trả lời 5 câu hỏi.",
   "duration": "20 phút",
   "parts": [
+    
     {
       "type": "reading",
       "name": "Reading · Environment",
@@ -19,13 +20,25 @@
           "vi": "Nguyên nhân chính là hoạt động của con người.",
           "ex": "Dòng 4–5: 'Scientists agree that human activities... are the main cause'."
         },
+        
         {
           "q": "Which is NOT mentioned as a way to help the environment?",
           "o": ["Turning off lights", "Using public transport", "Buying electric cars", "Planting trees"],
           "a": 2,
           "vi": "Mua xe điện KHÔNG được đề cập.",
           "ex": "Bài chỉ nói đến: tiết kiệm điện, phương tiện công cộng, tái chế, trồng cây."
-        }
+        },
+        {
+  "type": "type-in",
+  "name": "Reading Comprehension",
+  "passage": "Tom is a doctor. He works at a big hospital in Hanoi...",
+  "questions": [
+    {
+      "q": "Tom's job is a ____. (bác sĩ)",
+      "a": ["doctor"]
+    }
+  ]
+}
       ]
     }
   ]
