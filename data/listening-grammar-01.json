@@ -1,6 +1,6 @@
 {
-  "id": "grammar-present-simple-continuous-B1-B2",
-  "title": "Grammar · Hiện tại Đơn & Hiện tại Tiếp diễn · B1-B2",
+  "id": "listening-grammar-01",
+  "title": "Listening: Food, Grammar · Hiện tại Đơn & Hiện tại Tiếp diễn · B1-B2",
   "tags": ["Ngữ pháp", "Hiện tại Đơn", "Hiện tại Tiếp diễn", "B1-B2"],
   "cover": "📚",
   "gradient": "linear-gradient(135deg,#7a67ee,#5a9df5 55%,#3ecfa0)",
@@ -87,7 +87,7 @@
     {
       "type": "fill",
       "name": "Phần 2 · Điền từ",
-      "hint": "Chọn từ trong khung: drink • is watching • don't like • goes • am doing — điền đúng dạng vào chỗ trống",
+      "hint": "Chọn từ trong khung: drink • is watching • don't like • goes • am having — điền đúng dạng vào chỗ trống",
       "wordBank": ["drink", "is watching", "don't like", "goes", "am having"],
       "questions": [
         {
@@ -122,116 +122,114 @@
         }
       ]
     },
-    [
-  {
-    "type": "listening",
-    "name": "Listening · Marianna, the Chef",
-    "hint": "Listen to the interview. You can replay it as many times as you need, then answer the questions!",
-    "audio": "https://raw.githubusercontent.com/ms-thuy-classes/audio/main/EF4e_IntSB_1.09.mp3",
-    "image": "https://pbs.twimg.com/media/C5HRx46XAAEh9Vo.jpg",
-    "questions": [
-      {
-        "qtype": "single",
-        "q": "What did Marianna originally want to become?",
-        "o": ["A chef", "A psychologist", "A restaurant owner", "A university lecturer"],
-        "a": 1,
-        "vi": "Ban đầu Marianna muốn trở thành một nhà tâm lý học.",
-        "ex": "Audio: 'I wanted to be a psychologist...'"
-      },
-      {
-        "qtype": "single",
-        "q": "Where did Marianna NOT travel to after leaving university?",
-        "o": ["Southern Europe", "Ecuador", "South America", "North Africa"],
-        "a": 3,
-        "vi": "Marianna đã không đi du lịch đến Bắc Phi.",
-        "ex": "Audio: 'I went all around southern Europe and also to South America, to Ecuador.' North Africa is mentioned only as a food style at Moro."
-      },
-      {
-        "qtype": "single",
-        "q": "Why did Marianna return to the UK?",
-        "o": ["She missed her family in London", "She wanted a bigger challenge as a chef", "She got a job offer from Kent University", "She wanted to study Mediterranean food"],
-        "a": 1,
-        "vi": "Marianna quay lại Anh vì cô ấy muốn một thử thách lớn hơn với vai trò đầu bếp.",
-        "ex": "Audio: 'I wanted to continue working as a chef, but I needed a bigger challenge.'"
-      },
-      {
-        "qtype": "single",
-        "q": "How long did it take Marianna to become head chef at Moro?",
-        "o": ["Two years", "Five years", "Seven years", "Four or five times a year"],
-        "a": 2,
-        "vi": "Marianna đã mất bảy năm để trở thành đầu bếp trưởng tại Moro.",
-        "ex": "Audio: '...after seven years, I became head chef.'"
-      },
-      {
-        "qtype": "single",
-        "q": "What is ntakos, according to Marianna?",
-        "o": ["A type of Mediterranean bread", "A Cretan salad with goat's cheese, tomato, and bread", "A Spanish dish from Moro's menu", "A North African tagine"],
-        "a": 1,
-        "vi": "Ntakos là một món salad Crete làm từ pho mát dê tươi, cà chua và bánh mì.",
-        "ex": "Audio: '...ntakos, a Cretan salad made with fresh goat's cheese, tomato, and bread.'"
-      },
-      {
-        "qtype": "fill",
-        "q": "When Marianna was eighteen, she came to the UK to study at ________ University.",
-        "a": ["Kent"],
-        "words": ["Kent", "Oxford", "Cambridge", "London"],
-        "vi": "Khi Marianna mười tám tuổi, cô ấy đến Anh để học tại Đại học Kent.",
-        "ex": "Audio: '...when I was eighteen, I came to the UK to study at Kent University.'"
-      },
-      {
-        "qtype": "fill",
-        "q": "She saved money at university because she worked in the ________.",
-        "a": ["evenings"],
-        "words": ["mornings", "evenings", "weekends", "library"],
-        "vi": "Cô ấy đã tiết kiệm tiền ở đại học vì cô ấy làm việc vào buổi tối.",
-        "ex": "Audio: 'I'd saved some money at university because I worked in the evenings.'"
-      },
-      {
-        "qtype": "fill",
-        "q": "After travelling, she went back to Crete and worked in her ________ restaurant for two years.",
-        "a": ["family's"],
-        "words": ["friend's", "family's", "uncle's", "grandmother's"],
-        "vi": "Sau chuyến du lịch, cô ấy quay lại Crete và làm việc tại nhà hàng của gia đình trong hai năm.",
-        "ex": "Audio: '...so I went back to Crete and worked in our family restaurant for two years.'"
-      },
-      {
-        "qtype": "fill",
-        "q": "The owners of Moro are Samantha and Samuel ________.",
-        "a": ["Clark"],
-        "words": ["Clark", "Clarke", "Clerk", "Claire"],
-        "vi": "Chủ sở hữu của Moro là Samantha và Samuel Clark.",
-        "ex": "Audio: '...the owners of Moro, Samantha and Samuel Clark...'"
-      },
-      {
-        "qtype": "fill",
-        "q": "Marianna goes back to Crete maybe four or five ________ a year.",
-        "a": ["times"],
-        "words": ["times", "months", "weeks", "seasons"],
-        "vi": "Marianna quay lại Crete có lẽ bốn hoặc năm lần một năm.",
-        "ex": "Audio: 'I go to Crete maybe four or five times a year.'"
-      },
-      {
-        "qtype": "match",
-        "q": "Listen and match each sentence beginning with the correct ending:",
-        "options": [
-          "save money and eat at Moro in London",
-          "Mediterranean, Spanish, and North African",
-          "fell in love with food again",
-          "add more Cretan dishes to the menu",
-          "share everything they order"
-        ],
-        "rows": [
-          { "left": "1. As a student in the UK, Marianna used to", "a": 0 },
-          { "left": "2. Moro served food that was", "a": 1 },
-          { "left": "3. While travelling, Marianna", "a": 2 },
-          { "left": "4. At Morito, Marianna has been able to", "a": 3 },
-          { "left": "5. When Marianna goes out for lunch in Crete, they", "a": 4 }
-        ],
-        "vi": "1. Là sinh viên ở Anh, Marianna thường tiết kiệm tiền và ăn tại Moro ở London · 2. Đồ ăn tại Moro là Địa Trung Hải, Tây Ban Nha và Bắc Phi · 3. Trong khi du lịch, Marianna lại yêu thích ẩm thực một lần nữa · 4. Tại Morito, Marianna đã có thể thêm nhiều món Crete vào thực đơn · 5. Khi Marianna đi ăn trưa ở Crete, họ chia sẻ mọi thứ họ gọi.",
-        "ex": "Listen carefully for the key phrases in the audio."
-      }
-    ]
-  }
-]
+    {
+      "type": "listening",
+      "name": "Listening · Marianna, the Chef",
+      "hint": "Listen to the interview. You can replay it as many times as you need, then answer the questions!",
+      "audio": "https://raw.githubusercontent.com/ms-thuy-classes/audio/main/EF4e_IntSB_1.09.mp3",
+      "image": "https://pbs.twimg.com/media/C5HRx46XAAEh9Vo.jpg",
+      "questions": [
+        {
+          "qtype": "single",
+          "q": "What did Marianna originally want to become?",
+          "o": ["A chef", "A psychologist", "A restaurant owner", "A university lecturer"],
+          "a": 1,
+          "vi": "Ban đầu Marianna muốn trở thành một nhà tâm lý học.",
+          "ex": "Audio: 'I wanted to be a psychologist...'"
+        },
+        {
+          "qtype": "single",
+          "q": "Where did Marianna NOT travel to after leaving university?",
+          "o": ["Southern Europe", "Ecuador", "South America", "North Africa"],
+          "a": 3,
+          "vi": "Marianna đã không đi du lịch đến Bắc Phi.",
+          "ex": "Audio: 'I went all around southern Europe and also to South America, to Ecuador.' North Africa is mentioned only as a food style at Moro."
+        },
+        {
+          "qtype": "single",
+          "q": "Why did Marianna return to the UK?",
+          "o": ["She missed her family in London", "She wanted a bigger challenge as a chef", "She got a job offer from Kent University", "She wanted to study Mediterranean food"],
+          "a": 1,
+          "vi": "Marianna quay lại Anh vì cô ấy muốn một thử thách lớn hơn với vai trò đầu bếp.",
+          "ex": "Audio: 'I wanted to continue working as a chef, but I needed a bigger challenge.'"
+        },
+        {
+          "qtype": "single",
+          "q": "How long did it take Marianna to become head chef at Moro?",
+          "o": ["Two years", "Five years", "Seven years", "Four or five times a year"],
+          "a": 2,
+          "vi": "Marianna đã mất bảy năm để trở thành đầu bếp trưởng tại Moro.",
+          "ex": "Audio: '...after seven years, I became head chef.'"
+        },
+        {
+          "qtype": "single",
+          "q": "What is ntakos, according to Marianna?",
+          "o": ["A type of Mediterranean bread", "A Cretan salad with goat's cheese, tomato, and bread", "A Spanish dish from Moro's menu", "A North African tagine"],
+          "a": 1,
+          "vi": "Ntakos là một món salad Crete làm từ pho mát dê tươi, cà chua và bánh mì.",
+          "ex": "Audio: '...ntakos, a Cretan salad made with fresh goat's cheese, tomato, and bread.'"
+        },
+        {
+          "qtype": "fill",
+          "q": "When Marianna was eighteen, she came to the UK to study at ________ University.",
+          "a": ["Kent"],
+          "words": ["Kent", "Oxford", "Cambridge", "London"],
+          "vi": "Khi Marianna mười tám tuổi, cô ấy đến Anh để học tại Đại học Kent.",
+          "ex": "Audio: '...when I was eighteen, I came to the UK to study at Kent University.'"
+        },
+        {
+          "qtype": "fill",
+          "q": "She saved money at university because she worked in the ________.",
+          "a": ["evenings"],
+          "words": ["mornings", "evenings", "weekends", "library"],
+          "vi": "Cô ấy đã tiết kiệm tiền ở đại học vì cô ấy làm việc vào buổi tối.",
+          "ex": "Audio: 'I'd saved some money at university because I worked in the evenings.'"
+        },
+        {
+          "qtype": "fill",
+          "q": "After travelling, she went back to Crete and worked in her ________ restaurant for two years.",
+          "a": ["family's"],
+          "words": ["friend's", "family's", "uncle's", "grandmother's"],
+          "vi": "Sau chuyến du lịch, cô ấy quay lại Crete và làm việc tại nhà hàng của gia đình trong hai năm.",
+          "ex": "Audio: '...so I went back to Crete and worked in our family restaurant for two years.'"
+        },
+        {
+          "qtype": "fill",
+          "q": "The owners of Moro are Samantha and Samuel ________.",
+          "a": ["Clark"],
+          "words": ["Clark", "Clarke", "Clerk", "Claire"],
+          "vi": "Chủ sở hữu của Moro là Samantha và Samuel Clark.",
+          "ex": "Audio: '...the owners of Moro, Samantha and Samuel Clark...'"
+        },
+        {
+          "qtype": "fill",
+          "q": "Marianna goes back to Crete maybe four or five ________ a year.",
+          "a": ["times"],
+          "words": ["times", "months", "weeks", "seasons"],
+          "vi": "Marianna quay lại Crete có lẽ bốn hoặc năm lần một năm.",
+          "ex": "Audio: 'I go to Crete maybe four or five times a year.'"
+        },
+        {
+          "qtype": "match",
+          "q": "Listen and match each sentence beginning with the correct ending:",
+          "options": [
+            "save money and eat at Moro in London",
+            "Mediterranean, Spanish, and North African",
+            "fell in love with food again",
+            "add more Cretan dishes to the menu",
+            "share everything they order"
+          ],
+          "rows": [
+            { "left": "1. As a student in the UK, Marianna used to", "a": 0 },
+            { "left": "2. Moro served food that was", "a": 1 },
+            { "left": "3. While travelling, Marianna", "a": 2 },
+            { "left": "4. At Morito, Marianna has been able to", "a": 3 },
+            { "left": "5. When Marianna goes out for lunch in Crete, they", "a": 4 }
+          ],
+          "vi": "1. Là sinh viên ở Anh, Marianna thường tiết kiệm tiền và ăn tại Moro ở London · 2. Đồ ăn tại Moro là Địa Trung Hải, Tây Ban Nha và Bắc Phi · 3. Trong khi du lịch, Marianna lại yêu thích ẩm thực một lần nữa · 4. Tại Morito, Marianna đã có thể thêm nhiều món Crete vào thực đơn · 5. Khi Marianna đi ăn trưa ở Crete, họ chia sẻ mọi thứ họ gọi.",
+          "ex": "Listen carefully for the key phrases in the audio."
+        }
+      ]
+    }
   ]
 }
