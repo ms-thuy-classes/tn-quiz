@@ -1,6 +1,6 @@
 /* ============================================================
-   Learn with Ms. Thúy — Quiz Engine (Full v3 + Timer & Progress)
-   Hỗ trợ: mcq | fill | reading | matching | synonym | antonym | listening
+   Learn with Ms. Thúy — Quiz Engine (Full v3 + Timer & Progress + Type-In)
+   Hỗ trợ: mcq | fill | type-in | reading | matching | synonym | antonym | listening
    Tính điểm: Thang 10 · điểm mỗi câu = 10 / tổng_số_câu
    ============================================================ */
 
@@ -195,8 +195,13 @@ async function initPostPage(){
   const chips = document.getElementById('introChips');
   chips.innerHTML = '';
   const labelMap = {
-    mcq:'🧩 Trắc nghiệm', fill:'✏️ Điền từ', reading:'📖 Reading',
-    matching:'🔗 Matching', synonym:'🔁 Đồng nghĩa', antonym:'↔️ Trái nghĩa',
+    mcq:'🧩 Trắc nghiệm',
+    fill:'✏️ Điền từ (có sẵn)',
+    'type-in':'⌨️ Gõ đáp án',
+    reading:'📖 Reading',
+    matching:'🔗 Matching',
+    synonym:'🔁 Đồng nghĩa',
+    antonym:'↔️ Trái nghĩa',
     listening:'🎧 Listening'
   };
   [...new Set(post.parts.map(p => p.type))].forEach(t => {
@@ -420,10 +425,13 @@ async function initPostPage(){
       case 'mcq':
       case 'synonym':
       case 'antonym':
-      case 'reading':
         return renderMCQ(item);
+      case 'reading':
+        return renderMCQ(item); // reading vẫn dùng layout MCQ nhưng có passage
       case 'fill':
         return renderFill(item);
+      case 'type-in':
+        return renderTypeIn(item);
       case 'matching':
         return renderMatching(item);
       case 'listening':
@@ -440,7 +448,7 @@ async function initPostPage(){
     item._shuffled = shuffled;
     const LETTERS = ['A','B','C','D','E','F'];
     let html = '';
-    if(item._partType === 'reading' && item._passage){
+    if(item._passage){
       html += '<div class="reading-passage">' +
         esc(item._passage).split('\n\n').map(p => '<p style="margin-bottom:14px">' + esc(p) + '</p>').join('') +
       '</div>';
@@ -488,6 +496,28 @@ async function initPostPage(){
   }
 
   /* ============================================================
+     TYPE-IN (gõ đáp án — KHÔNG có word bank)
+     Dùng cho: test thường, reading (có passage), listening (sub-q)
+     ============================================================ */
+  function renderTypeIn(item){
+    let html = '';
+    if(item._passage){
+      html += '<div class="reading-passage">' +
+        esc(item._passage).split('\n\n').map(p => '<p style="margin-bottom:14px">' + esc(p) + '</p>').join('') +
+      '</div>';
+    }
+    html += '<div class="typein-wrap">' +
+      '<input class="fill-input typein-input" id="typeinInput" type="text" autocomplete="off" ' +
+        'placeholder="✍️ Gõ đáp án của em vào đây...">' +
+      '<div class="fill-actions">' +
+        '<button class="btn btn-primary" id="typeinCheck" type="button">✓ Kiểm tra</button>' +
+      '</div>' +
+      '<div class="fill-hint">💡 Gõ từ / cụm từ em cho là đúng, rồi bấm <b>Kiểm tra</b> hoặc nhấn <b>Enter</b></div>' +
+    '</div>';
+    return html;
+  }
+
+  /* ============================================================
      MATCHING (ghép 2 cột)
      ============================================================ */
   function renderMatching(item){
@@ -517,7 +547,13 @@ async function initPostPage(){
      LISTENING — nhiều câu con trên 1 trang
      ============================================================ */
   function subTypeLabel(t){
-    return {single:'Chọn 1 đáp án', multi:'Chọn nhiều đáp án', fill:'Điền từ', match:'Ghép (dropdown)'}[t] || t;
+    return {
+      single:'Chọn 1 đáp án',
+      multi:'Chọn nhiều đáp án',
+      fill:'Điền từ (có sẵn)',
+      'type-in':'Gõ đáp án',
+      match:'Ghép (dropdown)'
+    }[t] || t;
   }
 
   function renderListening(item){
@@ -531,6 +567,7 @@ async function initPostPage(){
       } else if(sub.qtype === 'fill'){
         if(sub.words && sub.words.length) sub._shuffledWords = shuffle(sub.words);
       }
+      // type-in: không cần xử lý gì thêm
     });
 
     let html = '<div class="sub-list">';
@@ -564,6 +601,11 @@ async function initPostPage(){
         html += '<input class="fill-input sub-fill-input" data-sub="' + si + '" type="text" autocomplete="off" ' +
           'placeholder="' + (sub._shuffledWords ? 'Từ đã chọn...' : 'Gõ từ em nghe được...') + '"' +
           (sub._shuffledWords ? ' readonly' : '') + '>';
+      }
+      else if(sub.qtype === 'type-in'){
+        // ⌨️ Dạng gõ đáp án — không có word bank
+        html += '<input class="fill-input sub-fill-input sub-typein-input" data-sub="' + si + '" type="text" autocomplete="off" ' +
+          'placeholder="✍️ Gõ đáp án em nghe được...">';
       }
       else if(sub.qtype === 'match'){
         html += '<div class="match-opts"><b>📋 Phương án:</b><br>' +
@@ -601,6 +643,7 @@ async function initPostPage(){
         });
         break;
       case 'fill': handleFill(item); break;
+      case 'type-in': handleTypeIn(item); break;
       case 'matching': handleMatching(item); break;
       case 'listening': handleListening(item); break;
     }
@@ -718,6 +761,62 @@ async function initPostPage(){
 
     input.addEventListener('keydown', e => { if(e.key === 'Enter') doCheck(); });
     check.addEventListener('click', doCheck);
+  }
+
+  /* ============================================================
+     HANDLER TYPE-IN (gõ đáp án)
+     ============================================================ */
+  function handleTypeIn(item){
+    const input = document.getElementById('typeinInput');
+    const check = document.getElementById('typeinCheck');
+    if(!input || !check) return;
+
+    let done = false;
+
+    function doCheck(){
+      if(done) return;
+      const val = input.value.trim();
+      if(!val){
+        showToast('💡 Em hãy gõ đáp án trước nhé!', '');
+        input.focus();
+        return;
+      }
+      done = true;
+      input.disabled = true;
+      check.disabled = true;
+
+      const valLC = val.toLowerCase();
+      const answers = Array.isArray(item.a) ? item.a : [item.a];
+      const ok = answers.some(ans => 
+        typeof ans === 'string' && valLC === ans.trim().toLowerCase()
+      );
+
+      game.answers[game.idx] = {chosen: val, ok};
+
+      if(ok){
+        input.classList.add('correct');
+        game.correct++;
+        updateLiveScore();
+        sfxCorrect();
+        showToast('✨ Chính xác! + ' + game.pointPerQ.toLocaleString('vi-VN') + ' điểm', 'good');
+        setTimeout(nextStep, 1200);
+      } else {
+        input.classList.add('wrong');
+        sfxWrong();
+        const correctWord = answers[0];
+        const show = document.createElement('div');
+        show.className = 'fill-show';
+        show.innerHTML = '✅ Đáp án đúng: <b>' + esc(correctWord) + '</b>';
+        document.querySelector('.typein-wrap').appendChild(show);
+        showToast('❌ Chưa đúng rồi…', 'bad');
+        setTimeout(nextStep, 2200);
+      }
+    }
+
+    input.addEventListener('keydown', e => { if(e.key === 'Enter') doCheck(); });
+    check.addEventListener('click', doCheck);
+    // Auto focus input (desktop friendly)
+    setTimeout(() => { try { input.focus(); } catch(e){} }, 80);
   }
 
   function handleMatching(item){
@@ -853,6 +952,25 @@ async function initPostPage(){
             const show = document.createElement('div');
             show.className = 'fill-show';
             show.innerHTML = '✅ Đáp án: <b>' + esc(sub.a[0]) + '</b>';
+            wrap.appendChild(show);
+          }
+        }
+        else if(sub.qtype === 'type-in'){
+          // ⌨️ Xử lý type-in cho listening
+          const input = wrap.querySelector('.sub-fill-input');
+          const val = (input.value || '').trim();
+          chosenText = val || '(không điền)';
+          const answers = Array.isArray(sub.a) ? sub.a : [sub.a];
+          rightText = answers[0] || '—';
+          ok = val !== '' && answers.some(ans => 
+            typeof ans === 'string' && val.toLowerCase() === ans.trim().toLowerCase()
+          );
+          input.disabled = true;
+          input.classList.add(ok ? 'correct' : 'wrong');
+          if(!ok){
+            const show = document.createElement('div');
+            show.className = 'fill-show';
+            show.innerHTML = '✅ Đáp án: <b>' + esc(rightText) + '</b>';
             wrap.appendChild(show);
           }
         }
@@ -1024,9 +1142,12 @@ async function initPostPage(){
           return;
         }
 
-        const rightAns = (q._partType === 'fill') ? q.a[0] :
-                          (q._partType === 'matching') ? 'matched all' :
-                          (q.o ? q.o[q.a] : '—');
+        // Sửa phần lấy đáp án đúng cho type-in
+        const answersArr = Array.isArray(q.a) ? q.a : [q.a];
+        const rightAns = (q._partType === 'fill' || q._partType === 'type-in')
+          ? answersArr[0]
+          : (q._partType === 'matching') ? 'matched all'
+          : (q.o ? q.o[q.a] : '—');
         list.appendChild(reviewCard(q._partName, q.q, ans.chosen, rightAns, q.vi, q.ex, q));
       });
     }
