@@ -88,34 +88,38 @@
       "type": "fill",
       "name": "Phần 2 · Điền từ",
       "hint": "Chọn từ trong khung: drink • is watching • don't like • goes • am having — điền đúng dạng vào chỗ trống",
-      "wordBank": ["drink", "is watching", "don't like", "goes", "am having"],
       "questions": [
         {
           "q": "My brother ______________________ TV at the moment.",
+           "words": ["drink", "is watching", "don't like", "goes", "am having"],
           "a": ["is watching"],
           "vi": "Anh trai tôi đang xem TV vào lúc này.",
           "ex": "Có 'at the moment' → Hiện tại Tiếp diễn; chủ ngữ số ít → is watching."
         },
         {
           "q": "I ______________________ hot weather. It makes me feel tired.",
+           "words": ["drink", "is watching", "don't like", "goes", "am having"],
           "a": ["don't like"],
           "vi": "Tôi không thích thời tiết nóng bức. Nó làm tôi cảm thấy mệt mỏi.",
           "ex": "'like' là động từ trạng thái → Hiện tại Đơn phủ định với chủ ngữ I → don't like."
         },
         {
           "q": "She ______________________ to the gym three times a week.",
+           "words": ["drink", "is watching", "don't like", "goes", "am having"],
           "a": ["goes"],
           "vi": "Cô ấy đi phòng gym ba lần một tuần.",
           "ex": "Có cụm chỉ tần suất 'three times a week' → Hiện tại Đơn; She → goes."
         },
         {
           "q": "Be quiet! I ______________________ a very important conversation.",
+           "words": ["drink", "is watching", "don't like", "goes", "am having"],
           "a": ["am having"],
           "vi": "Im lặng! Tôi đang có một cuộc hội thoại rất quan trọng.",
           "ex": "'Be quiet!' → hành động đang diễn ra; 'have' mang nghĩa hành động → dùng Hiện tại Tiếp diễn: am having."
         },
         {
           "q": "Most people ______________________ water with their meals.",
+           "words": ["drink", "is watching", "don't like", "goes", "am having"],
           "a": ["drink"],
           "vi": "Hầu hết mọi người uống nước trong bữa ăn.",
           "ex": "Diễn tả thói quen, chủ ngữ số nhiều → Hiện tại Đơn, động từ nguyên mẫu: drink."
