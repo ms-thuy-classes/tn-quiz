@@ -39,6 +39,17 @@
           "vi": "Minh bắt xe buýt đến trường.",
           "ex": "Audio: 'I catch the bus to school.'"
         },
+    {
+      "qtype": "type-in",
+      "q": "The speaker says he lives in ____. ",
+      "a": ["London", "london"]
+    },
+    {
+      "qtype": "single",
+      "q": "What does he do?",
+      "o": ["Teacher", "Doctor", "Engineer"],
+      "a": 1
+    },
         {
           "qtype": "match",
           "q": "Nghe và nối mỗi người với một hoạt động:",
