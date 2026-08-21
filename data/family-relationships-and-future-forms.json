@@ -1,0 +1,176 @@
+{
+  "id": "family-relationships-and-future-forms",
+  "title": "Family Relationships & Future Forms Practice",
+  "tags": ["Vocabulary", "Grammar", "Family", "Future Forms"],
+  "cover": "🌞",
+  "description": "Bài tập thực hành từ vựng chủ đề gia đình và cách sử dụng các thì tương lai trong tiếng Anh.",
+  "duration": "15 phút",
+  "timeLimit": 900,
+  "parts": [
+    {
+      "type": "fill",
+      "name": "Exercise 1: Family Relationships",
+      "hint": "Chọn từ thích hợp trong danh sách để điền vào chỗ trống.",
+      "questions": [
+        {
+          "q": "Your mother and father are your _________.",
+          "words": ["parents", "grandparents", "siblings", "relatives", "ancestors"],
+          "a": ["parents"],
+          "vi": "Bố và mẹ của bạn là cha mẹ của bạn.",
+          "ex": "parents = cha mẹ."
+        },
+        {
+          "q": "Your grandfather's father is your _________.",
+          "words": ["great-grandfather", "grandfather", "godfather", "stepfather", "father-in-law"],
+          "a": ["great-grandfather"],
+          "vi": "Bố của ông bạn là cụ ông của bạn.",
+          "ex": "great-grandfather = cụ ông."
+        },
+        {
+          "q": "A child who has no brothers or sisters is an _________.",
+          "words": ["only child", "adopted child", "foster child", "firstborn", "stepchild"],
+          "a": ["only child"],
+          "vi": "Một đứa trẻ không có anh chị em là con một.",
+          "ex": "only child = con một."
+        },
+        {
+          "q": "Your brother's or sister's daughter is your _________.",
+          "words": ["niece", "nephew", "cousin", "stepsister", "goddaughter"],
+          "a": ["niece"],
+          "vi": "Con gái của anh/chị/em bạn là cháu gái của bạn.",
+          "ex": "niece = cháu gái (con của anh/chị/em)."
+        },
+        {
+          "q": "A child who parents take into their family and treat as their own is an _________.",
+          "words": ["adopted child", "only child", "orphan", "stepchild", "toddler"],
+          "a": ["adopted child"],
+          "vi": "Đứa trẻ được bố mẹ nhận nuôi và đối xử như con ruột là con nuôi.",
+          "ex": "adopted child = con nuôi."
+        },
+        {
+          "q": "Your partner, children, parents, and brothers and sisters are your _________ family.",
+          "words": ["immediate", "extended", "foster", "blended", "joint"],
+          "a": ["immediate"],
+          "vi": "Bạn đời, con cái, bố mẹ và anh chị em là gia đình ruột thịt/hạt nhân của bạn.",
+          "ex": "immediate family = gia đình ruột thịt/hạt nhân."
+        },
+        {
+          "q": "Your father's new wife is your _________.",
+          "words": ["stepmother", "mother-in-law", "godmother", "aunt", "grandmother"],
+          "a": ["stepmother"],
+          "vi": "Vợ mới của bố bạn là mẹ kế của bạn.",
+          "ex": "stepmother = mẹ kế."
+        },
+        {
+          "q": "Your wife or husband's brother is your _________.",
+          "words": ["brother-in-law", "stepbrother", "half-brother", "nephew", "cousin"],
+          "a": ["brother-in-law"],
+          "vi": "Anh/em trai của vợ hoặc chồng bạn là anh/em rể/vợ của bạn.",
+          "ex": "brother-in-law = anh/em rể hoặc anh/em vợ/chồng."
+        },
+        {
+          "q": "A sister who shares one parent with you is your _________.",
+          "words": ["half-sister", "stepsister", "twin sister", "sister-in-law", "foster sister"],
+          "a": ["half-sister"],
+          "vi": "Chị/em gái cùng cha khác mẹ hoặc cùng mẹ khác cha là chị/em cùng cha khác mẹ (hoặc ngược lại).",
+          "ex": "half-sister = chị/em cùng cha khác mẹ hoặc cùng mẹ khác cha."
+        },
+        {
+          "q": "Your brothers and sisters are your _________.",
+          "words": ["siblings", "relatives", "cousins", "parents", "twins"],
+          "a": ["siblings"],
+          "vi": "Anh chị em của bạn là siblings.",
+          "ex": "siblings = anh chị em ruột."
+        },
+        {
+          "q": "Your grandparents, aunts, uncles and cousins are your _________ family.",
+          "words": ["extended", "immediate", "nuclear", "single-parent", "blended"],
+          "a": ["extended"],
+          "vi": "Ông bà, cô dì, chú bác và anh chị em họ là đại gia đình của bạn.",
+          "ex": "extended family = đại gia đình (gồm cả ông bà, cô chú, bác, anh chị em họ)."
+        },
+        {
+          "q": "Your brother's or sister's son is your _________.",
+          "words": ["nephew", "niece", "cousin", "stepson", "godson"],
+          "a": ["nephew"],
+          "vi": "Con trai của anh/chị/em bạn là cháu trai của bạn.",
+          "ex": "nephew = cháu trai (con của anh/chị/em)."
+        },
+        {
+          "q": "Your stepmother's or stepfather's daughter from an earlier relationship is your _________.",
+          "words": ["stepsister", "half-sister", "sister-in-law", "foster sister", "daughter-in-law"],
+          "a": ["stepsister"],
+          "vi": "Con gái riêng của mẹ kế hoặc bố dượng là chị/em kế của bạn.",
+          "ex": "stepsister = chị/em kế (con riêng của bố dượng/mẹ kế)."
+        }
+      ]
+    },
+    {
+      "type": "type-in",
+      "name": "Exercise 2: Complete the sentences with the correct form of the verbs or phrases in bold.",
+      "hint": "Chia dạng đúng của động từ hoặc cụm từ trong ngoặc theo đúng ngữ cảnh thì tương lai.",
+      "questions": [
+        {
+          "q": "1. My brother hates his job. _________ a new one. (he / look for)",
+          "a": ["He's going to look for", "He is going to look for"],
+          "vi": "Anh trai tôi ghét công việc của mình. Anh ấy dự định sẽ tìm một công việc mới.",
+          "ex": "Dùng 'be going to' để diễn tả một dự định/ý định (an intention) đã có từ trước."
+        },
+        {
+          "q": "2. Don't worry about the drinks. _________ for them. (I / pay)",
+          "a": ["I'll pay", "I will pay"],
+          "vi": "Đừng lo về khoản đồ uống. Tôi sẽ trả tiền.",
+          "ex": "Dùng 'will' để đưa ra một lời ngỏ ý/đề nghị giúp đỡ tự nguyện (an offer)."
+        },
+        {
+          "q": "3. _________ some more coffee? (I / make)",
+          "a": ["Shall I make"],
+          "vi": "Tôi pha thêm ít cà phê nhé?",
+          "ex": "Cấu trúc 'Shall I...?' dùng để đưa ra lời đề nghị giúp đỡ (an offer)."
+        },
+        {
+          "q": "4. Do you think _________ before you're 30? (you / get married)",
+          "a": ["you'll get married", "you will get married"],
+          "vi": "Bạn có nghĩ bạn sẽ kết hôn trước tuổi 30 không?",
+          "ex": "Dùng 'will' sau các động từ quan điểm như 'think' để đưa ra dự đoán (a prediction)."
+        },
+        {
+          "q": "5. _________ on holiday tomorrow. I can't wait! (we / go)",
+          "a": ["We're going", "We are going"],
+          "vi": "Ngày mai chúng tôi sẽ đi nghỉ mát. Tôi không thể chờ đợi thêm nữa!",
+          "ex": "Dùng thì Tương lai tiếp diễn / Hiện tại tiếp diễn (Present Continuous) để diễn tả kế hoạch/sắp xếp cố định (an arrangement)."
+        },
+        {
+          "q": "6. A: Are you ready to order?\nB: Yes, _________ the steak. (I / have)",
+          "a": ["I'll have", "I will have"],
+          "vi": "A: Quý khách đã sẵn sàng gọi món chưa?\nB: Vâng, tôi sẽ lấy món bít tết.",
+          "ex": "Dùng 'will' cho quyết định bộc phát ngay tại thời điểm nói (an instant decision)."
+        },
+        {
+          "q": "7. _________ 21 on my next birthday. (I / be)",
+          "a": ["I'll be", "I will be"],
+          "vi": "Tôi sẽ tròn 21 tuổi vào sinh nhật tới.",
+          "ex": "Dùng 'will' để diễn tả một sự thật hiển nhiên trong tương lai (a fact)."
+        },
+        {
+          "q": "8. _________ your parents for a meal this weekend? (we / invite)",
+          "a": ["Shall we invite"],
+          "vi": "Chúng ta mời bố mẹ bạn dùng bữa vào cuối tuần này nhé?",
+          "ex": "Cấu trúc 'Shall we...?' dùng để đưa ra một lời gợi ý (a suggestion)."
+        },
+        {
+          "q": "9. I'm going to Jacky's house for dinner. __________ late home. (I / be)",
+          "a": ["I won't be", "I will not be"],
+          "vi": "Tôi sẽ đến nhà Jacky ăn tối. Tôi hứa sẽ không về nhà muộn.",
+          "ex": "Dùng 'won't' (will not) để đưa ra một lời hứa (a promise)."
+        },
+        {
+          "q": "10. There's too much shopping in this bag. I think _________. (it / break)",
+          "a": ["it's going to break", "it is going to break", "it will break"],
+          "vi": "Có quá nhiều đồ trong túi này. Tôi nghĩ nó sắp bị rách/hỏng mất.",
+          "ex": "Dùng 'be going to' cho dự đoán có bằng chứng hiện tại (đồ quá nặng làm túi sắp đứt)."
+        }
+      ]
+    }
+  ]
+}
