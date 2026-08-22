@@ -12,8 +12,8 @@
       "type": "listening",
       "name": "Film-maker's Club - Complete Transcript Gap-fill",
       "hint": "Nghe audio và gõ chính xác từ cần điền vào từng ô trống.",
-      "audio": "",
-      "image": "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=1200",
+      "audio": "https://raw.githubusercontent.com/ms-thuy-classes/tn-quiz/main/audio/Mindset_L1_63.mp3",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRivXhsCmnRK-d-8bxBsiXkvE8Q1TkTP-hRpdXboBebRjWmK71hGrcSXBw&s=10",
       "questions": [
         {
           "qtype": "type-in",
