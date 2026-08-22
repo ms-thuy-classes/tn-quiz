@@ -25,7 +25,7 @@
       ]
     },
     {
-      "type": "multiple-choice",
+      "type": "mcq",
       "name": "PART 2: Trắc nghiệm chọn đáp án đúng",
       "hint": "Chọn từ thích hợp nhất để hoàn thành mỗi câu mô tả tính cách dưới đây.",
       "questions": [
