@@ -1,0 +1,172 @@
+{
+  "id": "personality",
+  "title": "Personality Vocabulary & Negative Prefixes",
+  "tags": ["Vocabulary", "Personality", "Negative Prefixes"],
+  "cover": "😊",
+  "gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+  "description": "Ôn tập từ vựng chủ đề tính cách (Personality) và các tiền tố phủ định (Negative Prefixes).",
+  "duration": "20 phút",
+  "parts": [
+    {
+      "type": "matching",
+      "name": "PART 1: Ghép từ vựng với nghĩa tiếng Việt",
+      "hint": "Nối mỗi từ chỉ tính cách ở cột trái với nghĩa tiếng Việt tương ứng ở cột phải.",
+      "pairs": [
+        { "left": "Affectionate", "right": "Thể hiện tình cảm, âu yếm" },
+        { "left": "Ambitious", "right": "Tham vọng, có hoài bảo lớn" },
+        { "left": "Bossy", "right": "Thích ra lệnh, hách dịch" },
+        { "left": "Competitive", "right": "Cố chấp, luôn muốn thắng/hoàn hảo hơn người khác" },
+        { "left": "Independent", "right": "Độc lập, không phụ thuộc" },
+        { "left": "Insecure", "right": "Thiếu tự tin, cảm thấy không an toàn" },
+        { "left": "Rebellious", "right": "Nổi loạn, hay chống đối" },
+        { "left": "Self-confident", "right": "Tự tin vào bản thân" },
+        { "left": "Stubborn", "right": "Ngang bướng, bướng bỉnh" },
+        { "left": "Moody", "right": "Tính khí thất thường, hay buồn âu" }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "name": "PART 2: Trắc nghiệm chọn đáp án đúng",
+      "hint": "Chọn từ thích hợp nhất để hoàn thành mỗi câu mô tả tính cách dưới đây.",
+      "questions": [
+        {
+          "q": "Sarah is very ________; she loves spending time with people and making new friends.",
+          "words": ["unsociable", "sociable", "impatient", "dishonest"],
+          "a": ["sociable"],
+          "vi": "Sarah rất hòa đồng; cô ấy thích dành thời gian với mọi người và kết bạn mới.",
+          "ex": "sociable = hòa đồng, cởi mở."
+        },
+        {
+          "q": "He is an ________ person who always thinks of creative and original ideas.",
+          "words": ["imaginative", "unimaginative", "insensitive", "untidy"],
+          "a": ["imaginative"],
+          "vi": "Anh ấy là một người giàu tưởng tượng, luôn nghĩ ra những ý tưởng sáng tạo và độc đáo.",
+          "ex": "imaginative = giàu trí tưởng tượng."
+        },
+        {
+          "q": "Don't be so ________! You should let other children play with your toys too.",
+          "words": ["generous", "selfish", "sensitive", "reliable"],
+          "a": ["selfish"],
+          "vi": "Đừng ích kỷ như vậy! Bạn nên để những đứa trẻ khác chơi cùng đồ chơi của mình nữa.",
+          "ex": "selfish = ích kỷ."
+        },
+        {
+          "q": "Lan is completely ________. You can always count on her to finish the work on time.",
+          "words": ["unreliable", "rebellious", "reliable", "anxious"],
+          "a": ["reliable"],
+          "vi": "Lan hoàn toàn đáng tin cậy. Bạn luôn có thể trông cậy vào cô ấy để hoàn thành công việc đúng hạn.",
+          "ex": "reliable = đáng tin cậy."
+        },
+        {
+          "q": "It was very ________ of him to leave his young children alone in the house.",
+          "words": ["responsible", "irresponsible", "sensible", "affectionate"],
+          "a": ["irresponsible"],
+          "vi": "Anh ấy thật vô trách nhiệm khi để những đứa con còn nhỏ ở nhà một mình.",
+          "ex": "irresponsible = vô trách nhiệm."
+        },
+        {
+          "q": "He gets ________ very quickly if he has to wait in a line for more than five minutes.",
+          "words": ["patient", "impatient", "honest", "mature"],
+          "a": ["impatient"],
+          "vi": "Anh ấy trở nên thiếu kiên nhẫn rất nhanh nếu phải xếp hàng chờ quá 5 phút.",
+          "ex": "impatient = nóng hổi, thiếu kiên nhẫn."
+        },
+        {
+          "q": "Children who are ________ usually cry or throw tantrums when they don't get what they want.",
+          "words": ["spoilt", "mature", "independent", "calm"],
+          "a": ["spoilt"],
+          "vi": "Trẻ em bị hư/nuông chiều quá mức thường khóc hoặc ăn vạ khi không có được thứ chúng muốn.",
+          "ex": "spoilt = hư, được nuông chiều quá sinh hư."
+        },
+        {
+          "q": "She felt very ________ before the exam and couldn't sleep all night.",
+          "words": ["charming", "anxious", "sensible", "stubborn"],
+          "a": ["anxious"],
+          "vi": "Cô ấy cảm thấy rất lo lắng trước kỳ thi và không thể ngủ cả đêm.",
+          "ex": "anxious = lo lắng, bồn chồn."
+        },
+        {
+          "q": "A ________ child behaves very well and acts like a grown-up.",
+          "words": ["immature", "mature", "bossy", "moody"],
+          "a": ["mature"],
+          "vi": "Một đứa trẻ trưởng thành cư xử rất ngoan và hành động như người lớn.",
+          "ex": "mature = chín chắn, trưởng thành."
+        },
+        {
+          "q": "It is ________ to tell lies to your parents and teachers.",
+          "words": ["honest", "dishonest", "reliable", "sensitive"],
+          "a": ["dishonest"],
+          "vi": "Nói dối bố mẹ và thầy cô là hành vi không trung thực.",
+          "ex": "dishonest = không trung thực, giả dối."
+        }
+      ]
+    },
+    {
+      "type": "type-in",
+      "name": "PART 3: Điền dạng phủ định của từ vào chỗ trống",
+      "hint": "Thêm tiền tố phủ định (un-, in-, im-, dis-, ir-) thích hợp vào từ trong ngoặc để hoàn thành câu.",
+      "questions": [
+        {
+          "q": "1. His room is always messy and dirty; he is extremely ____________ (tidy).",
+          "a": ["untidy"],
+          "vi": "Phòng của anh ấy luôn bừa bộn và bẩn thỉu; anh ấy vô cùng không gọn gàng.",
+          "ex": "tidy -> untidy (không gọn gàng)."
+        },
+        {
+          "q": "2. It was very ____________ (kind) of them to laugh at her mistake.",
+          "a": ["unkind"],
+          "vi": "Thật tàn nhẫn/không tốt khi họ cười nhạo lỗi sai của cô ấy.",
+          "ex": "kind -> unkind (vô tâm, không tốt)."
+        },
+        {
+          "q": "3. She is a bit ____________ (sensitive) to other people's feelings and often says hurtful things without thinking.",
+          "a": ["insensitive"],
+          "vi": "Cô ấy hơi vô cảm với cảm xúc của người khác và thường nói những điều làm tổn thương mà không suy nghĩ.",
+          "ex": "sensitive -> insensitive (vô tâm, không nhạy cảm với cảm xúc người khác)."
+        },
+        {
+          "q": "4. An ____________ (ambitious) person doesn't care about setting goals or achieving success in life.",
+          "a": ["unambitious"],
+          "vi": "Một người không có tham vọng thì không quan tâm đến việc đặt mục tiêu hay đạt được thành công trong cuộc sống.",
+          "ex": "ambitious -> unambitious (không có tham vọng)."
+        },
+        {
+          "q": "5. He was being ____________ (honest) when he said he didn't break the vase.",
+          "a": ["dishonest"],
+          "vi": "Anh ấy đã không trung thực khi nói rằng mình không làm vỡ chiếc bình.",
+          "ex": "honest -> dishonest (không trung thực)."
+        },
+        {
+          "q": "6. The new student felt unwelcome because everyone seemed cold and ____________ (friendly).",
+          "a": ["unfriendly"],
+          "vi": "Học sinh mới cảm thấy không được chào đón vì mọi người có vẻ lạnh lùng và không thân thiện.",
+          "ex": "friendly -> unfriendly (không thân thiện)."
+        },
+        {
+          "q": "7. You shouldn't be so ____________ (patient) with young children; they need time to learn.",
+          "a": ["impatient"],
+          "vi": "Bạn không nên quá thiếu kiên nhẫn với trẻ nhỏ; chúng cần thời gian để học hỏi.",
+          "ex": "patient -> impatient (thiếu kiên nhẫn)."
+        },
+        {
+          "q": "8. Leaving your clothes all over the floor shows that you are very ____________ (organized).",
+          "a": ["disorganized"],
+          "vi": "Để quần áo bừa bãi khắp sàn nhà chứng tỏ bạn là người rất thiếu trật tự/ngăn nắp.",
+          "ex": "organized -> disorganized (thiếu tổ chức, vô trật tự)."
+        },
+        {
+          "q": "9. It is considered ____________ (polite) to interrupt people while they are talking.",
+          "a": ["impolite"],
+          "vi": "Ngắt lời người khác khi họ đang nói chuyện được coi là bất lịch sự.",
+          "ex": "polite -> impolite (bất lịch sự)."
+        },
+        {
+          "q": "10. Acting like a child when you don't get your way is very ____________ (mature) behavior.",
+          "a": ["immature"],
+          "vi": "Hành xử như một đứa trẻ khi không đạt được mục đích là một hành vi rất trẻ con/chưa trưởng thành.",
+          "ex": "mature -> immature (chưa trưởng thành, trẻ con)."
+        }
+      ]
+    }
+  ]
+}
