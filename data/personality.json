@@ -10,7 +10,7 @@
     {
       "type": "matching",
       "name": "PART 1: Ghép từ vựng với nghĩa tiếng Việt",
-      "hint": "Nối mỗi từ chỉ tính cách ở cột trái với nghĩa tiếng Việt tương ứng ở cột phải.",
+      "hint": "Nối mỗi từ bên trái với nghĩa đúng bên phải",
       "pairs": [
         { "left": "Affectionate", "right": "Thể hiện tình cảm, âu yếm" },
         { "left": "Ambitious", "right": "Tham vọng, có hoài bảo lớn" },
@@ -27,75 +27,75 @@
     {
       "type": "mcq",
       "name": "PART 2: Trắc nghiệm chọn đáp án đúng",
-      "hint": "Chọn từ thích hợp nhất để hoàn thành mỗi câu mô tả tính cách dưới đây.",
+      "hint": "Choose the correct answer",
       "questions": [
         {
           "q": "Sarah is very ________; she loves spending time with people and making new friends.",
-          "words": ["unsociable", "sociable", "impatient", "dishonest"],
-          "a": ["sociable"],
+          "o": ["unsociable", "sociable", "impatient", "dishonest"],
+          "a": 1,
           "vi": "Sarah rất hòa đồng; cô ấy thích dành thời gian với mọi người và kết bạn mới.",
           "ex": "sociable = hòa đồng, cởi mở."
         },
         {
           "q": "He is an ________ person who always thinks of creative and original ideas.",
-          "words": ["imaginative", "unimaginative", "insensitive", "untidy"],
-          "a": ["imaginative"],
+          "o": ["imaginative", "unimaginative", "insensitive", "untidy"],
+          "a": 0,
           "vi": "Anh ấy là một người giàu tưởng tượng, luôn nghĩ ra những ý tưởng sáng tạo và độc đáo.",
           "ex": "imaginative = giàu trí tưởng tượng."
         },
         {
           "q": "Don't be so ________! You should let other children play with your toys too.",
-          "words": ["generous", "selfish", "sensitive", "reliable"],
-          "a": ["selfish"],
+          "o": ["generous", "selfish", "sensitive", "reliable"],
+          "a": 1,
           "vi": "Đừng ích kỷ như vậy! Bạn nên để những đứa trẻ khác chơi cùng đồ chơi của mình nữa.",
           "ex": "selfish = ích kỷ."
         },
         {
           "q": "Lan is completely ________. You can always count on her to finish the work on time.",
-          "words": ["unreliable", "rebellious", "reliable", "anxious"],
-          "a": ["reliable"],
+          "o": ["unreliable", "rebellious", "reliable", "anxious"],
+          "a": 2,
           "vi": "Lan hoàn toàn đáng tin cậy. Bạn luôn có thể trông cậy vào cô ấy để hoàn thành công việc đúng hạn.",
           "ex": "reliable = đáng tin cậy."
         },
         {
           "q": "It was very ________ of him to leave his young children alone in the house.",
-          "words": ["responsible", "irresponsible", "sensible", "affectionate"],
-          "a": ["irresponsible"],
+          "o": ["responsible", "irresponsible", "sensible", "affectionate"],
+          "a": 1,
           "vi": "Anh ấy thật vô trách nhiệm khi để những đứa con còn nhỏ ở nhà một mình.",
           "ex": "irresponsible = vô trách nhiệm."
         },
         {
           "q": "He gets ________ very quickly if he has to wait in a line for more than five minutes.",
-          "words": ["patient", "impatient", "honest", "mature"],
-          "a": ["impatient"],
+          "o": ["patient", "impatient", "honest", "mature"],
+          "a": 1,
           "vi": "Anh ấy trở nên thiếu kiên nhẫn rất nhanh nếu phải xếp hàng chờ quá 5 phút.",
           "ex": "impatient = nóng hổi, thiếu kiên nhẫn."
         },
         {
           "q": "Children who are ________ usually cry or throw tantrums when they don't get what they want.",
-          "words": ["spoilt", "mature", "independent", "calm"],
-          "a": ["spoilt"],
+          "o": ["spoilt", "mature", "independent", "calm"],
+          "a": 0,
           "vi": "Trẻ em bị hư/nuông chiều quá mức thường khóc hoặc ăn vạ khi không có được thứ chúng muốn.",
           "ex": "spoilt = hư, được nuông chiều quá sinh hư."
         },
         {
           "q": "She felt very ________ before the exam and couldn't sleep all night.",
-          "words": ["charming", "anxious", "sensible", "stubborn"],
-          "a": ["anxious"],
+          "o": ["charming", "anxious", "sensible", "stubborn"],
+          "a": 1,
           "vi": "Cô ấy cảm thấy rất lo lắng trước kỳ thi và không thể ngủ cả đêm.",
           "ex": "anxious = lo lắng, bồn chồn."
         },
         {
           "q": "A ________ child behaves very well and acts like a grown-up.",
-          "words": ["immature", "mature", "bossy", "moody"],
-          "a": ["mature"],
+          "o": ["immature", "mature", "bossy", "moody"],
+          "a": 1,
           "vi": "Một đứa trẻ trưởng thành cư xử rất ngoan và hành động như người lớn.",
           "ex": "mature = chín chắn, trưởng thành."
         },
         {
           "q": "It is ________ to tell lies to your parents and teachers.",
-          "words": ["honest", "dishonest", "reliable", "sensitive"],
-          "a": ["dishonest"],
+          "o": ["honest", "dishonest", "reliable", "sensitive"],
+          "a": 1,
           "vi": "Nói dối bố mẹ và thầy cô là hành vi không trung thực.",
           "ex": "dishonest = không trung thực, giả dối."
         }
@@ -104,7 +104,7 @@
     {
       "type": "type-in",
       "name": "PART 3: Điền dạng phủ định của từ vào chỗ trống",
-      "hint": "Thêm tiền tố phủ định (un-, in-, im-, dis-, ir-) thích hợp vào từ trong ngoặc để hoàn thành câu.",
+      "hint": "Điền từ thích hợp vào chỗ trống",
       "questions": [
         {
           "q": "1. His room is always messy and dirty; he is extremely ____________ (tidy).",
