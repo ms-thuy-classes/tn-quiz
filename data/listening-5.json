@@ -1,0 +1,171 @@
+{
+  "id": "listening-5",
+  "title": "Listening · Film-maker's Club Transcript Gap-fill",
+  "tags": ["Listening", "Gap-fill", "Film Making", "IELTS", "B2"],
+  "cover": "🎬",
+  "gradient": "linear-gradient(135deg,#5a9df5,#8ecdfd 55%,#3ecfa0)",
+  "description": "Nghe audio/đọc transcript và điền từ thích hợp vào 30 chỗ trống.",
+  "duration": "20 phút",
+  "questionCount": 30,
+  "parts": [
+    {
+      "type": "listening",
+      "name": "Film-maker's Club - Complete Transcript Gap-fill",
+      "hint": "Nghe audio và gõ chính xác từ cần điền vào từng ô trống.",
+      "audio": "",
+      "image": "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=1200",
+      "questions": [
+        {
+          "qtype": "type-in",
+          "q": "So welcome to Film-maker's Club. I hope you're excited at the thought of making a film and that you're bursting with great ideas. I've put you all into (1) ____, so here's what you're going to do.",
+          "a": ["groups", "Groups"]
+        },
+        {
+          "qtype": "type-in",
+          "q": "Now you might think the first thing that you need to do is to come up with an idea for a (2) ____, but even before that you need to think about what type of film you want to make.",
+          "a": ["story", "Story"]
+        },
+        {
+          "qtype": "type-in",
+          "q": "Remember that a film is really a story in (3) ____. There are lots of ways of telling a story.",
+          "a": ["pictures", "Pictures"]
+        },
+        {
+          "qtype": "type-in",
+          "q": "So choose a style of film that suits the (4) ____ of the group.",
+          "a": ["talents", "Talents"]
+        },
+        {
+          "qtype": "type-in",
+          "q": "If you have talented artists, but no good writers, or actors, you might want to make your film in the style of a (5) ____ or some other kind of animation.",
+          "a": ["cartoon", "Cartoon"]
+        },
+        {
+          "qtype": "type-in",
+          "q": "Last year a group made an excellent film using (6) ____ bricks.",
+          "a": ["Lego", "lego", "LEGO"]
+        },
+        {
+          "qtype": "type-in",
+          "q": "So having decided that, you can start to think of your idea for the story. Think about the movies you like to watch. What is it that makes them (7) ____? Is it the characters, the plot?",
+          "a": ["interesting", "Interesting"]
+        },
+        {
+          "qtype": "type-in",
+          "q": "As regards plot, my advice is - don't be too ambitious, don't make it (8) ____.",
+          "a": ["complicated", "Complicated"]
+        },
+        {
+          "qtype": "type-in",
+          "q": "Keep it (9) ____ - the simplest ideas are often the ones that work the best.",
+          "a": ["simple", "Simple"]
+        },
+        {
+          "qtype": "type-in",
+          "q": "Initially you just need to find the basic (10) ____. You can fill in the details later.",
+          "a": ["concept", "Concept"]
+        },
+        {
+          "qtype": "type-in",
+          "q": "It's a good idea to keep a (11) ____ in your pocket and carry it everywhere. You never know when a great idea will suddenly come to you!",
+          "a": ["notebook", "Notebook"]
+        },
+        {
+          "qtype": "type-in",
+          "q": "And the more ideas, the (12) ____, in my opinion.",
+          "a": ["better", "Better"]
+        },
+        {
+          "qtype": "type-in",
+          "q": "The next stage is to write the (13) ____ - for this you need to divide the story up into a series of scenes.",
+          "a": ["screenplay", "Screenplay"]
+        },
+        {
+          "qtype": "type-in",
+          "q": "For each scene, the screenplay should begin with a short description of where it takes place, the time of day, that is day or night. Then the rest consists of the script - the lines the actors will speak, and it should also describe the (14) ____ movements, and give directions to the actors about how they should move.",
+          "a": ["camera", "Camera"]
+        },
+        {
+          "qtype": "type-in",
+          "q": "...and give directions to the actors about how they should (15) ____.",
+          "a": ["move", "Move"]
+        },
+        {
+          "qtype": "type-in",
+          "q": "Before you can start filming, you need to prepare a (16) ____ of your film to help everyone involved to imagine the scenes clearly and to understand what you are trying to achieve.",
+          "a": ["storyboard", "Storyboard"]
+        },
+        {
+          "qtype": "type-in",
+          "q": "This is similar to a (17) ____ version of your film, but without speech balloons.",
+          "a": ["comic-book", "comic book", "Comic-book", "Comic book"]
+        },
+        {
+          "qtype": "type-in",
+          "q": "...but without speech (18) ____.",
+          "a": ["balloons", "Balloons"]
+        },
+        {
+          "qtype": "type-in",
+          "q": "And at this point you need to appoint a (19) ____.",
+          "a": ["director", "Director"]
+        },
+        {
+          "qtype": "type-in",
+          "q": "This is a major role and it's vital that he or she is a good (20) ____, as they are the key link between the actors and the rest of the team.",
+          "a": ["communicator", "Communicator"]
+        },
+        {
+          "qtype": "type-in",
+          "q": "This person will have responsibility for the (21) ____ side of the project.",
+          "a": ["creative", "Creative"]
+        },
+        {
+          "qtype": "type-in",
+          "q": "He or she will have the final say in the choice of the main (22) ____ and in directing the action of the film.",
+          "a": ["actors", "Actors"]
+        },
+        {
+          "qtype": "type-in",
+          "q": "That brings me to the next stage - casting your film - finding the actors. Don't just rely on your (23) ____. Be creative!",
+          "a": ["friends", "Friends"]
+        },
+        {
+          "qtype": "type-in",
+          "q": "Perhaps you could (24) ____ on social media.",
+          "a": ["advertise", "Advertise"]
+        },
+        {
+          "qtype": "type-in",
+          "q": "Or if your film needs a doctor, perhaps you could ask one from the local (25) ____ if they could spare a couple of hours for you?",
+          "a": ["hospital", "Hospital"]
+        },
+        {
+          "qtype": "type-in",
+          "q": "And then before filming finally starts, you will need to assign other jobs, such as director of photography - in your case this will be the person who operates the camera; someone in charge of (26) ____ and music...",
+          "a": ["sound", "Sound"]
+        },
+        {
+          "qtype": "type-in",
+          "q": "...and someone in charge of costumes and (27) ____ (including furniture and any other objects needed)...",
+          "a": ["props", "Props"]
+        },
+        {
+          "qtype": "type-in",
+          "q": "...and also someone to look after hair and (28) ____.",
+          "a": ["make-up", "makeup", "Make-up", "Makeup"]
+        },
+        {
+          "qtype": "type-in",
+          "q": "But we'll look at these (29) ____ in more detail in our next session.",
+          "a": ["roles", "Roles"]
+        },
+        {
+          "qtype": "type-in",
+          "q": "But we'll look at these roles in more detail in our (30) ____ session.",
+          "a": ["next", "Next"]
+        }
+      ]
+    }
+  ]
+}
