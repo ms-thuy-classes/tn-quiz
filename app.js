@@ -388,16 +388,19 @@ async function initPostPage(){
   document.getElementById('modal').addEventListener('click', e => { if(e.target.dataset.close !== undefined) closeModal(); });
   document.addEventListener('keydown', e => { if(e.key === 'Escape' && !document.getElementById('modal').hidden) closeModal(); });
 
-  // ===== Helper cập nhật live score =====
-  function updateLiveScore(){
-    const pill = document.getElementById('liveScore');
-    if (!pill) return;
-    const liveScore = +(game.correct * game.pointPerQ).toFixed(1);
-    pill.textContent = '✓ ' + game.correct + ' (' + liveScore + 'đ)';
-    // Kích hoạt animation bump
-    pill.classList.remove('bump'); 
-    void pill.offsetWidth; // force reflow
-    pill.classList.add('bump');
+   // ===== Helper cập nhật live score ===== 
+  function updateLiveScore(){ 
+    const pill = document.getElementById('liveScore'); 
+    if (!pill) return; 
+    const liveScore = +(game.correct * game.pointPerQ).toFixed(1); 
+    
+    // HIỂN THỊ RÕ: Số câu đúng / Tổng số câu hỏi (bao gồm cả sub-questions của listening/reading)
+    pill.textContent = `✓ ${game.correct}/${game.total} (${liveScore}đ)`; 
+    
+    // Kích hoạt animation bump 
+    pill.classList.remove('bump');  
+    void pill.offsetWidth; // force reflow 
+    pill.classList.add('bump'); 
   }
 
   // ===== TIMER & PROGRESS UI HELPERS =====
@@ -1173,34 +1176,51 @@ async function initPostPage(){
             wrap.appendChild(show);
           }
         }
-        else if(sub.qtype === 'type-in-para'){
-          // 📝 Xử lý điền đoạn văn cho listening — đúng khi TẤT CẢ các ô đều đúng
-          const inputs = [...wrap.querySelectorAll('.para-blank-input')];
-          let allOk = true;
-          const chosenParts = [], rightParts = [];
-          inputs.forEach((inp, bi) => {
-            const blank = (sub._blanks && sub._blanks[bi]) || { answers: [''] };
-            const val = (inp.value || '').trim();
-            const isRight = val !== '' && blank.answers.some(a => val.toLowerCase() === String(a).toLowerCase());
-            if(!isRight) allOk = false;
-            inp.disabled = true;
-            inp.classList.add(isRight ? 'correct' : 'wrong');
-            chosenParts.push(val || '(bỏ trống)');
-            rightParts.push(blank.answers[0]);
-            if(!isRight){
-              const badge = inp.closest('.para-blank-wrap');
-              if(badge){
-                const show = document.createElement('span');
-                show.className = 'para-blank-correct';
-                show.style.cssText = 'color:#2ea36c;font-size:.85em;font-weight:700;margin-left:2px';
-                show.textContent = '✅ ' + blank.answers[0];
-                badge.appendChild(show);
-              }
-            }
-          });
-          ok = allOk;
-          chosenText = chosenParts.join(' | ');
-          rightText = rightParts.join(' | ');
+               else if(sub.qtype === 'type-in-para'){ 
+          // 📝 Xử lý điền đoạn văn cho listening
+          const inputs = [...wrap.querySelectorAll('.para-blank-input')]; 
+          let allOk = true; 
+          const chosenParts = [], rightParts = []; 
+          
+          inputs.forEach((inp, bi) => { 
+            const blank = (sub._blanks && sub._blanks[bi]) || { answers: [''] }; 
+            const val = (inp.value || '').trim(); 
+            const isRight = val !== '' && blank.answers.some(a => val.toLowerCase() === String(a).toLowerCase()); 
+            if(!isRight) allOk = false; 
+            
+            inp.disabled = true; 
+            inp.classList.add(isRight ? 'correct' : 'wrong'); 
+            chosenParts.push(val || '(bỏ trống)'); 
+            rightParts.push(blank.answers[0]); 
+            
+            if(!isRight){ 
+              const badge = inp.closest('.para-blank-wrap'); 
+              if(badge){ 
+                const show = document.createElement('span'); 
+                show.className = 'para-blank-correct'; 
+                show.style.cssText = 'color:#2ea36c;font-size:.85em;font-weight:700;margin-left:2px'; 
+                show.textContent = '✅ ' + blank.answers[0]; 
+                badge.appendChild(show); 
+              } 
+            } 
+          }); 
+          
+          ok = allOk; 
+          chosenText = chosenParts.join(' | '); 
+          rightText = rightParts.join(' | '); 
+          
+          // LƯU THÊM DỮ LIỆU ĐỂ REVIEW HIỂN THỊ ĐOẠN VĂN ĐẦY ĐỦ
+          details.push({ 
+            q: `Đoạn văn điền từ (Câu ${si+1})`, 
+            chosen: chosenText, 
+            right: rightText, 
+            ok: ok, 
+            vi: sub.vi, 
+            ex: sub.ex,
+            _isPara: true,
+            _originalText: sub.text || sub.passage || sub.q, // Lưu đoạn văn gốc
+            _blanks: sub._blanks // Lưu mảng đáp án
+          }); 
         }
         else if(sub.qtype === 'match'){
           const rows = sub.rows || [];
@@ -1356,43 +1376,61 @@ async function initPostPage(){
       if(k<1) requestAnimationFrame(count);
     })(t0);
 
-    const list = document.getElementById('reviewList');
-    if(!wrongs.length){
-      list.innerHTML = '<div class="review-perfect">🎉 Tuyệt đối! Em làm đúng hết ' + total + ' câu · đạt ' + finalScore.toFixed(1) + '/10 điểm! 🎉</div>';
-    } else {
-      wrongs.forEach(q => {
-        const ans = answers[items.indexOf(q)] || {chosen: '—'};
-
-        if(q._partType === 'listening'){
-          (ans.details || []).filter(d => !d.ok).forEach(d => {
-            list.appendChild(reviewCard(q._partName, d.q, d.chosen, d.right, d.vi, d.ex));
-          });
-          return;
-        }
-
-        if(q._partType === 'type-in-para'){
-          const art = document.createElement('article');
-          art.className = 'review-item';
-          art.innerHTML =
-            '<div class="review-head"><span class="badge-wrong">Chưa đúng</span>' +
-            '<span style="font-family:Space Mono,monospace;font-size:.75rem;color:var(--ink-faint)">' + esc(q._partName || '') + '</span></div>' +
-            '<p class="review-q para-review-text" style="line-height:1.9">' + paraReviewHtml(q, ans) + '</p>' +
-            (q.vi ? '<p class="review-vi">🇻🇳 ' + esc(q.vi) + '</p>' : '') +
-            (q.ex ? '<p class="review-ex">💡 ' + esc(q.ex) + '</p>' : '');
-          list.appendChild(art);
-          return;
-        }
-
-        // Sửa phần lấy đáp án đúng cho type-in
-        const answersArr = Array.isArray(q.a) ? q.a : [q.a];
-        const rightAns = (q._partType === 'fill' || q._partType === 'type-in')
-          ? answersArr[0]
-          : (q._partType === 'matching') ? 'matched all'
-          : (q.o ? q.o[q.a] : '—');
-        list.appendChild(reviewCard(q._partName, q.q, ans.chosen, rightAns, q.vi, q.ex, q));
-      });
+        const list = document.getElementById('reviewList'); 
+    if(!wrongs.length){ 
+      list.innerHTML = '<div class="review-perfect">🎉 Tuyệt đối! Em làm đúng hết ' + game.total + ' câu · đạt ' + finalScore.toFixed(1) + '/10 điểm! 🎉</div>'; 
+    } else { 
+      wrongs.forEach(q => { 
+        const ans = answers[items.indexOf(q)] || {chosen: '—'}; 
+ 
+        // === XỬ LÝ RIÊNG CHO LISTENING ===
+        if(q._partType === 'listening'){ 
+          (ans.details || []).filter(d => !d.ok).forEach(d => { 
+            if (d._isPara) {
+              // Nếu là lỗi điền đoạn văn, hiển thị review đẹp mắt có gạch chân
+              const art = document.createElement('article'); 
+              art.className = 'review-item'; 
+              const mockItem = { text: d._originalText, _blanks: d._blanks };
+              const mockAns = { chosen: d.chosen }; // d.chosen đã có dạng "từ 1 | từ 2"
+              
+              art.innerHTML = 
+                '<div class="review-head"><span class="badge-wrong">Chưa đúng</span>' + 
+                '<span style="font-family:Space Mono,monospace;font-size:.75rem;color:var(--ink-faint)">' + esc(q._partName || '') + ' - ' + esc(d.q) + '</span></div>' + 
+                '<p class="review-q para-review-text" style="line-height:1.9; margin-top:8px;">' + paraReviewHtml(mockItem, mockAns) + '</p>' + 
+                (d.vi ? '<p class="review-vi">🇻🇳 ' + esc(d.vi) + '</p>' : '') + 
+                (d.ex ? '<p class="review-ex">💡 ' + esc(d.ex) + '</p>' : ''); 
+              list.appendChild(art);
+            } else {
+              // Các dạng listening khác (single, multi, fill thường)
+              list.appendChild(reviewCard(q._partName, d.q, d.chosen, d.right, d.vi, d.ex)); 
+            }
+          }); 
+          return; 
+        } 
+ 
+        // === XỬ LÝ RIÊNG CHO TYPE-IN-PARA THƯỜNG ===
+        if(q._partType === 'type-in-para'){ 
+          const art = document.createElement('article'); 
+          art.className = 'review-item'; 
+          art.innerHTML = 
+            '<div class="review-head"><span class="badge-wrong">Chưa đúng</span>' + 
+            '<span style="font-family:Space Mono,monospace;font-size:.75rem;color:var(--ink-faint)">' + esc(q._partName || '') + '</span></div>' + 
+            '<p class="review-q para-review-text" style="line-height:1.9">' + paraReviewHtml(q, ans) + '</p>' + 
+            (q.vi ? '<p class="review-vi">🇻🇳 ' + esc(q.vi) + '</p>' : '') + 
+            (q.ex ? '<p class="review-ex">💡 ' + esc(q.ex) + '</p>' : ''); 
+          list.appendChild(art); 
+          return; 
+        } 
+ 
+        // === CÁC DẠNG KHÁC (MCQ, Fill, Type-in thường) ===
+        const answersArr = Array.isArray(q.a) ? q.a : [q.a]; 
+        const rightAns = (q._partType === 'fill' || q._partType === 'type-in') 
+          ? answersArr[0] 
+          : (q._partType === 'matching') ? 'matched all' 
+          : (q.o ? q.o[q.a] : '—'); 
+        list.appendChild(reviewCard(q._partName, q.q, ans.chosen, rightAns, q.vi, q.ex, q)); 
+      }); 
     }
-
     document.getElementById('reviewBtn').onclick = () =>
       document.querySelector('.review').scrollIntoView({behavior:'smooth'});
 
