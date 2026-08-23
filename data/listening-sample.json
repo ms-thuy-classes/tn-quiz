@@ -16,6 +16,12 @@
       "image": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=1200",
       "questions": [
         {
+  "qtype": "type-in-para",
+  "q": "Nghe audio và điền vào đoạn script bên dưới:",
+  "text": "The train leaves at ____seven____ o'clock from platform ____two____.",
+  "vi": "...", "ex": "..."
+},
+        {
           "qtype": "single",
           "q": "What time does Minh get up?",
           "o": ["5:30", "6:00", "6:30", "7:00"],
