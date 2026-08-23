@@ -1,7 +1,7 @@
 {
-"id": "listening-mindset-l1-52-james-marilyn",
+"id": "listening-family",
 "title": "Listening · Mindset L1 · Lesson 52 · James & Marilyn's Stories",
-"tags": ["Lớp 10", "Listening", "Mindset L1"],
+"tags": ["IELTS", "Listening", "THE ENGLISH FILE"],
 "cover": "🎧",
 "gradient": "linear-gradient(135deg,#5a9df5,#8ecdfd 55%,#3ecfa0)",
 "description": "Nghe 2 đoạn audio về câu chuyện của James và Marilyn, sau đó điền từ vào chỗ trống dựa trên nội dung nghe được.",
@@ -12,7 +12,7 @@
 "type": "listening",
 "name": "Phần 1 · Câu chuyện của James",
 "hint": "Nghe audio và điền đúng một từ vào mỗi chỗ trống trong đoạn văn bên dưới.",
-"audio": "https://raw.githubusercontent.com/ms-thuy-classes/audio/main/Mindset_L1_52.mp3",
+"audio": "https://raw.githubusercontent.com/ms-thuy-classes/tn-quiz/main/audio/EF4e_IntSB_1.25.mp3",
 "image": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=1200",
 "questions": [
 {
@@ -28,7 +28,7 @@
 "type": "listening",
 "name": "Phần 2 · Câu chuyện của Marilyn",
 "hint": "Tiếp tục nghe và điền đúng một từ vào mỗi chỗ trống trong đoạn văn bên dưới.",
-"audio": "https://raw.githubusercontent.com/ms-thuy-classes/audio/main/Mindset_L1_52.mp3",
+"audio": "https://raw.githubusercontent.com/ms-thuy-classes/tn-quiz/main/audio/EF4e_IntSB_1.25.mp3",
 "image": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=1200",
 "questions": [
 {
