@@ -1,6 +1,6 @@
 /* ============================================================
-   Learn with Ms. Thúy — Quiz Engine (Full v3 + Timer & Progress + Type-In)
-   Hỗ trợ: mcq | fill | type-in | reading | matching | synonym | antonym | listening
+   Learn with Ms. Thúy — Quiz Engine (Full v4 + Timer & Progress + Type-In + Type-In-Para)
+   Hỗ trợ: mcq | fill | type-in | type-in-para | reading | matching | synonym | antonym | listening
    Tính điểm: Thang 10 · điểm mỗi câu = 10 / tổng_số_câu
    ============================================================ */
 
@@ -24,6 +24,47 @@ if (typeof window.REDUCED === 'undefined') {
 const esc = window.esc;
 const shuffle = window.shuffle;
 const REDUCED = window.REDUCED;
+
+/* ============================================================
+   PARAGRAPH BLANK PARSER — dùng cho dạng "type-in-para"
+   Cú pháp trong đoạn văn: ____đáp_án____ (có thể nhiều đáp án đúng,
+   phân cách bằng dấu "|", ví dụ: ____color|colour____)
+   Trả về: { html, blanks }
+     html   -> đoạn văn đã escape, mỗi chỗ trống được thay bằng 1 ô input
+               có số thứ tự (1), (2), (3)... tự động
+     blanks -> mảng [{ answers: [...] }] theo đúng thứ tự xuất hiện
+   ============================================================ */
+if (typeof window.parseParaBlanks !== 'function') {
+  window.parseParaBlanks = function(text){
+    const raw = String(text == null ? '' : text);
+    // Tách chuỗi theo cặp ____...____ (không tham lam) — kết quả xen kẽ:
+    // [đoạn text, đáp_án, đoạn text, đáp_án, ..., đoạn text]
+    const parts = raw.split(/____(.+?)____/g);
+    const blanks = [];
+    let html = '';
+
+    parts.forEach((part, i) => {
+      if (i % 2 === 0) {
+        html += esc(part);
+      } else {
+        const answers = part.split('|').map(a => a.trim()).filter(Boolean);
+        const bIdx = blanks.length;
+        blanks.push({ answers: answers.length ? answers : [part.trim()] });
+        html +=
+          '<span class="para-blank-wrap" style="display:inline-flex;align-items:baseline;gap:3px;margin:0 2px;vertical-align:baseline">' +
+            '<sup class="para-blank-num" style="color:var(--primary-deep,#5a4fcf);font-weight:700;font-size:.72em">(' + (bIdx + 1) + ')</sup>' +
+            '<input class="para-blank-input" data-blank="' + bIdx + '" type="text" autocomplete="off" spellcheck="false" ' +
+              'placeholder="(' + (bIdx + 1) + ')" ' +
+              'style="min-width:88px;max-width:170px;padding:3px 9px;border:2px solid var(--primary-soft,#e4e0fb);' +
+              'border-radius:8px;font:inherit;font-size:.95em;text-align:center;background:#fff;color:inherit">' +
+          '</span>';
+      }
+    });
+
+    return { html, blanks };
+  };
+}
+const parseParaBlanks = window.parseParaBlanks;
 
 /* ============================================================
    AUDIO — Web Audio API (SFX)
@@ -143,6 +184,38 @@ function reviewCard(partName, qText, chosen, right, vi, ex, q){
 }
 
 /* ============================================================
+   REVIEW HELPER — dạng "type-in-para" (điền vào đoạn văn)
+   Hiển thị lại cả đoạn văn, chỗ nào em điền sai sẽ gạch ngang +
+   đáp án đúng bên cạnh; chỗ nào đúng thì tô xanh.
+   ============================================================ */
+function paraReviewHtml(item, ans){
+  const chosenArr = String((ans && ans.chosen) || '').split(' | ');
+  const raw = String(
+    item.text != null ? item.text :
+    (item.passage != null ? item.passage : (item.q || ''))
+  );
+  const parts = raw.split(/____(.+?)____/g);
+  let html = '';
+  let bIdx = 0;
+  parts.forEach((part, i) => {
+    if(i % 2 === 0){
+      html += esc(part);
+    } else {
+      const answers = part.split('|').map(a => a.trim()).filter(Boolean);
+      const rightAns = answers[0] || part.trim();
+      const userVal = (chosenArr[bIdx] || '').trim();
+      const isRight = answers.some(a => userVal.toLowerCase() === a.toLowerCase());
+      html += isRight
+        ? ' <mark class="para-ans-right" style="background:#d7f5e6;color:#177a4d;padding:1px 6px;border-radius:6px">' + esc(rightAns) + '</mark> '
+        : ' <span class="para-ans-wrong" style="text-decoration:line-through;color:#c0435a">' + esc(userVal || '(bỏ trống)') + '</span>' +
+          '<mark class="para-ans-right" style="background:#d7f5e6;color:#177a4d;padding:1px 6px;border-radius:6px;margin-left:4px">' + esc(rightAns) + '</mark> ';
+      bIdx++;
+    }
+  });
+  return html;
+}
+
+/* ============================================================
    POST PAGE INIT
    ============================================================ */
 async function initPostPage(){
@@ -198,6 +271,7 @@ async function initPostPage(){
     mcq:'🧩 Trắc nghiệm',
     fill:'✏️ Điền từ (có sẵn)',
     'type-in':'⌨️ Gõ đáp án',
+    'type-in-para':'📝 Điền đoạn văn',
     reading:'📖 Reading',
     matching:'🔗 Matching',
     synonym:'🔁 Đồng nghĩa',
@@ -235,6 +309,21 @@ async function initPostPage(){
           _pairs: part.pairs, _matches: 0, _completed: false,
           _points: pairsCount,
         }];
+      }
+      if (part.type === 'type-in-para') {
+        return (part.questions || []).map(q => {
+          const srcText = q.text != null ? q.text : (q.passage != null ? q.passage : q.q);
+          const parsed = parseParaBlanks(srcText);
+          return {
+            ...q,
+            _partType: 'type-in-para',
+            _partName: part.name,
+            _partHint: part.hint,
+            _parsedHtml: parsed.html,
+            _blanks: parsed.blanks,
+            _points: parsed.blanks.length || 1,
+          };
+        });
       }
       const shuffledQuestions = shuffle(part.questions || []);
       return shuffledQuestions.map(q => ({
@@ -398,7 +487,7 @@ async function initPostPage(){
       '<div class="q-meta"><span class="part-chip" style="background:var(--primary-soft);color:var(--primary-deep)">' + esc(item._partName) + '</span>' +
       '<span style="color:var(--ink-faint);font-size:.85rem;font-style:italic">' + esc(item._partHint || '') + '</span></div>';
 
-    if (item._partType !== 'matching' && item._partType !== 'listening') {
+    if (item._partType !== 'matching' && item._partType !== 'listening' && item._partType !== 'type-in-para') {
       html += '<h2 class="q-text">' + renderQuestionText(item) + '</h2>';
     }
 
@@ -432,6 +521,8 @@ async function initPostPage(){
         return renderFill(item);
       case 'type-in':
         return renderTypeIn(item);
+      case 'type-in-para':
+        return renderTypeInPara(item);
       case 'matching':
         return renderMatching(item);
       case 'listening':
@@ -518,6 +609,24 @@ async function initPostPage(){
   }
 
   /* ============================================================
+     TYPE-IN-PARA (điền từ ngay trên cả đoạn văn — có đánh số (1)(2)...)
+     Cấu trúc dữ liệu 1 câu trong part.questions:
+       { "text": "Yesterday I went to the ____market____ to buy ____vegetables|veggies____.",
+         "vi": "...", "ex": "..." }
+     Dùng được cho: bài tập thường (part.type = "type-in-para"),
+     reading (đoạn văn chính là bài đọc), và listening (sub.qtype = "type-in-para").
+     ============================================================ */
+  function renderTypeInPara(item){
+    return '<div class="para-fill-wrap">' +
+      '<p class="para-fill-text" style="line-height:2;font-size:1.05rem">' + item._parsedHtml + '</p>' +
+      '<div class="fill-actions">' +
+        '<button class="btn btn-primary" id="paraCheck" type="button">✅ Nộp đoạn văn</button>' +
+      '</div>' +
+      '<div class="fill-hint">💡 Điền từ thích hợp vào từng ô có đánh số, rồi bấm <b>Nộp đoạn văn</b> (nhấn <b>Enter</b> để qua ô tiếp theo)</div>' +
+    '</div>';
+  }
+
+  /* ============================================================
      MATCHING (ghép 2 cột)
      ============================================================ */
   function renderMatching(item){
@@ -552,6 +661,7 @@ async function initPostPage(){
       multi:'Chọn nhiều đáp án',
       fill:'Điền từ (có sẵn)',
       'type-in':'Gõ đáp án',
+      'type-in-para':'Điền đoạn văn',
       match:'Ghép (dropdown)'
     }[t] || t;
   }
@@ -566,6 +676,11 @@ async function initPostPage(){
         sub._shuffled = shuffle((sub.o || []).map((t,i) => ({text:t, correct:(sub.a || []).includes(i)})));
       } else if(sub.qtype === 'fill'){
         if(sub.words && sub.words.length) sub._shuffledWords = shuffle(sub.words);
+      } else if(sub.qtype === 'type-in-para'){
+        const srcText = sub.text != null ? sub.text : (sub.passage != null ? sub.passage : sub.q);
+        const parsed = parseParaBlanks(srcText);
+        sub._blanks = parsed.blanks;
+        sub._parsedHtml = parsed.html;
       }
       // type-in: không cần xử lý gì thêm
     });
@@ -607,6 +722,12 @@ async function initPostPage(){
         html += '<input class="fill-input sub-fill-input sub-typein-input" data-sub="' + si + '" type="text" autocomplete="off" ' +
           'placeholder="✍️ Gõ đáp án em nghe được...">';
       }
+      else if(sub.qtype === 'type-in-para'){
+        // 📝 Dạng điền vào cả đoạn văn — nhiều ô có đánh số (1)(2)(3)...
+        html += '<div class="para-fill-wrap para-fill-sub">' +
+          '<p class="para-fill-text" style="line-height:2;font-size:1.02rem">' + sub._parsedHtml + '</p>' +
+        '</div>';
+      }
       else if(sub.qtype === 'match'){
         html += '<div class="match-opts"><b>📋 Phương án:</b><br>' +
           (sub.options || []).map((op,i) => '<b>' + LETTERS[i] + '.</b> ' + esc(op) + '<br>').join('') +
@@ -644,6 +765,7 @@ async function initPostPage(){
         break;
       case 'fill': handleFill(item); break;
       case 'type-in': handleTypeIn(item); break;
+      case 'type-in-para': handleTypeInPara(item); break;
       case 'matching': handleMatching(item); break;
       case 'listening': handleListening(item); break;
     }
@@ -819,6 +941,83 @@ async function initPostPage(){
     setTimeout(() => { try { input.focus(); } catch(e){} }, 80);
   }
 
+  /* ============================================================
+     HANDLER TYPE-IN-PARA (điền vào đoạn văn — nhiều ô trong 1 đoạn)
+     Chấm điểm theo từng ô: mỗi ô đúng +1 (đã tính trong _points),
+     ô nào sai sẽ hiện đáp án đúng ngay cạnh ô đó.
+     ============================================================ */
+  function handleTypeInPara(item){
+    const wrap = document.querySelector('#qStage .para-fill-wrap');
+    const btn = document.getElementById('paraCheck');
+    if(!wrap || !btn) return;
+    const inputs = [...wrap.querySelectorAll('.para-blank-input')];
+    let done = false;
+
+    function doCheck(){
+      if(done) return;
+      done = true;
+      inputs.forEach(inp => inp.disabled = true);
+      btn.disabled = true;
+
+      let correctCount = 0;
+      const chosenParts = [], rightParts = [];
+
+      inputs.forEach((inp, i) => {
+        const blank = item._blanks[i] || { answers: [''] };
+        const val = (inp.value || '').trim();
+        const valLC = val.toLowerCase();
+        const ok = val !== '' && blank.answers.some(a => valLC === String(a).toLowerCase());
+        if(ok) correctCount++;
+        inp.classList.add(ok ? 'correct' : 'wrong');
+        chosenParts.push(val || '(bỏ trống)');
+        rightParts.push(blank.answers[0]);
+
+        if(!ok){
+          const badge = inp.closest('.para-blank-wrap');
+          if(badge){
+            const show = document.createElement('span');
+            show.className = 'para-blank-correct';
+            show.style.cssText = 'color:#2ea36c;font-size:.85em;font-weight:700;margin-left:2px';
+            show.textContent = '✅ ' + blank.answers[0];
+            badge.appendChild(show);
+          }
+        }
+      });
+
+      game.correct += correctCount;
+      updateLiveScore();
+      game.answers[game.idx] = {
+        chosen: chosenParts.join(' | '),
+        right: rightParts.join(' | '),
+        ok: correctCount === inputs.length
+      };
+
+      if(correctCount === inputs.length){
+        sfxCorrect();
+        showToast('✨ Điền đúng hết ' + inputs.length + ' chỗ trống!', 'good');
+      } else if(correctCount > 0){
+        sfxTick();
+        showToast('📝 Đúng ' + correctCount + '/' + inputs.length + ' chỗ trống', '');
+      } else {
+        sfxWrong();
+        showToast('❌ Chưa đúng chỗ nào…', 'bad');
+      }
+      setTimeout(nextStep, 2200);
+    }
+
+    btn.addEventListener('click', doCheck);
+    inputs.forEach((inp, i) => {
+      inp.addEventListener('keydown', e => {
+        if(e.key === 'Enter'){
+          e.preventDefault();
+          const next = inputs[i+1];
+          if(next) next.focus(); else doCheck();
+        }
+      });
+    });
+    setTimeout(() => { try { inputs[0] && inputs[0].focus(); } catch(e){} }, 80);
+  }
+
   function handleMatching(item){
     let selL = null, selR = null;
     if (item._completed) return;
@@ -973,6 +1172,35 @@ async function initPostPage(){
             show.innerHTML = '✅ Đáp án: <b>' + esc(rightText) + '</b>';
             wrap.appendChild(show);
           }
+        }
+        else if(sub.qtype === 'type-in-para'){
+          // 📝 Xử lý điền đoạn văn cho listening — đúng khi TẤT CẢ các ô đều đúng
+          const inputs = [...wrap.querySelectorAll('.para-blank-input')];
+          let allOk = true;
+          const chosenParts = [], rightParts = [];
+          inputs.forEach((inp, bi) => {
+            const blank = (sub._blanks && sub._blanks[bi]) || { answers: [''] };
+            const val = (inp.value || '').trim();
+            const isRight = val !== '' && blank.answers.some(a => val.toLowerCase() === String(a).toLowerCase());
+            if(!isRight) allOk = false;
+            inp.disabled = true;
+            inp.classList.add(isRight ? 'correct' : 'wrong');
+            chosenParts.push(val || '(bỏ trống)');
+            rightParts.push(blank.answers[0]);
+            if(!isRight){
+              const badge = inp.closest('.para-blank-wrap');
+              if(badge){
+                const show = document.createElement('span');
+                show.className = 'para-blank-correct';
+                show.style.cssText = 'color:#2ea36c;font-size:.85em;font-weight:700;margin-left:2px';
+                show.textContent = '✅ ' + blank.answers[0];
+                badge.appendChild(show);
+              }
+            }
+          });
+          ok = allOk;
+          chosenText = chosenParts.join(' | ');
+          rightText = rightParts.join(' | ');
         }
         else if(sub.qtype === 'match'){
           const rows = sub.rows || [];
@@ -1139,6 +1367,19 @@ async function initPostPage(){
           (ans.details || []).filter(d => !d.ok).forEach(d => {
             list.appendChild(reviewCard(q._partName, d.q, d.chosen, d.right, d.vi, d.ex));
           });
+          return;
+        }
+
+        if(q._partType === 'type-in-para'){
+          const art = document.createElement('article');
+          art.className = 'review-item';
+          art.innerHTML =
+            '<div class="review-head"><span class="badge-wrong">Chưa đúng</span>' +
+            '<span style="font-family:Space Mono,monospace;font-size:.75rem;color:var(--ink-faint)">' + esc(q._partName || '') + '</span></div>' +
+            '<p class="review-q para-review-text" style="line-height:1.9">' + paraReviewHtml(q, ans) + '</p>' +
+            (q.vi ? '<p class="review-vi">🇻🇳 ' + esc(q.vi) + '</p>' : '') +
+            (q.ex ? '<p class="review-ex">💡 ' + esc(q.ex) + '</p>' : '');
+          list.appendChild(art);
           return;
         }
 
