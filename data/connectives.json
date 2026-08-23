@@ -1,0 +1,123 @@
+{
+  "id": "connectives",
+  "title": "Vocabulary & Grammar · Linking Words",
+  "tags": ["IELTS", "Vocabulary", "Grammar"],
+  "cover": "📝",
+  "gradient": "linear-gradient(135deg,#7a67ee,#5a9df5 55%,#3ecfa0)",
+  "description": "Bài tập điền từ nối (Linking words) vào chỗ trống.",
+  "duration": "15 phút",
+  "parts": [
+    {
+      "type": "type-in",
+      "name": "Điền từ thích hợp",
+      "hint": "Điền từ thích hợp vào chỗ trống",
+      "questions": [
+        {
+          "q": "1. Tourism brings much-needed money to developing countries. ____ , it provides employment for the local population.",
+          "a": [
+            "Furthermore",
+            "furthermore",
+            "In addition",
+            "in addition",
+            "Moreover",
+            "moreover",
+            "What’s more",
+            "What's more",
+            "what’s more",
+            "what's more"
+          ]
+        },
+        {
+          
+          "q": "2. ____ bringing much-needed money to developing countries, tourism provides employment for the local population.",
+          "a": [
+            "As well as",
+            "as well as",
+            "Besides",
+            "besides"
+          ]
+        },
+        {
+          "q": "3. Tourists should respect the local environment. ____ they should respect the local customs.",
+          "a": [
+            "Likewise",
+            "likewise",
+            "Similarly",
+            "similarly",
+            "In the same way",
+            "in the same way"
+          ]
+        },
+        {
+          "q": "4. ____ industrial waste, pollution from car fumes is poisoning the environment.",
+          "a": [
+            "As well as",
+            "as well as",
+            "Along with",
+            "along with"
+          ]
+        },
+        {
+          "q": "5. In order to travel, you need a passport. ____ , you might need a visa, immunisation jabs and written permission to visit certain areas.",
+          "a": [
+            "Also",
+            "also",
+            "Furthermore",
+            "furthermore",
+            "In addition",
+            "in addition",
+            "Moreover",
+            "moreover",
+            "What’s more",
+            "What's more",
+            "what’s more",
+            "what's more"
+          ]
+        },
+        {
+          "q": "6. Drugs are banned in Britain - ____ weapons such as guns and knives.",
+          "a": [
+            "Likewise",
+            "likewise",
+            "Similarly",
+            "similarly"
+          ]
+        },
+        {
+          "q": "7. All power corrupts. ____ , absolute power corrupts absolutely.",
+          "a": [
+            "Likewise",
+            "likewise",
+            "In the same way",
+            "in the same way",
+            "Similarly",
+            "similarly"
+          ]
+        },
+        {
+          "q": "8. You shouldn’t smoke, drink, take drugs or eat unhealthy food. ____ , you should live a more healthy lifestyle.",
+          "a": [
+            "In brief",
+            "in brief"
+          ]
+        },
+        {
+          "q": "9. The ozone layer is becoming depleted, the air in the cities is becoming too dirty to breathe and our seas and rivers are no longer safe to swim in. ____ pollution is slowly destroying the planet.",
+          "a": [
+            "In brief",
+            "in brief",
+            "We can conclude that",
+            "we can conclude that"
+          ]
+        },
+        {
+          "q": "10. Your grades have been very poor for the past two years. ____ you need to work really hard if you want to pass your exams next month.",
+          "a": [
+            "Therefore",
+            "therefore"
+          ]
+        }
+      ]
+    }
+  ]
+}
