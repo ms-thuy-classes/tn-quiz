@@ -1,4 +1,15 @@
 [
+     {
+    "id": "chinese-lesson6",
+    "title": "Bài tập về Giáo trình hán ngữ 1 bài 6",
+    "tags": ["HSK1", "Vocabulary"],
+    "cover": "️🎧",
+    "gradient": "linear-gradient(135deg,#7a67ee,#5a9df5 55%,#3ecfa0)",
+    "description": "20 trắc nghiệm và 10 câu điền từ.",
+    "duration": "45 phút",
+    "questionCount": 30,
+    "featured": true
+  },
     {
     "id": "connectives",
     "title": "Bài tập về từ nối",
