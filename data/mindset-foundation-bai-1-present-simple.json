@@ -1,0 +1,561 @@
+{
+  "id": "english-present-simple-vocab-01",
+  "title": "BÀI TẬP ÔN TẬP TỪ VỰNG VÀ THÌ HIỆN TẠI ĐƠN",
+  "description": "Bài tập ôn tập gồm 25 câu luyện tập trọn bộ từ vựng và thì Hiện tại đơn chia làm 3 phần: Trắc nghiệm, Điền từ có khung và Tự điền từ.",
+  "tags": ["English", "Vocabulary", "Grammar", "Present Simple"],
+  "timeLimit": 900,
+  "parts": [
+    {
+      "type": "mcq",
+      "name": "Phần 1: Trắc nghiệm (MCQ)",
+      "hint": "Chọn đáp án đúng nhất A, B, C hoặc D",
+      "questions": [
+        {
+          "q": "Every morning, Tom’s alarm rings at 6:00 AM, but he usually ________ at 6:15 AM.",
+          "o": ["falls asleep", "gets up", "tidy up", "washes up"],
+          "a": 1,
+          "vi": "Mỗi sáng, chuông báo thức của Tom reo lúc 6:00, nhưng anh ấy thường thức dậy lúc 6:15.",
+          "ex": "gets up: thức dậy"
+        },
+        {
+          "q": "Nina doesn't have a car, so she always ________ to go to college.",
+          "o": ["catches the bus", "takes out the rubbish", "gets a lift", "does the laundry"],
+          "a": 0,
+          "vi": "Nina không có xe hơi, vì vậy cô ấy luôn bắt xe buýt để đến trường đại học.",
+          "ex": "catches the bus: bắt xe buýt"
+        },
+        {
+          "q": "After dinner, my father often ________ in front of the TV to watch the news.",
+          "o": ["study", "prepares a meal", "relaxes", "does sightseeing"],
+          "a": 2,
+          "vi": "Sau bữa tối, bố tôi thường thư giãn trước TV để xem tin tức.",
+          "ex": "relaxes: thư giãn"
+        },
+        {
+          "q": "My brother is very helpful. He always ________ after we finish eating dinner.",
+          "o": ["washes up", "goes to bed", "falls asleep", "goes online"],
+          "a": 0,
+          "vi": "Anh trai tôi rất hay giúp đỡ. Anh ấy luôn rửa chén bát sau khi chúng tôi ăn tối xong.",
+          "ex": "washes up: rửa bát đĩa"
+        },
+        {
+          "q": "At 12:00 PM, the professor gives a long ________ about history at the university.",
+          "o": ["host family", "rubbish", "lecture", "meal"],
+          "a": 2,
+          "vi": "Vào lúc 12:00 trưa, giáo sư có một bài giảng dài về lịch sử tại trường đại học.",
+          "ex": "lecture: bài giảng"
+        },
+        {
+          "q": "Sarah ________ dinner for her family because she loves cooking.",
+          "o": ["prepare", "prepares", "preparing", "to prepare"],
+          "a": 1,
+          "vi": "Sarah chuẩn bị bữa tối cho gia đình vì cô ấy thích nấu ăn.",
+          "ex": "prepares - Chủ ngữ số ít 'Sarah' đi với động từ thêm 's'"
+        },
+        {
+          "q": "Sometimes, my dad ________ me a lift to school when it rains.",
+          "o": ["get", "gets", "give", "gives"],
+          "a": 3,
+          "vi": "Thỉnh thoảng, bố cho tôi đi nhờ xe đến trường khi trời mưa.",
+          "ex": "gives - Cụm từ 'gives a lift': cho đi nhờ xe, chủ ngữ 'my dad' số ít"
+        },
+        {
+          "q": "He works late until ________, so he feels very tired the next morning.",
+          "o": ["lecture", "midnight", "host family", "bus"],
+          "a": 1,
+          "vi": "Anh ấy làm việc muộn đến tận nửa đêm, nên sáng hôm sau anh ấy cảm thấy rất mệt.",
+          "ex": "midnight: nửa đêm"
+        },
+        {
+          "q": "Everyday, my sister ________ her teeth twice to keep them healthy.",
+          "o": ["brushes", "brush", "brushing", "is brush"],
+          "a": 0,
+          "vi": "Mỗi ngày, em gái tôi đánh răng hai lần để giữ răng khỏe mạnh.",
+          "ex": "brushes - Chủ ngữ số ít 'my sister'"
+        },
+        {
+          "q": "When staying in England, Peter lived with a very friendly ________.",
+          "o": ["daily routine", "host family", "college club", "driving lesson"],
+          "a": 1,
+          "vi": "Khi ở Anh, Peter đã sống cùng một gia đình chủ nhà rất thân thiện.",
+          "ex": "host family: gia đình bản xứ / gia đình chủ nhà"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "name": "Phần 2: Điền từ có khung cho sẵn (Fill)",
+      "hint": "Chọn từ thích hợp trong khung và chia đúng dạng thì Hiện tại đơn",
+      "questions": [
+        {
+          "q": "Every evening before going to bed, I usually ________________________ to read news and chat with my friends on Facebook.",
+          "words": ["do the laundry", "fall asleep", "put things away", "take out the rubbish", "go online", "do some sightseeing", "make lunch", "shower"],
+          "a": ["go online"],
+          "vi": "Mỗi tối trước khi đi ngủ, tôi thường lên mạng để đọc tin tức và trò chuyện với bạn bè.",
+          "ex": "go online: lên mạng"
+        },
+        {
+          "q": "The house is very dirty! Can you help me ________________________ and clean the floor?",
+          "words": ["do the laundry", "fall asleep", "put things away", "take out the rubbish", "go online", "do some sightseeing", "make lunch", "shower"],
+          "a": ["take out the rubbish"],
+          "vi": "Nhà bẩn quá! Bạn có thể giúp tôi đi đổ rác và lau nhà không?",
+          "ex": "take out the rubbish: đi đổ rác"
+        },
+        {
+          "q": "Don't leave your clothes on the floor! Please ________________________ into your closet.",
+          "words": ["do the laundry", "fall asleep", "put things away", "take out the rubbish", "go online", "do some sightseeing", "make lunch", "shower"],
+          "a": ["put things away"],
+          "vi": "Đừng để quần áo trên sàn nhà! Hãy cất đồ đạc vào tủ quần áo.",
+          "ex": "put things away: cất đồ đạc đi"
+        },
+        {
+          "q": "Every Sunday, my mom ________________________ to clean all our dirty clothes.",
+          "words": ["do the laundry", "fall asleep", "put things away", "take out the rubbish", "go online", "do some sightseeing", "make lunch", "shower"],
+          "a": ["does the laundry"],
+          "vi": "Mỗi Chủ nhật, mẹ tôi giặt quần áo để làm sạch tất cả đồ bẩn của chúng tôi.",
+          "ex": "does the laundry (Chủ ngữ 'My mom' số ít -> does)"
+        },
+        {
+          "q": "It is 11:00 PM. He is very tired, so he usually ________________________ right after lying on his bed.",
+          "words": ["do the laundry", "fall asleep", "put things away", "take out the rubbish", "go online", "do some sightseeing", "make lunch", "shower"],
+          "a": ["falls asleep"],
+          "vi": "Bây giờ là 11 giờ đêm. Anh ấy rất mệt, nên thường ngủ thiếp đi ngay sau khi nằm xuống giường.",
+          "ex": "falls asleep (Chủ ngữ 'He' số ít -> falls)"
+        },
+        {
+          "q": "On weekends, foreign tourists love to ________________________ around Ho Chi Minh City to take pictures.",
+          "words": ["do the laundry", "fall asleep", "put things away", "take out the rubbish", "go online", "do some sightseeing", "make lunch", "shower"],
+          "a": ["do some sightseeing"],
+          "vi": "Vào cuối tuần, du khách nước ngoài thích đi ngắm cảnh quanh TP.HCM để chụp ảnh.",
+          "ex": "do some sightseeing: đi tham quan, ngắm cảnh"
+        },
+        {
+          "q": "He always has a quick ________________________ in the morning to feel refreshed before work.",
+          "words": ["do the laundry", "fall asleep", "put things away", "take out the rubbish", "go online", "do some sightseeing", "make lunch", "shower"],
+          "a": ["shower"],
+          "vi": "Anh ấy luôn tắm nhanh vào buổi sáng để cảm thấy sảng khoái trước khi đi làm.",
+          "ex": "shower (Cụm từ 'have a shower': tắm)"
+        },
+        {
+          "q": "At 12:30 PM, my grandmother usually ________________________ for the whole family.",
+          "words": ["do the laundry", "fall asleep", "put things away", "take out the rubbish", "go online", "do some sightseeing", "make lunch", "shower"],
+          "a": ["makes lunch"],
+          "vi": "Vào lúc 12:30 trưa, bà tôi thường nấu bữa trưa cho cả gia đình.",
+          "ex": "makes lunch (Chủ ngữ 'My grandmother' số ít -> makes)"
+        }
+      ]
+    },
+    {
+      "type": "type-in",
+      "name": "Phần 3: Gõ đáp án (Type-in)",
+      "hint": "Gõ từ/cụm từ chính xác chia đúng thì Hiện tại đơn vào ô trống",
+      "questions": [
+        {
+          "q": "After getting out of bed, I go to the bathroom to brush my teeth and h__________ a shower.",
+          "a": ["have"],
+          "vi": "Sau khi ra khỏi giường, tôi vào nhà vệ sinh đánh răng và tắm.",
+          "ex": "have (have a shower)"
+        },
+        {
+          "q": "My brother is lazy; he never t__________ out the rubbish, so the bin is always full.",
+          "a": ["takes"],
+          "vi": "Anh tôi rất lười; anh ấy không bao giờ đổ rác, nên thùng rác luôn đầy.",
+          "ex": "takes (Chủ ngữ 'he' số ít -> takes out)"
+        },
+        {
+          "q": "On Saturdays, I like to m__________ a friend for coffee at a small café near my house.",
+          "a": ["meet"],
+          "vi": "Vào các thứ Bảy, tôi thích gặp một người bạn đi uống cà phê tại một quán nhỏ gần nhà.",
+          "ex": "meet (meet a friend)"
+        },
+        {
+          "q": "What time do you usually g__________ to bed at night? - Around 10:30 PM.",
+          "a": ["go"],
+          "vi": "Bạn thường đi ngủ lúc mấy giờ vào buổi tối? - Khoảng 10:30 tối.",
+          "ex": "go (go to bed)"
+        },
+        {
+          "q": "She is learning how to drive, so her dad t__________ her out for a driving lesson every weekend.",
+          "a": ["takes"],
+          "vi": "Cô ấy đang học lái xe, vì vậy bố cô ấy đưa cô ấy đi học lái xe mỗi cuối tuần.",
+          "ex": "takes (Chủ ngữ 'Her dad' số ít -> takes)"
+        },
+        {
+          "q": "Before going to school, I always g__________ my schoolbag ready with books and pens.",
+          "a": ["get"],
+          "vi": "Trước khi đến trường, tôi luôn chuẩn bị sẵn cặp sách với sách và bút.",
+          "ex": "get (get ready: chuẩn bị sẵn sàng)"
+        },
+        {
+          "q": "We don't have a dishwasher, so my sister c__________ the dishes by hand after every meal.",
+          "a": ["cleans"],
+          "vi": "Chúng tôi không có máy rửa bát, nên chị tôi rửa bát bằng tay sau mỗi bữa ăn.",
+          "ex": "cleans (Chủ ngữ 'My sister' số ít -> cleans)"
+        }
+      ]
+    }
+  ]
+}
+
+code_text = json.dumps(quiz_data, ensure_ascii=False, indent=2)
+print("JSON Code length:", len(code_text))
+
+Kết quả chạy mã
+JSON Code length: 12014
+
+JSON
+{
+  "id": "english-present-simple-vocab-01",
+  "title": "BÀI TẬP ÔN TẬP TỪ VỰNG VÀ THÌ HIỆN TẠI ĐƠN",
+  "description": "Bài tập ôn tập gồm 25 câu luyện tập trọn bộ từ vựng và thì Hiện tại đơn chia làm 3 phần: Trắc nghiệm, Điền từ có khung và Tự điền từ.",
+  "tags": [
+    "English",
+    "Vocabulary",
+    "Grammar",
+    "Present Simple"
+  ],
+  "timeLimit": 900,
+  "parts": [
+    {
+      "type": "mcq",
+      "name": "Phần 1: Trắc nghiệm (MCQ)",
+      "hint": "Chọn đáp án đúng nhất A, B, C hoặc D",
+      "questions": [
+        {
+          "q": "Every morning, Tom’s alarm rings at 6:00 AM, but he usually ________ at 6:15 AM.",
+          "o": [
+            "falls asleep",
+            "gets up",
+            "tidy up",
+            "washes up"
+          ],
+          "a": 1,
+          "vi": "Mỗi sáng, chuông báo thức của Tom reo lúc 6:00, nhưng anh ấy thường thức dậy lúc 6:15.",
+          "ex": "gets up: thức dậy"
+        },
+        {
+          "q": "Nina doesn't have a car, so she always ________ to go to college.",
+          "o": [
+            "catches the bus",
+            "takes out the rubbish",
+            "gets a lift",
+            "does the laundry"
+          ],
+          "a": 0,
+          "vi": "Nina không có xe hơi, vì vậy cô ấy luôn bắt xe buýt để đến trường đại học.",
+          "ex": "catches the bus: bắt xe buýt"
+        },
+        {
+          "q": "After dinner, my father often ________ in front of the TV to watch the news.",
+          "o": [
+            "study",
+            "prepares a meal",
+            "relaxes",
+            "does sightseeing"
+          ],
+          "a": 2,
+          "vi": "Sau bữa tối, bố tôi thường thư giãn trước TV để xem tin tức.",
+          "ex": "relaxes: thư giãn"
+        },
+        {
+          "q": "My brother is very helpful. He always ________ after we finish eating dinner.",
+          "o": [
+            "washes up",
+            "goes to bed",
+            "falls asleep",
+            "goes online"
+          ],
+          "a": 0,
+          "vi": "Anh trai tôi rất hay giúp đỡ. Anh ấy luôn rửa chén bát sau khi chúng tôi ăn tối xong.",
+          "ex": "washes up: rửa bát đĩa"
+        },
+        {
+          "q": "At 12:00 PM, the professor gives a long ________ about history at the university.",
+          "o": [
+            "host family",
+            "rubbish",
+            "lecture",
+            "meal"
+          ],
+          "a": 2,
+          "vi": "Vào lúc 12:00 trưa, giáo sư có một bài giảng dài về lịch sử tại trường đại học.",
+          "ex": "lecture: bài giảng"
+        },
+        {
+          "q": "Sarah ________ dinner for her family because she loves cooking.",
+          "o": [
+            "prepare",
+            "prepares",
+            "preparing",
+            "to prepare"
+          ],
+          "a": 1,
+          "vi": "Sarah chuẩn bị bữa tối cho gia đình vì cô ấy thích nấu ăn.",
+          "ex": "prepares - Chủ ngữ số ít 'Sarah' đi với động từ thêm 's'"
+        },
+        {
+          "q": "Sometimes, my dad ________ me a lift to school when it rains.",
+          "o": [
+            "get",
+            "gets",
+            "give",
+            "gives"
+          ],
+          "a": 3,
+          "vi": "Thỉnh thoảng, bố cho tôi đi nhờ xe đến trường khi trời mưa.",
+          "ex": "gives - Cụm từ 'gives a lift': cho đi nhờ xe, chủ ngữ 'my dad' số ít"
+        },
+        {
+          "q": "He works late until ________, so he feels very tired the next morning.",
+          "o": [
+            "lecture",
+            "midnight",
+            "host family",
+            "bus"
+          ],
+          "a": 1,
+          "vi": "Anh ấy làm việc muộn đến tận nửa đêm, nên sáng hôm sau anh ấy cảm thấy rất mệt.",
+          "ex": "midnight: nửa đêm"
+        },
+        {
+          "q": "Everyday, my sister ________ her teeth twice to keep them healthy.",
+          "o": [
+            "brushes",
+            "brush",
+            "brushing",
+            "is brush"
+          ],
+          "a": 0,
+          "vi": "Mỗi ngày, em gái tôi đánh răng hai lần để giữ răng khỏe mạnh.",
+          "ex": "brushes - Chủ ngữ số ít 'my sister'"
+        },
+        {
+          "q": "When staying in England, Peter lived with a very friendly ________.",
+          "o": [
+            "daily routine",
+            "host family",
+            "college club",
+            "driving lesson"
+          ],
+          "a": 1,
+          "vi": "Khi ở Anh, Peter đã sống cùng một gia đình chủ nhà rất thân thiện.",
+          "ex": "host family: gia đình bản xứ / gia đình chủ nhà"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "name": "Phần 2: Điền từ có khung cho sẵn (Fill)",
+      "hint": "Chọn từ thích hợp trong khung và chia đúng dạng thì Hiện tại đơn",
+      "questions": [
+        {
+          "q": "Every evening before going to bed, I usually ________________________ to read news and chat with my friends on Facebook.",
+          "words": [
+            "do the laundry",
+            "fall asleep",
+            "put things away",
+            "take out the rubbish",
+            "go online",
+            "do some sightseeing",
+            "make lunch",
+            "shower"
+          ],
+          "a": [
+            "go online"
+          ],
+          "vi": "Mỗi tối trước khi đi ngủ, tôi thường lên mạng để đọc tin tức và trò chuyện với bạn bè.",
+          "ex": "go online: lên mạng"
+        },
+        {
+          "q": "The house is very dirty! Can you help me ________________________ and clean the floor?",
+          "words": [
+            "do the laundry",
+            "fall asleep",
+            "put things away",
+            "take out the rubbish",
+            "go online",
+            "do some sightseeing",
+            "make lunch",
+            "shower"
+          ],
+          "a": [
+            "take out the rubbish"
+          ],
+          "vi": "Nhà bẩn quá! Bạn có thể giúp tôi đi đổ rác và lau nhà không?",
+          "ex": "take out the rubbish: đi đổ rác"
+        },
+        {
+          "q": "Don't leave your clothes on the floor! Please ________________________ into your closet.",
+          "words": [
+            "do the laundry",
+            "fall asleep",
+            "put things away",
+            "take out the rubbish",
+            "go online",
+            "do some sightseeing",
+            "make lunch",
+            "shower"
+          ],
+          "a": [
+            "put things away"
+          ],
+          "vi": "Đừng để quần áo trên sàn nhà! Hãy cất đồ đạc vào tủ quần áo.",
+          "ex": "put things away: cất đồ đạc đi"
+        },
+        {
+          "q": "Every Sunday, my mom ________________________ to clean all our dirty clothes.",
+          "words": [
+            "do the laundry",
+            "fall asleep",
+            "put things away",
+            "take out the rubbish",
+            "go online",
+            "do some sightseeing",
+            "make lunch",
+            "shower"
+          ],
+          "a": [
+            "does the laundry"
+          ],
+          "vi": "Mỗi Chủ nhật, mẹ tôi giặt quần áo để làm sạch tất cả đồ bẩn của chúng tôi.",
+          "ex": "does the laundry (Chủ ngữ 'My mom' số ít -> does)"
+        },
+        {
+          "q": "It is 11:00 PM. He is very tired, so he usually ________________________ right after lying on his bed.",
+          "words": [
+            "do the laundry",
+            "fall asleep",
+            "put things away",
+            "take out the rubbish",
+            "go online",
+            "do some sightseeing",
+            "make lunch",
+            "shower"
+          ],
+          "a": [
+            "falls asleep"
+          ],
+          "vi": "Bây giờ là 11 giờ đêm. Anh ấy rất mệt, nên thường ngủ thiếp đi ngay sau khi nằm xuống giường.",
+          "ex": "falls asleep (Chủ ngữ 'He' số ít -> falls)"
+        },
+        {
+          "q": "On weekends, foreign tourists love to ________________________ around Ho Chi Minh City to take pictures.",
+          "words": [
+            "do the laundry",
+            "fall asleep",
+            "put things away",
+            "take out the rubbish",
+            "go online",
+            "do some sightseeing",
+            "make lunch",
+            "shower"
+          ],
+          "a": [
+            "do some sightseeing"
+          ],
+          "vi": "Vào cuối tuần, du khách nước ngoài thích đi ngắm cảnh quanh TP.HCM để chụp ảnh.",
+          "ex": "do some sightseeing: đi tham quan, ngắm cảnh"
+        },
+        {
+          "q": "He always has a quick ________________________ in the morning to feel refreshed before work.",
+          "words": [
+            "do the laundry",
+            "fall asleep",
+            "put things away",
+            "take out the rubbish",
+            "go online",
+            "do some sightseeing",
+            "make lunch",
+            "shower"
+          ],
+          "a": [
+            "shower"
+          ],
+          "vi": "Anh ấy luôn tắm nhanh vào buổi sáng để cảm thấy sảng khoái trước khi đi làm.",
+          "ex": "shower (Cụm từ 'have a shower': tắm)"
+        },
+        {
+          "q": "At 12:30 PM, my grandmother usually ________________________ for the whole family.",
+          "words": [
+            "do the laundry",
+            "fall asleep",
+            "put things away",
+            "take out the rubbish",
+            "go online",
+            "do some sightseeing",
+            "make lunch",
+            "shower"
+          ],
+          "a": [
+            "makes lunch"
+          ],
+          "vi": "Vào lúc 12:30 trưa, bà tôi thường nấu bữa trưa cho cả gia đình.",
+          "ex": "makes lunch (Chủ ngữ 'My grandmother' số ít -> makes)"
+        }
+      ]
+    },
+    {
+      "type": "type-in",
+      "name": "Phần 3: Gõ đáp án (Type-in)",
+      "hint": "Gõ từ/cụm từ chính xác chia đúng thì Hiện tại đơn vào ô trống",
+      "questions": [
+        {
+          "q": "After getting out of bed, I go to the bathroom to brush my teeth and h__________ a shower.",
+          "a": [
+            "have"
+          ],
+          "vi": "Sau khi ra khỏi giường, tôi vào nhà vệ sinh đánh răng và tắm.",
+          "ex": "have (have a shower)"
+        },
+        {
+          "q": "My brother is lazy; he never t__________ out the rubbish, so the bin is always full.",
+          "a": [
+            "takes"
+          ],
+          "vi": "Anh tôi rất lười; anh ấy không bao giờ đổ rác, nên thùng rác luôn đầy.",
+          "ex": "takes (Chủ ngữ 'he' số ít -> takes out)"
+        },
+        {
+          "q": "On Saturdays, I like to m__________ a friend for coffee at a small café near my house.",
+          "a": [
+            "meet"
+          ],
+          "vi": "Vào các thứ Bảy, tôi thích gặp một người bạn đi uống cà phê tại một quán nhỏ gần nhà.",
+          "ex": "meet (meet a friend)"
+        },
+        {
+          "q": "What time do you usually g__________ to bed at night? - Around 10:30 PM.",
+          "a": [
+            "go"
+          ],
+          "vi": "Bạn thường đi ngủ lúc mấy giờ vào buổi tối? - Khoảng 10:30 tối.",
+          "ex": "go (go to bed)"
+        },
+        {
+          "q": "She is learning how to drive, so her dad t__________ her out for a driving lesson every weekend.",
+          "a": [
+            "takes"
+          ],
+          "vi": "Cô ấy đang học lái xe, vì vậy bố cô ấy đưa cô ấy đi học lái xe mỗi cuối tuần.",
+          "ex": "takes (Chủ ngữ 'Her dad' số ít -> takes)"
+        },
+        {
+          "q": "Before going to school, I always g__________ my schoolbag ready with books and pens.",
+          "a": [
+            "get"
+          ],
+          "vi": "Trước khi đến trường, tôi luôn chuẩn bị sẵn cặp sách với sách và bút.",
+          "ex": "get (get ready: chuẩn bị sẵn sàng)"
+        },
+        {
+          "q": "We don't have a dishwasher, so my sister c__________ the dishes by hand after every meal.",
+          "a": [
+            "cleans"
+          ],
+          "vi": "Chúng tôi không có máy rửa bát, nên chị tôi rửa bát bằng tay sau mỗi bữa ăn.",
+          "ex": "cleans (Chủ ngữ 'My sister' số ít -> cleans)"
+        }
+      ]
+    }
+  ]
+}
