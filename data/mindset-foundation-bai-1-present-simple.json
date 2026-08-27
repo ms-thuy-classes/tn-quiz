@@ -27,7 +27,7 @@
           "a": 1
         },
         {
-          "q": "Nina doesn't have a car, so she always ________ to go to college.",
+          "q": "Nina doesn't have a car, so she always ________  number 11 to go to college.",
           "o": [
             "catches the bus",
             "takes out the rubbish",
@@ -271,7 +271,7 @@
           ]
         },
         {
-          "q": "On Saturdays, I like to ________ a friend for coffee at a small café near my house.",
+          "q": "On Saturdays, I like to ________ a friend for coffee at a small café near my house. (gặp) ",
           "a": [
             "meet"
           ]
