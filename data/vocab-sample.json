@@ -15,12 +15,16 @@
         {
           "q": "What time ________ Minh get up every morning?",
           "o": ["do", "does", "is", "are"],
-          "a": 1
+          "a": 1,
+          "vi": "Minh thức dậy lúc mấy giờ mỗi sáng?",
+          "ex": "Trong câu hỏi thì hiện tại đơn với chủ ngữ số ít (Minh), dùng trợ động từ 'does'."
         },
         {
           "q": "He ________ up at five thirty.",
           "o": ["get", "getting", "gets", "got"],
-          "a": 2
+          "a": 2,
+          "vi": "Anh ấy thức dậy lúc năm giờ ba mươi.",
+          "ex": "Chủ ngữ 'He' là ngôi thứ ba số ít nên động từ thêm -s: gets."
         }
       ]
     },
@@ -32,7 +36,9 @@
         {
           "q": "She ________ a shower every morning.",
           "words": ["takes", "take", "taking", "took", "taken"],
-          "a": ["takes"]
+          "a": ["takes"],
+          "vi": "Cô ấy tắm vòi sen mỗi sáng.",
+          "ex": "Cụm từ cố định là 'take a shower'. Chủ ngữ 'She' nên động từ thêm -s."
         }
       ]
     },
@@ -43,7 +49,9 @@
       "questions": [
         {
           "q": "She ____ to school every day.",
-          "a": ["goes", "goes to school"]
+          "a": ["goes", "goes to school"],
+          "vi": "Cô ấy đi học mỗi ngày.",
+          "ex": "Động từ 'go' chia ở ngôi thứ ba số ít thành 'goes'."
         }
       ]
     }
