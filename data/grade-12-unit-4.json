@@ -18,7 +18,7 @@
 "hint": "Chọn phương án đúng nhất (A, B, C hoặc D) để hoàn thành các câu sau.",
 "questions": [
 {
-"q": "As more and more people move to the city, the cost of living is getting ________.",
+"q": "As more and more people move to the city, the cost of living is getting .........",
 "o": [
 "higher and higher",
 "the highest and highest",
@@ -30,7 +30,7 @@
 "ex": "Cấu trúc so sánh kép thể hiện sự thay đổi: higher and higher."
 },
 {
-"q": "The local authority has decided to ________ the main roads to reduce severe traffic jams.",
+"q": "The local authority has decided to ........ the main roads to reduce severe traffic jams.",
 "o": [
 "decrease",
 "expand",
@@ -42,7 +42,7 @@
 "ex": "expand = mở rộng đường xá."
 },
 {
-"q": "This is the first time our city ________ an electric bus system to reduce carbon emissions.",
+"q": "This is the first time our city ........ an electric bus system to reduce carbon emissions.",
 "o": [
 "introduced",
 "introduces",
@@ -54,7 +54,7 @@
 "ex": "Cấu trúc This is the first time + S + have/has + V3/ed."
 },
 {
-"q": "The ________ the city becomes, the worse the smog and air pollution get.",
+"q": "The ........ the city becomes, the worse the smog and air pollution get.",
 "o": [
 "crowded",
 "more crowded",
@@ -66,7 +66,7 @@
 "ex": "Cấu trúc so sánh kép song song: The + so sánh hơn..., the + so sánh hơn..."
 },
 {
-"q": "Living in a high-rise flat in the city centre is the most expensive experience I ________.",
+"q": "Living in a high-rise flat in the city centre is the most expensive experience I .........",
 "o": [
 "ever had",
 "have ever had",
@@ -90,7 +90,7 @@
 "ex": "urbanisation = sự đô thị hóa."
 },
 {
-"q": "The local government is investing heavily to improve the public ________ to meet the needs of residents.",
+"q": "The local government is investing heavily to improve the public ........ to meet the needs of residents.",
 "o": [
 "emission",
 "infrastructure",
@@ -102,7 +102,7 @@
 "ex": "infrastructure = cơ sở hạ tầng."
 },
 {
-"q": "The ________ public transport is, the fewer people will use their private vehicles.",
+"q": "The ........ public transport is, the fewer people will use their private vehicles.",
 "o": [
 "reliable",
 "more reliable",
@@ -114,7 +114,7 @@
 "ex": "Về nghĩa: Phương tiện công cộng càng kém đáng tin cậy (less reliable), người dân càng ít dùng xe cá nhân."
 },
 {
-"q": "Heavy traffic during ________ hour often makes city dwellers feel stressed and exhausted.",
+"q": "Heavy traffic during ........ hour often makes city dwellers feel stressed and exhausted.",
 "o": [
 "rush",
 "quick",
@@ -126,7 +126,7 @@
 "ex": "rush hour = giờ cao điểm."
 },
 {
-"q": "That is the tallest skyscraper I ________ in this metropolitan region.",
+"q": "That is the tallest skyscraper I ........ in this metropolitan region.",
 "o": [
 "saw",
 "have ever seen",
@@ -138,7 +138,7 @@
 "ex": "Cấu trúc so sánh nhất + HTHT: That is the tallest... I have ever seen."
 },
 {
-"q": "Life in the countryside is changing; young people are finding it ________ to secure stable jobs.",
+"q": "Life in the countryside is changing; young people are finding it ........ to secure stable jobs.",
 "o": [
 "harder and harder",
 "more hard and more hard",
@@ -150,7 +150,7 @@
 "ex": "Tính từ ngắn so sánh kép: harder and harder."
 },
 {
-"q": "There is a serious ________ of affordable housing for low-income workers in big cities.",
+"q": "There is a serious ........ of affordable housing for low-income workers in big cities.",
 "o": [
 "decision",
 "shortage",
@@ -162,7 +162,7 @@
 "ex": "shortage of = sự thiếu hụt."
 },
 {
-"q": "The ________ money we invest in rural healthcare, the ________ the life expectancy of local dwellers will be.",
+"q": "The ........ money we invest in rural healthcare, the ........ the life expectancy of local dwellers will be.",
 "o": [
 "more / better",
 "most / best",
@@ -174,7 +174,7 @@
 "ex": "Cấu trúc The more..., the better..."
 },
 {
-"q": "It is not the first time the residents ________ to the authority about the loud noise late at night.",
+"q": "It is not the first time the residents ........ to the authority about the loud noise late at night.",
 "o": [
 "complained",
 "have complained",
@@ -186,7 +186,7 @@
 "ex": "Cấu trúc It is not the first time + S + have/has + V3/ed."
 },
 {
-"q": "Many farmers decide to migrate to coastal urban areas to ________ better job opportunities.",
+"q": "Many farmers decide to migrate to coastal urban areas to ........ better job opportunities.",
 "o": [
 "seek",
 "afford",
@@ -198,7 +198,7 @@
 "ex": "seek job opportunities = tìm kiếm cơ hội việc làm."
 },
 {
-"q": "The prices of agricultural products have been fluctuating, but the economy of this town has remained ________ recently.",
+"q": "The prices of agricultural products have been fluctuating, but the economy of this town has remained ........ recently.",
 "o": [
 "stable",
 "crowded",
@@ -222,7 +222,7 @@
 "ex": "V-ing đứng đầu làm chủ ngữ trong cấu trúc trải nghiệm: Moving to the city is the best decision..."
 },
 {
-"q": "The faster the population grows, the ________ land is left for agricultural activities.",
+"q": "The faster the population grows, the ........ land is left for agricultural activities.",
 "o": [
 "fewer",
 "less",
@@ -234,7 +234,7 @@
 "ex": "Land là danh từ không đếm được -> dùng less."
 },
 {
-"q": "Over the past few decades, historical monuments and traditional buildings ________ by modern architecture.",
+"q": "Over the past few decades, historical monuments and traditional buildings ........ by modern architecture.",
 "o": [
 "were replaced",
 "have been replaced",
@@ -246,7 +246,7 @@
 "ex": "Dấu hiệu Over the past few decades -> chia Hiện tại hoàn thành bị động."
 },
 {
-"q": "The mayor promised that the city council would ________ to the citizens' complaints as soon as possible.",
+"q": "The mayor promised that the city council would ........ to the citizens' complaints as soon as possible.",
 "o": [
 "respond",
 "invest",
@@ -265,7 +265,7 @@
 "hint": "Điền từ hoặc chia dạng đúng của từ/động từ trong ngoặc.",
 "questions": [
 {
-"q": "This is the third time the government _______________ (modernise) the public tram network in the capital.",
+"q": "This is the third time the government ........_______ (modernise) the public tram network in the capital.",
 "a": [
 "has modernised",
 "has modernized"
@@ -273,7 +273,7 @@
 "vi": "Đây là lần thứ ba chính phủ hiện đại hóa mạng lưới xe điện công cộng ở thủ đô."
 },
 {
-"q": "The _______________ (more / invest) we do in green energy, the cleaner the environment will become.",
+"q": "The ........_______ (more / invest) we do in green energy, the cleaner the environment will become.",
 "a": [
 "more investment",
 "more investing"
@@ -281,42 +281,42 @@
 "vi": "Chúng ta càng đầu tư nhiều vào năng lượng xanh thì môi trường sẽ càng trở nên sạch đẹp hơn."
 },
 {
-"q": "Finding an affordable flat in this area is becoming more and _______________ (difficult).",
+"q": "Finding an affordable flat in this area is becoming more and ........_______ (difficult).",
 "a": [
 "more difficult"
 ],
 "vi": "Việc tìm một căn hộ giá rẻ ở khu vực này ngày càng trở nên khó khăn hơn."
 },
 {
-"q": "Smog and high carbon _______________ (emit) are causing great concern among city dwellers.",
+"q": "Smog and high carbon ........_______ (emit) are causing great concern among city dwellers.",
 "a": [
 "emissions"
 ],
 "vi": "Khói bụi và lượng khí thải carbon cao đang gây lo lắng lớn cho cư dân thành phố."
 },
 {
-"q": "That was the most fascinating art exhibition I _______________ (ever / visit) in Hanoi.",
+"q": "That was the most fascinating art exhibition I ........_______ (ever / visit) in Hanoi.",
 "a": [
 "have ever visited"
 ],
 "vi": "Đó là cuộc triển lãm nghệ thuật hấp dẫn nhất mà tôi từng đến thăm ở Hà Nội."
 },
 {
-"q": "The rural population is _______________ (decrease) steadily as more residents settle in urban regions.",
+"q": "The rural population is ........_______ (decrease) steadily as more residents settle in urban regions.",
 "a": [
 "decreasing"
 ],
 "vi": "Dân số nông thôn đang giảm dần khi có nhiều cư dân đến định cư ở các vùng đô thị."
 },
 {
-"q": "The _______________ (high) the skyscrapers are built, the more crowded the downtown area becomes.",
+"q": "The ........_______ (high) the skyscrapers are built, the more crowded the downtown area becomes.",
 "a": [
 "higher"
 ],
 "vi": "Các tòa nhà cao tầng càng được xây cao thì khu vực trung tâm thành phố càng trở nên đông đúc hơn."
 },
 {
-"q": "Up to now, the local authority _______________ (not / resolve) the shortage of clean water in the coastal village.",
+"q": "Up to now, the local authority ........_______ (not / resolve) the shortage of clean water in the coastal village.",
 "a": [
 "has not resolved",
 "hasn't resolved"
@@ -324,14 +324,14 @@
 "vi": "Cho đến nay, chính quyền địa phương vẫn chưa giải quyết được tình trạng thiếu nước sạch ở làng ven biển."
 },
 {
-"q": "Getting around the city has become much more _______________ (convenience) since the new metro line started operation.",
+"q": "Getting around the city has become much more ........_______ (convenience) since the new metro line started operation.",
 "a": [
 "convenient"
 ],
 "vi": "Việc đi lại quanh thành phố đã trở nên thuận tiện hơn nhiều kể từ khi tuyến tàu điện ngầm mới đi vào hoạt động."
 },
 {
-"q": "The wider the roads are expanded, the _______________ (easy) people can travel without getting stuck in traffic jams.",
+"q": "The wider the roads are expanded, the ........_______ (easy) people can travel without getting stuck in traffic jams.",
 "a": [
 "more easily",
 "easier"
