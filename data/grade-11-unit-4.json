@@ -18,7 +18,7 @@
       "hint": "Chọn phương án đúng nhất (A, B, C hoặc D) để hoàn thành các câu sau.",
       "questions": [
         {
-          "q": "The main goals of AYVP are promoting youth volunteering and helping the ______ of the ASEAN community.",
+          "q": "The main goals of AYVP are promoting youth volunteering and helping the ...... of the ASEAN community.",
           "o": [
             "proposal",
             "development",
@@ -30,7 +30,7 @@
           "ex": "development = sự phát triển"
         },
         {
-          "q": "Participating in cultural exchanges is an ______ experience that helps young people widen their knowledge.",
+          "q": "Participating in cultural exchanges is an ...... experience that helps young people widen their knowledge.",
           "o": [
             "eye-opening",
             "agricultural",
@@ -42,7 +42,7 @@
           "ex": "eye-opening = mở rộng tầm mắt"
         },
         {
-          "q": "To become an AYVP volunteer, you must be ______ for the programme depending on the year's theme.",
+          "q": "To become an AYVP volunteer, you must be ...... for the programme depending on the year's theme.",
           "o": [
             "qualified",
             "beneficial",
@@ -54,7 +54,7 @@
           "ex": "qualified = đủ tiêu chuẩn/điều kiện"
         },
         {
-          "q": "______ is my favourite hobby because it helps me learn about different cultures in the region.",
+          "q": "...... is my favourite hobby because it helps me learn about different cultures in the region.",
           "o": [
             "Travel",
             "To travel",
@@ -66,7 +66,7 @@
           "ex": "Danh động từ làm Chủ ngữ: Travelling"
         },
         {
-          "q": "ASEAN has made a significant contribution to maintaining ______ and stability in Southeast Asia.",
+          "q": "ASEAN has made a significant contribution to maintaining ...... and stability in Southeast Asia.",
           "o": [
             "peace",
             "issue",
@@ -78,7 +78,7 @@
           "ex": "peace = hòa bình"
         },
         {
-          "q": "During Lunar New Year, people often gather to honor their ______ and wish for prosperity.",
+          "q": "During Lunar New Year, people often gather to honor their ...... and wish for prosperity.",
           "o": [
             "dwellers",
             "ancestors",
@@ -90,7 +90,7 @@
           "ex": "ancestors = tổ tiên"
         },
         {
-          "q": "The main aim of his work involves ______ around ASEAN countries to organize youth workshops.",
+          "q": "The main aim of his work involves ...... around ASEAN countries to organize youth workshops.",
           "o": [
             "to travel",
             "travelling",
@@ -102,7 +102,7 @@
           "ex": "Sau involve dùng Gerund: travelling"
         },
         {
-          "q": "He apologised for not ______ the community meeting yesterday afternoon.",
+          "q": "He apologised for not ...... the community meeting yesterday afternoon.",
           "o": [
             "attend",
             "to attend",
@@ -114,7 +114,7 @@
           "ex": "Sau giới từ for dùng Gerund: attending"
         },
         {
-          "q": "Applicants must demonstrate strong ______ skills, such as managing teamwork and communicating effectively.",
+          "q": "Applicants must demonstrate strong ...... skills, such as managing teamwork and communicating effectively.",
           "o": [
             "shortage",
             "infrastructure",
@@ -126,7 +126,7 @@
           "ex": "leadership skills = kỹ năng lãnh đạo"
         },
         {
-          "q": "Her primary goal this year is ______ ASEAN scholarships for her postgraduate studies.",
+          "q": "Her primary goal this year is ...... ASEAN scholarships for her postgraduate studies.",
           "o": [
             "apply for",
             "applying for",
@@ -138,7 +138,7 @@
           "ex": "Danh động từ làm Bổ ngữ sau be: applying for"
         },
         {
-          "q": "The ASEAN-Korea Centre regularly organises programs to raise public ______ of regional relations.",
+          "q": "The ASEAN-Korea Centre regularly organises programs to raise public ...... of regional relations.",
           "o": [
             "awareness",
             "proposal",
@@ -150,7 +150,7 @@
           "ex": "raise public awareness = nâng cao nhận thức cộng đồng"
         },
         {
-          "q": "Would you mind ______ me translate this document for the upcoming youth conference?",
+          "q": "Would you mind ...... me translate this document for the upcoming youth conference?",
           "o": [
             "help",
             "to help",
@@ -162,7 +162,7 @@
           "ex": "Sau mind dùng Gerund: helping"
         },
         {
-          "q": "Many young people are very keen on ______ in community development projects.",
+          "q": "Many young people are very keen on ...... in community development projects.",
           "o": [
             "take part",
             "taking part",
@@ -174,7 +174,7 @@
           "ex": "Sau cụm keen on dùng Gerund: taking part"
         },
         {
-          "q": "The talk show was ______ on the official ASEAN webpage to reach a wider audience.",
+          "q": "The talk show was ...... on the official ASEAN webpage to reach a wider audience.",
           "o": [
             "live-streamed",
             "decorated",
@@ -186,7 +186,7 @@
           "ex": "live-streamed = phát trực tiếp"
         },
         {
-          "q": "We put out a call for ideas and hope the school board will ______ our proposal soon.",
+          "q": "We put out a call for ideas and hope the school board will ...... our proposal soon.",
           "o": [
             "propose",
             "approve",
@@ -198,7 +198,7 @@
           "ex": "approve = thông qua/chấp thuận"
         },
         {
-          "q": "______ English fluently is one of the most important requirements for joining the SSEAYP journey.",
+          "q": "...... English fluently is one of the most important requirements for joining the SSEAYP journey.",
           "o": [
             "Speak",
             "Spoken",
@@ -210,7 +210,7 @@
           "ex": "Danh động từ làm Chủ ngữ: Speaking"
         },
         {
-          "q": "The event will be ______ by Grade 11 students who will make all necessary arrangements.",
+          "q": "The event will be ...... by Grade 11 students who will make all necessary arrangements.",
           "o": [
             "hosted",
             "replied",
@@ -222,7 +222,7 @@
           "ex": "hosted = được đứng ra tổ chức"
         },
         {
-          "q": "Young participants will have the opportunity to ______ their country at the international summit.",
+          "q": "Young participants will have the opportunity to ...... their country at the international summit.",
           "o": [
             "satisfy",
             "represent",
@@ -234,7 +234,7 @@
           "ex": "represent = đại diện"
         },
         {
-          "q": "They spent the whole afternoon discussing current social issues and ______ ASEAN-Korea relations.",
+          "q": "They spent the whole afternoon discussing current social issues and ...... ASEAN-Korea relations.",
           "o": [
             "strengthen",
             "to strengthen",
@@ -246,7 +246,7 @@
           "ex": "Sau động từ discuss dùng Gerund: strengthening"
         },
         {
-          "q": "Traditional festivities during the New Year often include folk games, art performances, and ______.",
+          "q": "Traditional festivities during the New Year often include folk games, art performances, and .......",
           "o": [
             "parades",
             "shortcuts",
@@ -265,7 +265,7 @@
       "hint": "Điền từ hoặc chia dạng đúng của từ trong ngoặc (sử dụng từ vựng hoặc Danh động từ V-ing).",
       "questions": [
         {
-          "q": "____________________ (volunteer) in rural areas is a truly rewarding experience for university students.",
+          "q": "...... (volunteer) in rural areas is a truly rewarding experience for university students.",
           "a": [
             "Volunteering"
           ],
@@ -273,7 +273,7 @@
           "ex": "Volunteering làm chủ ngữ"
         },
         {
-          "q": "To apply for this scholarship, you need to propose a project that aims at ____________________ (promote) gender equality.",
+          "q": "To apply for this scholarship, you need to propose a project that aims at ...... (promote) gender equality.",
           "a": [
             "promoting"
           ],
@@ -281,7 +281,7 @@
           "ex": "promoting (đứng sau giới từ at)"
         },
         {
-          "q": "The success of the conference depends on ____________________ (manage) teamwork efficiently.",
+          "q": "The success of the conference depends on ...... (manage) teamwork efficiently.",
           "a": [
             "managing"
           ],
@@ -289,7 +289,7 @@
           "ex": "managing (đứng sau giới từ on)"
         },
         {
-          "q": "My cousin's dream job is ____________________ (organise) cultural exchange events for youth.",
+          "q": "My cousin's dream job is ...... (organise) cultural exchange events for youth.",
           "a": [
             "organising",
             "organizing"
@@ -298,7 +298,7 @@
           "ex": "organising / organizing (Làm bổ ngữ sau động từ to be)"
         },
         {
-          "q": "They suggested ____________________ (invite) local monks to give a talk on traditional cultural values.",
+          "q": "They suggested ...... (invite) local monks to give a talk on traditional cultural values.",
           "a": [
             "inviting"
           ],
@@ -306,7 +306,7 @@
           "ex": "inviting (đứng sau động từ suggest)"
         },
         {
-          "q": "The government put out a call for solutions to address ____________________ (current) issues like climate change.",
+          "q": "The government put out a call for solutions to address ...... (current) issues like climate change.",
           "a": [
             "current"
           ],
@@ -314,7 +314,7 @@
           "ex": "current (Tính từ bổ nghĩa cho danh từ issues: current issues)"
         },
         {
-          "q": "Viet Nam and other Southeast Asian countries follow the ____________________ (lunar) calendar for their traditional New Year.",
+          "q": "Viet Nam and other Southeast Asian countries follow the ...... (lunar) calendar for their traditional New Year.",
           "a": [
             "lunar"
           ],
@@ -322,7 +322,7 @@
           "ex": "lunar (Cụm từ: lunar calendar = âm lịch)"
         },
         {
-          "q": "Participating in this 50-day journey helped ____________________ (strengthen) friendship among ASEAN youths.",
+          "q": "Participating in this 50-day journey helped ...... (strengthen) friendship among ASEAN youths.",
           "a": [
             "strengthen",
             "to strengthen"
@@ -331,7 +331,7 @@
           "ex": "strengthen / to strengthen (Sau help + V-bare/to-V)"
         },
         {
-          "q": "She is interested in ____________________ (apply) for the ASEAN School Tour Programme this summer.",
+          "q": "She is interested in ...... (apply) for the ASEAN School Tour Programme this summer.",
           "a": [
             "applying"
           ],
@@ -339,7 +339,7 @@
           "ex": "applying (Sau cụm interested in)"
         },
         {
-          "q": "We really hope the committee will consider our proposal as it will be ____________________ (benefit) to all participants.",
+          "q": "We really hope the committee will consider our proposal as it will be ...... (benefit) to all participants.",
           "a": [
             "beneficial"
           ],
