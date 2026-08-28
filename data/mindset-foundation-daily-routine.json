@@ -1,1 +1,477 @@
-a
+{
+  "id": "english-vocab-grammar-30q",
+  "title": "Vocabulary & Grammar · Daily Routines & Personal Life",
+  "tags": [
+    "Vocabulary",
+    "Grammar",
+    "Daily Routines",
+    "Reading & Writing"
+  ],
+  "cover": "📚",
+  "gradient": "linear-gradient(135deg,#7a67ee,#5a9df5 55%,#3ecfa0)",
+  "description": "30 câu trắc nghiệm, điền từ & sắp xếp câu về chủ đề thói quen hàng ngày và cuộc sống.",
+  "duration": "45 phút",
+  "parts": [
+    {
+      "type": "mcq",
+      "name": "Phần 1 · Trắc nghiệm (MCQ)",
+      "hint": "Chọn đáp án đúng nhất A, B, C hoặc D",
+      "questions": [
+        {
+          "q": "After a long working week, spending time in nature helps me ________ my battery.",
+          "o": [
+            "repair",
+            "recharge",
+            "sharpen",
+            "involve"
+          ],
+          "a": 1,
+          "vi": "Sau một tuần làm việc dài, dành thời gian hòa mình vào thiên nhiên giúp tôi nạp lại năng lượng.",
+          "ex": "recharge my battery: nạp lại năng lượng"
+        },
+        {
+          "q": "Playing chess regularly is a great way to ________ your mind and improve focus.",
+          "o": [
+            "sharpen",
+            "hang",
+            "unwind",
+            "abroad"
+          ],
+          "a": 0,
+          "vi": "Chơi cờ thường xuyên là một cách tuyệt vời để rèn giũa trí óc và cải thiện sự tập trung.",
+          "ex": "sharpen your mind: rèn giũa/mở mang trí óc"
+        },
+        {
+          "q": "Lan hopes to go ________ next year to pursue a Master's degree in London.",
+          "o": [
+            "routine",
+            "abroad",
+            "pocket",
+            "term"
+          ],
+          "a": 1,
+          "vi": "Lan hy vọng sẽ đi nước ngoài vào năm tới để học thạc sĩ tại London.",
+          "ex": "go abroad: đi nước ngoài"
+        },
+        {
+          "q": "My parents give me a small amount of ________ money every week for personal expenses.",
+          "o": [
+            "wallet",
+            "term",
+            "pocket",
+            "budget"
+          ],
+          "a": 2,
+          "vi": "Bố mẹ cho tôi một khoản tiền tiêu vặt nhỏ mỗi tuần cho các chi tiêu cá nhân.",
+          "ex": "pocket money: tiền tiêu vặt"
+        },
+        {
+          "q": "Students are encouraged to join ________ all extracurricular activities organized by the school.",
+          "o": [
+            "on",
+            "with",
+            "in",
+            "at"
+          ],
+          "a": 2,
+          "vi": "Học sinh được khuyến khích tham gia vào tất cả các hoạt động ngoại khóa do nhà trường tổ chức.",
+          "ex": "join in: tham gia vào"
+        },
+        {
+          "q": "After washing the laundry, she went outside to ________ the clothes on the line.",
+          "o": [
+            "hang up",
+            "fix up",
+            "kick off",
+            "set up"
+          ],
+          "a": 0,
+          "vi": "Sau khi giặt quần áo xong, cô ấy ra ngoài để phơi quần áo lên dây phơi.",
+          "ex": "hang up the clothes: treo/phơi quần áo"
+        },
+        {
+          "q": "Traveling to a ________ country allows students to experience modern infrastructure and high living standards.",
+          "o": [
+            "developing",
+            "developed",
+            "hectic",
+            "daily"
+          ],
+          "a": 1,
+          "vi": "Du lịch đến một quốc gia phát triển cho phép học sinh trải nghiệm cơ sở hạ tầng hiện đại và mức sống cao.",
+          "ex": "developed country: quốc gia phát triển"
+        },
+        {
+          "q": "Listening to soft music in the evening is my favorite way to ________ after a stressful day.",
+          "o": [
+            "unwind",
+            "repair",
+            "schedule",
+            "involve"
+          ],
+          "a": 0,
+          "vi": "Nghe nhạc nhẹ vào buổi tối là cách yêu thích của tôi để giải tỏa căng thẳng sau một ngày căng thẳng.",
+          "ex": "unwind: thư giãn, giải tỏa căng thẳng"
+        },
+        {
+          "q": "Due to his ________ schedule, he rarely has time to hang out with friends during the week.",
+          "o": [
+            "quality",
+            "average",
+            "hectic",
+            "basic"
+          ],
+          "a": 2,
+          "vi": "Do lịch trình bận rộn, anh ấy hiếm khi có thời gian đi chơi với bạn bè trong tuần.",
+          "ex": "hectic schedule: lịch trình bận rộn"
+        },
+        {
+          "q": "The technician came to ________ the broken air conditioner in our classroom.",
+          "o": [
+            "recharge",
+            "repair",
+            "sharpen",
+            "exchange"
+          ],
+          "a": 1,
+          "vi": "Kỹ thuật viên đã đến để sửa chữa chiếc điều hòa hỏng trong lớp học của chúng tôi.",
+          "ex": "repair: sửa chữa = fix"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "name": "Phần 2 · Điền từ",
+      "hint": "Chọn từ thích hợp trong khung để điền vào chỗ trống",
+      "questions": [
+        {
+          "q": "Drinking a glass of warm water and doing light yoga helps me ____________________ the day.",
+          "words": [
+            "daily routine",
+            "quality time",
+            "kick-start",
+            "involved with",
+            "go snorkeling",
+            "term",
+            "reduce stress",
+            "hang out with",
+            "developed countries",
+            "sharpen my mind"
+          ],
+          "a": [
+            "kick-start"
+          ],
+          "vi": "Uống một ly nước ấm và tập yoga nhẹ nhàng giúp tôi khởi động ngày mới.",
+          "ex": "kick-start: bắt đầu / khởi động ngày mới"
+        },
+        {
+          "q": "Establishing a healthy ____________________ is essential for maintaining good physical and mental health.",
+          "words": [
+            "daily routine",
+            "quality time",
+            "kick-start",
+            "involved with",
+            "go snorkeling",
+            "term",
+            "reduce stress",
+            "hang out with",
+            "developed countries",
+            "sharpen my mind"
+          ],
+          "a": [
+            "daily routine"
+          ],
+          "vi": "Thiết lập một thói quen hàng ngày lành mạnh là rất quan trọng để duy trì sức khỏe thể chất và tinh thần tốt.",
+          "ex": "daily routine: thói quen hàng ngày"
+        },
+        {
+          "q": "During our summer vacation in Fiji, we plan to ____________________ to explore the colorful coral reefs.",
+          "words": [
+            "daily routine",
+            "quality time",
+            "kick-start",
+            "involved with",
+            "go snorkeling",
+            "term",
+            "reduce stress",
+            "hang out with",
+            "developed countries",
+            "sharpen my mind"
+          ],
+          "a": [
+            "go snorkeling"
+          ],
+          "vi": "Trong kỳ nghỉ hè ở Fiji, chúng tôi dự định đi lặn biển bằng ống thở để khám phá những rạn san hô rực rỡ sắc màu.",
+          "ex": "go snorkeling: lặn biển bằng ống thở"
+        },
+        {
+          "q": "The academic year is divided into two ____________________s, each ending with a final examination.",
+          "words": [
+            "daily routine",
+            "quality time",
+            "kick-start",
+            "involved with",
+            "go snorkeling",
+            "term",
+            "reduce stress",
+            "hang out with",
+            "developed countries",
+            "sharpen my mind"
+          ],
+          "a": [
+            "term"
+          ],
+          "vi": "Năm học được chia thành hai học kỳ, mỗi học kỳ kết thúc bằng một bài kiểm tra cuối kỳ.",
+          "ex": "term: học kỳ"
+        },
+        {
+          "q": "Active participation in team sports helps students ____________________ and improve their physical fitness.",
+          "words": [
+            "daily routine",
+            "quality time",
+            "kick-start",
+            "involved with",
+            "go snorkeling",
+            "term",
+            "reduce stress",
+            "hang out with",
+            "developed countries",
+            "sharpen my mind"
+          ],
+          "a": [
+            "reduce stress"
+          ],
+          "vi": "Tích cực tham gia các môn thể thao đồng đội giúp học sinh giảm căng thẳng và nâng cao thể lực.",
+          "ex": "reduce stress: giảm căng thẳng"
+        },
+        {
+          "q": "On weekends, I prefer to ____________________ my high school friends at a local coffee shop.",
+          "words": [
+            "daily routine",
+            "quality time",
+            "kick-start",
+            "involved with",
+            "go snorkeling",
+            "term",
+            "reduce stress",
+            "hang out with",
+            "developed countries",
+            "sharpen my mind"
+          ],
+          "a": [
+            "hang out with"
+          ],
+          "vi": "Vào cuối tuần, tôi thích đi chơi với bạn học cấp ba tại một quán cà phê địa phương.",
+          "ex": "hang out with: đi chơi với"
+        },
+        {
+          "q": "Parents should spend ____________________ with their children every day, even if it's just during dinner.",
+          "words": [
+            "daily routine",
+            "quality time",
+            "kick-start",
+            "involved with",
+            "go snorkeling",
+            "term",
+            "reduce stress",
+            "hang out with",
+            "developed countries",
+            "sharpen my mind"
+          ],
+          "a": [
+            "quality time"
+          ],
+          "vi": "Cha mẹ nên dành thời gian chất lượng bên con cái mỗi ngày, dù chỉ là trong bữa tối.",
+          "ex": "quality time: thời gian chất lượng"
+        },
+        {
+          "q": "Solving challenging logic puzzles helps to ____________________ and prevent cognitive decline.",
+          "words": [
+            "daily routine",
+            "quality time",
+            "kick-start",
+            "involved with",
+            "go snorkeling",
+            "term",
+            "reduce stress",
+            "hang out with",
+            "developed countries",
+            "sharpen my mind"
+          ],
+          "a": [
+            "sharpen my mind"
+          ],
+          "vi": "Giải các câu đố logic hóc húa giúp rèn giũa trí óc và ngăn ngừa suy giảm nhận thức.",
+          "ex": "sharpen my mind: rèn giũa trí óc"
+        },
+        {
+          "q": "All students are expected to be ____________________ community service projects during the holiday.",
+          "words": [
+            "daily routine",
+            "quality time",
+            "kick-start",
+            "involved with",
+            "go snorkeling",
+            "term",
+            "reduce stress",
+            "hang out with",
+            "developed countries",
+            "sharpen my mind"
+          ],
+          "a": [
+            "involved with"
+          ],
+          "vi": "Tất cả học sinh dự kiến sẽ tham gia vào các dự án phục vụ cộng đồng trong kỳ nghỉ.",
+          "ex": "involved with: tham gia vào (be involved with)"
+        },
+        {
+          "q": "High quality of education and healthcare systems are typical features of ____________________.",
+          "words": [
+            "daily routine",
+            "quality time",
+            "kick-start",
+            "involved with",
+            "go snorkeling",
+            "term",
+            "reduce stress",
+            "hang out with",
+            "developed countries",
+            "sharpen my mind"
+          ],
+          "a": [
+            "developed countries"
+          ],
+          "vi": "Chất lượng giáo dục và hệ thống y tế cao là những đặc điểm điển hình của các nước phát triển.",
+          "ex": "developed countries: các nước phát triển"
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "name": "Phần 3 · Sắp xếp câu (MCQ)",
+      "hint": "Chọn câu sắp xếp đúng vị trí từ",
+      "questions": [
+        {
+          "q": "Sắp xếp từ thành câu hoàn chỉnh: talk about / my daily routine / I would like to / in detail.",
+          "o": [
+            "I would like to talk about my daily routine in detail.",
+            "I would like talk about my daily routine to in detail.",
+            "Talk about my daily routine I would like to in detail.",
+            "In detail I would like talk about my daily routine to."
+          ],
+          "a": 0,
+          "vi": "Tôi muốn nói chi tiết về thói quen hàng ngày của mình.",
+          "ex": "Cấu trúc: I would like to + V (talk about) + O (my daily routine) + in detail."
+        },
+        {
+          "q": "Sắp xếp từ thành câu hoàn chỉnh: reduce stress / as it helps me / I enjoy / after study hours / swimming.",
+          "o": [
+            "I enjoy swimming as it helps me reduce stress after study hours.",
+            "I enjoy reduce stress as it helps me swimming after study hours.",
+            "As it helps me reduce stress after study hours I enjoy swimming.",
+            "Swimming as it helps me reduce stress I enjoy after study hours."
+          ],
+          "a": 0,
+          "vi": "Tôi thích bơi lội vì nó giúp tôi giảm căng thẳng sau giờ học.",
+          "ex": "Cấu trúc: S + enjoy + V-ing (swimming) + as (bởi vì) + S + V + O..."
+        },
+        {
+          "q": "Sắp xếp từ thành câu hoàn chỉnh: enables me / my mind / to sharpen / This quiz game / effectively.",
+          "o": [
+            "This quiz game enables me to sharpen my mind effectively.",
+            "This quiz game enables to sharpen my mind me effectively.",
+            "To sharpen my mind this quiz game enables me effectively.",
+            "This quiz game enables my mind to sharpen me effectively."
+          ],
+          "a": 0,
+          "vi": "Trò chơi đố vui này giúp tôi rèn giũa trí óc một cách hiệu quả.",
+          "ex": "Cấu trúc: S + enable + O + to V (to sharpen my mind) + Adv (effectively)."
+        },
+        {
+          "q": "Sắp xếp từ thành câu hoàn chỉnh: after a long / my battery / I usually / to recharge / day at work / read books.",
+          "o": [
+            "I usually read books to recharge my battery after a long day at work.",
+            "I usually read books after a long day at work to recharge my battery.",
+            "To recharge my battery after a long day at work I usually read books.",
+            "After a long day at work to recharge my battery I usually read books."
+          ],
+          "a": 0,
+          "vi": "Tôi thường đọc sách để nạp lại năng lượng sau một ngày dài làm việc.",
+          "ex": "Cấu trúc: S + Adv + V + O (read books) + to V (to recharge my battery) + C (after a long day at work)."
+        },
+        {
+          "q": "Sắp xếp từ thành câu hoàn chỉnh: to another country / Would you / to study / like to go / in the future?",
+          "o": [
+            "Would you like to go to another country to study in the future?",
+            "Would you like to study to go to another country in the future?",
+            "To another country would you like to go to study in the future?",
+            "Would you like to go to study to another country in the future?"
+          ],
+          "a": 0,
+          "vi": "Bạn có muốn đi du học ở một quốc gia khác trong tương lai không?",
+          "ex": "Cấu trúc câu hỏi: Would you like to go to + place + to V + time?"
+        },
+        {
+          "q": "Sắp xếp từ thành câu hoàn chỉnh: spending / with my family / quality time / I / on Sundays / love.",
+          "o": [
+            "I love spending quality time with my family on Sundays.",
+            "I love quality time spending with my family on Sundays.",
+            "On Sundays I love quality time spending with my family.",
+            "With my family I love spending quality time on Sundays."
+          ],
+          "a": 0,
+          "vi": "Tôi thích dành thời gian chất lượng bên gia đình vào các ngày Chủ nhật.",
+          "ex": "Cấu trúc: S (I) + love + V-ing (spending quality time) + with someone + on days."
+        },
+        {
+          "q": "Sắp xếp từ thành câu hoàn chỉnh: kick-start / morning coffee / A cup of / helps me / my day.",
+          "o": [
+            "A cup of morning coffee helps me kick-start my day.",
+            "A cup of morning coffee helps kick-start me my day.",
+            "Morning coffee a cup of helps me kick-start my day.",
+            "Kick-start my day a cup of morning coffee helps me."
+          ],
+          "a": 0,
+          "vi": "Một tách cà phê buổi sáng giúp tôi khởi động ngày mới.",
+          "ex": "Cấu trúc: S (A cup of morning coffee) + help + O + V (kick-start my day)."
+        },
+        {
+          "q": "Sắp xếp từ thành câu hoàn chỉnh: because of / a hectic schedule / She rarely / has free time / her daily routine.",
+          "o": [
+            "She rarely has free time because of her hectic schedule.",
+            "She rarely has free time because of her daily routine hectic schedule.",
+            "Because of her hectic schedule she rarely free time has.",
+            "She has free time rarely because of her hectic schedule."
+          ],
+          "a": 0,
+          "vi": "Cô ấy hiếm khi có thời gian rảnh vì lịch trình bận rộn của mình.",
+          "ex": "Cấu trúc: S + Adv + V + O + because of + N (her hectic schedule)."
+        },
+        {
+          "q": "Sắp xếp từ thành câu hoàn chỉnh: in family activities / encourages students / The exchange program / to join in.",
+          "o": [
+            "The exchange program encourages students to join in family activities.",
+            "The exchange program encourages to join in family activities students.",
+            "Students to join in family activities encourages the exchange program.",
+            "The exchange program encourages students family activities to join in."
+          ],
+          "a": 0,
+          "vi": "Chương trình trao đổi khuyến khích học sinh tham gia vào các hoạt động gia đình.",
+          "ex": "Cấu trúc: S (The exchange program) + encourage + O (students) + to V (to join in family activities)."
+        },
+        {
+          "q": "Sắp xếp từ thành câu hoàn chỉnh: doing / What activity / does your brother / like / at home?",
+          "o": [
+            "What activity does your brother like doing most at home?",
+            "What activity your brother does like doing most at home?",
+            "Does your brother like doing most what activity at home?",
+            "What activity does your brother doing like most at home?"
+          ],
+          "a": 0,
+          "vi": "Anh trai bạn thích làm hoạt động nào nhất ở nhà?",
+          "ex": "Cấu trúc câu hỏi: What + N + does + S + like + V-ing + most + place?"
+        }
+      ]
+    }
+  ]
+}
