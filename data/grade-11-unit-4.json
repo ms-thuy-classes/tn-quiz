@@ -260,7 +260,7 @@
       ]
     },
     {
-      "type": "fill",
+      "type": "type-in",
       "name": "PART 2. GAP-FILLING",
       "hint": "Điền từ hoặc chia dạng đúng của từ trong ngoặc (sử dụng từ vựng hoặc Danh động từ V-ing).",
       "questions": [
