@@ -1,0 +1,473 @@
+{
+"id": "grade-12-unit-4",
+"title": "Kiểm tra Tiếng Anh 12 Unit 4: Urbanisation & Grammar Practice",
+"description": "Bài tập tổng hợp bao gồm trắc nghiệm, điền từ, từ đồng nghĩa - trái nghĩa và viết lại câu về chủ đề Đô thị hóa.",
+"tags": [
+"Lớp 11",
+"Vocabulary",
+"Grammar",
+"Urbanisation"
+],
+"cover": "🌞",
+"duration": "30 phút",
+"timeLimit": 1800,
+"parts": [
+{
+"type": "mcq",
+"name": "PART 1. MULTIPLE CHOICE",
+"hint": "Chọn phương án đúng nhất (A, B, C hoặc D) để hoàn thành các câu sau.",
+"questions": [
+{
+"q": "As more and more people move to the city, the cost of living is getting ________.",
+"o": [
+"higher and higher",
+"the highest and highest",
+"more high and more high",
+"high and higher"
+],
+"a": 0,
+"vi": "Khi ngày càng có nhiều người chuyển đến thành phố, chi phí sinh hoạt ngày càng cao.",
+"ex": "Cấu trúc so sánh kép thể hiện sự thay đổi: higher and higher."
+},
+{
+"q": "The local authority has decided to ________ the main roads to reduce severe traffic jams.",
+"o": [
+"decrease",
+"expand",
+"respond",
+"settle"
+],
+"a": 1,
+"vi": "Chính quyền địa phương đã quyết định mở rộng các trục đường chính để giảm ùn tắc giao thông nghiêm trọng.",
+"ex": "expand = mở rộng đường xá."
+},
+{
+"q": "This is the first time our city ________ an electric bus system to reduce carbon emissions.",
+"o": [
+"introduced",
+"introduces",
+"has introduced",
+"is introducing"
+],
+"a": 2,
+"vi": "Đây là lần đầu tiên thành phố của chúng tôi đưa hệ thống xe buýt điện vào sử dụng để giảm lượng khí thải carbon.",
+"ex": "Cấu trúc This is the first time + S + have/has + V3/ed."
+},
+{
+"q": "The ________ the city becomes, the worse the smog and air pollution get.",
+"o": [
+"crowded",
+"more crowded",
+"most crowded",
+"as crowded"
+],
+"a": 1,
+"vi": "Thành phố càng đông đúc, khói bụi và ô nhiễm không khí càng trở nên tồi tệ hơn.",
+"ex": "Cấu trúc so sánh kép song song: The + so sánh hơn..., the + so sánh hơn..."
+},
+{
+"q": "Living in a high-rise flat in the city centre is the most expensive experience I ________.",
+"o": [
+"ever had",
+"have ever had",
+"was having",
+"had ever had"
+],
+"a": 1,
+"vi": "Sống trong một căn hộ cao tầng ở trung tâm thành phố là trải nghiệm đắt đỏ nhất mà tôi từng có.",
+"ex": "Cấu trúc the most + N + S + have ever V3/ed."
+},
+{
+"q": "Due to rapid **, many quiet rural villages have turned into bustling towns.",
+"o": [
+"urbanisation",
+"immigration",
+"agricultural",
+"architecture"
+],
+"a": 0,
+"vi": "Do tốc độ đô thị hóa nhanh chóng, nhiều làng quê yên bình đã biến thành những thị trấn sầm uất.",
+"ex": "urbanisation = sự đô thị hóa."
+},
+{
+"q": "The local government is investing heavily to improve the public ________ to meet the needs of residents.",
+"o": [
+"emission",
+"infrastructure",
+"complaint",
+"farmland"
+],
+"a": 1,
+"vi": "Chính quyền địa phương đang đầu tư mạnh mẽ để cải thiện cơ sở hạ tầng công cộng nhằm đáp ứng nhu cầu của người dân.",
+"ex": "infrastructure = cơ sở hạ tầng."
+},
+{
+"q": "The ________ public transport is, the fewer people will use their private vehicles.",
+"o": [
+"reliable",
+"more reliable",
+"most reliable",
+"less reliable"
+],
+"a": 3,
+"vi": "Phương tiện giao thông công cộng càng kém đáng tin cậy thì càng có ít người sử dụng phương tiện cá nhân.",
+"ex": "Về nghĩa: Phương tiện công cộng càng kém đáng tin cậy (less reliable), người dân càng ít dùng xe cá nhân."
+},
+{
+"q": "Heavy traffic during ________ hour often makes city dwellers feel stressed and exhausted.",
+"o": [
+"rush",
+"quick",
+"fast",
+"busy"
+],
+"a": 0,
+"vi": "Giao thông đông đúc trong giờ cao điểm thường khiến người dân thành phố cảm thấy căng thẳng và mệt mỏi.",
+"ex": "rush hour = giờ cao điểm."
+},
+{
+"q": "That is the tallest skyscraper I ________ in this metropolitan region.",
+"o": [
+"saw",
+"have ever seen",
+"see",
+"am seeing"
+],
+"a": 1,
+"vi": "Đó là tòa nhà cao tầng nhất mà tôi từng thấy ở khu vực đô thị này.",
+"ex": "Cấu trúc so sánh nhất + HTHT: That is the tallest... I have ever seen."
+},
+{
+"q": "Life in the countryside is changing; young people are finding it ________ to secure stable jobs.",
+"o": [
+"harder and harder",
+"more hard and more hard",
+"hardest and hardest",
+"the harder and harder"
+],
+"a": 0,
+"vi": "Cuộc sống ở nông thôn đang thay đổi; giới trẻ đang thấy ngày càng khó khăn hơn để tìm được công việc ổn định.",
+"ex": "Tính từ ngắn so sánh kép: harder and harder."
+},
+{
+"q": "There is a serious ________ of affordable housing for low-income workers in big cities.",
+"o": [
+"decision",
+"shortage",
+"exhibition",
+"population"
+],
+"a": 1,
+"vi": "Có sự thiếu hụt nghiêm trọng về nhà ở giá rẻ cho công nhân có thu nhập thấp ở các thành phố lớn.",
+"ex": "shortage of = sự thiếu hụt."
+},
+{
+"q": "The ________ money we invest in rural healthcare, the ________ the life expectancy of local dwellers will be.",
+"o": [
+"more / better",
+"most / best",
+"many / good",
+"more / well"
+],
+"a": 0,
+"vi": "Chúng ta càng đầu tư nhiều tiền vào y tế nông thôn thì tuổi thọ của người dân địa phương sẽ càng cao/tốt hơn.",
+"ex": "Cấu trúc The more..., the better..."
+},
+{
+"q": "It is not the first time the residents ________ to the authority about the loud noise late at night.",
+"o": [
+"complained",
+"have complained",
+"complain",
+"are complaining"
+],
+"a": 1,
+"vi": "Đây không phải là lần đầu tiên cư dân phàn nàn với chính quyền về tiếng ồn lớn lúc đêm muộn.",
+"ex": "Cấu trúc It is not the first time + S + have/has + V3/ed."
+},
+{
+"q": "Many farmers decide to migrate to coastal urban areas to ________ better job opportunities.",
+"o": [
+"seek",
+"afford",
+"attract",
+"modernise"
+],
+"a": 0,
+"vi": "Nhiều nông dân quyết định di cư đến các khu vực đô thị ven biển để tìm kiếm cơ hội việc làm tốt hơn.",
+"ex": "seek job opportunities = tìm kiếm cơ hội việc làm."
+},
+{
+"q": "The prices of agricultural products have been fluctuating, but the economy of this town has remained ________ recently.",
+"o": [
+"stable",
+"crowded",
+"stuck",
+"equal"
+],
+"a": 0,
+"vi": "Giá nông sản biến động nhưng kinh tế thị trấn này gần đây vẫn giữ mức ổn định.",
+"ex": "stable = ổn định."
+},
+{
+"q": "** moving to a low-rise apartment is the best decision my family has ever made.",
+"o": [
+"To move",
+"Moved",
+"Moving",
+"Move"
+],
+"a": 2,
+"vi": "Chuyển đến một căn hộ thấp tầng là quyết định sáng suốt nhất mà gia đình tôi từng đưa ra.",
+"ex": "V-ing đứng đầu làm chủ ngữ trong cấu trúc trải nghiệm: Moving to the city is the best decision..."
+},
+{
+"q": "The faster the population grows, the ________ land is left for agricultural activities.",
+"o": [
+"fewer",
+"less",
+"little",
+"least"
+],
+"a": 1,
+"vi": "Dân số tăng càng nhanh thì diện tích đất dành cho hoạt động nông nghiệp càng ít đi.",
+"ex": "Land là danh từ không đếm được -> dùng less."
+},
+{
+"q": "Over the past few decades, historical monuments and traditional buildings ________ by modern architecture.",
+"o": [
+"were replaced",
+"have been replaced",
+"replace",
+"are replacing"
+],
+"a": 1,
+"vi": "Trong vài thập kỷ qua, các di tích lịch sử và tòa nhà truyền thống đã bị thay thế bởi kiến trúc hiện đại.",
+"ex": "Dấu hiệu Over the past few decades -> chia Hiện tại hoàn thành bị động."
+},
+{
+"q": "The mayor promised that the city council would ________ to the citizens' complaints as soon as possible.",
+"o": [
+"respond",
+"invest",
+"attract",
+"settle"
+],
+"a": 0,
+"vi": "Thị trưởng hứa rằng hội đồng thành phố sẽ phản hồi các khiếu nại của người dân trong thời gian sớm nhất.",
+"ex": "respond to complaints = phản hồi lời phàn nàn."
+}
+]
+},
+{
+"type": "fill",
+"name": "PART 2. GAP-FILLING",
+"hint": "Điền từ hoặc chia dạng đúng của từ/động từ trong ngoặc.",
+"questions": [
+{
+"q": "This is the third time the government _______________ (modernise) the public tram network in the capital.",
+"a": [
+"has modernised",
+"has modernized"
+],
+"vi": "Đây là lần thứ ba chính phủ hiện đại hóa mạng lưới xe điện công cộng ở thủ đô."
+},
+{
+"q": "The _______________ (more / invest) we do in green energy, the cleaner the environment will become.",
+"a": [
+"more investment",
+"more investing"
+],
+"vi": "Chúng ta càng đầu tư nhiều vào năng lượng xanh thì môi trường sẽ càng trở nên sạch đẹp hơn."
+},
+{
+"q": "Finding an affordable flat in this area is becoming more and _______________ (difficult).",
+"a": [
+"more difficult"
+],
+"vi": "Việc tìm một căn hộ giá rẻ ở khu vực này ngày càng trở nên khó khăn hơn."
+},
+{
+"q": "Smog and high carbon _______________ (emit) are causing great concern among city dwellers.",
+"a": [
+"emissions"
+],
+"vi": "Khói bụi và lượng khí thải carbon cao đang gây lo lắng lớn cho cư dân thành phố."
+},
+{
+"q": "That was the most fascinating art exhibition I _______________ (ever / visit) in Hanoi.",
+"a": [
+"have ever visited"
+],
+"vi": "Đó là cuộc triển lãm nghệ thuật hấp dẫn nhất mà tôi từng đến thăm ở Hà Nội."
+},
+{
+"q": "The rural population is _______________ (decrease) steadily as more residents settle in urban regions.",
+"a": [
+"decreasing"
+],
+"vi": "Dân số nông thôn đang giảm dần khi có nhiều cư dân đến định cư ở các vùng đô thị."
+},
+{
+"q": "The _______________ (high) the skyscrapers are built, the more crowded the downtown area becomes.",
+"a": [
+"higher"
+],
+"vi": "Các tòa nhà cao tầng càng được xây cao thì khu vực trung tâm thành phố càng trở nên đông đúc hơn."
+},
+{
+"q": "Up to now, the local authority _______________ (not / resolve) the shortage of clean water in the coastal village.",
+"a": [
+"has not resolved",
+"hasn't resolved"
+],
+"vi": "Cho đến nay, chính quyền địa phương vẫn chưa giải quyết được tình trạng thiếu nước sạch ở làng ven biển."
+},
+{
+"q": "Getting around the city has become much more _______________ (convenience) since the new metro line started operation.",
+"a": [
+"convenient"
+],
+"vi": "Việc đi lại quanh thành phố đã trở nên thuận tiện hơn nhiều kể từ khi tuyến tàu điện ngầm mới đi vào hoạt động."
+},
+{
+"q": "The wider the roads are expanded, the _______________ (easy) people can travel without getting stuck in traffic jams.",
+"a": [
+"more easily",
+"easier"
+],
+"vi": "Đường xá càng được mở rộng thì người dân di chuyển càng dễ dàng mà không lo bị kẹt xe."
+}
+]
+},
+{
+"type": "synonym",
+"name": "PART 3. SYNONYMS & ANTONYMS",
+"hint": "Chọn từ đồng nghĩa hoặc trái nghĩa với từ được gạch chân.",
+"questions": [
+{
+"q": "Building new metro lines is expected to improve the public transport system of the city. ( Closest meaning) ",
+"keyword": "improve",
+"o": [
+"degrade",
+"enhance",
+"reduce",
+"destroy"
+],
+"a": 1,
+"vi": "Việc xây dựng các tuyến tàu điện ngầm mới kỳ vọng sẽ cải thiện hệ thống giao thông công cộng của thành phố."
+},
+{
+"q": "Thousands of rural dwellers move to major cities every year in search of employment.( Closest meaning) ",
+"keyword": "dwellers",
+"o": [
+"authorities",
+"residents",
+"tourists",
+"ancestors"
+],
+"a": 1,
+"vi": "Hàng ngàn cư dân nông thôn chuyển đến các thành phố lớn mỗi năm để tìm kiếm việc làm."
+},
+{
+"q": "The company promised to fix the error quickly so as not to make the same mistake again. ( Closest meaning) ",
+"keyword": "make the same mistake",
+"o": [
+"repeat an error",
+"solve a problem",
+"issue a fine",
+"change a decision"
+],
+"a": 0,
+"vi": "Công ty hứa sẽ khắc phục sự cố nhanh chóng để không lặp lại sai lầm tương tự."
+},
+{
+"q": "Due to high demand, housing prices in urban centers have increased rapidly. (Opposite meaning) ",
+"keyword": "rapidly",
+"o": [
+"steadily",
+"quickly",
+"slowly",
+"slightly"
+],
+"a": 2,
+"vi": "Do nhu cầu cao, giá nhà đất ở các trung tâm đô thị tăng lên nhanh chóng."
+},
+{
+"q": "Living in rural areas often provides a peaceful atmosphere and close contact with nature.(Opposite meaning) ",
+"keyword": "rural",
+"o": [
+"coastal",
+"urban",
+"traditional",
+"agricultural"
+],
+"a": 1,
+"vi": "Sống ở khu vực nông thôn thường mang lại không khí yên bình và tiếp xúc gần gũi với thiên nhiên."
+}
+]
+},
+{
+"type": "mcq",
+"name": "PART 4. REWRITING SENTENCES",
+"hint": "Chọn câu viết lại đúng nhất sao cho nghĩa không thay đổi.",
+"questions": [
+{
+"q": "I have never seen such a magnificent skyscraper before.",
+"o": [
+"This is the most magnificent skyscraper I have ever seen.",
+"This is the more magnificent skyscraper I have ever seen.",
+"I have seen many skyscrapers more magnificent than this.",
+"This skyscraper is not as magnificent as the ones I have seen."
+],
+"a": 0,
+"vi": "Tôi chưa bao giờ nhìn thấy một tòa nhà cao tầng tráng lệ như vậy trước đây."
+},
+{
+"q": "As a city grows larger, it requires more energy to run smoothly.",
+"o": [
+"The larger a city grows, the more energy it requires to run smoothly.",
+"The largest a city grows, the most energy it requires to run smoothly.",
+"A city grows larger so it requires energy to run smoothly.",
+"The more large a city grows, the more energy it requires to run smoothly."
+],
+"a": 0,
+"vi": "Khi một thành phố phát triển lớn hơn, nó cần nhiều năng lượng hơn để vận hành trơn tru."
+},
+{
+"q": "He started working as an urban planner five years ago, and he still does it now.",
+"o": [
+"He has worked as an urban planner for five years.",
+"He has been working as an urban planner since five years.",
+"He worked as an urban planner five years ago.",
+"He has started working as an urban planner five years ago."
+],
+"a": 0,
+"vi": "Anh ấy bắt đầu làm quy hoạch đô thị từ 5 năm trước và hiện vẫn đang làm công việc đó."
+},
+{
+"q": "If we build more leisure facilities, the city will become more attractive to tourists.",
+"o": [
+"The more leisure facilities we build, the more attractive the city will become to tourists.",
+"The most leisure facilities we build, the most attractive the city becomes to tourists.",
+"We build more leisure facilities so that the city is attractive to tourists.",
+"The leisure facilities we build more, the attractive the city becomes to tourists."
+],
+"a": 0,
+"vi": "Nếu chúng ta xây dựng nhiều cơ sở vui chơi giải trí hơn, thành phố sẽ trở nên hấp dẫn hơn đối với du khách."
+},
+{
+"q": "She has never lived in such a crowded neighborhood until now.",
+"o": [
+"That is the most crowded neighborhood she has ever lived in.",
+"That is the more crowded neighborhood she has lived in.",
+"She used to live in a very crowded neighborhood until now.",
+"That neighborhood is not as crowded as the ones she has lived in."
+],
+"a": 0,
+"vi": "Cho đến nay cô ấy chưa từng sống ở một khu phố đông đúc như vậy."
+}
+]
+}
+]
+}
