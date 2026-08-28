@@ -1,4 +1,15 @@
 [
+       {
+    "id": "mindset-foundation-daily-routine",
+    "title": "Bài tập về thì hiện tại đơn",
+    "tags": ["IELTS", "Vocabulary"],
+    "cover": "️🎧",
+    "gradient": "linear-gradient(135deg,#7a67ee,#5a9df5 55%,#3ecfa0)",
+    "description": "20 trắc nghiệm và 10 câu điền từ.",
+    "duration": "45 phút",
+    "questionCount": 30,
+    "featured": true
+  },
       {
     "id": "mindset-foundation-bai-1-present-simple",
     "title": "Bài tập về thì hiện tại đơn",
