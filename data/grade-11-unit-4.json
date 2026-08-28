@@ -1,0 +1,491 @@
+{
+  "id": "grade-11-unit-4",
+  "title": "Test lớp 11 unit 4",
+  "description": "Bài tập tổng hợp 40 câu ôn tập từ vựng Unit 5: ASEAN and Viet Nam (Tiếng Anh 11 Global Success) và ngữ pháp Gerunds (Danh động từ).",
+  "tags": [
+    "Lớp 11",
+    "Vocabulary",
+    "Grammar",
+    "ASEAN"
+  ],
+  "cover": "🌏",
+  "duration": "30 phút",
+  "timeLimit": 1800,
+  "parts": [
+    {
+      "type": "mcq",
+      "name": "PART 1. MULTIPLE CHOICE",
+      "hint": "Chọn phương án đúng nhất (A, B, C hoặc D) để hoàn thành các câu sau.",
+      "questions": [
+        {
+          "q": "The main goals of AYVP are promoting youth volunteering and helping the ______ of the ASEAN community.",
+          "o": [
+            "proposal",
+            "development",
+            "arrangement",
+            "contribution"
+          ],
+          "a": 1,
+          "vi": "Mục tiêu chính của AYVP là thúc đẩy hoạt động tình nguyện của thanh niên và giúp đỡ sự phát triển của cộng đồng ASEAN.",
+          "ex": "development = sự phát triển"
+        },
+        {
+          "q": "Participating in cultural exchanges is an ______ experience that helps young people widen their knowledge.",
+          "o": [
+            "eye-opening",
+            "agricultural",
+            "urbanised",
+            "high-rise"
+          ],
+          "a": 0,
+          "vi": "Tham gia giao lưu văn hóa là một trải nghiệm mở rộng tầm mắt giúp giới trẻ mở rộng kiến thức.",
+          "ex": "eye-opening = mở rộng tầm mắt"
+        },
+        {
+          "q": "To become an AYVP volunteer, you must be ______ for the programme depending on the year's theme.",
+          "o": [
+            "qualified",
+            "beneficial",
+            "equal",
+            "necessary"
+          ],
+          "a": 0,
+          "vi": "Để trở thành tình nguyện viên của AYVP, bạn phải đủ điều kiện tham gia chương trình tùy thuộc vào chủ đề của năm.",
+          "ex": "qualified = đủ tiêu chuẩn/điều kiện"
+        },
+        {
+          "q": "______ is my favourite hobby because it helps me learn about different cultures in the region.",
+          "o": [
+            "Travel",
+            "To travel",
+            "Travelling",
+            "Travelled"
+          ],
+          "a": 2,
+          "vi": "Du lịch là sở thích yêu thích của tôi vì nó giúp tôi tìm hiểu về các nền văn hóa khác nhau trong khu vực.",
+          "ex": "Danh động từ làm Chủ ngữ: Travelling"
+        },
+        {
+          "q": "ASEAN has made a significant contribution to maintaining ______ and stability in Southeast Asia.",
+          "o": [
+            "peace",
+            "issue",
+            "disability",
+            "complaint"
+          ],
+          "a": 0,
+          "vi": "ASEAN đã có những đóng góp quan trọng trong việc duy trì hòa bình và ổn định ở Đông Nam Á.",
+          "ex": "peace = hòa bình"
+        },
+        {
+          "q": "During Lunar New Year, people often gather to honor their ______ and wish for prosperity.",
+          "o": [
+            "dwellers",
+            "ancestors",
+            "monks",
+            "recipients"
+          ],
+          "a": 1,
+          "vi": "Trong dịp Tết Nguyên Đán, mọi người thường tụ họp để tưởng nhớ tổ tiên và cầu chúc sự thịnh vượng.",
+          "ex": "ancestors = tổ tiên"
+        },
+        {
+          "q": "The main aim of his work involves ______ around ASEAN countries to organize youth workshops.",
+          "o": [
+            "to travel",
+            "travelling",
+            "travel",
+            "travelled"
+          ],
+          "a": 1,
+          "vi": "Mục đích chính trong công việc của anh ấy bao gồm việc đi du lịch quanh các nước ASEAN để tổ chức các hội thảo cho thanh niên.",
+          "ex": "Sau involve dùng Gerund: travelling"
+        },
+        {
+          "q": "He apologised for not ______ the community meeting yesterday afternoon.",
+          "o": [
+            "attend",
+            "to attend",
+            "attending",
+            "attended"
+          ],
+          "a": 2,
+          "vi": "Anh ấy đã xin lỗi vì không tham dự cuộc họp cộng đồng chiều qua.",
+          "ex": "Sau giới từ for dùng Gerund: attending"
+        },
+        {
+          "q": "Applicants must demonstrate strong ______ skills, such as managing teamwork and communicating effectively.",
+          "o": [
+            "shortage",
+            "infrastructure",
+            "leadership",
+            "equality"
+          ],
+          "a": 2,
+          "vi": "Ứng viên phải thể hiện kỹ năng lãnh đạo mạnh mẽ, chẳng hạn như quản lý làm việc nhóm và giao tiếp hiệu quả.",
+          "ex": "leadership skills = kỹ năng lãnh đạo"
+        },
+        {
+          "q": "Her primary goal this year is ______ ASEAN scholarships for her postgraduate studies.",
+          "o": [
+            "apply for",
+            "applying for",
+            "applied for",
+            "to applying for"
+          ],
+          "a": 1,
+          "vi": "Mục tiêu chính của cô ấy trong năm nay là nộp đơn xin học bổng ASEAN cho chương trình học cao học.",
+          "ex": "Danh động từ làm Bổ ngữ sau be: applying for"
+        },
+        {
+          "q": "The ASEAN-Korea Centre regularly organises programs to raise public ______ of regional relations.",
+          "o": [
+            "awareness",
+            "proposal",
+            "arrangement",
+            "emission"
+          ],
+          "a": 0,
+          "vi": "Trung tâm ASEAN - Hàn Quốc thường xuyên tổ chức các chương trình nhằm nâng cao nhận thức cộng đồng về quan hệ khu vực.",
+          "ex": "raise public awareness = nâng cao nhận thức cộng đồng"
+        },
+        {
+          "q": "Would you mind ______ me translate this document for the upcoming youth conference?",
+          "o": [
+            "help",
+            "to help",
+            "helping",
+            "helped"
+          ],
+          "a": 2,
+          "vi": "Bạn có phiền giúp tôi dịch tài liệu này cho hội nghị thanh niên sắp tới không?",
+          "ex": "Sau mind dùng Gerund: helping"
+        },
+        {
+          "q": "Many young people are very keen on ______ in community development projects.",
+          "o": [
+            "take part",
+            "taking part",
+            "to take part",
+            "taken part"
+          ],
+          "a": 1,
+          "vi": "Nhiều bạn trẻ rất hào hứng tham gia các dự án phát triển cộng đồng.",
+          "ex": "Sau cụm keen on dùng Gerund: taking part"
+        },
+        {
+          "q": "The talk show was ______ on the official ASEAN webpage to reach a wider audience.",
+          "o": [
+            "live-streamed",
+            "decorated",
+            "splashed",
+            "expanded"
+          ],
+          "a": 0,
+          "vi": "Buổi nói chuyện đã được phát trực tiếp trên trang web chính thức của ASEAN để tiếp cận nhiều khán giả hơn.",
+          "ex": "live-streamed = phát trực tiếp"
+        },
+        {
+          "q": "We put out a call for ideas and hope the school board will ______ our proposal soon.",
+          "o": [
+            "propose",
+            "approve",
+            "respond",
+            "decrease"
+          ],
+          "a": 1,
+          "vi": "Chúng tôi đã kêu gọi ý tưởng và hy vọng ban giám hiệu nhà trường sẽ sớm thông qua đề xuất của chúng tôi.",
+          "ex": "approve = thông qua/chấp thuận"
+        },
+        {
+          "q": "______ English fluently is one of the most important requirements for joining the SSEAYP journey.",
+          "o": [
+            "Speak",
+            "Spoken",
+            "Speaking",
+            "To speaking"
+          ],
+          "a": 2,
+          "vi": "Nói tiếng Anh trôi chảy là một trong những yêu cầu quan trọng nhất để tham gia hành trình SSEAYP.",
+          "ex": "Danh động từ làm Chủ ngữ: Speaking"
+        },
+        {
+          "q": "The event will be ______ by Grade 11 students who will make all necessary arrangements.",
+          "o": [
+            "hosted",
+            "replied",
+            "appreciated",
+            "depend"
+          ],
+          "a": 0,
+          "vi": "Sự kiện này sẽ do các học sinh lớp 11 đứng ra đăng cai tổ chức, những người sẽ chuẩn bị mọi sự sắp xếp cần thiết.",
+          "ex": "hosted = được đứng ra tổ chức"
+        },
+        {
+          "q": "Young participants will have the opportunity to ______ their country at the international summit.",
+          "o": [
+            "satisfy",
+            "represent",
+            "strengthen",
+            "decorate"
+          ],
+          "a": 1,
+          "vi": "Các đại biểu trẻ sẽ có cơ hội đại diện cho đất nước mình tại hội nghị thượng đỉnh quốc tế.",
+          "ex": "represent = đại diện"
+        },
+        {
+          "q": "They spent the whole afternoon discussing current social issues and ______ ASEAN-Korea relations.",
+          "o": [
+            "strengthen",
+            "to strengthen",
+            "strengthening",
+            "strengthened"
+          ],
+          "a": 2,
+          "vi": "Họ đã dành cả chiều để thảo luận về các vấn đề xã hội hiện tại và việc tăng cường quan hệ ASEAN - Hàn Quốc.",
+          "ex": "Sau động từ discuss dùng Gerund: strengthening"
+        },
+        {
+          "q": "Traditional festivities during the New Year often include folk games, art performances, and ______.",
+          "o": [
+            "parades",
+            "shortcuts",
+            "complaints",
+            "skyscrapers"
+          ],
+          "a": 0,
+          "vi": "Các hoạt động lễ hội truyền thống trong dịp Năm Mới thường bao gồm các trò chơi dân gian, biểu diễn nghệ thuật và diễu hành.",
+          "ex": "parades = các cuộc diễu hành"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "name": "PART 2. GAP-FILLING",
+      "hint": "Điền từ hoặc chia dạng đúng của từ trong ngoặc (sử dụng từ vựng hoặc Danh động từ V-ing).",
+      "questions": [
+        {
+          "q": "____________________ (volunteer) in rural areas is a truly rewarding experience for university students.",
+          "a": [
+            "Volunteering"
+          ],
+          "vi": "Làm tình nguyện ở vùng nông thôn là một trải nghiệm thực sự bổ ích đối với sinh viên đại học.",
+          "ex": "Volunteering làm chủ ngữ"
+        },
+        {
+          "q": "To apply for this scholarship, you need to propose a project that aims at ____________________ (promote) gender equality.",
+          "a": [
+            "promoting"
+          ],
+          "vi": "Để nộp đơn xin học bổng này, bạn cần đề xuất một dự án nhằm mục đích thúc đẩy bình đẳng giới.",
+          "ex": "promoting (đứng sau giới từ at)"
+        },
+        {
+          "q": "The success of the conference depends on ____________________ (manage) teamwork efficiently.",
+          "a": [
+            "managing"
+          ],
+          "vi": "Sự thành công của hội nghị phụ thuộc vào việc quản lý làm việc nhóm một cách hiệu quả.",
+          "ex": "managing (đứng sau giới từ on)"
+        },
+        {
+          "q": "My cousin's dream job is ____________________ (organise) cultural exchange events for youth.",
+          "a": [
+            "organising",
+            "organizing"
+          ],
+          "vi": "Công việc mơ ước của anh họ tôi là tổ chức các sự kiện giao lưu văn hóa cho thanh thiếu niên.",
+          "ex": "organising / organizing (Làm bổ ngữ sau động từ to be)"
+        },
+        {
+          "q": "They suggested ____________________ (invite) local monks to give a talk on traditional cultural values.",
+          "a": [
+            "inviting"
+          ],
+          "vi": "Họ đề xuất mời các nhà sư địa phương đến nói chuyện về các giá trị văn hóa truyền thống.",
+          "ex": "inviting (đứng sau động từ suggest)"
+        },
+        {
+          "q": "The government put out a call for solutions to address ____________________ (current) issues like climate change.",
+          "a": [
+            "current"
+          ],
+          "vi": "Chính phủ đã kêu gọi các giải pháp để giải quyết các vấn đề hiện tại như biến đổi khí hậu.",
+          "ex": "current (Tính từ bổ nghĩa cho danh từ issues: current issues)"
+        },
+        {
+          "q": "Viet Nam and other Southeast Asian countries follow the ____________________ (lunar) calendar for their traditional New Year.",
+          "a": [
+            "lunar"
+          ],
+          "vi": "Việt Nam và các nước Đông Nam Á khác theo âm lịch trong dịp Tết truyền thống.",
+          "ex": "lunar (Cụm từ: lunar calendar = âm lịch)"
+        },
+        {
+          "q": "Participating in this 50-day journey helped ____________________ (strengthen) friendship among ASEAN youths.",
+          "a": [
+            "strengthen",
+            "to strengthen"
+          ],
+          "vi": "Tham gia hành trình 50 ngày này đã giúp thắt chặt tình hữu nghị giữa thanh niên các nước ASEAN.",
+          "ex": "strengthen / to strengthen (Sau help + V-bare/to-V)"
+        },
+        {
+          "q": "She is interested in ____________________ (apply) for the ASEAN School Tour Programme this summer.",
+          "a": [
+            "applying"
+          ],
+          "vi": "Cô ấy quan tâm đến việc nộp đơn đăng ký Chương trình Tham quan Trường học ASEAN vào mùa hè này.",
+          "ex": "applying (Sau cụm interested in)"
+        },
+        {
+          "q": "We really hope the committee will consider our proposal as it will be ____________________ (benefit) to all participants.",
+          "a": [
+            "beneficial"
+          ],
+          "vi": "Chúng tôi rất hy vọng ủy ban sẽ xem xét đề xuất của chúng tôi vì nó sẽ có lợi cho tất cả những người tham gia.",
+          "ex": "beneficial (Tính từ đứng sau be: beneficial to)"
+        }
+      ]
+    },
+    {
+      "type": "synonym",
+      "name": "PART 3. SYNONYMS & ANTONYMS",
+      "hint": "Chọn từ đồng nghĩa (CLOSEST) hoặc trái nghĩa (OPPOSITE) với từ được gạch chân.",
+      "questions": [
+        {
+          "q": "Young volunteers had an opportunity to participate in various community projects. (Closest meaning) ",
+          "keyword": "participate in",
+          "o": [
+            "take part in",
+            "look for",
+            "depend on",
+            "put out"
+          ],
+          "a": 0,
+          "vi": "Các tình nguyện viên trẻ đã có cơ hội tham gia vào nhiều dự án cộng đồng khác nhau.",
+          "ex": "participate in = tham gia = take part in"
+        },
+        {
+          "q": "The workshop aims to strengthen cooperation and mutual understanding among member states. (Closest meaning) ",
+          "keyword": "strengthen",
+          "o": [
+            "decrease",
+            "improve",
+            "ruin",
+            "ignore"
+          ],
+          "a": 1,
+          "vi": "Hội thảo nhằm tăng cường sự hợp tác và hiểu biết lẫn nhau giữa các quốc gia thành viên.",
+          "ex": "strengthen = tăng cường, củng cố = improve"
+        },
+        {
+          "q": "We highly appreciate your valuable contributions to the development of our local community. (Closest meaning) ",
+          "keyword": "appreciate",
+          "o": [
+            "value",
+            "reject",
+            "complain",
+            "prevent"
+          ],
+          "a": 0,
+          "vi": "Chúng tôi đánh giá cao những đóng góp quý báu của bạn cho sự phát triển của cộng đồng địa phương chúng tôi.",
+          "ex": "appreciate = đánh giá cao, coi trọng = value"
+        },
+        {
+          "q": "The event was considered highly beneficial for students who want to improve their leadership skills. (Opposite meaning) ",
+          "keyword": "beneficial",
+          "o": [
+            "helpful",
+            "advantageous",
+            "harmful",
+            "practical"
+          ],
+          "a": 2,
+          "vi": "Sự kiện được đánh giá là rất có lợi cho các sinh viên muốn nâng cao kỹ năng lãnh đạo của mình.",
+          "ex": "beneficial = có lợi >< harmful = có hại"
+        },
+        {
+          "q": "The school board decided to approve the proposal after reviewing all the activity arrangements.(Opposite meaning)",
+          "keyword": "approve",
+          "o": [
+            "accept",
+            "reject",
+            "support",
+            "encourage"
+          ],
+          "a": 1,
+          "vi": "Ban giám hiệu nhà trường đã quyết định phê duyệt đề xuất sau khi xem xét tất cả các công tác sắp xếp hoạt động.",
+          "ex": "approve = phê duyệt/thông qua >< reject = từ chối/bác bỏ"
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "name": "PART 4. REWRITING SENTENCES",
+      "hint": "Chọn câu viết lại đúng nhất sử dụng Danh động từ (V-ing) sao cho nghĩa không thay đổi.",
+      "questions": [
+        {
+          "q": "It is very important to learn how to work effectively in a team.",
+          "o": [
+            "Working effectively in a team is very important.",
+            "Working in a team effective is very important.",
+            "To work effectively in a team is not important.",
+            "Working effectively in a team makes it very important."
+          ],
+          "a": 0,
+          "vi": "Việc học cách làm việc hiệu quả trong một nhóm là rất quan trọng.",
+          "ex": "Chuyển To-V làm chủ ngữ giả thành V-ing đứng đầu câu làm chủ ngữ: Working effectively in a team is very important."
+        },
+        {
+          "q": "He said sorry because he did not reply to her invitation email on time.",
+          "o": [
+            "He apologised for not replying to her invitation email on time.",
+            "He apologised to not reply to her invitation email on time.",
+            "He apologised for no replying to her invitation email on time.",
+            "He apologised for not reply to her invitation email on time."
+          ],
+          "a": 0,
+          "vi": "Anh ấy đã xin lỗi vì không trả lời thư mời của cô ấy đúng giờ.",
+          "ex": "Cấu trúc: apologise for (not) + V-ing -> He apologised for not replying to her invitation email on time."
+        },
+        {
+          "q": "My sister wants to travel around ASEAN countries more than anything else.",
+          "o": [
+            "My sister’s desire is travelling around ASEAN countries.",
+            "My sister’s desire is travel around ASEAN countries.",
+            "My sister desires to travelling around ASEAN countries.",
+            "My sister’s desire travels around ASEAN countries."
+          ],
+          "a": 0,
+          "vi": "Chị gái tôi muốn đi du lịch quanh các nước ASEAN hơn bất cứ điều gì khác.",
+          "ex": "Sử dụng Danh động từ V-ing làm bổ ngữ cho chủ ngữ: My sister’s desire is travelling around ASEAN countries."
+        },
+        {
+          "q": "It is necessary to speak English fluently to join the volunteer program.",
+          "o": [
+            "Speaking English fluently is necessary to join the volunteer program.",
+            "Speaking English fluent is necessary to join the volunteer program.",
+            "To speaking English fluently is necessary to join the volunteer program.",
+            "Speaking English fluently makes it necessary to join the volunteer program."
+          ],
+          "a": 0,
+          "vi": "Nói tiếng Anh trôi chảy là cần thiết để tham gia chương trình tình nguyện.",
+          "ex": "Sử dụng Danh động từ V-ing làm chủ ngữ: Speaking English fluently is necessary to join the volunteer program."
+        },
+        {
+          "q": "His daily job includes managing youth projects and organizing cultural exchanges.",
+          "o": [
+            "His daily job involves managing youth projects and organizing cultural exchanges.",
+            "His daily job involves to manage youth projects and organize cultural exchanges.",
+            "His daily job involves manage youth projects and organizing cultural exchanges.",
+            "His daily job involved managing youth projects and organizing cultural exchanges."
+          ],
+          "a": 0,
+          "vi": "Công việc hàng ngày của anh ấy bao gồm quản lý các dự án thanh niên và tổ chức các hoạt động giao lưu văn hóa.",
+          "ex": "Thay thế 'includes' bằng 'involves + V-ing': His daily job involves managing youth projects and organizing cultural exchanges."
+        }
+      ]
+    }
+  ]
+}
