@@ -1,0 +1,477 @@
+{
+  "id": "writing-ads",
+  "title": "Kiểm tra Tiếng Anh: Advertising & Linking Words",
+  "description": "Bộ bài tập 30 câu ôn tập từ vựng chủ đề Quảng cáo (Advertising) và các Từ nối (Linking words).",
+  "tags": [
+    "Vocabulary",
+    "Advertising",
+    "Linking Words",
+    "Grammar"
+  ],
+  "cover": "📢",
+  "duration": "20 phút",
+  "timeLimit": 1200,
+  "parts": [
+    {
+      "type": "mcq",
+      "name": "PHẦN 1: TRẮC NGHIỆM TỪ VỰNG VÀ TỪ NỐI",
+      "hint": "Chọn phương án đúng nhất (A, B, C hoặc D) để hoàn thành câu.",
+      "questions": [
+        {
+          "q": "The main objective of this marketing campaign is to ________ a new line of eco-friendly products.",
+          "o": [
+            "endorse",
+            "promote",
+            "interrupt",
+            "regret"
+          ],
+          "a": 1,
+          "vi": "Mục tiêu chính của chiến dịch tiếp thị này là quảng bá dòng sản phẩm thân thiện với môi trường mới.",
+          "ex": "promote - quảng bá"
+        },
+        {
+          "q": "Advertising helps consumers become more ________ about the features and benefits of products.",
+          "o": [
+            "well-informed",
+            "frustrated",
+            "annoying",
+            "potential"
+          ],
+          "a": 0,
+          "vi": "Quảng cáo giúp người tiêu dùng nắm rõ hơn/có đầy đủ thông tin về các tính năng và lợi ích của sản phẩm.",
+          "ex": "well-informed - có đầy đủ thông tin"
+        },
+        {
+          "q": "Many young consumers make ________ buying decisions after seeing attractive promotional videos on social media.",
+          "o": [
+            "target",
+            "impulsive",
+            "prospective",
+            "clear"
+          ],
+          "a": 1,
+          "vi": "Nhiều người tiêu dùng trẻ đưa ra quyết định mua hàng bốc đồng sau khi xem các video quảng cáo hấp dẫn trên mạng xã hội.",
+          "ex": "impulsive - ngẫu hứng, bốc đồng"
+        },
+        {
+          "q": "High quality and good customer service are essential to build long-term customer ________.",
+          "o": [
+            "audience",
+            "gimmick",
+            "loyalty",
+            "loss"
+          ],
+          "a": 2,
+          "vi": "Chất lượng cao và dịch vụ chăm sóc khách hàng tốt là yếu tố cốt lõi để xây dựng lòng trung thành lâu dài của khách hàng.",
+          "ex": "customer loyalty - lòng trung thành của khách hàng"
+        },
+        {
+          "q": "Brands often use celebrity ________ to make their products appeal to a broader audience.",
+          "o": [
+            "commercials",
+            "endorsements",
+            "interruptions",
+            "discounts"
+          ],
+          "a": 1,
+          "vi": "Các thương hiệu thường sử dụng sự quảng bá từ người nổi tiếng để giúp sản phẩm của họ thu hút đông đảo khán giả hơn.",
+          "ex": "celebrity endorsements - sự quảng bá/bảo chứng từ người nổi tiếng"
+        },
+        {
+          "q": "Modern advertisements aim to reach their specific ________ audience through tailored social media posts.",
+          "o": [
+            "target",
+            "prospective",
+            "potential",
+            "publicity"
+          ],
+          "a": 0,
+          "vi": "Các quảng cáo hiện đại hướng tới việc tiếp cận khán giả mục tiêu cụ thể của họ thông qua các bài đăng được tùy chỉnh trên mạng xã hội.",
+          "ex": "target audience - khán giả/khách hàng mục tiêu"
+        },
+        {
+          "q": "________, advertising can be beneficial because it informs people about new inventions.",
+          "o": [
+            "As a result",
+            "On the one hand",
+            "In conclusion",
+            "Instead"
+          ],
+          "a": 1,
+          "vi": "Một mặt, quảng cáo có thể có lợi vì nó thông tin cho mọi người về những phát minh mới.",
+          "ex": "On the one hand - Một mặt"
+        },
+        {
+          "q": "Some companies offer ________ discounts during holiday seasons to attract buyers.",
+          "o": [
+            "impulsive",
+            "frustrating",
+            "hefty",
+            "potential"
+          ],
+          "a": 2,
+          "vi": "Một số công ty đưa ra mức giảm giá lớn trong các mùa lễ hội để thu hút người mua.",
+          "ex": "hefty discounts - giảm giá lớn"
+        },
+        {
+          "q": "People may buy products they do not need. ________, they may regret their purchasing decisions later.",
+          "o": [
+            "However",
+            "As a result",
+            "For instance",
+            "In my opinion"
+          ],
+          "a": 1,
+          "vi": "Mọi người có thể mua những sản phẩm mà họ không cần. Kết quả là, sau đó họ có thể hối hận về quyết định mua hàng của mình.",
+          "ex": "As a result - Kết quả là"
+        },
+        {
+          "q": "Seeing too many pop-up ads can be very ________ for online viewers.",
+          "o": [
+            "frustrating",
+            "well-informed",
+            "impulsive",
+            "prospective"
+          ],
+          "a": 0,
+          "vi": "Việc nhìn thấy quá nhiều quảng cáo cửa sổ bật lên (pop-up) có thể rất bực bội đối với người xem trực tuyến.",
+          "ex": "frustrating - gây bực bội/khó chịu"
+        },
+        {
+          "q": "________, while advertising has its advantages, the disadvantages are stronger.",
+          "o": [
+            "On the one hand",
+            "Firstly",
+            "In conclusion",
+            "Moreover"
+          ],
+          "a": 2,
+          "vi": "Tóm lại, mặc dù quảng cáo có những ưu điểm nhưng nhược điểm lại lớn hơn.",
+          "ex": "In conclusion - Tóm lại"
+        },
+        {
+          "q": "Marketers frequently use clever marketing ________ to capture consumers' attention.",
+          "o": [
+            "decisions",
+            "gimmicks",
+            "interruptions",
+            "advantages"
+          ],
+          "a": 1,
+          "vi": "Các nhà tiếp thị thường xuyên sử dụng các chiêu trò tiếp thị thông minh để thu hút sự chú ý của người tiêu dùng.",
+          "ex": "marketing gimmicks - chiêu trò marketing"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "name": "PHẦN 2: ĐIỀN TỪ VÀO CHỖ TRỐNG",
+      "hint": "Chọn từ/cụm từ thích hợp trong danh sách cho sẵn để điền vào chỗ trống.",
+      "questions": [
+        {
+          "q": "Advertisements are designed to ________ the key features and advantages of a product.",
+          "o": [
+            "buying decision",
+            "prospective customers",
+            "television commercials",
+            "have knowledge of",
+            "work in publicity",
+            "highlight",
+            "Moreover",
+            "The reason is that",
+            "Instead",
+            "loss of money"
+          ],
+          "a": [
+            "highlight"
+          ],
+          "vi": "Quảng cáo được thiết kế để làm nổi bật các tính năng và ưu điểm chính của sản phẩm.",
+          "ex": "highlight (làm nổi bật)"
+        },
+        {
+          "q": "People who ________ are responsible for maintaining a positive public image for companies or public figures.",
+          "o": [
+            "buying decision",
+            "prospective customers",
+            "television commercials",
+            "have knowledge of",
+            "work in publicity",
+            "highlight",
+            "Moreover",
+            "The reason is that",
+            "Instead",
+            "loss of money"
+          ],
+          "a": [
+            "work in publicity"
+          ],
+          "vi": "Những người làm việc trong lĩnh vực truyền thông/quảng bá chịu trách nhiệm duy trì hình ảnh công chúng tích cực cho các công ty hoặc nhân vật công chúng.",
+          "ex": "work in publicity (làm việc trong lĩnh vực truyền thông/quảng bá)"
+        },
+        {
+          "q": "Watching ________ on TV can sometimes be entertaining, but many viewers skip them.",
+          "o": [
+            "buying decision",
+            "prospective customers",
+            "television commercials",
+            "have knowledge of",
+            "work in publicity",
+            "highlight",
+            "Moreover",
+            "The reason is that",
+            "Instead",
+            "loss of money"
+          ],
+          "a": [
+            "television commercials"
+          ],
+          "vi": "Xem quảng cáo truyền hình đôi khi có thể mang tính giải trí, nhưng nhiều người xem lại bỏ qua chúng.",
+          "ex": "television commercials (quảng cáo truyền hình)"
+        },
+        {
+          "q": "Before buying an expensive item, consumers should ________ its price and quality across different brands.",
+          "o": [
+            "buying decision",
+            "prospective customers",
+            "television commercials",
+            "have knowledge of",
+            "work in publicity",
+            "highlight",
+            "Moreover",
+            "The reason is that",
+            "Instead",
+            "loss of money"
+          ],
+          "a": [
+            "have knowledge of"
+          ],
+          "vi": "Trước khi mua một món đồ đắt tiền, người tiêu dùng nên hiểu biết/có kiến thức về giá cả và chất lượng của nó giữa các thương hiệu khác nhau.",
+          "ex": "have knowledge of (có kiến thức/hiểu biết về)"
+        },
+        {
+          "q": "Companies always send promotional emails to ________ to turn them into actual buyers.",
+          "o": [
+            "buying decision",
+            "prospective customers",
+            "television commercials",
+            "have knowledge of",
+            "work in publicity",
+            "highlight",
+            "Moreover",
+            "The reason is that",
+            "Instead",
+            "loss of money"
+          ],
+          "a": [
+            "prospective customers"
+          ],
+          "vi": "Các công ty luôn gửi email quảng cáo đến các khách hàng tiềm năng để biến họ thành người mua thực sự.",
+          "ex": "prospective customers (khách hàng tiềm năng)"
+        },
+        {
+          "q": "Advertisements can influence a person’s final ________ when choosing between similar brands.",
+          "o": [
+            "buying decision",
+            "prospective customers",
+            "television commercials",
+            "have knowledge of",
+            "work in publicity",
+            "highlight",
+            "Moreover",
+            "The reason is that",
+            "Instead",
+            "loss of money"
+          ],
+          "a": [
+            "buying decision"
+          ],
+          "vi": "Quảng cáo có thể ảnh hưởng đến quyết định mua hàng cuối cùng của một người khi lựa chọn giữa các thương hiệu tương tự.",
+          "ex": "buying decision (quyết định mua hàng)"
+        },
+        {
+          "q": "Blindly purchasing products endorsed by celebrities may result in a huge ________.",
+          "o": [
+            "buying decision",
+            "prospective customers",
+            "television commercials",
+            "have knowledge of",
+            "work in publicity",
+            "highlight",
+            "Moreover",
+            "The reason is that",
+            "Instead",
+            "loss of money"
+          ],
+          "a": [
+            "loss of money"
+          ],
+          "vi": "Việc mù mịt mua các sản phẩm được người nổi tiếng quảng cáo có thể dẫn đến khoản thiệt hại tài chính lớn.",
+          "ex": "loss of money (sự mất tiền/thiệt hại tài chính)"
+        },
+        {
+          "q": "________, advertisements can be annoying because they disrupt online videos.",
+          "o": [
+            "buying decision",
+            "prospective customers",
+            "television commercials",
+            "have knowledge of",
+            "work in publicity",
+            "highlight",
+            "Moreover",
+            "The reason is that",
+            "Instead",
+            "loss of money"
+          ],
+          "a": [
+            "Moreover"
+          ],
+          "vi": "Hơn nữa, quảng cáo có thể gây phiền gián vì chúng làm gián đoạn các video trực tuyến.",
+          "ex": "Moreover (Hơn nữa)"
+        },
+        {
+          "q": "Consumers cannot watch videos smoothly. ________, they have to sit through multiple ads first.",
+          "o": [
+            "buying decision",
+            "prospective customers",
+            "television commercials",
+            "have knowledge of",
+            "work in publicity",
+            "highlight",
+            "Moreover",
+            "The reason is that",
+            "Instead",
+            "loss of money"
+          ],
+          "a": [
+            "Instead"
+          ],
+          "vi": "Người tiêu dùng không thể xem video một cách mượt mà. Thay vào đó, họ phải ngồi xem qua nhiều quảng cáo trước.",
+          "ex": "Instead (Thay vào đó)"
+        },
+        {
+          "q": "Advertising can lead to overspending. ________ adverts are created to make products look irresistible.",
+          "o": [
+            "buying decision",
+            "prospective customers",
+            "television commercials",
+            "have knowledge of",
+            "work in publicity",
+            "highlight",
+            "Moreover",
+            "The reason is that",
+            "Instead",
+            "loss of money"
+          ],
+          "a": [
+            "The reason is that"
+          ],
+          "vi": "Quảng cáo có thể dẫn đến việc chi tiêu quá độ. Lý do là vì quảng cáo được tạo ra để làm cho sản phẩm trông không thể cưỡng lại được.",
+          "ex": "The reason is that (Lý do là vì)"
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "name": "PHẦN 3: SẮP XẾP CÂU DẠNG TRẮC NGHIỆM",
+      "hint": "Chọn phương án (A, B, C hoặc D) có thứ tự từ/cụm từ đúng nhất để tạo thành câu hoàn chỉnh.",
+      "questions": [
+        {
+          "q": "Sắp xếp câu từ các cụm sau: television commercials / Nowadays, / surrounded by / advertisements, / we are / from / to online ads.",
+          "o": [
+            "Nowadays, we are surrounded by advertisements, from television commercials to online ads.",
+            "We are surrounded by advertisements Nowadays, from television commercials to online ads.",
+            "From television commercials to online ads, nowadays we surrounded are by advertisements.",
+            "Nowadays, advertisements from television commercials we are surrounded by to online ads."
+          ],
+          "a": 0,
+          "vi": "Ngày nay, chúng ta bị bao quanh bởi quảng cáo, từ quảng cáo truyền hình cho đến quảng cáo trực tuyến.",
+          "ex": "Cấu trúc đúng: Nowadays, S + be + V-ed/adj, from A to B."
+        },
+        {
+          "q": "Sắp xếp câu từ các cụm sau: advertising / brings / than benefits / drawbacks / In my opinion, / more.",
+          "o": [
+            "In my opinion, advertising brings drawbacks more than benefits.",
+            "In my opinion, advertising brings more drawbacks than benefits.",
+            "Advertising brings more benefits than drawbacks in my opinion.",
+            "Drawbacks brings more than benefits advertising, in my opinion."
+          ],
+          "a": 1,
+          "vi": "Theo tôi, quảng cáo mang lại nhiều tác hại hơn là lợi ích.",
+          "ex": "Cấu trúc so sánh hơn: brings more N1 than N2."
+        },
+        {
+          "q": "Sắp xếp câu từ các cụm sau: make consumers / One clear / is that they / advantage of advertisements / well-informed.",
+          "o": [
+            "One clear advantage of advertisements is that they make consumers well-informed.",
+            "Advantage of advertisements one clear is that they make consumers well-informed.",
+            "They make consumers well-informed is that one clear advantage of advertisements.",
+            "One clear advantage is that advertisements make consumers of well-informed."
+          ],
+          "a": 0,
+          "vi": "Một ưu điểm rõ ràng của quảng cáo là chúng giúp người tiêu dùng nắm rõ thông tin.",
+          "ex": "Cấu trúc: One clear advantage of N is that + clause."
+        },
+        {
+          "q": "Sắp xếp câu từ các cụm sau: make / Therefore, / better / consumers / buying decisions / can.",
+          "o": [
+            "Consumers can make better buying decisions, therefore.",
+            "Therefore, consumers better buying decisions can make.",
+            "Consumers, therefore, can make better buying decisions.",
+            "Consumers can therefore better make buying decisions."
+          ],
+          "a": 2,
+          "vi": "Do đó, người tiêu dùng có thể đưa ra quyết định mua hàng tốt hơn.",
+          "ex": "Chèn trạng từ liên kết 'therefore' vào giữa S và Modal Verb: S, therefore, modal + V."
+        },
+        {
+          "q": "Sắp xếp câu từ các cụm sau: outweigh / I believe / the disadvantages of advertising / the advantages / However, .",
+          "o": [
+            "However, I believe the advantages outweigh the disadvantages of advertising.",
+            "However, I believe the disadvantages of advertising outweigh the advantages.",
+            "I believe the disadvantages of advertising outweigh however the advantages.",
+            "However, the advantages of advertising I believe outweigh the disadvantages."
+          ],
+          "a": 1,
+          "vi": "Tuy nhiên, tôi tin rằng tác hại của quảng cáo vượt trội hơn so với những lợi ích.",
+          "ex": "Cấu trúc: However, S + V + N1 + outweigh + N2."
+        },
+        {
+          "q": "Sắp xếp câu từ các cụm sau: make / Firstly, / force people to / marketing gimmicks / impulsive buying decisions / can.",
+          "o": [
+            "Firstly, marketing gimmicks can force people to make impulsive buying decisions.",
+            "Marketing gimmicks can force people firstly to make impulsive buying decisions.",
+            "Firstly, impulsive buying decisions can force people to make marketing gimmicks.",
+            "People can force marketing gimmicks to make impulsive buying decisions, firstly."
+          ],
+          "a": 0,
+          "vi": "Đầu tiên, các chiêu trò tiếp thị có thể buộc mọi người đưa ra những quyết định mua hàng bốc đồng.",
+          "ex": "Cấu trúc: Firstly, S + can force somebody to V."
+        },
+        {
+          "q": "Sắp xếp câu từ các cụm sau: celebrity endorsements, / For instance, / when companies / blindly buy / use / people may / products.",
+          "o": [
+            "For instance, when companies use celebrity endorsements, people may blindly buy products.",
+            "People may blindly buy products when companies use celebrity endorsements, for instance.",
+            "For instance, when people use celebrity endorsements, companies may blindly buy products.",
+            "Celebrity endorsements, for instance, when companies use people may blindly buy products."
+          ],
+          "a": 0,
+          "vi": "Chẳng hạn, khi các công ty sử dụng sự quảng bá từ người nổi tiếng, mọi người có thể mù mịt mua sản phẩm.",
+          "ex": "Cấu trúc: For instance, when clause 1, clause 2."
+        },
+        {
+          "q": "Sắp xếp câu từ các cụm sau: without / it is hard to / watching videos / interruptions / Nowadays, / experience.",
+          "o": [
+            "Nowadays, watching videos without interruptions it is hard to experience.",
+            "Nowadays, it is hard to watch a video on a website without interruptions.",
+            "Interruptions without it is hard to watch a video nowadays.",
+            "It is hard to nowadays watch a video without website interruptions."
+          ],
+          "a": 1,
+          "vi": "Ngày nay, thật khó để xem một video trên trang web mà không bị gián đoạn.",
+          "ex": "Cấu trúc: Nowadays, it is hard to + V + without + N."
+        }
+      ]
+    }
+  ]
+}
