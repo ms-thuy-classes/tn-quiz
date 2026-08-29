@@ -170,7 +170,7 @@
       "questions": [
         {
           "q": "Advertisements are designed to ________ the key features and advantages of a product.",
-          "o": [
+          "words": [
             "buying decision",
             "prospective customers",
             "television commercials",
@@ -190,7 +190,7 @@
         },
         {
           "q": "People who ________ are responsible for maintaining a positive public image for companies or public figures.",
-          "o": [
+          "words": [
             "buying decision",
             "prospective customers",
             "television commercials",
@@ -210,7 +210,7 @@
         },
         {
           "q": "Watching ________ on TV can sometimes be entertaining, but many viewers skip them.",
-          "o": [
+          "words": [
             "buying decision",
             "prospective customers",
             "television commercials",
@@ -230,7 +230,7 @@
         },
         {
           "q": "Before buying an expensive item, consumers should ________ its price and quality across different brands.",
-          "o": [
+          "words": [
             "buying decision",
             "prospective customers",
             "television commercials",
@@ -250,7 +250,7 @@
         },
         {
           "q": "Companies always send promotional emails to ________ to turn them into actual buyers.",
-          "o": [
+          "words": [
             "buying decision",
             "prospective customers",
             "television commercials",
@@ -270,7 +270,7 @@
         },
         {
           "q": "Advertisements can influence a person’s final ________ when choosing between similar brands.",
-          "o": [
+         "words": [
             "buying decision",
             "prospective customers",
             "television commercials",
@@ -290,7 +290,7 @@
         },
         {
           "q": "Blindly purchasing products endorsed by celebrities may result in a huge ________.",
-          "o": [
+          "words": [
             "buying decision",
             "prospective customers",
             "television commercials",
@@ -310,7 +310,7 @@
         },
         {
           "q": "________, advertisements can be annoying because they disrupt online videos.",
-          "o": [
+          "words": [
             "buying decision",
             "prospective customers",
             "television commercials",
@@ -330,7 +330,7 @@
         },
         {
           "q": "Consumers cannot watch videos smoothly. ________, they have to sit through multiple ads first.",
-          "o": [
+         "words": [
             "buying decision",
             "prospective customers",
             "television commercials",
@@ -350,7 +350,7 @@
         },
         {
           "q": "Advertising can lead to overspending. ________ adverts are created to make products look irresistible.",
-          "o": [
+          "words": [
             "buying decision",
             "prospective customers",
             "television commercials",
