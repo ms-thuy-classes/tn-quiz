@@ -1,0 +1,312 @@
+{
+  "id": "areas-nationalities",
+  "title": "Kiểm tra Tiếng Anh: Geography & Nationalities",
+  "description": "Bộ bài tập 20 câu tổng hợp từ vựng về Khu vực địa lý, Tên quốc gia và Quốc tịch (Geography & Nationalities).",
+  "tags": [
+    "Vocabulary",
+    "Geography",
+    "Nationalities",
+    "Grammar"
+  ],
+  "cover": "🌍",
+  "duration": "20 phút",
+  "timeLimit": 1200,
+  "parts": [
+    {
+      "type": "mcq",
+      "name": "PHẦN 1: TRẮC NGHIỆM (MULTIPLE CHOICE)",
+      "hint": "Chọn đáp án đúng nhất (A, B, C hoặc D) để hoàn thành các câu sau.",
+      "questions": [
+        {
+          "q": "Japan, Korea, and Taiwan are all located in ______.",
+          "o": [
+            "the Near East",
+            "the Middle East",
+            "the Far East",
+            "Central America"
+          ],
+          "a": 2,
+          "vi": "Nhật Bản, Hàn Quốc và Đài Loan đều nằm ở khu vực Viễn Đông.",
+          "ex": "the Far East = Viễn Đông"
+        },
+        {
+          "q": "Denmark, Finland, Norway, and Sweden are known collectively as ______.",
+          "o": [
+            "the Baltic Republics",
+            "Scandinavia",
+            "the Caribbean",
+            "Latin America"
+          ],
+          "a": 1,
+          "vi": "Đan Mạch, Phần Lan, Na Uy và Thụy Điển được gọi chung là khu vực Scandinavia.",
+          "ex": "Scandinavia = Bắc Âu / Khu vực Scandinavia"
+        },
+        {
+          "q": "What is the nationality of a person who comes from Belgium?",
+          "o": [
+            "Belgish",
+            "Belgian",
+            "Belgic",
+            "Belgiumer"
+          ],
+          "a": 1,
+          "vi": "Quốc tịch của một người đến từ Bỉ là gì? - Belgian (Người Bỉ).",
+          "ex": "Belgian = Người Bỉ / Quốc tịch Bỉ"
+        },
+        {
+          "q": "England, Scotland, Wales, and Northern Ireland are known collectively as ______.",
+          "o": [
+            "Great Britain",
+            "Continental Europe",
+            "the United Kingdom",
+            "Britain"
+          ],
+          "a": 2,
+          "vi": "Anh, Scotland, Xứ Wales và Bắc Ireland được gọi chung là Vương quốc Anh (the United Kingdom).",
+          "ex": "the United Kingdom = Vương quốc Anh (gồm 4 vùng: England, Scotland, Wales, N.Ireland)"
+        },
+        {
+          "q": "Bangladesh is part of ______.",
+          "o": [
+            "Indiana",
+            "the Indian subcontinent",
+            "Australasia",
+            "South America"
+          ],
+          "a": 1,
+          "vi": "Bangladesh là một phần của tiểu lục địa Ấn Độ.",
+          "ex": "the Indian subcontinent = Tiểu lục địa Ấn Độ"
+        },
+        {
+          "q": "A person from the Netherlands is referred to as ______.",
+          "o": [
+            "Netherlandish",
+            "Hollander",
+            "Netherlandian",
+            "Dutch"
+          ],
+          "a": 3,
+          "vi": "Một người đến từ Hà Lan được gọi là Dutch.",
+          "ex": "Dutch = Người / Tiếng Hà Lan"
+        },
+        {
+          "q": "The South Pole is situated in ______.",
+          "o": [
+            "the Arctic",
+            "Antarctica",
+            "Australasia",
+            "Scandinavia"
+          ],
+          "a": 1,
+          "vi": "Cực Nam nằm ở Châu Nam Cực.",
+          "ex": "Antarctica = Châu Nam Cực"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "name": "PHẦN 2: ĐIỀN VÀO CHỖ TRỐNG (FILL IN THE BLANKS)",
+      "hint": "Chọn từ/cụm từ thích hợp trong danh sách cho sẵn để điền vào chỗ trống.",
+      "questions": [
+        {
+          "q": "People who come from Switzerland are called ____________.",
+          "words": [
+            "Swiss",
+            "Gulf",
+            "Polish",
+            "Central",
+            "capital",
+            "Greek",
+            "Latin"
+          ],
+          "a": [
+            "Swiss"
+          ],
+          "vi": "Những người đến từ Thụy Sĩ được gọi là người Thụy Sĩ (Swiss).",
+          "ex": "Swiss = Người Thụy Sĩ"
+        },
+        {
+          "q": "Kuwait, Oman, and the United Arab Emirates form part of what are known as the ____________ States.",
+          "words": [
+            "Swiss",
+            "Gulf",
+            "Polish",
+            "Central",
+            "capital",
+            "Greek",
+            "Latin"
+          ],
+          "a": [
+            "Gulf"
+          ],
+          "vi": "Kuwait, Oman và Các Tiểu vương quốc Ả Rập Thống nhất là một phần của các quốc gia Vùng Vịnh (Gulf States).",
+          "ex": "Gulf (The Gulf States = Các nước Vùng Vịnh)"
+        },
+        {
+          "q": "A citizen of Poland has ____________ nationality.",
+          "words": [
+            "Swiss",
+            "Gulf",
+            "Polish",
+            "Central",
+            "capital",
+            "Greek",
+            "Latin"
+          ],
+          "a": [
+            "Polish"
+          ],
+          "vi": "Một công dân Ba Lan có quốc tịch Ba Lan (Polish).",
+          "ex": "Polish = Quốc tịch Ba Lan"
+        },
+        {
+          "q": "Guatemala is a country located in ____________ America.",
+          "words": [
+            "Swiss",
+            "Gulf",
+            "Polish",
+            "Central",
+            "capital",
+            "Greek",
+            "Latin"
+          ],
+          "a": [
+            "Central"
+          ],
+          "vi": "Guatemala là một quốc gia nằm ở Trung Mỹ (Central America).",
+          "ex": "Central (Central America = Trung Mỹ)"
+        },
+        {
+          "q": "Bangkok, Lima, and Tunis are examples of ____________ cities.",
+          "words": [
+            "Swiss",
+            "Gulf",
+            "Polish",
+            "Central",
+            "capital",
+            "Greek",
+            "Latin"
+          ],
+          "a": [
+            "capital"
+          ],
+          "vi": "Bangkok, Lima và Tunis là ví dụ về các thành phố thủ đô (capital cities).",
+          "ex": "capital (Capital cities = Các thành phố thủ đô)"
+        },
+        {
+          "q": "People born in Greece speak Greek and are recognized as ____________ citizens.",
+          "words": [
+            "Swiss",
+            "Gulf",
+            "Polish",
+            "Central",
+            "capital",
+            "Greek",
+            "Latin"
+          ],
+          "a": [
+            "Greek"
+          ],
+          "vi": "Những người sinh ra ở Hy Lạp nói tiếng Hy Lạp và được công nhận là công dân Hy Lạp (Greek).",
+          "ex": "Greek = Người / Quốc tịch Hy Lạp"
+        },
+        {
+          "q": "Argentina, Brazil, Colombia, Panama, and Honduras form part of what is often referred to as ____________ America.",
+          "words": [
+            "Swiss",
+            "Gulf",
+            "Polish",
+            "Central",
+            "capital",
+            "Greek",
+            "Latin"
+          ],
+          "a": [
+            "Latin"
+          ],
+          "vi": "Argentina, Brazil, Colombia, Panama và Honduras là một phần của khu vực thường được gọi là Mỹ Latinh (Latin America).",
+          "ex": "Latin (Latin America = Mỹ Latinh)"
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "name": "PHẦN 3: SẮP XẾP CÂU / NỐI TỪ (SENTENCE REORDERING & MATCHING)",
+      "hint": "Chọn phương án có thứ tự từ/cụm từ đúng nhất để tạo thành câu hoàn chỉnh.",
+      "questions": [
+        {
+          "q": "Sắp xếp các từ sau thành câu hoàn chỉnh: Australia / New Zealand / part of / and / are / Australasia / .",
+          "o": [
+            "Australia and New Zealand are part of Australasia.",
+            "Australia and New Zealand part of are Australasia.",
+            "Australasia are part of Australia and New Zealand.",
+            "New Zealand and Australia are Australasia part of."
+          ],
+          "a": 0,
+          "vi": "Úc và New Zealand là một phần của Australasia.",
+          "ex": "Cấu trúc: S (Australia and New Zealand) + be (are) + part of + Region (Australasia)."
+        },
+        {
+          "q": "Sắp xếp các từ sau thành câu hoàn chỉnh: the United Kingdom / Ireland / and / of / Continental Europe / part of / are not / .",
+          "o": [
+            "The United Kingdom and Ireland are not part of Continental Europe.",
+            "The United Kingdom and Ireland are part of not Continental Europe.",
+            "Continental Europe are not part of the United Kingdom and Ireland.",
+            "The United Kingdom are not part of Ireland and Continental Europe."
+          ],
+          "a": 0,
+          "vi": "Vương quốc Anh và Ireland không phải là một phần của Lục địa Châu Âu.",
+          "ex": "Cấu trúc: S + are not part of + N."
+        },
+        {
+          "q": "Sắp xếp các từ sau thành câu hoàn chỉnh: from / came / a large / group of / Moroccan / tourists / Morocco / .",
+          "o": [
+            "A large group of Moroccan tourists came from Morocco.",
+            "A Moroccan group of large tourists came from Morocco.",
+            "A large group came from Morocco of Moroccan tourists.",
+            "Moroccan tourists came from Morocco a large group of."
+          ],
+          "a": 0,
+          "vi": "Một nhóm lớn du khách Ma-rốc đến từ Ma-rốc.",
+          "ex": "Cấu trúc: S (A large group of Moroccan tourists) + V (came) + Prep (from Morocco)."
+        },
+        {
+          "q": "Sắp xếp các từ sau thành câu hoàn chỉnh: is / located / in / South Africa / the southern / part of / Africa / .",
+          "o": [
+            "South Africa is located in the southern part of Africa.",
+            "South Africa located is in the southern part of Africa.",
+            "The southern part of Africa is located in South Africa.",
+            "South Africa is in the southern part located of Africa."
+          ],
+          "a": 0,
+          "vi": "Nam Phi nằm ở phần phía nam của Châu Phi.",
+          "ex": "Cấu trúc: S + be located in + location."
+        },
+        {
+          "q": "Sắp xếp các từ sau thành câu hoàn chỉnh: national / Portuguese / is / official / the / language / of / Portugal / .",
+          "o": [
+            "Portuguese is the official national language of Portugal.",
+            "Portugal is the official national language of Portuguese.",
+            "The official national language Portuguese is of Portugal.",
+            "Portuguese is official the national language of Portugal."
+          ],
+          "a": 0,
+          "vi": "Tiếng Bồ Đào Nha là ngôn ngữ quốc gia chính thức của Bồ Đào Nha.",
+          "ex": "Cấu trúc: Language (Portuguese) + is + the official national language of + Country (Portugal)."
+        },
+        {
+          "q": "Sắp xếp các từ sau thành câu hoàn chỉnh: who / lives in / a person / Israel / is called / an / Israeli / .",
+          "o": [
+            "A person who lives in Israel is called an Israeli.",
+            "An Israeli is called a person who lives in Israel.",
+            "A person is called an Israeli who lives in Israel.",
+            "Who lives in Israel a person is called an Israeli."
+          ],
+          "a": 0,
+          "vi": "Một người sống ở Israel được gọi là người Israel.",
+          "ex": "Cấu trúc mạo từ + mệnh đề quan hệ: A person who lives in [Country] is called an [Nationality]."
+        }
+      ]
+    }
+  ]
+}
