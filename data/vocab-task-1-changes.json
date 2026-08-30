@@ -1,0 +1,312 @@
+{
+  "id": "vocab-task-1-changes",
+  "title": "IELTS Writing Task 1: Sự thay đổi và Xu hướng",
+  "description": "Bài tập 20 câu tổng hợp từ vựng miêu tả sự thay đổi và xu hướng chuẩn định dạng IELTS Writing Task 1.",
+  "tags": [
+    "IELTS",
+    "Writing Task 1",
+    "Vocabulary",
+    "Trends"
+  ],
+  "cover": "📊",
+  "duration": "20 phút",
+  "timeLimit": 1200,
+  "parts": [
+    {
+      "type": "mcq",
+      "name": "PHẦN 1: TRẮC NGHIỆM (MULTIPLE CHOICE)",
+      "hint": "Chọn đáp án đúng nhất (A, B, C hoặc D) để hoàn thành các câu sau.",
+      "questions": [
+        {
+          "q": "The number of foreign tourists to Thailand ______ slightly from 2 million to 1.8 million in June.",
+          "o": [
+            "rose",
+            "dropped",
+            "fluctuated",
+            "increased"
+          ],
+          "a": 1,
+          "vi": "Số lượng khách du lịch nước ngoài đến Thái Lan đã giảm nhẹ từ 2 triệu xuống 1,8 triệu vào tháng 6.",
+          "ex": "dropped - giảm từ 2 triệu xuống 1.8 triệu"
+        },
+        {
+          "q": "Between January and March, petrol prices reached a ______ of £1.68 per litre.",
+          "o": [
+            "downward trend",
+            "remain steady",
+            "peak",
+            "slight"
+          ],
+          "a": 2,
+          "vi": "Trong khoảng thời gian từ tháng 1 đến tháng 3, giá xăng đã đạt đỉnh là 1,68 bảng Anh/lít.",
+          "ex": "peak - cụm từ reach a peak of: đạt đỉnh là"
+        },
+        {
+          "q": "The percentage of students at Harefield College ______ wildly between 60 and 120 throughout the four-month period.",
+          "o": [
+            "fluctuated",
+            "reached",
+            "stayed",
+            "decreased"
+          ],
+          "a": 0,
+          "vi": "Tỷ lệ học sinh tại Trường Harefield biến động mạnh trong khoảng từ 60 đến 120 trong suốt giai đoạn 4 tháng.",
+          "ex": "fluctuated - biến động từ 60 đến 120"
+        },
+        {
+          "q": "Sales of cars fell ______ from 50,000 units in July to just 5,000 units in August.",
+          "o": [
+            "steadily",
+            "dramatically",
+            "slightly",
+            "gradually"
+          ],
+          "a": 1,
+          "vi": "Doanh số bán ô tô giảm mạnh từ 50.000 chiếc trong tháng 7 xuống chỉ còn 5.000 chiếc vào tháng 8.",
+          "ex": "dramatically - giảm từ 50,000 xuống 5,000 là giảm rất mạnh"
+        },
+        {
+          "q": "Overall, there was a/an ______ in the proportion of elderly people using the internet over the ten-year period.",
+          "o": [
+            "drop",
+            "downward trend",
+            "upward trend",
+            "decline"
+          ],
+          "a": 2,
+          "vi": "Nhìn chung, có một xu hướng tăng trong tỷ lệ người cao tuổi sử dụng internet trong khoảng thời gian 10 năm.",
+          "ex": "upward trend - xu hướng đi lên/tăng trưởng"
+        },
+        {
+          "q": "Student numbers at the Windsor Language Centre ______ constant at 90 during the first two months.",
+          "o": [
+            "remained",
+            "increased",
+            "went up",
+            "fluctuated"
+          ],
+          "a": 0,
+          "vi": "Số lượng học viên tại Trung tâm Ngôn ngữ Windsor vẫn giữ nguyên ở mức 90 trong hai tháng đầu tiên.",
+          "ex": "remained - cụm từ remained constant: giữ nguyên không đổi"
+        },
+        {
+          "q": "Over the next 5 years, the consumption of fast food is expected to rise ______, increasing by only 1-2% each year.",
+          "o": [
+            "sharply",
+            "gradually",
+            "dramatically",
+            "peak"
+          ],
+          "a": 1,
+          "vi": "Trong 5 năm tới, mức tiêu thụ thức ăn nhanh dự kiến sẽ tăng dần dần, chỉ tăng 1-2% mỗi năm.",
+          "ex": "gradually - dần dần, từ từ vì mỗi năm chỉ tăng 1-2%"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "name": "PHẦN 2: ĐIỀN VÀO CHỖ TRỐNG (FILL IN THE BLANKS)",
+      "hint": "Chọn từ/cụm từ thích hợp trong danh sách cho sẵn để điền vào chỗ trống.",
+      "questions": [
+        {
+          "q": "The graph shows that the number of visitors to the museum ____________ from 500 to 1,200 in December.",
+          "words": [
+            "sharply",
+            "steady",
+            "reached",
+            "decline",
+            "went down",
+            "rose",
+            "upward trend"
+          ],
+          "a": [
+            "rose"
+          ],
+          "vi": "Biểu đồ cho thấy số lượng khách tham quan bảo tàng đã tăng từ 500 lên 1.200 vào tháng 12.",
+          "ex": "rose (tăng lên từ 500 đến 1200)"
+        },
+        {
+          "q": "In contrast, the figure for local buses ____________ from 80% to 45% over the same five-year period.",
+          "words": [
+            "sharply",
+            "steady",
+            "reached",
+            "decline",
+            "went down",
+            "rose",
+            "upward trend"
+          ],
+          "a": [
+            "went down"
+          ],
+          "vi": "Ngược lại, con số dành cho xe buýt địa phương đã giảm từ 80% xuống 45% trong cùng khoảng thời gian 5 năm.",
+          "ex": "went down (giảm xuống từ 80% đến 45%)"
+        },
+        {
+          "q": "Petrol prices increased ____________ between September and October, jumping by £0.10 in just one month.",
+          "words": [
+            "sharply",
+            "steady",
+            "reached",
+            "decline",
+            "went down",
+            "rose",
+            "upward trend"
+          ],
+          "a": [
+            "sharply"
+          ],
+          "vi": "Giá xăng đã tăng mạnh giữa tháng 9 và tháng 10, tăng vọt 0,10 bảng Anh chỉ trong một tháng.",
+          "ex": "sharply (trạng từ miêu tả mức độ tăng mạnh)"
+        },
+        {
+          "q": "Overall, the chart illustrates a clear ____________ in the total production of green energy.",
+          "words": [
+            "sharply",
+            "steady",
+            "reached",
+            "decline",
+            "went down",
+            "rose",
+            "upward trend"
+          ],
+          "a": [
+            "upward trend"
+          ],
+          "vi": "Nhìn chung, biểu đồ minh họa một xu hướng tăng rõ rệt trong tổng sản lượng năng lượng xanh.",
+          "ex": "upward trend (xu hướng đi lên)"
+        },
+        {
+          "q": "The unemployment rate remained ____________ at 5% for three consecutive years.",
+          "words": [
+            "sharply",
+            "steady",
+            "reached",
+            "decline",
+            "went down",
+            "rose",
+            "upward trend"
+          ],
+          "a": [
+            "steady"
+          ],
+          "vi": "Tỷ lệ thất nghiệp duy trì ổn định ở mức 5% trong ba năm liên tiếp.",
+          "ex": "steady (remained steady: duy trì ổn định)"
+        },
+        {
+          "q": "The number of international applicants ____________ a peak of 120,000 in the year 2020.",
+          "words": [
+            "sharply",
+            "steady",
+            "reached",
+            "decline",
+            "went down",
+            "rose",
+            "upward trend"
+          ],
+          "a": [
+            "reached"
+          ],
+          "vi": "Số lượng ứng viên quốc tế đạt đỉnh là 120.000 vào năm 2020.",
+          "ex": "reached (reached a peak of: đạt tới đỉnh điểm)"
+        },
+        {
+          "q": "There was a significant ____________ in the consumption of beef after the health report was published.",
+          "words": [
+            "sharply",
+            "steady",
+            "reached",
+            "decline",
+            "went down",
+            "rose",
+            "upward trend"
+          ],
+          "a": [
+            "decline"
+          ],
+          "vi": "Đã có một sự sụt giảm đáng kể trong việc tiêu thụ thịt bò sau khi báo cáo y tế được công bố.",
+          "ex": "decline (danh từ chỉ sự sụt giảm)"
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "name": "PHẦN 3: SẮP XẾP CÂU CHUẨN WRITING TASK 1",
+      "hint": "Chọn phương án có thứ tự từ/cụm từ đúng nhất để tạo thành câu hoàn chỉnh.",
+      "questions": [
+        {
+          "q": "Sắp xếp các cụm từ sau: student numbers / Briarwood School / at the / between / May and August / rose steadily / .",
+          "o": [
+            "Student numbers at the Briarwood School rose steadily between May and August.",
+            "Student numbers rose steadily at the Briarwood School between May and August.",
+            "Between May and August student numbers at the Briarwood School rose steadily.",
+            "Student numbers at the Briarwood School between May and August rose steadily."
+          ],
+          "a": 0,
+          "vi": "Số lượng học sinh tại Trường Briarwood tăng đều đặn từ tháng 5 đến tháng 8.",
+          "ex": "Cấu trúc chuẩn IELTS Task 1: S (Student numbers at...) + V (rose) + Adv (steadily) + Time (between May and August)."
+        },
+        {
+          "q": "Sắp xếp các cụm từ sau: a sharp decline / oil prices / in / there was / between July / and September / .",
+          "o": [
+            "There was a sharp decline in oil prices between July and September.",
+            "Between July and September there was oil prices in a sharp decline.",
+            "A sharp decline in oil prices there was between July and September.",
+            "There was in oil prices a sharp decline between July and September."
+          ],
+          "a": 0,
+          "vi": "Có một sự sụt giảm mạnh về giá dầu giữa tháng 7 và tháng 9.",
+          "ex": "Cấu trúc chuẩn IELTS Task 1: There was + a/an + adj + N (a sharp decline) + in + Object + Time."
+        },
+        {
+          "q": "Sắp xếp các cụm từ sau: at 120 / the figure / in June / peaked / for Harefield College / .",
+          "o": [
+            "The figure for Harefield College peaked at 120 in June.",
+            "The figure peaked at 120 for Harefield College in June.",
+            "In June the figure for Harefield College peaked at 120.",
+            "The figure for Harefield College in June peaked at 120."
+          ],
+          "a": 0,
+          "vi": "Con số của Trường Harefield đạt đỉnh ở mức 120 vào tháng 6.",
+          "ex": "Cấu trúc chuẩn IELTS Task 1: The figure for + N + peaked at + Number + Time."
+        },
+        {
+          "q": "Sắp xếp các cụm từ sau: remained constant / the proportion / of university graduates / throughout / the decade / .",
+          "o": [
+            "The proportion of university graduates remained constant throughout the decade.",
+            "Throughout the decade the proportion remained constant of university graduates.",
+            "The proportion remained constant of university graduates throughout the decade.",
+            "The proportion of university graduates throughout the decade remained constant."
+          ],
+          "a": 0,
+          "vi": "Tỷ lệ sinh viên tốt nghiệp đại học duy trì không đổi trong suốt thập kỷ.",
+          "ex": "Cấu trúc chuẩn IELTS Task 1: The proportion of + N + remained constant + Time."
+        },
+        {
+          "q": "Sắp xếp các cụm từ sau: fluctuated / between / the birth rate / 1990 and 2000 / wildy / in the country / .",
+          "o": [
+            "The birth rate in the country fluctuated wildly between 1990 and 2000.",
+            "The birth rate fluctuated wildly in the country between 1990 and 2000.",
+            "Between 1990 and 2000 the birth rate in the country fluctuated wildly.",
+            "The birth rate in the country between 1990 and 2000 fluctuated wildly."
+          ],
+          "a": 0,
+          "vi": "Tỷ lệ sinh ở quốc gia này đã biến động mạnh trong khoảng thời gian từ năm 1990 đến năm 2000.",
+          "ex": "Cấu trúc chuẩn IELTS Task 1: S (The birth rate in the country) + V (fluctuated) + Adv (wildly) + Time (between 1990 and 2000)."
+        },
+        {
+          "q": "Sắp xếp các cụm từ sau: experienced / an upward trend / over the period / petrol prices / overall, / shown / .",
+          "o": [
+            "Overall, petrol prices experienced an upward trend over the period shown.",
+            "Petrol prices overall experienced an upward trend over the period shown.",
+            "Overall, over the period shown petrol prices experienced an upward trend.",
+            "Petrol prices experienced an upward trend overall over the period shown."
+          ],
+          "a": 0,
+          "vi": "Nhìn chung, giá xăng đã có một xu hướng tăng trong suốt khoảng thời gian được hiển thị.",
+          "ex": "Cấu trúc chuẩn IELTS Task 1 (Overview): Overall, S + experienced an upward trend + over the period shown."
+        }
+      ]
+    }
+  ]
+}
