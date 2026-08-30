@@ -1,0 +1,484 @@
+{
+  "id": "tef-1-money",
+  "title": "Kiểm tra Tiếng Anh: Money & Finance",
+  "description": "Bộ bài tập 30 câu ôn tập từ vựng, cụm động từ và cấu trúc chủ đề Tiền tệ & Tài chính (Money & Finance).",
+  "tags": [
+    "Vocabulary",
+    "Money & Finance",
+    "Phrasal Verbs",
+    "Grammar"
+  ],
+  "cover": "💰",
+  "duration": "30 phút",
+  "timeLimit": 1800,
+  "parts": [
+    {
+      "type": "mcq",
+      "name": "PHẦN 1: TRẮC NGHIỆM (MULTIPLE CHOICE)",
+      "hint": "Chọn đáp án đúng nhất (A, B, C hoặc D) để hoàn thành các câu sau.",
+      "questions": [
+        {
+          "q": "If you buy a house, you usually need to take out a ________ from the bank that lasts for 20 or 30 years.",
+          "o": [
+            "bill",
+            "mortgage",
+            "tax",
+            "salary"
+          ],
+          "a": 1,
+          "vi": "Nếu bạn mua một ngôi nhà, bạn thường cần vay một khoản thế chấp từ ngân hàng kéo dài trong 20 hoặc 30 năm.",
+          "ex": "mortgage = khoản thế chấp vay mua nhà"
+        },
+        {
+          "q": "I don't have enough money in my account, so I can't ________ to buy a brand new car.",
+          "o": [
+            "afford",
+            "invest",
+            "inherit",
+            "owe"
+          ],
+          "a": 0,
+          "vi": "Tôi không có đủ tiền trong tài khoản, vì vậy tôi không đủ khả năng mua một chiếc ô tô mới tinh.",
+          "ex": "can't afford = không đủ khả năng chi trả"
+        },
+        {
+          "q": "Don't ________ your money on video games you will never play.",
+          "o": [
+            "save",
+            "earn",
+            "waste",
+            "raise"
+          ],
+          "a": 2,
+          "vi": "Đừng lãng phí tiền của bạn vào những trò chơi điện tử mà bạn sẽ không bao giờ chơi.",
+          "ex": "waste = lãng phí"
+        },
+        {
+          "q": "When my grandfather passed away, I was lucky to ________ a small house in the countryside.",
+          "o": [
+            "charge",
+            "owe",
+            "lend",
+            "inherit"
+          ],
+          "a": 3,
+          "vi": "Khi ông tôi qua đời, tôi đã may mắn thừa kế một ngôi nhà nhỏ ở quê.",
+          "ex": "inherit = thừa kế"
+        },
+        {
+          "q": "You can pay using your phone quickly thanks to ________ technology.",
+          "o": [
+            "contactless payment",
+            "cash machine",
+            "credit card",
+            "insurance"
+          ],
+          "a": 0,
+          "vi": "Bạn có thể thanh toán bằng điện thoại một cách nhanh chóng nhờ công nghệ thanh toán không tiếp xúc.",
+          "ex": "contactless payment = thanh toán không tiếp xúc / không chạm"
+        },
+        {
+          "q": "The company made a huge ________ of $2 million after launching their new product.",
+          "o": [
+            "debt",
+            "profit",
+            "tax",
+            "bill"
+          ],
+          "a": 1,
+          "vi": "Công ty đã thu được khoản lợi nhuận khổng lồ 2 triệu đô la sau khi ra mắt sản phẩm mới.",
+          "ex": "profit = lợi nhuận"
+        },
+        {
+          "q": "My monthly ________ is paid directly into my bank account on the last day of every month.",
+          "o": [
+            "mortgage",
+            "loan",
+            "salary",
+            "budget"
+          ],
+          "a": 2,
+          "vi": "Lương hàng tháng của tôi được trả trực tiếp vào tài khoản ngân hàng vào ngày cuối cùng của mỗi tháng.",
+          "ex": "salary = tiền lương"
+        },
+        {
+          "q": "How much did the mechanic ________ you for repairing your motorcycle?",
+          "o": [
+            "cost",
+            "charge",
+            "owe",
+            "pay"
+          ],
+          "a": 1,
+          "vi": "Người thợ máy đã tính phí bạn bao nhiêu để sửa chiếc xe máy?",
+          "ex": "charge = tính phí"
+        },
+        {
+          "q": "Buying ________ in promising tech companies can be a good long-term strategy.",
+          "o": [
+            "shares",
+            "bills",
+            "debts",
+            "taxes"
+          ],
+          "a": 0,
+          "vi": "Mua cổ phiếu của các công ty công nghệ triển vọng có thể là một chiến lược dài hạn tốt.",
+          "ex": "shares = cổ phiếu"
+        },
+        {
+          "q": "Every citizen has a legal duty to pay ________ to the government.",
+          "o": [
+            "insurance",
+            "profit",
+            "tax",
+            "salary"
+          ],
+          "a": 2,
+          "vi": "Mọi công dân đều có nghĩa vụ pháp lý phải nộp thuế cho chính phủ.",
+          "ex": "tax = thuế"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "name": "PHẦN 2: ĐIỀN VÀO CHỖ TRỐNG (FILL IN THE BLANKS)",
+      "hint": "Chọn từ/cụm từ thích hợp trong danh sách cho sẵn để điền vào chỗ trống.",
+      "questions": [
+        {
+          "q": "Could you ________ me $20 until next Monday? I forgot my wallet at home.",
+          "words": [
+            "be worth",
+            "borrow",
+            "lend",
+            "owe",
+            "raise",
+            "save",
+            "invest",
+            "bill",
+            "insurance",
+            "loan"
+          ],
+          "a": [
+            "lend"
+          ],
+          "vi": "Bạn có thể cho tôi vay 20 đô la cho đến thứ Hai tuần sau được không? Tôi quên ví ở nhà.",
+          "ex": "lend = cho vay / cho mượn"
+        },
+        {
+          "q": "I need to ask my brother if I can ________ his bicycle for the weekend.",
+          "words": [
+            "be worth",
+            "borrow",
+            "lend",
+            "owe",
+            "raise",
+            "save",
+            "invest",
+            "bill",
+            "insurance",
+            "loan"
+          ],
+          "a": [
+            "borrow"
+          ],
+          "vi": "Tôi cần hỏi anh trai xem tôi có thể mượn xe đạp của anh ấy vào cuối tuần được không.",
+          "ex": "borrow = vay / mượn"
+        },
+        {
+          "q": "Old antique furniture can ________ a lot of money if it is in good condition.",
+          "words": [
+            "be worth",
+            "borrow",
+            "lend",
+            "owe",
+            "raise",
+            "save",
+            "invest",
+            "bill",
+            "insurance",
+            "loan"
+          ],
+          "a": [
+            "be worth"
+          ],
+          "vi": "Đồ nội thất cổ xưa có thể đáng giá rất nhiều tiền nếu nó còn trong tình trạng tốt.",
+          "ex": "be worth = đáng giá"
+        },
+        {
+          "q": "The school is planning a charity run to ________ money for a local children's hospital.",
+          "words": [
+            "be worth",
+            "borrow",
+            "lend",
+            "owe",
+            "raise",
+            "save",
+            "invest",
+            "bill",
+            "insurance",
+            "loan"
+          ],
+          "a": [
+            "raise"
+          ],
+          "vi": "Trường học đang lên kế hoạch tổ chức một cuộc chạy bộ từ thiện để quyên góp tiền cho một bệnh viện nhi đồng địa phương.",
+          "ex": "raise money = gây quỹ / quyên góp tiền"
+        },
+        {
+          "q": "After eating at the restaurant, we asked the waiter for the ________.",
+          "words": [
+            "be worth",
+            "borrow",
+            "lend",
+            "owe",
+            "raise",
+            "save",
+            "invest",
+            "bill",
+            "insurance",
+            "loan"
+          ],
+          "a": [
+            "bill"
+          ],
+          "vi": "Sau khi ăn ở nhà hàng, chúng tôi xin người phục vụ hóa đơn thanh toán.",
+          "ex": "bill = hóa đơn"
+        },
+        {
+          "q": "I still ________ my friend $50 for the concert ticket he bought for me.",
+          "words": [
+            "be worth",
+            "borrow",
+            "lend",
+            "owe",
+            "raise",
+            "save",
+            "invest",
+            "bill",
+            "insurance",
+            "loan"
+          ],
+          "a": [
+            "owe"
+          ],
+          "vi": "Tôi vẫn nợ bạn tôi 50 đô la tiền vé xem ca nhạc mà anh ấy đã mua giúp tôi.",
+          "ex": "owe = nợ"
+        },
+        {
+          "q": "It is important to buy travel ________ before going abroad to cover medical expenses.",
+          "words": [
+            "be worth",
+            "borrow",
+            "lend",
+            "owe",
+            "raise",
+            "save",
+            "invest",
+            "bill",
+            "insurance",
+            "loan"
+          ],
+          "a": [
+            "insurance"
+          ],
+          "vi": "Việc mua bảo hiểm du lịch trước khi đi nước ngoài để chi trả cho các chi phí y tế là rất quan trọng.",
+          "ex": "insurance = bảo hiểm"
+        },
+        {
+          "q": "My sister wants to ________ her savings in real estate to earn passive income.",
+          "words": [
+            "be worth",
+            "borrow",
+            "lend",
+            "owe",
+            "raise",
+            "save",
+            "invest",
+            "bill",
+            "insurance",
+            "loan"
+          ],
+          "a": [
+            "invest"
+          ],
+          "vi": "Chị gái tôi muốn đầu tư tiền tiết kiệm của mình vào bất động sản để có thu nhập thụ động.",
+          "ex": "invest = đầu tư"
+        },
+        {
+          "q": "He applied for a personal ________ from the bank to start his small business.",
+          "words": [
+            "be worth",
+            "borrow",
+            "lend",
+            "owe",
+            "raise",
+            "save",
+            "invest",
+            "bill",
+            "insurance",
+            "loan"
+          ],
+          "a": [
+            "loan"
+          ],
+          "vi": "Anh ấy đã nộp đơn xin một khoản vay cá nhân từ ngân hàng để bắt đầu công việc kinh doanh nhỏ của mình.",
+          "ex": "loan = khoản vay"
+        },
+        {
+          "q": "I try to ________ at least 20% of my monthly income for emergencies.",
+          "words": [
+            "be worth",
+            "borrow",
+            "lend",
+            "owe",
+            "raise",
+            "save",
+            "invest",
+            "bill",
+            "insurance",
+            "loan"
+          ],
+          "a": [
+            "save"
+          ],
+          "vi": "Tôi cố gắng tiết kiệm ít nhất 20% thu nhập hàng tháng cho những trường hợp khẩn cấp.",
+          "ex": "save = tiết kiệm"
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "name": "PHẦN 3: ĐIỀN CỤM ĐỘNG TỪ & GIỚI TỪ (PHRASAL VERBS & PREPOSITIONS)",
+      "hint": "Chọn phương án đúng nhất để hoàn thành cụm động từ hoặc cụm giới từ.",
+      "questions": [
+        {
+          "q": "I went to the ATM cash machine to take ________ $100.",
+          "o": [
+            "out",
+            "in",
+            "off",
+            "up"
+          ],
+          "a": 0,
+          "vi": "Tôi đã đến máy rút tiền ATM để rút 100 đô la.",
+          "ex": "take out (money) = rút tiền"
+        },
+        {
+          "q": "You can pay ________ cash or ________ credit card at this store.",
+          "o": [
+            "in / by",
+            "by / in",
+            "with / on",
+            "for / by"
+          ],
+          "a": 0,
+          "vi": "Bạn có thể thanh toán bằng tiền mặt hoặc bằng thẻ tín dụng tại cửa hàng này.",
+          "ex": "pay in cash / pay by credit card = thanh toán bằng tiền mặt / bằng thẻ tín dụng"
+        },
+        {
+          "q": "He earns very little, so it is hard for his family to live ________ just one income.",
+          "o": [
+            "on",
+            "at",
+            "in",
+            "with"
+          ],
+          "a": 0,
+          "vi": "Anh ấy kiếm được rất ít tiền, vì vậy gia đình anh ấy rất khó sống dựa vào chỉ một nguồn thu nhập.",
+          "ex": "live on = sống dựa vào (nguồn tiền/thu nhập)"
+        },
+        {
+          "q": "I will pay you ________ all the money I borrowed as soon as I get paid.",
+          "o": [
+            "back",
+            "for",
+            "off",
+            "out"
+          ],
+          "a": 0,
+          "vi": "Tôi sẽ trả lại bạn toàn bộ số tiền tôi đã mượn ngay khi tôi nhận được lương.",
+          "ex": "pay back = trả lại tiền"
+        },
+        {
+          "q": "It's easy to get ________ debt if you spend more money than you earn.",
+          "o": [
+            "into",
+            "on",
+            "out",
+            "over"
+          ],
+          "a": 0,
+          "vi": "Rất dễ bị lâm vào cảnh nợ nần nếu bạn tiêu nhiều tiền hơn số tiền bạn kiếm được.",
+          "ex": "get into debt = lâm vào cảnh nợ nần"
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "name": "PHẦN 4: SẮP XẾP CÂU (REORDER THE WORDS)",
+      "hint": "Chọn phương án có thứ tự từ/cụm từ đúng nhất để tạo thành câu hoàn chỉnh.",
+      "questions": [
+        {
+          "q": "Sắp xếp các từ sau thành câu hoàn chỉnh: every / some / money / put / I / week / aside / trip / for / my /.",
+          "o": [
+            "I put some money aside every week for my trip.",
+            "I put aside every week some money for my trip.",
+            "Every week I put for my trip some money aside.",
+            "I put some trip money aside for my every week."
+          ],
+          "a": 0,
+          "vi": "Tôi dành dụm một ít tiền mỗi tuần cho chuyến đi của mình.",
+          "ex": "Cấu trúc: put money aside for something = dành dụm/tiết kiệm tiền cho cái gì"
+        },
+        {
+          "q": "Sắp xếp các từ sau thành câu hoàn chỉnh: property / invested / all / my / uncle / money / his / in /.",
+          "o": [
+            "My uncle invested all his money in property.",
+            "My uncle all his money invested in property.",
+            "Invested all his money in property my uncle.",
+            "My uncle invested in property all his money."
+          ],
+          "a": 0,
+          "vi": "Chú tôi đã đầu tư toàn bộ tiền của mình vào bất động sản.",
+          "ex": "Cấu trúc: invest money in something = đầu tư tiền vào cái gì"
+        },
+        {
+          "q": "Sắp xếp các từ sau thành câu hoàn chỉnh: difficult / to / off / it / parents / live / your / is / adult / an / as /.",
+          "o": [
+            "It is difficult to live off your parents as an adult.",
+            "It is difficult to live as an adult off your parents.",
+            "To live off your parents as an adult it is difficult.",
+            "As an adult it is difficult off your parents to live."
+          ],
+          "a": 0,
+          "vi": "Thật khó để sống phụ thuộc vào cha mẹ khi bạn đã là một người trưởng thành.",
+          "ex": "Cấu trúc: It is + adj + to V + live off somebody = sống dựa dẫm/ăn bám vào ai"
+        },
+        {
+          "q": "Sắp xếp các từ sau thành câu hoàn chỉnh: spent / yesterday / on / books / fifty / she / pounds /.",
+          "o": [
+            "She spent fifty pounds on books yesterday.",
+            "She spent yesterday fifty pounds on books.",
+            "Yesterday she spent on books fifty pounds.",
+            "She on books spent fifty pounds yesterday."
+          ],
+          "a": 0,
+          "vi": "Cô ấy đã chi 50 bảng Anh vào sách ngày hôm qua.",
+          "ex": "Cấu trúc: spend + [số tiền] + on something = chi bao nhiêu tiền vào cái gì"
+        },
+        {
+          "q": "Sắp xếp các từ sau thành câu hoàn chỉnh: strict / month / help / budget / a / can / you / manage / every / money /.",
+          "o": [
+            "A strict budget can help you manage money every month.",
+            "A budget strict can help you manage every month money.",
+            "Every month a strict budget can manage help you money.",
+            "A strict budget manage money can help you every month."
+          ],
+          "a": 0,
+          "vi": "Một ngân sách nghiêm ngặt có thể giúp bạn quản lý tiền bạc hàng tháng.",
+          "ex": "Cấu trúc: S + can help somebody + V-bare + O"
+        }
+      ]
+    }
+  ]
+}
