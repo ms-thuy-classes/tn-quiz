@@ -60,7 +60,7 @@
     "name": "Listening · The Box Jellyfish",
     "hint": "Nghe audio, có thể tua lại nhiều lần rồi trả lời nhé!",
     "audio": "https://raw.githubusercontent.com/ms-thuy-classes/audio/main/Mindset_L1_69.mp3",
-    "image": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=1200",
+    "image": "https://static.scientificamerican.com/sciam/cache/file/B7E980C5-B182-4A2E-80369F2AC535EB35_source.jpg?w=1200",
     "questions": [
       {
         "qtype": "type-in-para",
