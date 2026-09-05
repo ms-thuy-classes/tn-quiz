@@ -1,1 +1,106 @@
-
+{
+  "id": "listening-class-6-routine",
+  "title": "Listening · Lớp 6 · My Daily Routine",
+  "tags": ["Lớp 6", "Listening"],
+  "cover": "🎧",
+  "gradient": "linear-gradient(135deg,#5a9df5,#8ecdfd 55%,#3ecfa0)",
+  "description": "Nghe audio về thói quen hàng ngày của Minh và trả lời 4 câu hỏi trên cùng một trang.",
+  "duration": "15 phút",
+  "questionCount": 4,
+  "parts":
+  [
+  {
+    "type": "listening",
+    "name": "Listening · The American Bullfrog",
+    "hint": "Nghe audio, có thể tua lại nhiều lần rồi trả lời nhé!",
+    "audio": "https://raw.githubusercontent.com/ms-thuy-classes/audio/main/Mindset_L1_68.mp3",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTprUBbJaM2h_uIqnIIBsHLONEwiOAamR4wblGZnPzqWOokaDjfvxJ_Jkwp&s=10",
+    "questions": [
+      {
+        "qtype": "type-in-para",
+        "q": "Nghe audio và điền vào đoạn script bên dưới:",
+        "text": "Good morning, everyone. In today's lecture I want to talk to you about a very ____unpopular____ animal here in Britain. In fact, you could say that it's one of our least loved animals! It's called the American bullfrog and yes, it does in fact come from America - the ____east____ of America, to be exact- and it was brought to Britain in the early ____nineteenth____ century, so you could say that it's been here for quite a long time. It wasn't brought here on purpose- it actually arrived in a big container of ____aquatic____ plants. In other words, it was ____accidentally____ introduced into Britain!\nNow, I'll tell you a little about its appearance. The American bullfrog is a very ____large____ - and ugly - species of frog. And when I say it's large, I mean large. Interestingly, female American bullfrogs are usually much ____larger____ than the males. In fact, they can weigh up to ____750____ grams, whereas the males only go up to about ____600____ grams. And take a look at its ____head____ - it's really ____broad____ and flat, isn't it? And you can see its mouth -just here-that's quite ____large____ too.\nNow, both the male and the female American bullfrogs have ____green____ or brown bodies and have ____dark spots____ on the top. But there's one important difference between them -you can see that the male's throat is ____yellow____ but the female has a ____white____ one instead. And the other difference is their ____eardrums____, here just behind their eyes. Those of the male are much larger than the female's.\nSo, let's move on to why we so dislike the American bullfrog. Well, this is because it has ____threatened____ our own native species of frogs. Firstly, it ____breeds____ very quickly indeed. For example, female bullfrogs can lay up to ____25,000____ eggs every single season. And secondly, the American bullfrog is very ____greedy____. In fact, they eat just about anything they can put into their mouths! As well as other frogs, they eat insects, fish and have even been known to eat birds and ____snakes____! So, in other words, they eat the ____food____ sources of our own native species. Thirdly, they carry a ____disease____ that is dangerous to other frogs. And finally, they don't just damage our natural world, they cause financial damage too. Around ____100,000____ pounds has been spent monitoring the American bullfrog in the wild.\nSo, as scientists, we can learn a lesson from this about the dangers of introducing any living species into a new environment.",
+        "vi": "Đoạn bài nói về loài ếch bò Mỹ (American Bullfrog), nguồn gốc, đặc điểm hình dáng, lý do tại sao bị ghét và tác hại của chúng đối với môi trường.",
+        "ex": "Nghe kỹ bài nói và hoàn thành các từ còn thiếu trong đoạn văn."
+      },
+      {
+        "qtype": "type-in",
+        "q": "was introduced into the UK at the beginning of the ____ century",
+        "a": ["19th", "nineteenth"]
+      },
+      {
+        "qtype": "type-in",
+        "q": "female weighs up to ____ grams",
+        "a": ["750"]
+      },
+      {
+        "qtype": "type-in",
+        "q": "has a flat ____",
+        "a": ["head"]
+      },
+      {
+        "qtype": "type-in",
+        "q": "male frog has a ____ coloured throat",
+        "a": ["yellow"]
+      },
+      {
+        "qtype": "type-in",
+        "q": "eats the food of native British frogs - insects, fish, birds and animals including ____ - and also eats the frogs themselves!",
+        "a": ["snakes"]
+      },
+      {
+        "qtype": "type-in",
+        "q": "financial cost - a total of £ ____ already spent on research into American bullfrogs",
+        "a": ["100,000", "100000", "100 000"]
+      }
+    ]
+  },
+  {
+    "type": "listening",
+    "name": "Listening · The Box Jellyfish",
+    "hint": "Nghe audio, có thể tua lại nhiều lần rồi trả lời nhé!",
+    "audio": "https://raw.githubusercontent.com/ms-thuy-classes/audio/main/Mindset_L1_69.mp3",
+    "image": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=1200",
+    "questions": [
+      {
+        "qtype": "type-in-para",
+        "q": "Nghe audio và điền vào đoạn script bên dưới:",
+        "text": "OK everyone, I think we're ready to make a start. Now, when you think of a ____dangerous____ animal, what do you think of? A tiger perhaps? Or maybe a leopard? Most people think that all dangerous animals live on land, but in fact, some of the most dangerous animals on the planet live in our ____seas____ and oceans. I'm going to talk today about one of these - the ____box____ jellyfish.\nThere are different types of box jellyfish, and they are found in ____warm____ coastal seas anywhere from the Indian Ocean to as far north as Japan, but the most dangerous ones are found in the oceans around ____Australia____.\nOK, so now let's examine what these box jellyfish look like. There are no prizes for guessing why it's called a box jellyfish! You can see that it's shaped like a box or a ____cube____, with four sides and rounded ____corners____. And you can also see that its body is ____light____ blue.\nSo, let's take a look at the ____tentacles____ of the box jellyfish more closely. It's got fifteen of these growing from each of the four corners of the box. Now, you may be surprised to learn that these tentacles can grow to a length of ____3____ metres! And another surprising thing is its large number of ____eyes____, that's six eyes on each of its four sides, so ____24____ altogether.\nSo now let's move on to talk about the ____sting____ of a box jellyfish. What is it? Well a jellyfish has a lot of tentacles, and each tentacle has thousands of ____cells____ which can produce a ____poison____. If the tentacles come into contact with a fish, or a person, they ____stick____ to their skin. If the tentacles are very long, they are in contact with a lot of the body, giving a bad sting which hurts ____terribly____. This can be dangerous to the ____victim____.\nThere are two ways that people can die as the result of a jellyfish sting. Firstly, a very severe sting can cause a person to have a ____heart____ attack. This can happen within ____minutes____. Secondly, sometimes a swimmer goes into ____shock____ and can't make it back to the beach because they are in such extreme ____pain____. If they're in the water alone, they'll die.\nAnd now I'd like to conclude with advice on how to help someone who has been stung by a box jellyfish. If they have had a heart attack, of course the most important thing is to try to ____revive____ them first of all. And then, the best thing to help is ____vinegar____. Yes, the same vinegar you use when you're cooking! Many Australian beaches keep bottles of it near the jellyfish warning signs. You should pour a bottle over the tentacles for 30 seconds, and then the tentacles can be removed. However, if you get stung and don't have any vinegar, you should pour ____seawater____ on the skin. This will help to ease the pain before you can get further medical help.",
+        "vi": "Đoạn bài nói về loài sứa hộp (Box Jellyfish), đặc điểm cơ thể, tác hại của vết cắn và cách sơ cứu.",
+        "ex": "Nghe kỹ các chi tiết mô tả và điền từ thích hợp vào chỗ trống."
+      },
+      {
+        "qtype": "type-in",
+        "q": "Most dangerous box jellyfish found in the sea near ____",
+        "a": ["Australia", "australia"]
+      },
+      {
+        "qtype": "type-in",
+        "q": "Tentacles grow up to ____ metres in length",
+        "a": ["3", "three"]
+      },
+      {
+        "qtype": "type-in",
+        "q": "Has ____ eyes",
+        "a": ["24", "twenty-four", "twenty four"]
+      },
+      {
+        "qtype": "type-in",
+        "q": "when tentacles touch a human or a fish, they ____ to them and deliver a strong sting",
+        "a": ["stick"]
+      },
+      {
+        "qtype": "type-in",
+        "q": "if a swimmer can't swim back to the shore because the sting has caused such great ____",
+        "a": ["pain"]
+      },
+      {
+        "qtype": "type-in",
+        "q": "if vinegar not available, put ____ on the skin",
+        "a": ["seawater", "sea water", "water"]
+      }
+    ]
+  }
+]
+}
+        
