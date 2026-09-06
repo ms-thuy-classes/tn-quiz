@@ -1,0 +1,235 @@
+{
+  "id": "changes-vocabulary-quiz",
+  "title": "Vocabulary · Changes & Developments",
+  "tags": ["Vocabulary", "IELTS", "Advanced"],
+  "cover": "📚",
+  "gradient": "linear-gradient(135deg,#7a67ee,#5a9df5 55%,#3ecfa0)",
+  "description": "30 bài tập trắc nghiệm và điền từ ôn tập từ vựng về các sự thay đổi, phát triển và cải thiện.",
+  "duration": "45 phút",
+  "parts": [
+    {
+      "type": "mcq",
+      "name": "Phần 1 · Trắc nghiệm",
+      "hint": "Choose the correct answer",
+      "questions": [
+        {
+          "q": "It took me a few months to ________ to the new time zone after moving to Australia.",
+          "o": ["adjust", "exchange", "fade", "swell"],
+          "a": 0,
+          "vi": "Tôi mất vài tháng để thích nghi với múi giờ mới sau khi chuyển đến Úc.",
+          "ex": "Dùng 'adjust' (điều chỉnh, thích nghi với môi trường mới)."
+        },
+        {
+          "q": "The tailor had to ________ the dress because it was too loose around the waist.",
+          "o": ["reduce", "alter", "disappear", "decline"],
+          "a": 1,
+          "vi": "Thợ may phải sửa lại chiếc váy vì nó quá rộng ở phần eo.",
+          "ex": "Dùng 'alter' (thay đổi, sửa đổi quần áo)."
+        },
+        {
+          "q": "The patient's condition began to ________ rapidly overnight, requiring immediate surgery.",
+          "o": ["improve", "transform", "deteriorate", "relax"],
+          "a": 2,
+          "vi": "Tình trạng của bệnh nhân bắt đầu xấu đi nhanh chóng qua đêm, đòi hỏi phải phẫu thuật ngay lập tức.",
+          "ex": "Dùng 'deteriorate' (trở nên xấu đi)."
+        },
+        {
+          "q": "I would like to ________ these shoes for a larger size, please. They are a bit too tight.",
+          "o": ["switch", "exchange", "adapt", "vary"],
+          "a": 1,
+          "vi": "Tôi muốn đổi những đôi giày này lấy size lớn hơn. Chúng hơi chật một chút.",
+          "ex": "Dùng 'exchange' (đổi, trao đổi hàng hóa)."
+        },
+        {
+          "q": "The bright colors of the old painting have ________ over the years due to sunlight exposure.",
+          "o": ["swollen", "expanded", "faded", "cut"],
+          "a": 2,
+          "vi": "Màu sắc tươi sáng của bức tranh cũ đã phai dần theo năm tháng do tiếp xúc với ánh nắng mặt trời.",
+          "ex": "Dùng 'fade' (mờ dần, nhạt đi)."
+        },
+        {
+          "q": "We need to ________ our daily plastic waste to help protect the environment.",
+          "o": ["reduce", "promote", "replace", "renovate"],
+          "a": 0,
+          "vi": "Chúng ta cần giảm lượng rác thải nhựa hàng ngày để giúp bảo vệ môi trường.",
+          "ex": "Dùng 'reduce' (giảm, làm giảm)."
+        },
+        {
+          "q": "The city council plans to ________ the old library rather than tearing it down and building a new one.",
+          "o": ["renovate", "switch", "vary", "relax"],
+          "a": 0,
+          "vi": "Hội đồng thành phố có kế hoạch cải tạo thư viện cũ thay vì phá bỏ nó và xây một cái mới.",
+          "ex": "Dùng 'renovate' (cải tạo, sửa sang)."
+        },
+        {
+          "q": "Her ankle began to ________ immediately after she twisted it during the basketball game.",
+          "o": ["decline", "swell", "adapt", "fade"],
+          "a": 1,
+          "vi": "Cổ chân của cô ấy bắt đầu sưng lên ngay sau khi bị trẹo trong trận đấu bóng rổ.",
+          "ex": "Dùng 'swell' (sưng lên, phình ra)."
+        },
+        {
+          "q": "We decided to ________ our electricity supplier to a new company to get a better rate.",
+          "o": ["exchange", "switch", "alter", "transform"],
+          "a": 1,
+          "vi": "Chúng tôi quyết định chuyển nhà cung cấp điện sang một công ty mới để có mức giá tốt hơn.",
+          "ex": "Dùng 'switch' (chuyển đổi nhà cung cấp/dịch vụ)."
+        },
+        {
+          "q": "The prices of fresh fruits often ________ depending on the season and weather conditions.",
+          "o": ["vary", "fade", "cut", "improve"],
+          "a": 0,
+          "vi": "Giá của trái cây tươi thường thay đổi tùy thuộc vào mùa vụ và điều kiện thời tiết.",
+          "ex": "Dùng 'vary' (khác nhau, thay đổi tùy theo)."
+        },
+        {
+          "q": "Wild animals have to ________ to changes in their natural habitats in order to survive.",
+          "o": ["adapt", "replace", "relax", "swell"],
+          "a": 0,
+          "vi": "Động vật hoang dã phải thích ứng với những thay đổi trong môi trường sống tự nhiên để sinh tồn.",
+          "ex": "Dùng 'adapt' (thích ứng)."
+        },
+        {
+          "q": "The company had to ________ its marketing budget due to the recent economic crisis.",
+          "o": ["expand", "cut", "promote", "renovate"],
+          "a": 1,
+          "vi": "Công ty đã phải cắt giảm ngân sách tiếp thị do cuộc khủng hoảng kinh tế gần đây.",
+          "ex": "Dùng 'cut' (cắt, giảm bớt)."
+        },
+        {
+          "q": "As people use smartphones more, the use of traditional landline phones has dramatically ________.",
+          "o": ["declined", "improved", "expanded", "switched"],
+          "a": 0,
+          "vi": "Khi mọi người sử dụng điện thoại thông minh nhiều hơn, việc sử dụng điện thoại bàn truyền thống đã suy giảm đáng kể.",
+          "ex": "Dùng 'decline' (suy giảm)."
+        },
+        {
+          "q": "The magician waved his magic wand, and the rabbit seemed to ________ into thin air.",
+          "o": ["transform", "disappear", "fade", "alter"],
+          "a": 1,
+          "vi": "Ảo thuật gia vẫy cây đũa thần, và con thỏ dường như biến mất vào không khí.",
+          "ex": "Dùng 'disappear' (biến mất)."
+        },
+        {
+          "q": "The tech company is doing very well and plans to ________ its operations into the European market.",
+          "o": ["reduce", "expand", "decline", "relax"],
+          "a": 1,
+          "vi": "Công ty công nghệ đang hoạt động rất tốt và có kế hoạch mở rộng hoạt động sang thị trường Châu Âu.",
+          "ex": "Dùng 'expand' (mở rộng quy mô/hoạt động)."
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "name": "Phần 2 · Điền từ",
+      "hint": "Chọn từ thích hợp trong khung để điền vào chỗ trống (chia dạng đúng của từ)",
+      "questions": [
+        {
+          "q": "If you practice speaking English every day, your fluency and pronunciation will definitely ________.",
+          "words": ["improve", "promote", "relax", "replace", "transform", "adjust", "deteriorate", "exchange", "fade", "reduce", "renovate", "swell", "switch", "adapt", "decline"],
+          "a": ["improve"],
+          "vi": "Nếu bạn luyện nói tiếng Anh mỗi ngày, sự trôi chảy và phát âm của bạn chắc chắn sẽ cải thiện.",
+          "ex": "Dùng 'improve' ở dạng nguyên thể sau 'will'."
+        },
+        {
+          "q": "Hardworking and creative employees usually get ________ to higher managerial positions within the company.",
+          "words": ["improve", "promote", "relax", "replace", "transform", "adjust", "deteriorate", "exchange", "fade", "reduce", "renovate", "swell", "switch", "adapt", "decline"],
+          "a": ["promoted"],
+          "vi": "Những nhân viên chăm chỉ và sáng tạo thường được thăng chức lên các vị trí quản lý cao hơn trong công ty.",
+          "ex": "Dùng phân từ hai 'promoted' trong cấu trúc bị động 'get promoted'."
+        },
+        {
+          "q": "You should try to ________ your muscles after a tough workout to prevent cramps.",
+          "words": ["improve", "promote", "relax", "replace", "transform", "adjust", "deteriorate", "exchange", "fade", "reduce", "renovate", "swell", "switch", "adapt", "decline"],
+          "a": ["relax"],
+          "vi": "Bạn nên cố gắng thả lỏng cơ bắp sau buổi tập luyện vất vả để tránh bị chuột rút.",
+          "ex": "Dùng 'relax' (nới lỏng, thư giãn cơ)."
+        },
+        {
+          "q": "We need to ________ the old batteries in the remote control; it's not working anymore.",
+          "words": ["improve", "promote", "relax", "replace", "transform", "adjust", "deteriorate", "exchange", "fade", "reduce", "renovate", "swell", "switch", "adapt", "decline"],
+          "a": ["replace"],
+          "vi": "Chúng ta cần thay pin cũ trong điều khiển từ xa; nó không hoạt động nữa rồi.",
+          "ex": "Dùng 'replace' (thay thế)."
+        },
+        {
+          "q": "The invention of the internet has completely ________ the way we communicate and access information globally.",
+          "words": ["improve", "promote", "relax", "replace", "transform", "adjust", "deteriorate", "exchange", "fade", "reduce", "renovate", "swell", "switch", "adapt", "decline"],
+          "a": ["transformed"],
+          "vi": "Sự phát minh ra internet đã hoàn toàn biến đổi cách chúng ta giao tiếp và tiếp cận thông tin trên toàn cầu.",
+          "ex": "Dùng thì hiện tại hoàn thành 'has transformed'."
+        },
+        {
+          "q": "Drivers must ________ their speed when driving in heavy rain, fog, or snow.",
+          "words": ["improve", "promote", "relax", "replace", "transform", "adjust", "deteriorate", "exchange", "fade", "reduce", "renovate", "swell", "switch", "adapt", "decline"],
+          "a": ["adjust"],
+          "vi": "Người lái xe phải điều chỉnh tốc độ khi lái xe trong trời mưa lớn, sương mù hoặc tuyết.",
+          "ex": "Dùng 'adjust' (điều chỉnh tốc độ)."
+        },
+        {
+          "q": "Without proper maintenance, the structural integrity of the old bridge will continue to ________.",
+          "words": ["improve", "promote", "relax", "replace", "transform", "adjust", "deteriorate", "exchange", "fade", "reduce", "renovate", "swell", "switch", "adapt", "decline"],
+          "a": ["deteriorate"],
+          "vi": "Nếu không được bảo trì đúng cách, kết cấu của cây cầu cũ sẽ tiếp tục xuống cấp.",
+          "ex": "Dùng 'deteriorate' (trở nên xấu đi, xuống cấp)."
+        },
+        {
+          "q": "At the end of the successful business meeting, the two directors ________ business cards.",
+          "words": ["improve", "promote", "relax", "replace", "transform", "adjust", "deteriorate", "exchange", "fade", "reduce", "renovate", "swell", "switch", "adapt", "decline"],
+          "a": ["exchanged"],
+          "vi": "Vào cuối buổi họp kinh doanh thành công, hai vị giám đốc đã trao đổi danh thiếp với nhau.",
+          "ex": "Dùng thì quá khứ đơn 'exchanged'."
+        },
+        {
+          "q": "As evening approached, the natural light began to ________, making it hard to read the map.",
+          "words": ["improve", "promote", "relax", "replace", "transform", "adjust", "deteriorate", "exchange", "fade", "reduce", "renovate", "swell", "switch", "adapt", "decline"],
+          "a": ["fade"],
+          "vi": "Khi chiều buông xuống, ánh sáng tự nhiên bắt đầu mờ dần, khiến việc đọc bản đồ trở nên khó khăn.",
+          "ex": "Dùng 'fade' (mờ dần, nhạt đi)."
+        },
+        {
+          "q": "Many retail stores offer massive discounts to help ________ their excess inventory before the new season begins.",
+          "words": ["improve", "promote", "relax", "replace", "transform", "adjust", "deteriorate", "exchange", "fade", "reduce", "renovate", "swell", "switch", "adapt", "decline"],
+          "a": ["reduce"],
+          "vi": "Nhiều cửa hàng bán lẻ đưa ra các chương trình giảm giá lớn để giúp giảm lượng hàng tồn kho trước khi mùa mới bắt đầu.",
+          "ex": "Dùng 'reduce' (làm giảm lượng hàng tồn kho)."
+        },
+        {
+          "q": "They bought an old, run-down house and spent six months trying to ________ it into a modern villa.",
+          "words": ["improve", "promote", "relax", "replace", "transform", "adjust", "deteriorate", "exchange", "fade", "reduce", "renovate", "swell", "switch", "adapt", "decline"],
+          "a": ["renovate"],
+          "vi": "Họ đã mua một ngôi nhà cũ kỹ, xuống cấp và dành sáu tháng để cải tạo nó thành một biệt thự hiện đại.",
+          "ex": "Dùng 'renovate' (cải tạo nhà cửa)."
+        },
+        {
+          "q": "The local river started to ________ dangerously after three days of continuous heavy rain.",
+          "words": ["improve", "promote", "relax", "replace", "transform", "adjust", "deteriorate", "exchange", "fade", "reduce", "renovate", "swell", "switch", "adapt", "decline"],
+          "a": ["swell"],
+          "vi": "Con sông địa phương bắt đầu dâng nước (phình to/sưng lên) một cách nguy hiểm sau ba ngày mưa lớn liên tiếp.",
+          "ex": "Dùng 'swell' (dâng cao, phình to)."
+        },
+        {
+          "q": "After a year of studying Biology, I decided to ________ my major to Computer Science.",
+          "words": ["improve", "promote", "relax", "replace", "transform", "adjust", "deteriorate", "exchange", "fade", "reduce", "renovate", "swell", "switch", "adapt", "decline"],
+          "a": ["switch"],
+          "vi": "Sau một năm học Sinh học, tôi quyết định chuyển chuyên ngành sang Khoa học Máy tính.",
+          "ex": "Dùng 'switch' (chuyển đổi chuyên ngành)."
+        },
+        {
+          "q": "When moving to a completely different country, it takes a lot of time to ________ to the local culture and customs.",
+          "words": ["improve", "promote", "relax", "replace", "transform", "adjust", "deteriorate", "exchange", "fade", "reduce", "renovate", "swell", "switch", "adapt", "decline"],
+          "a": ["adapt"],
+          "vi": "Khi chuyển đến một đất nước hoàn toàn khác, mất rất nhiều thời gian để thích nghi với văn hóa và phong tục địa phương.",
+          "ex": "Dùng 'adapt' (thích nghi với)."
+        },
+        {
+          "q": "Due to the lack of government funding, the quality of the public healthcare system began to ________ over the years.",
+          "words": ["improve", "promote", "relax", "replace", "transform", "adjust", "deteriorate", "exchange", "fade", "reduce", "renovate", "swell", "switch", "adapt", "decline"],
+          "a": ["decline"],
+          "vi": "Do thiếu sự tài trợ của chính phủ, chất lượng của hệ thống y tế công cộng đã bắt đầu suy giảm qua các năm.",
+          "ex": "Dùng 'decline' (suy giảm chất lượng)."
+        }
+      ]
+    }
+  ]
+}
