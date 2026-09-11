@@ -1,5 +1,5 @@
 {
-  "id": "listening-house",
+  "id": "listening-housing-and-living",
   "title": "Listening · Housing & Living Places",
   "tags": ["Listening", "Housing", "Living Places"],
   "cover": "🎧",
@@ -138,43 +138,15 @@
             "The location is perfect."
           ],
           "rows": [
-            {
-              "left": "1. Person 1",
-              "a": 2,
-              "vi": "Người 1 chọn c: Căn hộ thuận tiện cho việc mua sắm.",
-              "ex": "Transcript: 'It’s near the stores, so it’s convenient for shopping.' -> Căn hộ ở gần các cửa hàng nên rất tiện đi mua sắm."
-            },
-            {
-              "left": "2. Person 2",
-              "a": 4,
-              "vi": "Người 2 chọn e: Hàng xóm rất tuyệt vời.",
-              "ex": "Transcript: 'My neighbors are fantastic. They’re really friendly...' -> Hàng xóm của tôi rất tuyệt vời và thân thiện."
-            },
-            {
-              "left": "3. Person 3",
-              "a": 3,
-              "vi": "Người 3 chọn d: Cuối tuần rất yên tĩnh và dễ chịu.",
-              "ex": "Transcript: '...on the other hand, it’s nice and quiet on the weekends.' -> Mặt khác, nơi đây rất yên tĩnh vào cuối tuần."
-            },
-            {
-              "left": "4. Person 4",
-              "a": 5,
-              "vi": "Người 4 chọn f: Vị trí của căn hộ rất hoàn hảo.",
-              "ex": "Transcript: 'The location is perfect. It has a great view of the park...' -> Vị trí rất hoàn hảo, có tầm nhìn tuyệt đẹp ra công viên."
-            },
-            {
-              "left": "5. Person 5",
-              "a": 0,
-              "vi": "Người 5 chọn a: Căn nhà rất rộng lớn.",
-              "ex": "Transcript: 'My place is huge. It has room for all my stuff...' -> Chỗ ở của tôi rất rộng rãi, đủ chỗ cho tất cả đồ đạc của tôi."
-            },
-            {
-              "left": "6. Person 6",
-              "a": 1,
-              "vi": "Người 6 chọn b: Tiền thuê nhà rẻ hơn nhiều.",
-              "ex": "Transcript: 'But the rent is much cheaper, and I like that.' -> Nhưng tiền thuê nhà rẻ hơn nhiều, và tôi thích điều đó."
-            }
-          ]
+            { "left": "1. Person 1", "a": 2 },
+            { "left": "2. Person 2", "a": 4 },
+            { "left": "3. Person 3", "a": 3 },
+            { "left": "4. Person 4", "a": 5 },
+            { "left": "5. Person 5", "a": 0 },
+            { "left": "6. Person 6", "a": 1 }
+          ],
+          "vi": "Nối điểm thích: Người 1 - c · Người 2 - e · Người 3 - d · Người 4 - f · Người 5 - a · Người 6 - b",
+          "ex": "P1: convenient for shopping · P2: neighbors are fantastic · P3: quiet on weekends · P4: location is perfect · P5: place is huge · P6: rent is much cheaper"
         }
       ]
     }
