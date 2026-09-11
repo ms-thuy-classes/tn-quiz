@@ -1,0 +1,182 @@
+{
+  "id": "listening-housing-and-living",
+  "title": "Listening · Housing & Living Places",
+  "tags": ["Listening", "Housing", "Living Places"],
+  "cover": "🎧",
+  "gradient": "linear-gradient(135deg,#5a9df5,#8ecdfd 55%,#3ecfa0)",
+  "description": "Bài tập nghe về các loại hình nhà ở và cảm nhận của mọi người về nơi sinh sống.",
+  "duration": "20 phút",
+  "questionCount": 18,
+  "parts": [
+    {
+      "type": "listening",
+      "name": "Part 1 · Exercise 1: What kind of housing does each person need?",
+      "hint": "Nghe audio và chọn đáp án đúng cho mỗi người.",
+      "audio": "https://raw.githubusercontent.com/ms-thuy-classes/audio/main/housing_ex1.mp3",
+      "questions": [
+        {
+          "qtype": "single",
+          "q": "Person 1 needs:",
+          "o": ["a studio apartment", "a three bedroom apartment"],
+          "a": 0,
+          "vi": "Người 1 cần một căn hộ studio.",
+          "ex": "Transcript: 'Well, I’m single and I spend a lot of time traveling, so I’m not home very much. So there’s really no point in my spending money on a large place with lots of rooms.'"
+        },
+        {
+          "qtype": "single",
+          "q": "Person 2 needs:",
+          "o": ["an apartment in the city", "a house with a yard"],
+          "a": 1,
+          "vi": "Người 2 cần một ngôi nhà có sân.",
+          "ex": "Transcript: 'We’ve got three small children, and they like to play outside, so I don’t think it makes sense for us to live in a high-rise building.'"
+        },
+        {
+          "qtype": "single",
+          "q": "Person 3 needs:",
+          "o": ["an apartment in the city", "a house in the suburbs"],
+          "a": 0,
+          "vi": "Người 3 cần một căn hộ ở thành phố.",
+          "ex": "Transcript: 'I work right in the city and I don’t have a car. I’d like a place close to my work, so that I don’t have to spend a lot of time commuting.'"
+        },
+        {
+          "qtype": "single",
+          "q": "Person 4 needs:",
+          "o": ["a house in the country", "a house in the city"],
+          "a": 0,
+          "vi": "Người 4 cần một ngôi nhà ở vùng quê.",
+          "ex": "Transcript: 'I run my own business and I work from my home. I’m lucky because I don’t have to go into town very often, so I’d like a place that’s quiet and away from the city.'"
+        },
+        {
+          "qtype": "single",
+          "q": "Person 5 needs:",
+          "o": ["a large apartment", "a one bedroom apartment"],
+          "a": 0,
+          "vi": "Người 5 cần một căn hộ rộng rãi.",
+          "ex": "Transcript: 'I need a new place. I need a good-sized apartment because I have two teenage sons, and they each need to have their own bedroom. We want to live downtown, too.'"
+        },
+        {
+          "qtype": "single",
+          "q": "Person 6 needs:",
+          "o": ["a small apartment in the city", "a small apartment near the airport"],
+          "a": 1,
+          "vi": "Người 6 cần một căn hộ nhỏ gần sân bay.",
+          "ex": "Transcript: 'Both my wife and I work for an airline and we’d like something fairly close to work. We don’t mind if it’s small... We don’t even mind the noise of the planes.'"
+        }
+      ]
+    },
+    {
+      "type": "listening",
+      "name": "Part 2 · Exercise 2 (Task 1): What do the people dislike about each place?",
+      "hint": "Nghe audio và chọn điều mà mỗi người KHÔNG THÍCH về nơi họ ở.",
+      "audio": "https://raw.githubusercontent.com/ms-thuy-classes/audio/main/housing_ex2.mp3",
+      "questions": [
+        {
+          "qtype": "single",
+          "q": "Person 1 dislikes:",
+          "o": ["location", "condition", "rent"],
+          "a": 1,
+          "vi": "Người 1 không thích điều kiện căn hộ.",
+          "ex": "Transcript: 'The problem, though, is that the owner hasn’t spent any money on the place in years. The furniture is falling apart, and the carpet in the living room is stained in places.'"
+        },
+        {
+          "qtype": "single",
+          "q": "Person 2 dislikes:",
+          "o": ["neighbors", "noise", "size"],
+          "a": 2,
+          "vi": "Người 2 không thích diện tích phòng (quá chật).",
+          "ex": "Transcript: 'I’d like more space, though. There’s hardly enough space for all my stuff.'"
+        },
+        {
+          "qtype": "single",
+          "q": "Person 3 dislikes:",
+          "o": ["location", "noise", "size"],
+          "a": 0,
+          "vi": "Người 3 không thích vị trí (không thuận tiện đi lại).",
+          "ex": "Transcript: 'It’s not really the most convenient place to live. It takes forever to get into town, especially during rush hours.'"
+        },
+        {
+          "qtype": "single",
+          "q": "Person 4 dislikes:",
+          "o": ["size", "location", "rent"],
+          "a": 2,
+          "vi": "Người 4 không thích tiền thuê nhà (quá đắt).",
+          "ex": "Transcript: 'The only problem is the rent. It’s just too high now, so I can’t stay.'"
+        },
+        {
+          "qtype": "single",
+          "q": "Person 5 dislikes:",
+          "o": ["size", "condition", "noise"],
+          "a": 1,
+          "vi": "Người 5 không thích tình trạng căn nhà (quá cũ).",
+          "ex": "Transcript: 'Of course, it’s really old, so it needs a coat of paint and some new furniture. The furniture is really ancient.'"
+        },
+        {
+          "qtype": "single",
+          "q": "Person 6 dislikes:",
+          "o": ["neighbors", "condition", "rent"],
+          "a": 0,
+          "vi": "Người 6 không thích hàng xóm (hay nhòm ngó, soi mói).",
+          "ex": "Transcript: 'I feel like they’re always listening to me, like they want to know everything I do. It’s annoying.'"
+        }
+      ]
+    },
+    {
+      "type": "listening",
+      "name": "Part 3 · Exercise 2 (Task 2): What do the people like about each place?",
+      "hint": "Nối mỗi người với điểm mà họ THÍCH về nơi ở của mình.",
+      "audio": "https://raw.githubusercontent.com/ms-thuy-classes/audio/main/housing_ex2.mp3",
+      "questions": [
+        {
+          "qtype": "match",
+          "q": "Nghe và nối mỗi người với điểm họ yêu thích ở nơi mình ở:",
+          "options": [
+            "It’s huge.",
+            "The rent is much cheaper.",
+            "It’s convenient for shopping.",
+            "It’s nice and quiet on the weekends.",
+            "The neighbors are fantastic.",
+            "The location is perfect."
+          ],
+          "rows": [
+            {
+              "left": "1. Person 1",
+              "a": 2,
+              "vi": "Người 1 chọn c: Căn hộ thuận tiện cho việc mua sắm.",
+              "ex": "Transcript: 'It’s near the stores, so it’s convenient for shopping.' -> Căn hộ ở gần các cửa hàng nên rất tiện đi mua sắm."
+            },
+            {
+              "left": "2. Person 2",
+              "a": 4,
+              "vi": "Người 2 chọn e: Hàng xóm rất tuyệt vời.",
+              "ex": "Transcript: 'My neighbors are fantastic. They’re really friendly...' -> Hàng xóm của tôi rất tuyệt vời và thân thiện."
+            },
+            {
+              "left": "3. Person 3",
+              "a": 3,
+              "vi": "Người 3 chọn d: Cuối tuần rất yên tĩnh và dễ chịu.",
+              "ex": "Transcript: '...on the other hand, it’s nice and quiet on the weekends.' -> Mặt khác, nơi đây rất yên tĩnh vào cuối tuần."
+            },
+            {
+              "left": "4. Person 4",
+              "a": 5,
+              "vi": "Người 4 chọn f: Vị trí của căn hộ rất hoàn hảo.",
+              "ex": "Transcript: 'The location is perfect. It has a great view of the park...' -> Vị trí rất hoàn hảo, có tầm nhìn tuyệt đẹp ra công viên."
+            },
+            {
+              "left": "5. Person 5",
+              "a": 0,
+              "vi": "Người 5 chọn a: Căn nhà rất rộng lớn.",
+              "ex": "Transcript: 'My place is huge. It has room for all my stuff...' -> Chỗ ở của tôi rất rộng rãi, đủ chỗ cho tất cả đồ đạc của tôi."
+            },
+            {
+              "left": "6. Person 6",
+              "a": 1,
+              "vi": "Người 6 chọn b: Tiền thuê nhà rẻ hơn nhiều.",
+              "ex": "Transcript: 'But the rent is much cheaper, and I like that.' -> Nhưng tiền thuê nhà rẻ hơn nhiều, và tôi thích điều đó."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
