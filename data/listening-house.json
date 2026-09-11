@@ -12,7 +12,7 @@
       "type": "listening",
       "name": "Part 1 · Exercise 1: What kind of housing does each person need?",
       "hint": "Nghe audio và chọn đáp án đúng cho mỗi người.",
-      "audio": "https://raw.githubusercontent.com/ms-thuy-classes/audio/main/housing_ex1.mp3",
+      "audio": "https://raw.githubusercontent.com/ms-thuy-classes/tn-quiz/main/audio/housing%201.mp3",
       "questions": [
         {
           "qtype": "single",
@@ -68,7 +68,7 @@
       "type": "listening",
       "name": "Part 2 · Exercise 2 (Task 1): What do the people dislike about each place?",
       "hint": "Nghe audio và chọn điều mà mỗi người KHÔNG THÍCH về nơi họ ở.",
-      "audio": "https://raw.githubusercontent.com/ms-thuy-classes/audio/main/housing_ex2.mp3",
+      "audio": "https://raw.githubusercontent.com/ms-thuy-classes/tn-quiz/main/audio/housing%202.mp3",
       "questions": [
         {
           "qtype": "single",
@@ -124,7 +124,7 @@
       "type": "listening",
       "name": "Part 3 · Exercise 2 (Task 2): What do the people like about each place?",
       "hint": "Nối mỗi người với điểm mà họ THÍCH về nơi ở của mình.",
-      "audio": "https://raw.githubusercontent.com/ms-thuy-classes/audio/main/housing_ex2.mp3",
+      "audio": "https://raw.githubusercontent.com/ms-thuy-classes/tn-quiz/main/audio/housing%202.mp3",
       "questions": [
         {
           "qtype": "match",
