@@ -1,1 +1,133 @@
-a
+{
+  "id": "vocab-house",
+  "title": "Vocabulary · House & Objects in the House",
+  "tags": ["Vocabulary", "House & Rooms", "Unit 2"],
+  "cover": "🏠",
+  "gradient": "linear-gradient(135deg,#7a67ee,#5a9df5 55%,#3ecfa0)",
+  "description": "15 câu trắc nghiệm ôn tập từ vựng về các phòng, khu vực và đồ dùng trong nhà.",
+  "duration": "20 phút",
+  "parts": [
+    {
+      "type": "mcq",
+      "name": "Phần 1 · Trắc nghiệm từ vựng (Multiple Choice)",
+      "hint": "Choose the correct answer",
+      "questions": [
+        {
+          "q": "Which room is specifically designed for sleeping?",
+          "o": ["Bathroom", "Living room", "Bedroom", "Kitchen"],
+          "a": 2,
+          "vi": "Căn phòng nào được thiết kế đặc biệt để ngủ?",
+          "ex": "'Bedroom' có nghĩa là phòng ngủ."
+        },
+        {
+          "q": "Where do you usually park your car at home?",
+          "o": ["Garage", "Attic", "Basement", "Garden"],
+          "a": 0,
+          "vi": "Bạn thường đỗ xe ô tô ở đâu khi ở nhà?",
+          "ex": "'Garage' có nghĩa là ga-ra / nhà xe."
+        },
+        {
+          "q": "What is a 'basement'?",
+          "o": [
+            "A room directly under the roof",
+            "A room or space below the ground level",
+            "A large open entrance area",
+            "A narrow passage connecting rooms"
+          ],
+          "a": 1,
+          "vi": "'Basement' là gì?",
+          "ex": "'Basement' là tầng hầm, nằm ở dưới mặt đất."
+        },
+        {
+          "q": "Which room is used for preparing and cooking food?",
+          "o": ["Living room", "Bedroom", "Kitchen", "Study"],
+          "a": 2,
+          "vi": "Căn phòng nào được dùng để chuẩn bị và nấu nướng thức ăn?",
+          "ex": "'Kitchen' có nghĩa là nhà bếp."
+        },
+        {
+          "q": "Which items are used to cover windows and control light?",
+          "o": ["Curtains / Blind", "Lamp / Poster", "Shower / Sink", "Drawers / Desk"],
+          "a": 0,
+          "vi": "Những vật dụng nào dùng để che cửa sổ và điều chỉnh ánh sáng?",
+          "ex": "'Curtains' (rèm cửa) và 'Blind' (mành che) dùng để che cửa sổ."
+        },
+        {
+          "q": "The space or room at the very top of a house, under the roof, is called the:",
+          "o": ["Hallway", "Attic", "Basement", "Garden"],
+          "a": 1,
+          "vi": "Không gian hoặc phòng ở trên cùng của ngôi nhà, ngay dưới mái nhà, được gọi là:",
+          "ex": "'Attic' có nghĩa là gác mái."
+        },
+        {
+          "q": "What object provides artificial light in a room?",
+          "o": ["Oven", "Lamp", "Sink", "Curtain"],
+          "a": 1,
+          "vi": "Vật dụng nào cung cấp ánh sáng nhân tạo trong phòng?",
+          "ex": "'Lamp' có nghĩa là đèn."
+        },
+        {
+          "q": "What is a 'study' in a house?",
+          "o": [
+            "A room used for reading, writing, or working",
+            "A room for relaxing and watching TV",
+            "A room for bathing and washing",
+            "An outdoor area with grass and plants"
+          ],
+          "a": 0,
+          "vi": "'Study' trong một ngôi nhà là gì?",
+          "ex": "'Study' là phòng học hoặc phòng làm việc."
+        },
+        {
+          "q": "In which room would you usually find a 'shower'?",
+          "o": ["Kitchen", "Bathroom", "Living room", "Garage"],
+          "a": 1,
+          "vi": "Bạn thường tìm thấy 'vòi hoa sen' trong căn phòng nào?",
+          "ex": "'Shower' (vòi hoa sen) nằm trong 'Bathroom' (phòng tắm)."
+        },
+        {
+          "q": "An outdoor area with grass, flowers, or plants attached to a house is a:",
+          "o": ["Basement", "Garden", "Garage", "Hall"],
+          "a": 1,
+          "vi": "Khu vực ngoài trời có cỏ, hoa hoặc cây cối gắn liền với ngôi nhà là:",
+          "ex": "'Garden' có nghĩa là khu vườn."
+        },
+        {
+          "q": "An appliance in the kitchen used for baking or roasting food is an:",
+          "o": ["Oven / Cooker", "Drawers", "Sink", "Blind"],
+          "a": 0,
+          "vi": "Một thiết bị trong bếp dùng để nướng thức ăn là:",
+          "ex": "'Oven / Cooker' có nghĩa là lò nướng / lò bếp."
+        },
+        {
+          "q": "The large entrance space or room inside the main door of a building is the:",
+          "o": ["Hall", "Attic", "Study", "Basement"],
+          "a": 0,
+          "vi": "Không gian lối vào lớn hoặc phòng bên trong cửa chính của tòa nhà là:",
+          "ex": "'Hall' có nghĩa là đại sảnh / sảnh chính."
+        },
+        {
+          "q": "What soft object do you rest your head on when sleeping in bed?",
+          "o": ["Poster", "Curtain", "Pillow", "Shower"],
+          "a": 2,
+          "vi": "Vật mềm nào bạn dùng để kê đầu khi ngủ trên giường?",
+          "ex": "'Pillow' có nghĩa là chiếc gối."
+        },
+        {
+          "q": "A long passage in a building with doors leading into rooms is a:",
+          "o": ["Garden", "Hallway", "Garage", "Attic"],
+          "a": 1,
+          "vi": "Một lối đi dài trong tòa nhà với các cửa dẫn vào các phòng là:",
+          "ex": "'Hallway' có nghĩa là hành lang."
+        },
+        {
+          "q": "What is the bowl-shaped fixture with a tap used for washing hands or dishes?",
+          "o": ["Desk", "Drawers", "Sink", "Blind"],
+          "a": 2,
+          "vi": "Đồ vật dạng lòng chảo có vòi nước dùng để rửa tay hoặc rửa bát là gì?",
+          "ex": "'Sink' có nghĩa là bồn rửa."
+        }
+      ]
+    }
+  ]
+}
