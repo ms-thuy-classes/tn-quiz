@@ -145,8 +145,8 @@
             { "left": "5. Person 5", "a": 0 },
             { "left": "6. Person 6", "a": 1 }
           ],
-          "vi": "Nối điểm thích: Người 1 - c · Người 2 - e · Người 3 - d · Người 4 - f · Người 5 - a · Người 6 - b",
-          "ex": "P1: convenient for shopping · P2: neighbors are fantastic · P3: quiet on weekends · P4: location is perfect · P5: place is huge · P6: rent is much cheaper"
+          "vi": "Nối điểm thích: Person 1 - c · Person 2 - e · Person 3 - d · Person 4 - f · Person 5 - a · Person 6 - b",
+          "ex": "1. Person 1 - c. It’s convenient for shopping.\nTranscript: 'It’s near the stores, so it’s convenient for shopping.' -> Căn hộ ở gần các cửa hàng nên rất thuận tiện cho việc mua sắm.\n\n2. Person 2 - e. The neighbors are fantastic.\nTranscript: 'My neighbors are fantastic. They’re really friendly...' -> Hàng xóm vô cùng tuyệt vời và thân thiện.\n\n3. Person 3 - d. It’s nice and quiet on the weekends.\nTranscript: 'On the other hand, it’s nice and quiet on the weekends.' -> Khác với ngày thường, không gian ở đây rất yên tĩnh tuyệt vời vào cuối tuần.\n\n4. Person 4 - f. The location is perfect.\nTranscript: 'The location is perfect. It has a great view of the park...' -> Vị trí hoàn hảo, nhìn thẳng ra công viên và gần nhiều tiện ích.\n\n5. Person 5 - a. It’s huge.\nTranscript: 'My place is huge. It has room for all my stuff, and there’s a big kitchen, too.' -> Căn nhà cực kỳ rộng rãi, chứa đủ đồ đạc và có bếp lớn.\n\n6. Person 6 - b. The rent is much cheaper.\nTranscript: 'But the rent is much cheaper, and I like that.' -> Giá thuê rẻ hơn nhiều so với nơi khác là ưu điểm lớn nhất."
         }
       ]
     }
