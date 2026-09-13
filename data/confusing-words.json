@@ -161,70 +161,70 @@
       "questions": [
         {
           "q": "The factory manager praised John for being a ________ worker who always double-checks his safety gear.",
-          "words": ["conscientious", "conscious", "considerate", "appreciative", "appreciable"],
+          "words": ["conscientious", "conscious", "considerate", "appreciative","besides", "appreciable"],
           "a": ["conscientious"],
           "vi": "Quản lý nhà máy khen ngợi John là một công nhân tận tâm, luôn kiểm tra lại đồ bảo hộ.",
           "ex": "'Conscientious' có nghĩa là tận tâm, có trách nhiệm cao trong công việc."
         },
         {
           "q": "The ambulance arrived at the scene of the accident ________ after the call was made.",
-          "words": ["shortly", "briefly", "beside", "besides", "abroad"],
+          "words": ["shortly", "briefly", "beside", "besides", "abroad","conscious"],
           "a": ["shortly"],
           "vi": "Xe cấp cứu đã đến hiện trường vụ tai nạn ngay sau khi cuộc gọi được thực hiện.",
           "ex": "Cụm 'shortly after' nghĩa là ngay sau khi (chỉ khoảng thời gian rất ngắn)."
         },
         {
           "q": "Heavy rainfall in the mountains will severely ________ the water levels of the lower river.",
-          "words": ["affect", "effect", "advise", "avoid", "prevent"],
+          "words": ["affect", "effect", "advise", "avoid", "prevent",  "objection"],
           "a": ["affect"],
           "vi": "Mưa lớn trên núi sẽ ảnh hưởng nghiêm trọng đến mực nước của vùng hạ lưu sông.",
           "ex": "'Affect' là động từ mang nghĩa gây tác động, ảnh hưởng đến."
         },
         {
           "q": "The doctor recommended taking immediate ________ to lower his high blood pressure.",
-          "words": ["action", "activity", "advice", "objection", "harm"],
+          "words": ["action", "activity", "advice", "objection", "harm", "effect"],
           "a": ["action"],
           "vi": "Bác sĩ khuyên nên có hành động/biện pháp khẩn cấp để hạ huyết áp.",
           "ex": "Cụm từ 'take immediate action' nghĩa là đưa ra biện pháp/hành động kịp thời."
         },
         {
           "q": "She decided to sit ________ her best friend during the entire flight to London.",
-          "words": ["beside", "besides", "aboard", "abroad", "between"],
+          "words": ["beside", "appreciative", "besides", "aboard", "abroad", "between"],
           "a": ["beside"],
           "vi": "Cô ấy quyết định ngồi bên cạnh bạn thân trong suốt chuyến bay đến London.",
           "ex": "'Beside' là giới từ chỉ vị trí bên cạnh ai/cái gì."
         },
         {
           "q": "The new policy made an ________ difference in reducing the company's monthly expenses.",
-          "words": ["appreciable", "appreciative", "considerate", "continuous", "continual"],
+          "words": ["appreciable", "appreciative", "activity",  "considerate", "continuous", "continual"],
           "a": ["appreciable"],
           "vi": "Chính sách mới đã tạo ra một sự thay đổi đáng kể trong việc giảm chi phí hàng tháng của công ty.",
           "ex": "'Appreciable' có nghĩa là đáng kể, có thể nhận thấy rõ ràng."
         },
         {
           "q": "Drivers are strongly advised to ________ driving through flooded streets during heavy rainstorms.",
-          "words": ["avoid", "prevent", "inspect", "control", "harm"],
+          "words": ["avoid", "prevent","damaged",  "inspect", "control", "harm"],
           "a": ["avoid"],
           "vi": "Tài xế được khuyến cáo nên tránh lái xe qua các con đường ngập nước trong mưa lớn.",
           "ex": "Cấu trúc 'avoid + V-ing' nghĩa là tránh né việc gì."
         },
         {
           "q": "Two construction workers were ________ when the temporary scaffolding collapsed yesterday.",
-          "words": ["injured", "wounded", "damaged", "harmed", "controlled"],
+          "words": ["injured", "wounded", "damaged", "harmed",  "prevent","controlled"],
           "a": ["injured"],
           "vi": "Hai công nhân xây dựng đã bị thương khi giàn giáo tạm thời bị sập vào ngày hôm qua.",
           "ex": "'Injured' dùng để chỉ việc bị thương do tai nạn tai nạn lao động."
         },
         {
           "q": "Many young graduates choose to go ________ to gain international work experience.",
-          "words": ["abroad", "aboard", "shortly", "briefly", "besides"],
+          "words": ["abroad", "aboard", "shortly", "briefly", "besides", "affect"],
           "a": ["abroad"],
           "vi": "Nhiều sinh viên mới tốt nghiệp chọn đi ra nước ngoài để tích lũy kinh nghiệm làm việc quốc tế.",
           "ex": "Cụm từ 'go abroad' nghĩa là đi ra nước ngoài."
         },
         {
           "q": "Could you please ________ me on the best steps to apply for this scholarship?",
-          "words": ["advise", "advice", "affect", "inspect", "control"],
+          "words": ["advise", "advice", "affect", "inspect", "control",  "shortly" ],
           "a": ["advise"],
           "vi": "Bạn có thể vui lòng tư vấn/khuyên tôi về các bước tốt nhất để nộp đơn xin học bổng này không?",
           "ex": "Cần động từ 'advise' đứng sau động từ khuyết thiếu 'could'."
