@@ -1,1 +1,235 @@
-a
+{
+  "id": "confusing-words",
+  "title": "Vocabulary · Confusing Words & False Friends",
+  "tags": ["IELTS", "Vocabulary", "Confusing Words"],
+  "cover": "📚",
+  "gradient": "linear-gradient(135deg,#7a67ee,#5a9df5 55%,#3ecfa0)",
+  "description": "30 câu trắc nghiệm & điền từ ôn tập các cặp từ dễ gây nhầm lẫn trong tiếng Anh.",
+  "duration": "45 phút",
+  "parts": [
+    {
+      "type": "mcq",
+      "name": "Phần 1 · Trắc nghiệm lựa chọn",
+      "hint": "Choose the correct answer",
+      "questions": [
+        {
+          "q": "She has been living ________ in London for over three years to pursue her master's degree.",
+          "o": ["aboard", "abroad", "board", "broadly"],
+          "a": 1,
+          "vi": "Cô ấy đã sống ở nước ngoài tại London hơn 3 năm để học cao học.",
+          "ex": "Dùng 'abroad' với nghĩa ở/ra nước ngoài. 'Aboard' có nghĩa là trên tàu/máy bay."
+        },
+        {
+          "q": "The government must take immediate ________ to prevent the spread of the disease.",
+          "o": ["activity", "action", "acting", "actor"],
+          "a": 1,
+          "vi": "Chính phủ phải đưa ra hành động khẩn cấp để ngăn chặn sự lây lan của dịch bệnh.",
+          "ex": "Cụm từ cố định 'take action' nghĩa là hành động, đưa ra biện pháp giải quyết."
+        },
+        {
+          "q": "My doctor ________ me to get more rest and reduce my stress levels.",
+          "o": ["adviced", "advised", "advice", "advising"],
+          "a": 1,
+          "vi": "Bác sĩ khuyên tôi nên nghỉ ngơi nhiều hơn và giảm căng thẳng.",
+          "ex": "'Advise' (v) là động từ khuyên bảo. 'Advice' (n) là danh từ lời khuyên."
+        },
+        {
+          "q": "The new tax policy will directly ________ small businesses across the country.",
+          "o": ["affect", "effect", "effective", "affection"],
+          "a": 0,
+          "vi": "Chính sách thuế mới sẽ ảnh hưởng trực tiếp đến các doanh nghiệp nhỏ trên toàn quốc.",
+          "ex": "'Affect' (v) là động từ gây ảnh hưởng. 'Effect' (n) là danh từ sự ảnh hưởng."
+        },
+        {
+          "q": "We are extremely ________ of all the support you have given us during this difficult time.",
+          "o": ["appreciable", "appreciative", "appreciate", "appreciation"],
+          "a": 1,
+          "vi": "Chúng tôi vô cùng trân trọng/biết ơn tất cả sự hỗ trợ của bạn.",
+          "ex": "Cấu trúc 'be appreciative of' có nghĩa là trân trọng, biết ơn. 'Appreciable' nghĩa là đáng kể."
+        },
+        {
+          "q": "He took a different route to work to ________ getting stuck in the heavy morning traffic.",
+          "o": ["prevent", "avoid", "stop", "forbid"],
+          "a": 1,
+          "vi": "Anh ấy đi đường khác đi làm để tránh bị kẹt xe vào buổi sáng.",
+          "ex": "Dùng 'avoid + V-ing' nghĩa là né/tránh né điều gì. 'Prevent' thường đi với cấu trúc 'prevent sth from V-ing'."
+        },
+        {
+          "q": "________ her job at the bank, she also works as a freelance translator in the evening.",
+          "o": ["Beside", "Besides", "Except", "Apart"],
+          "a": 1,
+          "vi": "Bên cạnh công việc ở ngân hàng, cô ấy còn làm phiên dịch viên tự do vào buổi tối.",
+          "ex": "'Besides' nghĩa là bên cạnh đó/nói thêm vào. 'Beside' là giới từ chỉ vị trí bên cạnh."
+        },
+        {
+          "q": "The train will be arriving ________, so please have your tickets ready.",
+          "o": ["briefly", "shortly", "short", "brief"],
+          "a": 1,
+          "vi": "Tàu sẽ cập bến sớm/ngay bây giờ, vui lòng chuẩn bị sẵn vé.",
+          "ex": "'Shortly' nghĩa là sớm, ngay lập tức. 'Briefly' nghĩa là ngắn gọn, vắn tắt."
+        },
+        {
+          "q": "Panama is famous for its artificial ________ that connects the Atlantic Ocean to the Pacific Ocean.",
+          "o": ["channel", "canal", "stream", "river"],
+          "a": 1,
+          "vi": "Panama nổi tiếng với kênh đào nhân tạo nối liền Đại Tây Dương và Thái Bình Dương.",
+          "ex": "'Canal' là kênh đào nhân tạo do con người tạo ra. 'Channel' là kênh TV hoặc eo biển tự nhiên."
+        },
+        {
+          "q": "She is a very ________ student who always completes her assignments meticulously.",
+          "o": ["conscious", "conscientious", "consciousness", "conscience"],
+          "a": 1,
+          "vi": "Cô ấy là một học sinh rất tận tâm, luôn hoàn thành bài tập tỉ mỉ.",
+          "ex": "'Conscientious' nghĩa là tận tâm, có trách nhiệm. 'Conscious' nghĩa là tỉnh táo, có ý thức."
+        },
+        {
+          "q": "It is very ________ of you to bring an umbrella for me when it started raining.",
+          "o": ["considerable", "considerate", "considerately", "consideration"],
+          "a": 1,
+          "vi": "Bạn thật chu đáo khi mang ô cho tôi khi trời bắt đầu mưa.",
+          "ex": "'Considerate' nghĩa là ân cần, chu đáo với người khác. 'Considerable' nghĩa là đáng kể, to lớn."
+        },
+        {
+          "q": "The ________ noise from the nearby construction site kept everyone awake all night.",
+          "o": ["continual", "continuous", "continuing", "continued"],
+          "a": 1,
+          "vi": "Tiếng ồn liên tục không ngắt từ công trường gần đó khiến mọi người mất ngủ cả đêm.",
+          "ex": "'Continuous' chỉ sự việc diễn ra liên tục không ngừng nghỉ. 'Continual' là lặp đi lặp lại có ngắt quãng."
+        },
+        {
+          "q": "Health inspectors came to ________ the kitchen of the restaurant for hygiene standards.",
+          "o": ["control", "inspect", "manage", "check in"],
+          "a": 1,
+          "vi": "Các thanh tra y tế đã đến kiểm tra nhà bếp của nhà hàng về tiêu chuẩn vệ sinh.",
+          "ex": "'Inspect' nghĩa là thanh tra, kiểm tra kỹ lưỡng. 'Control' nghĩa là kiểm soát, điều khiển."
+        },
+        {
+          "q": "Do you have any ________ to my opening the window? It's a bit warm in here.",
+          "o": ["criticism", "objection", "complaint", "disapproval"],
+          "a": 1,
+          "vi": "Bạn có phản đối việc tôi mở cửa sổ không? Trong này hơi nóng.",
+          "ex": "Cấu trúc 'have an objection to V-ing/N' nghĩa là phản đối điều gì. 'Criticism' là sự chỉ trích, phê bình."
+        },
+        {
+          "q": "Smoking can cause severe ________ to your lungs and overall health.",
+          "o": ["damage", "injury", "harm", "hurt"],
+          "a": 2,
+          "vi": "Hút thuốc có thể gây tác hại nghiêm trọng cho phổi và sức khỏe tổng thể.",
+          "ex": "Cụm 'cause harm to health' nghĩa là gây hại đến sức khỏe. 'Injury' là vết thương thể xác, 'damage' là thiệt hại tài sản."
+        },
+        {
+          "q": "The museum will be closed ________ the whole month of August for renovation.",
+          "o": ["during", "for", "while", "since"],
+          "a": 1,
+          "vi": "Bảo tàng sẽ đóng cửa trong cả tháng Tám để trùng tu.",
+          "ex": "Dùng 'for + khoảng thời gian' (for the whole month). 'During' đi trực tiếp với danh từ, 'while' đi với mệnh đề/V-ing."
+        },
+        {
+          "q": "The new software is user-friendly; ________, it includes several advanced features.",
+          "o": ["however", "moreover", "although", "despite"],
+          "a": 1,
+          "vi": "Phần mềm mới rất dễ sử dụng; hơn nữa, nó còn bao gồm nhiều tính năng nâng cao.",
+          "ex": "'Moreover' mang nghĩa hơn nữa (thêm thông tin bổ sung tích cực). 'However' mang nghĩa tuy nhiên (đối lập)."
+        },
+        {
+          "q": "Three soldiers were severely ________ during the battle on the front line.",
+          "o": ["injured", "wounded", "damaged", "pained"],
+          "a": 1,
+          "vi": "Ba người lính đã bị thương nặng trong trận chiến ở tiền tuyến.",
+          "ex": "'Wounded' chỉ việc bị thương do vũ khí, súng đạn trong chiến đấu. 'Injured' dùng cho tai nạn sinh hoạt/lao động."
+        },
+        {
+          "q": "Two factory workers were ________ when a heavy piece of machinery fell yesterday.",
+          "o": ["wounded", "injured", "harmed", "ruined"],
+          "a": 1,
+          "vi": "Hai công nhân nhà máy bị thương khi một khối máy móc nặng rơi xuống vào hôm qua.",
+          "ex": "'Injured' dùng để chỉ chấn thương, bị thương do tai nạn lao động."
+        },
+        {
+          "q": "Most people are fully ________ of the environmental issues we are currently facing.",
+          "o": ["conscientious", "conscious", "appreciate", "appreciable"],
+          "a": 1,
+          "vi": "Hầu hết mọi người đều nhận thức rõ về các vấn đề môi trường mà chúng ta đang gặp phải.",
+          "ex": "Cấu trúc 'be conscious of' nghĩa là nhận thức được, có ý thức về điều gì."
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "name": "Phần 2 · Điền từ chọn sẵn",
+      "hint": "Chọn từ thích hợp trong danh sách từ cho sẵn để điền vào chỗ trống",
+      "questions": [
+        {
+          "q": "The factory manager praised John for being a ________ worker who always double-checks his safety gear.",
+          "words": ["conscientious", "conscious", "considerate", "appreciative", "appreciable"],
+          "a": ["conscientious"],
+          "vi": "Quản lý nhà máy khen ngợi John là một công nhân tận tâm, luôn kiểm tra lại đồ bảo hộ.",
+          "ex": "'Conscientious' có nghĩa là tận tâm, có trách nhiệm cao trong công việc."
+        },
+        {
+          "q": "The ambulance arrived at the scene of the accident ________ after the call was made.",
+          "words": ["shortly", "briefly", "beside", "besides", "abroad"],
+          "a": ["shortly"],
+          "vi": "Xe cấp cứu đã đến hiện trường vụ tai nạn ngay sau khi cuộc gọi được thực hiện.",
+          "ex": "Cụm 'shortly after' nghĩa là ngay sau khi (chỉ khoảng thời gian rất ngắn)."
+        },
+        {
+          "q": "Heavy rainfall in the mountains will severely ________ the water levels of the lower river.",
+          "words": ["affect", "effect", "advise", "avoid", "prevent"],
+          "a": ["affect"],
+          "vi": "Mưa lớn trên núi sẽ ảnh hưởng nghiêm trọng đến mực nước của vùng hạ lưu sông.",
+          "ex": "'Affect' là động từ mang nghĩa gây tác động, ảnh hưởng đến."
+        },
+        {
+          "q": "The doctor recommended taking immediate ________ to lower his high blood pressure.",
+          "words": ["action", "activity", "advice", "objection", "harm"],
+          "a": ["action"],
+          "vi": "Bác sĩ khuyên nên có hành động/biện pháp khẩn cấp để hạ huyết áp.",
+          "ex": "Cụm từ 'take immediate action' nghĩa là đưa ra biện pháp/hành động kịp thời."
+        },
+        {
+          "q": "She decided to sit ________ her best friend during the entire flight to London.",
+          "words": ["beside", "besides", "aboard", "abroad", "between"],
+          "a": ["beside"],
+          "vi": "Cô ấy quyết định ngồi bên cạnh bạn thân trong suốt chuyến bay đến London.",
+          "ex": "'Beside' là giới từ chỉ vị trí bên cạnh ai/cái gì."
+        },
+        {
+          "q": "The new policy made an ________ difference in reducing the company's monthly expenses.",
+          "words": ["appreciable", "appreciative", "considerate", "continuous", "continual"],
+          "a": ["appreciable"],
+          "vi": "Chính sách mới đã tạo ra một sự thay đổi đáng kể trong việc giảm chi phí hàng tháng của công ty.",
+          "ex": "'Appreciable' có nghĩa là đáng kể, có thể nhận thấy rõ ràng."
+        },
+        {
+          "q": "Drivers are strongly advised to ________ driving through flooded streets during heavy rainstorms.",
+          "words": ["avoid", "prevent", "inspect", "control", "harm"],
+          "a": ["avoid"],
+          "vi": "Tài xế được khuyến cáo nên tránh lái xe qua các con đường ngập nước trong mưa lớn.",
+          "ex": "Cấu trúc 'avoid + V-ing' nghĩa là tránh né việc gì."
+        },
+        {
+          "q": "Two construction workers were ________ when the temporary scaffolding collapsed yesterday.",
+          "words": ["injured", "wounded", "damaged", "harmed", "controlled"],
+          "a": ["injured"],
+          "vi": "Hai công nhân xây dựng đã bị thương khi giàn giáo tạm thời bị sập vào ngày hôm qua.",
+          "ex": "'Injured' dùng để chỉ việc bị thương do tai nạn tai nạn lao động."
+        },
+        {
+          "q": "Many young graduates choose to go ________ to gain international work experience.",
+          "words": ["abroad", "aboard", "shortly", "briefly", "besides"],
+          "a": ["abroad"],
+          "vi": "Nhiều sinh viên mới tốt nghiệp chọn đi ra nước ngoài để tích lũy kinh nghiệm làm việc quốc tế.",
+          "ex": "Cụm từ 'go abroad' nghĩa là đi ra nước ngoài."
+        },
+        {
+          "q": "Could you please ________ me on the best steps to apply for this scholarship?",
+          "words": ["advise", "advice", "affect", "inspect", "control"],
+          "a": ["advise"],
+          "vi": "Bạn có thể vui lòng tư vấn/khuyên tôi về các bước tốt nhất để nộp đơn xin học bổng này không?",
+          "ex": "Cần động từ 'advise' đứng sau động từ khuyết thiếu 'could'."
+        }
+      ]
+    }
+  ]
+}
