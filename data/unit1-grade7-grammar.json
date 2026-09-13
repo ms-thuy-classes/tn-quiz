@@ -1,0 +1,232 @@
+{
+  "id": "unit1-grade7-grammar",
+  "title": "Vocabulary & Grammar · Lớp 7 · Unit 1: Hobbies (Present Simple)",
+  "tags": ["Lớp 7", "Vocabulary", "Grammar", "Present Simple"],
+  "cover": "🧩",
+  "gradient": "linear-gradient(135deg,#7a67ee,#5a9df5 55%,#3ecfa0)",
+  "description": "30 câu bài tập thì Hiện tại đơn kết hợp từ vựng Unit 1 trình độ A2.",
+  "duration": "45 phút",
+  "parts": [
+    {
+      "type": "mcq",
+      "name": "Phần 1 · Trắc nghiệm lựa chọn",
+      "hint": "Choose the correct answer",
+      "questions": [
+        {
+          "q": "This red bag ________ to my sister.",
+          "o": ["belong", "belongs", "is belong", "belonging"],
+          "a": 1,
+          "vi": "Chiếc túi màu đỏ này thuộc về chị gái tôi.",
+          "ex": "Chủ ngữ số ít 'This red bag' nên động từ chia ở thì Hiện tại đơn thêm -s."
+        },
+        {
+          "q": "Yoga ________ many benefits for your health.",
+          "o": ["bring", "bringing", "brings", "to bring"],
+          "a": 2,
+          "vi": "Tập yoga mang lại nhiều lợi ích cho sức khỏe của bạn.",
+          "ex": "Chủ ngữ 'Yoga' là danh từ không đếm được/số ít nên động từ chia ở thì Hiện tại đơn thêm -s."
+        },
+        {
+          "q": "The sun ________ in the west every evening.",
+          "o": ["set", "setting", "sets", "is set"],
+          "a": 2,
+          "vi": "Mặt trời lặn ở hướng Tây mỗi chiều.",
+          "ex": "Sự thật hiển nhiên, chủ ngữ 'The sun' số ít nên động từ chia ở thì Hiện tại đơn thêm -s."
+        },
+        {
+          "q": "My brother ________ making models in his free time.",
+          "o": ["enjoy", "enjoys", "is enjoy", "enjoying"],
+          "a": 1,
+          "vi": "Anh trai tôi thích làm mô hình vào thời gian rảnh.",
+          "ex": "Chủ ngữ 'My brother' số ít nên động từ chia ở thì Hiện tại đơn thêm -s."
+        },
+        {
+          "q": "Jogging ________ a very popular activity among young people.",
+          "o": ["is", "are", "be", "am"],
+          "a": 0,
+          "vi": "Chạy bộ là một hoạt động rất phổ biến đối với giới trẻ.",
+          "ex": "Chủ ngữ danh động từ 'Jogging' đi với động từ to be số ít 'is'."
+        },
+        {
+          "q": "A good teacher always ________ very patient with small children.",
+          "o": ["are", "do", "is", "does"],
+          "a": 2,
+          "vi": "Một giáo viên tốt luôn rất kiên nhẫn với trẻ nhỏ.",
+          "ex": "Đi với tính từ 'patient' cần động từ to be 'is' cho chủ ngữ số ít 'A good teacher'."
+        },
+        {
+          "q": "Little girls often ________ playing with a dollhouse.",
+          "o": ["likes", "like", "is liking", "to like"],
+          "a": 1,
+          "vi": "Các bé gái thường thích chơi với nhà búp bê.",
+          "ex": "Chủ ngữ số nhiều 'Little girls' nên động từ chia ở dạng nguyên mẫu."
+        },
+        {
+          "q": "He usually ________ on too much work at the office.",
+          "o": ["takes", "take", "taking", "is take"],
+          "a": 0,
+          "vi": "Anh ấy thường nhận thêm quá nhiều việc ở văn phòng.",
+          "ex": "Cụm 'take on', chủ ngữ ngôi thứ 3 số ít 'He' nên chia là 'takes'."
+        },
+        {
+          "q": "Yoga ________ people reduce stress after work.",
+          "o": ["help", "helping", "helps", "is help"],
+          "a": 2,
+          "vi": "Yoga giúp mọi người giảm căng thẳng sau giờ làm việc.",
+          "ex": "Chủ ngữ 'Yoga' số ít nên động từ chia ở thì Hiện tại đơn thêm -s."
+        },
+        {
+          "q": "Gardening ________ a lot of time and effort.",
+          "o": ["require", "requires", "is require", "requiring"],
+          "a": 1,
+          "vi": "Làm vườn đòi hỏi nhiều thời gian và công sức.",
+          "ex": "Chủ ngữ danh động từ 'Gardening' nên động từ chia ở thì Hiện tại đơn thêm -s."
+        }
+      ]
+    },
+    {
+      "type": "type-in",
+      "name": "Phần 2 · Chia động từ (Điền từ trực tiếp)",
+      "hint": "Chia động từ trong ngoặc ở thì Hiện tại đơn",
+      "questions": [
+        {
+          "q": "She (use) ________ glue to build a small house from cardboard.",
+          "a": ["uses"],
+          "vi": "Cô ấy dùng keo dán để xây một căn nhà nhỏ từ bìa các-tông.",
+          "ex": "Chủ ngữ ngôi thứ ba số ít 'She' nên động từ 'use' thêm -s thành 'uses'."
+        },
+        {
+          "q": "Peter (not like) ________ horse riding because he is afraid of horses.",
+          "a": ["does not like", "doesn't like"],
+          "vi": "Peter không thích cưỡi ngựa vì anh ấy sợ ngựa.",
+          "ex": "Dạng phủ định thì Hiện tại đơn với chủ ngữ số ít: doesn't / does not + V-bare."
+        },
+        {
+          "q": "My grandfather (do) ________ gardening in the backyard every weekend.",
+          "a": ["does"],
+          "vi": "Ông tôi làm vườn ở sân sau vào mỗi cuối tuần.",
+          "ex": "Chủ ngữ số ít 'My grandfather' nên động từ 'do' thêm -es thành 'does'."
+        },
+        {
+          "q": "This stamp collection (have) ________ many valuable items.",
+          "a": ["has"],
+          "vi": "Bộ sưu tập tem này có nhiều vật phẩm quý giá.",
+          "ex": "Chủ ngữ số ít 'This stamp collection' nên động từ 'have' chuyển thành 'has'."
+        },
+        {
+          "q": "Many people (do) ________ yoga to stay healthy and fit.",
+          "a": ["do"],
+          "vi": "Nhiều người tập yoga để giữ sức khỏe và vóc dáng.",
+          "ex": "Chủ ngữ số nhiều 'Many people' nên động từ 'do' giữ nguyên dạng."
+        },
+        {
+          "q": "Birds (eat) ________ small insects and bugs in the garden.",
+          "a": ["eat"],
+          "vi": "Chim ăn các loài côn trùng và bọ nhỏ trong vườn.",
+          "ex": "Chủ ngữ số nhiều 'Birds' nên động từ 'eat' giữ nguyên dạng."
+        },
+        {
+          "q": "Doing household chores (teach) ________ children about responsibility.",
+          "a": ["teaches"],
+          "vi": "Làm việc nhà dạy cho trẻ em về sự chịu trách nhiệm.",
+          "ex": "Chủ ngữ danh động từ 'Doing household chores' nên động từ 'teach' thêm -es thành 'teaches'."
+        },
+        {
+          "q": "My father (not spend) ________ his free time jogging in the park.",
+          "a": ["does not spend", "doesn't spend"],
+          "vi": "Bố tôi không dành thời gian rảnh để chạy bộ trong công viên.",
+          "ex": "Dạng phủ định thì Hiện tại đơn với chủ ngữ số ít: doesn't / does not + V-bare."
+        },
+        {
+          "q": "This hobby (seem) ________ unusual to most of my friends.",
+          "a": ["seems"],
+          "vi": "Sở thích này dường như khác thường đối với hầu hết bạn bè của tôi.",
+          "ex": "Chủ ngữ số ít 'This hobby' nên động từ 'seem' thêm -s thành 'seems'."
+        },
+        {
+          "q": "As teenagers grow up, they (show) ________ more maturity in their actions.",
+          "a": ["show"],
+          "vi": "Khi thanh thiếu niên lớn lên, họ thể hiện sự trưởng thành hơn trong hành động.",
+          "ex": "Chủ ngữ số nhiều 'they' nên động từ 'show' giữ nguyên dạng."
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "name": "Phần 3 · Điền từ thích hợp",
+      "hint": "Chọn từ thích hợp trong danh sách để điền vào chỗ trống",
+      "questions": [
+        {
+          "q": "He is very ________; he never gets angry when explaining lessons to us.",
+          "words": ["patient", "popular", "unusual", "valuable", "cardboard", "glue", "bug", "jogging", "making models", "stress"],
+          "a": ["patient"],
+          "vi": "Anh ấy rất kiên nhẫn; anh ấy không bao giờ tức giận khi giải thích bài học cho chúng tôi.",
+          "ex": "'Patient' (adj) nghĩa là kiên nhẫn."
+        },
+        {
+          "q": "Football is a very ________ sport all around the world.",
+          "words": ["popular", "patient", "unusual", "valuable", "cardboard", "glue", "bug", "jogging", "making models", "stress"],
+          "a": ["popular"],
+          "vi": "Bóng đá là một môn thể thao rất được nhiều người ưa thích trên toàn thế giới.",
+          "ex": "'Popular' (adj) nghĩa là phổ biến, được ưa thích."
+        },
+        {
+          "q": "They often use old ________ boxes to make simple toys for children.",
+          "words": ["cardboard", "glue", "bug", "stress", "jogging", "making models", "patient", "popular", "unusual", "valuable"],
+          "a": ["cardboard"],
+          "vi": "Họ thường dùng các hộp bìa các-tông cũ để làm đồ chơi đơn giản cho trẻ em.",
+          "ex": "'Cardboard' (n) nghĩa là bìa các-tông."
+        },
+        {
+          "q": "A little ________ crawls on the green leaf in the garden.",
+          "words": ["bug", "cardboard", "glue", "stress", "jogging", "making models", "patient", "popular", "unusual", "valuable"],
+          "a": ["bug"],
+          "vi": "Một con bọ nhỏ bò trên chiếc lá xanh trong vườn.",
+          "ex": "'Bug' (n) nghĩa là con bọ."
+        },
+        {
+          "q": "My brother spends hours ________ of airplanes and cars.",
+          "words": ["making models", "jogging", "cardboard", "glue", "bug", "stress", "patient", "popular", "unusual", "valuable"],
+          "a": ["making models"],
+          "vi": "Anh trai tôi dành hàng giờ làm mô hình máy bay và ô tô.",
+          "ex": "Cấu trúc 'spend time + V-ing': 'making models' nghĩa là làm mô hình."
+        },
+        {
+          "q": "High workload usually causes a lot of ________ for office workers.",
+          "words": ["stress", "bug", "cardboard", "glue", "jogging", "making models", "patient", "popular", "unusual", "valuable"],
+          "a": ["stress"],
+          "vi": "Khối lượng công việc cao thường gây ra nhiều sự căng thẳng cho dân văn phòng.",
+          "ex": "'Stress' (n) nghĩa là sự căng thẳng."
+        },
+        {
+          "q": "She buys some strong ________ to fix her broken plastic toy.",
+          "words": ["glue", "cardboard", "bug", "stress", "jogging", "making models", "patient", "popular", "unusual", "valuable"],
+          "a": ["glue"],
+          "vi": "Cô ấy mua một ít keo dán siêu chắc để sửa đồ chơi nhựa bị hỏng.",
+          "ex": "'Glue' (n) nghĩa là keo dán / hồ dán."
+        },
+        {
+          "q": "My mother goes ________ in the park early every morning.",
+          "words": ["jogging", "making models", "cardboard", "glue", "bug", "stress", "patient", "popular", "unusual", "valuable"],
+          "a": ["jogging"],
+          "vi": "Mẹ tôi đi chạy bộ thư giãn trong công viên vào mỗi sáng sớm.",
+          "ex": "Cụm từ 'go jogging' nghĩa là đi chạy bộ."
+        },
+        {
+          "q": "He collects rare coins because he thinks they are very ________.",
+          "words": ["valuable", "unusual", "popular", "patient", "cardboard", "glue", "bug", "jogging", "making models", "stress"],
+          "a": ["valuable"],
+          "vi": "Anh ấy sưu tầm tiền xu hiếm vì nghĩ rằng chúng rất quý giá.",
+          "ex": "'Valuable' (adj) nghĩa là quý giá, có giá trị."
+        },
+        {
+          "q": "It is ________ for him to stay up late on weekdays.",
+          "words": ["unusual", "valuable", "popular", "patient", "cardboard", "glue", "bug", "jogging", "making models", "stress"],
+          "a": ["unusual"],
+          "vi": "Thật khác thường khi anh ấy thức khuya vào các ngày trong tuần.",
+          "ex": "'Unusual' (adj) nghĩa là khác thường, không bình thường."
+        }
+      ]
+    }
+  ]
+}
