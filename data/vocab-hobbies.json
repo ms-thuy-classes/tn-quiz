@@ -1,0 +1,252 @@
+{
+  "id": "vocab-hobbies",
+  "title": "Sports, Hobbies & Leisure Activities",
+  "tags": ["IELTS", "Vocabulary", "Hobbies"],
+  "cover": "🏃",
+  "gradient": "linear-gradient(135deg,#7a67ee,#5a9df5 55%,#3ecfa0)",
+  "description": "30 câu ôn tập từ vựng IELTS chủ đề Sports, Hobbies & Leisure Activities.",
+  "duration": "30 phút",
+  "parts": [
+    {
+      "type": "mcq",
+      "name": "Phần 1 · Multiple Choice",
+      "hint": "Choose the correct answer",
+      "questions": [
+        {
+          "q": "Which activity is best for improving your physical fitness?",
+          "o": ["Reading", "Shopping", "Swimming", "Photography"],
+          "a": 2,
+          "vi": "Hoạt động nào tốt nhất để cải thiện thể lực?",
+          "ex": "Swimming là một hoạt động thể chất giúp cải thiện sức khỏe và thể lực."
+        },
+        {
+          "q": "A sport played by two teams is called a ______.",
+          "o": ["pastime", "team sport", "hobby", "leisure activity"],
+          "a": 1,
+          "vi": "Môn thể thao được chơi bởi hai đội được gọi là gì?",
+          "ex": "Team sport là môn thể thao đồng đội."
+        },
+        {
+          "q": "Which phrase means 'to begin a new hobby'?",
+          "o": ["keep fit", "kill time", "take up a hobby", "unwind"],
+          "a": 2,
+          "vi": "Cụm nào có nghĩa là bắt đầu một sở thích mới?",
+          "ex": "Take up a hobby = bắt đầu một sở thích."
+        },
+        {
+          "q": "Hiking is an example of a(n) ______.",
+          "o": ["indoor activity", "outdoor activity", "team sport", "extreme sport"],
+          "a": 1,
+          "vi": "Hiking là ví dụ của loại hoạt động nào?",
+          "ex": "Hiking là hoạt động ngoài trời."
+        },
+        {
+          "q": "Which activity is mainly done to enjoy books and stories?",
+          "o": ["Cycling", "Jogging", "Reading", "Camping"],
+          "a": 2,
+          "vi": "Hoạt động nào chủ yếu để thưởng thức sách và câu chuyện?",
+          "ex": "Reading là đọc sách."
+        },
+        {
+          "q": "Which phrase means 'to reduce stress'?",
+          "o": ["relieve stress", "spend time with friends", "keep fit", "work out"],
+          "a": 0,
+          "vi": "Cụm nào có nghĩa là giảm căng thẳng?",
+          "ex": "Relieve stress = giảm căng thẳng."
+        },
+        {
+          "q": "Which of the following is an extreme sport?",
+          "o": ["White-water rafting", "Reading", "Cooking", "Shopping"],
+          "a": 0,
+          "vi": "Môn nào là thể thao mạo hiểm?",
+          "ex": "White-water rafting là chèo bè vượt thác."
+        },
+        {
+          "q": "Photography helps people ______.",
+          "o": ["burn calories", "capture memories", "stay healthy", "keep fit"],
+          "a": 1,
+          "vi": "Photography giúp mọi người làm gì?",
+          "ex": "Photography giúp lưu giữ kỷ niệm."
+        },
+        {
+          "q": "Which activity is usually done inside the house?",
+          "o": ["Hiking", "Cycling", "Cooking", "Camping"],
+          "a": 2,
+          "vi": "Hoạt động nào thường được thực hiện trong nhà?",
+          "ex": "Cooking thường diễn ra trong nhà."
+        },
+        {
+          "q": "Spending time with friends is a popular ______ activity.",
+          "o": ["social", "extreme", "physical", "competitive"],
+          "a": 0,
+          "vi": "Dành thời gian với bạn bè là hoạt động gì?",
+          "ex": "Đó là một hoạt động mang tính xã hội."
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "name": "Phần 2 · Fill in the Blanks",
+      "hint": "Choose the correct word from the word bank",
+      "questions": [
+        {
+          "q": "Doing regular ______ helps people stay healthy.",
+          "words": ["exercise", "reading", "camping", "photography", "shopping", "social media"],
+          "a": ["exercise"]
+        },
+        {
+          "q": "Many people go ______ in the mountains at weekends.",
+          "words": ["hiking", "cycling", "camping", "swimming", "reading", "jogging"],
+          "a": ["hiking"]
+        },
+        {
+          "q": "Reading is my favourite ______ because it helps me relax.",
+          "words": ["pastime", "team sport", "workout", "exercise", "camping", "cycling"],
+          "a": ["pastime"]
+        },
+        {
+          "q": "I started learning photography when I ______ a new hobby last year.",
+          "words": ["took up", "relieved", "kept", "spent", "cycled", "camped"],
+          "a": ["took up"]
+        },
+        {
+          "q": "Swimming is a great form of ______ activity.",
+          "words": ["physical", "social", "indoor", "outdoor", "competitive", "extreme"],
+          "a": ["physical"]
+        },
+        {
+          "q": "After a long day at work, I like to ______ by listening to music.",
+          "words": ["unwind", "hike", "cycle", "compete", "read", "exercise"],
+          "a": ["unwind"]
+        },
+        {
+          "q": "Cycling helps me ______ fit and burn calories.",
+          "words": ["keep", "stay", "take", "spend", "kill", "maintain"],
+          "a": ["keep"]
+        },
+        {
+          "q": "Camping allows people to get some fresh ______.",
+          "words": ["air", "exercise", "water", "food", "time", "energy"],
+          "a": ["air"]
+        },
+        {
+          "q": "Team sports help players develop social ______.",
+          "words": ["skills", "books", "fitness", "activities", "hobbies", "games"],
+          "a": ["skills"]
+        },
+        {
+          "q": "Watching videos online is one way to ______ time.",
+          "words": ["kill", "keep", "take", "relieve", "spend", "maintain"],
+          "a": ["kill"]
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "name": "Phần 3 · Sentence Reordering",
+      "hint": "Choose the correct sentence",
+      "questions": [
+        {
+          "q": "healthy / lifestyle / maintain / a / healthy / helps / exercise / regular",
+          "o": [
+            "Regular exercise helps maintain a healthy lifestyle.",
+            "Maintain a healthy lifestyle helps regular exercise.",
+            "A healthy lifestyle maintain helps regular exercise.",
+            "Exercise regular helps maintain healthy lifestyle."
+          ],
+          "a": 0
+        },
+        {
+          "q": "enjoy / I / spending / quality / with / family / time / my",
+          "o": [
+            "I enjoy spending quality time with my family.",
+            "I spending enjoy quality time with my family.",
+            "My family enjoy spending quality time I with.",
+            "Quality time enjoy I with my family spending."
+          ],
+          "a": 0
+        },
+        {
+          "q": "hobby / photography / enjoyable / is / an",
+          "o": [
+            "Photography is an enjoyable hobby.",
+            "An hobby photography is enjoyable.",
+            "Photography enjoyable is hobby an.",
+            "Enjoyable photography hobby is an."
+          ],
+          "a": 0
+        },
+        {
+          "q": "helps / jogging / me / relieve / stress",
+          "o": [
+            "Jogging helps me relieve stress.",
+            "Helps jogging me relieve stress.",
+            "Jogging relieve stress helps me.",
+            "Me helps jogging relieve stress."
+          ],
+          "a": 0
+        },
+        {
+          "q": "outdoor / hiking / popular / activity / a / is",
+          "o": [
+            "Hiking is a popular outdoor activity.",
+            "Outdoor hiking is popular a activity.",
+            "A hiking popular activity is outdoor.",
+            "Hiking outdoor activity a is popular."
+          ],
+          "a": 0
+        },
+        {
+          "q": "my / free / books / read / in / I / time",
+          "o": [
+            "I read books in my free time.",
+            "Read I books my in free time.",
+            "Books I read free in my time.",
+            "In free time books I read my."
+          ],
+          "a": 0
+        },
+        {
+          "q": "friends / weekends / spend / I / with / time / on / my",
+          "o": [
+            "I spend time with my friends on weekends.",
+            "Spend I time weekends with my friends on.",
+            "My friends spend I time on weekends with.",
+            "On weekends my friends I spend time with."
+          ],
+          "a": 0
+        },
+        {
+          "q": "a / sport / swimming / individual / is",
+          "o": [
+            "Swimming is an individual sport.",
+            "Swimming is a individual sport.",
+            "Individual sport swimming is a.",
+            "Sport swimming is an individual."
+          ],
+          "a": 0
+        },
+        {
+          "q": "batteries / helps / recharge / travelling / my",
+          "o": [
+            "Travelling helps recharge my batteries.",
+            "Recharge travelling helps my batteries.",
+            "My batteries travelling helps recharge.",
+            "Travelling my batteries recharge helps."
+          ],
+          "a": 0
+        },
+        {
+          "q": "broaden / horizons / hobbies / new / can / your",
+          "o": [
+            "New hobbies can broaden your horizons.",
+            "Broaden your horizons can new hobbies.",
+            "Your horizons new hobbies can broaden.",
+            "Can broaden hobbies new your horizons."
+          ],
+          "a": 0
+        }
+      ]
+    }
+  ]
+}
