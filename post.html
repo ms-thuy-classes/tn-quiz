@@ -8,7 +8,11 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500..900;1,9..144,500..900&family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+<!-- CSS chính -->
 <link rel="stylesheet" href="styles.css">
+<!-- CSS bổ trợ cho các dạng câu hỏi (mcq-img, fill, para, listening, …) -->
+<link rel="stylesheet" href="css/quiz-types.css">
 </head>
 <body class="post">
   <div class="bg-dots"></div>
@@ -48,26 +52,26 @@
       <footer class="foot">Made with 💜 by Ms. Thúy</footer>
     </section>
 
-    <!-- MÀN 2: Quiz (ĐÃ CẬP NHẬT HEADER MỚI) -->
+    <!-- MÀN 2: Quiz -->
     <section class="screen" id="screenQuiz" hidden>
-      
+
       <!-- Quiz Header: Timer, Exit, Progress, Score -->
       <div class="quiz-header" id="quizHeader">
         <div class="quiz-header-top">
-          <button id="exitBtn" class="icon-btn" title="Thoát" style="margin-right: 8px;">✕</button>
-          
+          <button id="exitBtn" class="icon-btn" title="Thoát" style="margin-right:8px;">✕</button>
+
           <div class="timer-pill" id="timerPill">
             <span>⏱️</span>
             <span id="timerDisplay">00:00</span>
           </div>
-          
+
           <div class="question-counter">
             Câu <b id="qNow">1</b> / <b id="qTotal">0</b>
           </div>
-          
+
           <div class="score-pill" id="liveScore">✓ 0 (0.0đ)</div>
         </div>
-        
+
         <div class="progress-bar-bg">
           <div class="progress-bar-fill" id="progressFill"></div>
         </div>
@@ -98,10 +102,18 @@
     </div>
   </div>
 
-<!-- Core utilities -->
+<!-- ============================================================
+     SCRIPTS — thứ tự BẮT BUỘC:
+       1. core.js         → esc, shuffle, REDUCED, toast, modal, confetti, registry
+       2. types/*.js      → đăng ký QuizTypes[type]
+       3. quiz-engine.js  → định nghĩa initPostPage()
+       4. bootstrap       → gọi initPostPage() an toàn
+     ============================================================ -->
+
+<!-- 1) Core utilities -->
 <script src="js/core.js"></script>
 
-<!-- Question types -->
+<!-- 2) Question types (mcq PHẢI load trước mcq-img vì mcq-img tái dùng attach) -->
 <script src="js/types/mcq.js"></script>
 <script src="js/types/mcq-img.js"></script>
 <script src="js/types/fill.js"></script>
@@ -110,9 +122,54 @@
 <script src="js/types/matching.js"></script>
 <script src="js/types/listening.js"></script>
 
-<!-- Engine -->
+<!-- 3) Engine -->
 <script src="js/quiz-engine.js"></script>
 
-<script>initPostPage();</script>
+<!-- 4) Bootstrap an toàn -->
+<script>
+(function () {
+  function boot() {
+    if (typeof initPostPage !== 'function') {
+      document.body.innerHTML =
+        '<div style="max-width:520px;margin:100px auto;padding:30px;' +
+        'background:#fff;border-radius:22px;text-align:center;' +
+        'box-shadow:0 10px 30px rgba(60,50,120,.12);font-family:Be Vietnam Pro,sans-serif">' +
+          '<div style="font-size:3rem;margin-bottom:10px">⚠️</div>' +
+          '<h2 style="font-family:Fraunces,serif;font-size:1.6rem;margin-bottom:12px">Không tải được engine</h2>' +
+          '<p style="color:#5d5e7e;margin-bottom:18px">' +
+            'File <b>js/quiz-engine.js</b> chưa được nạp hoặc bị lỗi cú pháp. ' +
+            'Em mở <b>DevTools → Console</b> để xem chi tiết nhé.' +
+          '</p>' +
+          '<a href="index.html" class="btn btn-primary" ' +
+          'style="display:inline-block;padding:10px 20px;background:#7a67ee;color:#fff;' +
+          'border-radius:10px;text-decoration:none">← Về trang chủ</a>' +
+        '</div>';
+      return;
+    }
+    try {
+      initPostPage();
+    } catch (err) {
+      console.error('[post.html] initPostPage lỗi:', err);
+      document.body.innerHTML =
+        '<div style="max-width:520px;margin:100px auto;padding:30px;' +
+        'background:#fff;border-radius:22px;text-align:center;' +
+        'box-shadow:0 10px 30px rgba(60,50,120,.12);font-family:Be Vietnam Pro,sans-serif">' +
+          '<div style="font-size:3rem;margin-bottom:10px">😢</div>' +
+          '<h2 style="font-family:Fraunces,serif;font-size:1.6rem;margin-bottom:12px">Có lỗi khi khởi động</h2>' +
+          '<p style="color:#5d5e7e;margin-bottom:18px">' + (err && err.message ? err.message : 'Lỗi không xác định') + '</p>' +
+          '<a href="index.html" class="btn btn-primary" ' +
+          'style="display:inline-block;padding:10px 20px;background:#7a67ee;color:#fff;' +
+          'border-radius:10px;text-decoration:none">← Về trang chủ</a>' +
+        '</div>';
+    }
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', boot);
+  } else {
+    boot();
+  }
+})();
+</script>
 </body>
 </html>
