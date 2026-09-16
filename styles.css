@@ -775,18 +775,7 @@ main{position:relative;z-index:1;max-width:1200px;margin:0 auto;padding:0 clamp(
   .page-nav{padding:0 10px;font-size:.8rem}
 }
 /* Quiz Header Sticky */
-.quiz-header {
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  background: rgba(255, 255, 255, 0.95);
-  backdrop-filter: blur(8px);
-  padding: 12px 20px;
-  border-bottom: 1px solid rgba(0,0,0,0.06);
-  margin-bottom: 20px;
-  border-radius: 0 0 16px 16px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.03);
-}
+
 
 .quiz-header-top {
   display: flex;
@@ -1775,30 +1764,24 @@ main{position:relative;z-index:1;max-width:1200px;margin:0 auto;padding:0 clamp(
   .topbar .icon-btn { width: 38px; height: 38px; }
 }
 
-/* ---- Đảm bảo quiz-header không bị topbar che ---- */
+/* Quiz-header đẩy xuống dưới topbar */
 .quiz-header {
   position: sticky;
-  top: 68px;   /* bằng chiều cao topbar */
-  z-index: 90;
+  top: 68px;              /* = chiều cao topbar */
+  z-index: 90;            /* thấp hơn topbar (z:100) */
+  padding: 14px 20px;
+  background: rgba(255, 255, 255, 0.96);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 16px;
 }
 
 @media (max-width: 640px) {
-  .quiz-header { top: 58px; }
-}
-/* Đảm bảo quiz-header không bị topbar che */
-.quiz-header {
-  position: sticky;
-  top: 68px;   /* = chiều cao topbar (thường 60-70px) */
-  z-index: 90;
+  .quiz-header { top: 58px; padding: 10px 14px; }
 }
 
-@media (max-width: 640px) {
-  .quiz-header {
-    top: 58px;
-  }
-}
-
-/* Padding-top cho q-stage để không bị dính vào header */
+/* q-stage thêm padding-top để câu hỏi không bị dính vào quiz-header */
 .q-stage {
-  padding-top: 8px;
+  padding-top: 14px;
+  scroll-margin-top: 140px;   /* khi scroll đến câu mới, không bị che */
 }
