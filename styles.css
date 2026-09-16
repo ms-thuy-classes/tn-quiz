@@ -1566,3 +1566,42 @@ main{position:relative;z-index:1;max-width:1200px;margin:0 auto;padding:0 clamp(
   0%   { transform: translateX(-50%) rotate(-3deg) scale(1); opacity: 0.85; }
   100% { transform: translateX(-50%) rotate(2deg) scale(1.05); opacity: 1; }
 }
+/* ============================================================
+   🏠 TOPBAR ACTIONS — nút Home + Sound
+   ============================================================ */
+.topbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-home {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 18px;
+  font-family: var(--font-body);
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--primary-deep);
+  background: #fff;
+  border: 1.5px solid var(--border);
+  border-radius: 12px;
+  text-decoration: none;
+  box-shadow: var(--shadow-sm);
+  transition: transform .18s, border-color .18s, box-shadow .18s, background .18s;
+}
+
+.btn-home:hover {
+  transform: translateY(-2px);
+  border-color: var(--primary);
+  background: var(--primary-soft);
+  color: var(--primary-deep);
+  box-shadow: 0 8px 20px rgba(122, 103, 238, 0.22);
+}
+
+/* Mobile: chỉ hiện icon 🏠 */
+@media (max-width: 560px) {
+  .btn-home span { display: none; }
+  .btn-home { padding: 10px 14px; }
+}
