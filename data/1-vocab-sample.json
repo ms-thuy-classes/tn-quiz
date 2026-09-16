@@ -77,6 +77,15 @@
           "ex": "The person is holding dumbbells, which means they are lifting weights."
         }
       ]
-    }
+    },
+    {
+          "qtype": "match",
+          "q": "Nối từ",
+          "options": ["xem phim ", "nghe nhạc", "làm bài tập về nhà"],
+          "rows": [
+            { "left": "do homework", "a": 2 },
+            { "left": "listen to music", "a": 1 },
+            { "left": "watch movies", "a": 0 }
+          ]
   ]
 }
