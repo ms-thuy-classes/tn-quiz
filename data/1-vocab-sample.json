@@ -78,14 +78,15 @@
         }
       ]
     },
-    {
-          "qtype": "match",
-          "q": "Nối từ",
-          "options": ["xem phim ", "nghe nhạc", "làm bài tập về nhà"],
-          "rows": [
-            { "left": "do homework", "a": 2 },
-            { "left": "listen to music", "a": 1 },
-            { "left": "watch movies", "a": 0 }
-          ]
+{
+  "type": "matching",
+  "name": "Nối từ",
+  "hint": "Ghép từ tiếng Anh với nghĩa tiếng Việt",
+  "pairs": [
+    { "left": "do homework",     "right": "làm bài tập về nhà" },
+    { "left": "listen to music", "right": "nghe nhạc" },
+    { "left": "watch movies",    "right": "xem phim" }
+  ]
+}
   ]
 }
