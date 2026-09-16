@@ -204,13 +204,20 @@ async function initPostPage() {
   // SCREEN SWITCH
   // ============================================================
   function showScreen(name) {
-    $$('.screen').forEach(s => { s.classList.remove('active'); s.hidden = true; });
-    const el = $('screen' + name.charAt(0).toUpperCase() + name.slice(1));
-    if (!el) return;
-    el.hidden = false;
-    requestAnimationFrame(() => el.classList.add('active'));
-    window.scrollTo({ top: 0, behavior: 'auto' });
+  $$('.screen').forEach(s => { s.classList.remove('active'); s.hidden = true; });
+  const el = $('screen' + name.charAt(0).toUpperCase() + name.slice(1));
+  if (!el) return;
+  el.hidden = false;
+  requestAnimationFrame(() => el.classList.add('active'));
+
+  // 🎯 Ẩn topbar khi vào làm bài / xem kết quả, chỉ hiện ở intro
+  const topbar = document.querySelector('.topbar');
+  if (topbar) {
+    topbar.style.display = (name === 'intro') ? '' : 'none';
   }
+
+  window.scrollTo({ top: 0, behavior: 'auto' });
+}
 
   // ============================================================
   // EVENTS
