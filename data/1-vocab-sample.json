@@ -54,6 +54,29 @@
           "ex": "Động từ 'go' chia ở ngôi thứ ba số ít thành 'goes'."
         }
       ]
+    },
+    {
+      "type": "mcq-img",
+      "name": "Picture Quiz",
+      "hint": "Quan sát hình ảnh và chọn đáp án mô tả chính xác nhất.",
+      "questions": [
+        {
+          "q": "What does this image show?",
+          "image": "https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&w=800&q=80",
+          "o": ["A cat sleeping", "A dog running", "A bird flying", "A fish swimming"],
+          "a": 1,
+          "vi": "Hình ảnh này cho thấy con gì?",
+          "ex": "The image clearly shows a dog running in the park."
+        },
+        {
+          "q": "What is the person in the picture doing?",
+          "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
+          "o": ["Cooking", "Reading a book", "Lifting weights", "Swimming"],
+          "a": 2,
+          "vi": "Người trong hình đang làm gì?",
+          "ex": "The person is holding dumbbells, which means they are lifting weights."
+        }
+      ]
     }
   ]
 }
