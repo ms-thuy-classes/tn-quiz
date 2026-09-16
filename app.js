@@ -269,6 +269,7 @@ async function initPostPage(){
   chips.innerHTML = ''; 
   const labelMap = { 
     mcq:'🧩 Trắc nghiệm', 
+   'mcq-img':'🖼️ Trắc nghiệm hình ảnh',
     fill:'✏️ Điền từ (có sẵn)', 
     'type-in':'⌨️ Gõ đáp án', 
     'type-in-para':'📝 Điền đoạn văn', 
@@ -509,10 +510,9 @@ async function initPostPage(){
       '<span class="q-num">' + String(game.idx+1).padStart(2,'0') + '</span>' + 
       '<div class="q-meta"><span class="part-chip" style="background:var(--primary-soft);color:var(--primary-deep)">' + esc(item._partName) + '</span>' + 
       '<span style="color:var(--ink-faint);font-size:.85rem;font-style:italic">' + esc(item._partHint || '') + '</span></div>'; 
- 
-    if (item._partType !== 'matching' && item._partType !== 'listening' && item._partType !== 'type-in-para') { 
+     if (item._partType !== 'matching' && item._partType !== 'listening' && item._partType !== 'type-in-para' && item._partType !== 'mcq-img') { 
       html += '<h2 class="q-text">' + renderQuestionText(item) + '</h2>'; 
-    } 
+    }  
  
     html += renderBodyByType(item); 
     html += '</div>'; 
@@ -539,7 +539,8 @@ async function initPostPage(){
       case 'antonym': 
         return renderMCQ(item); 
       case 'reading': 
-        return renderMCQ(item); // reading vẫn dùng layout MCQ nhưng có passage 
+        return renderMCQ(item);// reading vẫn dùng layout MCQ nhưng có passage 
+      case 'mcq-img':
       case 'fill': 
         return renderFill(item); 
       case 'type-in': 
@@ -577,7 +578,37 @@ async function initPostPage(){
     '</div>'; 
     return html; 
   } 
- 
+   /* ============================================================ 
+     MCQ IMG (Trắc nghiệm có hình ảnh) 
+     Hình ảnh căn giữa, kích cỡ phù hợp, có khung viền bao ngoài
+     ============================================================ */ 
+  function renderMCQImg(item){ 
+    const shuffled = shuffle(item.o.map((t,i) => ({text:t, correct:i===item.a}))); 
+    item._shuffled = shuffled; 
+    const LETTERS = ['A','B','C','D','E','F']; 
+    let html = ''; 
+    
+    // Render hình ảnh: căn giữa, max-height 400px, có khung và bóng đổ
+    if(item.image){ 
+      html += '<div style="text-align:center; margin-bottom:24px;">' + 
+        '<img src="' + esc(item.image) + '" alt="Question Image" loading="lazy" ' + 
+        'style="display:inline-block; max-width:100%; max-height:400px; width:auto; ' + 
+        'border:3px solid var(--primary-soft,#e4e0fb); border-radius:12px; ' + 
+        'box-shadow:0 4px 12px rgba(0,0,0,0.08); object-fit:contain;">' + 
+      '</div>'; 
+    } 
+    
+    html += '<h2 class="q-text">' + esc(item.q || 'What does this image show?') + '</h2>'; 
+    html += '<div class="options">' + 
+      shuffled.map((opt,i) => 
+        '<button class="opt" data-i="' + i + '" type="button">' + 
+          '<span class="opt-letter">' + LETTERS[i] + '</span>' + 
+          '<span class="opt-text">' + esc(opt.text) + '</span>' + 
+        '</button>' 
+      ).join('') + 
+    '</div>'; 
+    return html; 
+  } 
   /* ============================================================ 
      FILL (word bank) 
      ============================================================ */ 
@@ -782,6 +813,7 @@ async function initPostPage(){
       case 'synonym': 
       case 'antonym': 
       case 'reading': 
+      case 'mcq-img':
         document.querySelectorAll('#qStage .opt').forEach(btn => { 
           btn.addEventListener('click', () => handleMCQ(btn, item)); 
         }); 
