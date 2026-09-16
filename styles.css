@@ -289,23 +289,6 @@ main{position:relative;z-index:1;max-width:1200px;margin:0 auto;padding:0 clamp(
 .reading-passage::-webkit-scrollbar-track{background:var(--border);border-radius:10px}
 .reading-passage::-webkit-scrollbar-thumb{background:var(--primary);border-radius:10px}
 
-/* MATCHING */
-.matching-wrap{display:grid;gap:18px}
-.matching-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-.matching-col{display:flex;flex-direction:column;gap:10px}
-.matching-col-head{font-family:var(--font-mono);font-size:.72rem;font-weight:700;
-  letter-spacing:.15em;text-transform:uppercase;color:var(--ink-faint);margin-bottom:4px}
-.match-item{padding:14px 16px;border:1.5px solid var(--border);border-radius:var(--r-md);
-  background:#fff;cursor:pointer;font-weight:600;text-align:center;
-  transition:all .2s;user-select:none}
-.match-item:hover:not(.matched){border-color:var(--primary);transform:translateY(-2px)}
-.match-item.selected{border-color:var(--primary);background:var(--primary-soft);
-  box-shadow:0 6px 18px rgba(122,103,238,.25)}
-.match-item.matched{border-color:var(--green);background:var(--green-soft);color:var(--green-deep);
-  cursor:default;text-decoration:line-through;opacity:.7}
-.match-item.wrong-pair{animation:shake .4s;border-color:var(--red);background:var(--red-soft)}
-@media(max-width:560px){.matching-grid{grid-template-columns:1fr}}
-
 /* TOAST */
 .toast{position:fixed;left:50%;bottom:26px;transform:translate(-50%,80px);z-index:110;
   background:var(--ink);color:#fff;font-weight:700;font-size:.92rem;
@@ -1057,5 +1040,215 @@ main{position:relative;z-index:1;max-width:1200px;margin:0 auto;padding:0 clamp(
     background: #302a20;
     border-color: #ff8b6a;
     color: #ffe8d8;
+  }
+}
+/* ============================================================
+   🖼️  MCQ-IMG — Trắc nghiệm có hình minh họa
+   Dùng biến CSS gốc (--primary, --border, ...) để khớp theme
+   ============================================================ */
+.mcq-img-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 18px 0 24px;
+}
+.mcq-img {
+  display: block;
+  max-width: 100%;
+  max-height: 340px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  background: #fff;
+  padding: 8px;
+  border: 3px solid var(--border);
+  border-radius: var(--r-lg);
+  box-shadow: var(--shadow-md), 0 2px 6px rgba(60,50,120,.06);
+  transition: transform .25s ease, box-shadow .25s ease;
+}
+.mcq-img:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-lg), 0 4px 10px rgba(60,50,120,.08);
+}
+@media (max-width: 640px) {
+  .mcq-img {
+    max-height: 240px;
+    padding: 6px;
+    border-width: 2px;
+    border-radius: var(--r-md);
+  }
+  .mcq-img-wrap { margin: 12px 0 16px; }
+}
+
+
+/* ============================================================
+   🎯  MATCHING — Ghép cặp 2 cột (bản nâng cấp)
+   Thay thế khối MATCHING cũ — dùng biến CSS gốc
+   ============================================================ */
+.matching-wrap { display: block; padding: 4px; }
+
+/* Thanh trạng thái */
+.matching-status {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  max-width: 620px;
+  margin: 0 auto 18px;
+  padding: 10px 18px;
+  background: linear-gradient(135deg, #f7f5ff, #eef4ff);
+  border: 1.5px solid var(--border);
+  border-radius: var(--r-md);
+  font-size: .92rem;
+  color: var(--ink-soft);
+  font-weight: 600;
+}
+.matching-status b {
+  display: inline-block;
+  min-width: 1.4em;
+  padding: 2px 8px;
+  background: var(--grad-btn);
+  color: #fff;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 800;
+  font-family: var(--font-mono);
+  transition: transform .2s;
+}
+.matching-status b.bump { animation: matchBump .35s ease; }
+@keyframes matchBump {
+  0%,100% { transform: scale(1); }
+  50%     { transform: scale(1.35); }
+}
+.matching-status #matchState {
+  font-style: italic;
+  color: var(--ink-faint);
+  transition: color .25s;
+}
+.matching-status #matchState.done {
+  color: var(--green-deep);
+  font-style: normal;
+  font-weight: 800;
+}
+
+/* Grid 2 cột */
+.matching-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  max-width: 780px;
+  margin: 0 auto;
+}
+.matching-col { display: flex; flex-direction: column; gap: 10px; }
+
+.matching-col-head {
+  text-align: center;
+  font-family: var(--font-mono);
+  font-size: .78rem;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--primary-deep);
+  padding: 9px 10px;
+  background: linear-gradient(135deg, var(--primary-soft), #e6f2ff);
+  border: 1.5px dashed var(--primary);
+  border-radius: 10px;
+  margin-bottom: 2px;
+}
+
+/* Ô ghép */
+.match-item {
+  position: relative;
+  padding: 14px 16px;
+  background: #fff;
+  border: 1.5px solid var(--border);
+  border-radius: var(--r-md);
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--ink);
+  cursor: pointer;
+  user-select: none;
+  text-align: center;
+  line-height: 1.4;
+  transition: transform .16s ease, border-color .16s ease,
+              background .16s ease, box-shadow .16s ease, color .16s ease;
+  box-shadow: var(--shadow-sm);
+}
+
+/* Hover */
+.match-item:hover:not(.matched):not(.selected) {
+  border-color: var(--primary);
+  background: #fafaff;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 22px rgba(122,103,238,.16);
+}
+
+/* Đang chọn */
+.match-item.selected {
+  border-color: var(--primary);
+  background: linear-gradient(135deg, #f2eeff, #eaf3ff);
+  color: var(--primary-deep);
+  font-weight: 800;
+  box-shadow:
+    0 0 0 4px var(--primary-soft),
+    0 8px 20px rgba(122,103,238,.25);
+  transform: translateY(-3px);
+}
+
+/* Đã ghép đúng */
+.match-item.matched {
+  background: var(--green-soft);
+  border-color: var(--green);
+  color: var(--green-deep);
+  font-weight: 800;
+  cursor: default;
+  text-decoration: none;   /* phủ định line-through của CSS cũ (nếu còn) */
+  opacity: 1;              /* phủ định opacity .7 của CSS cũ */
+  box-shadow: 0 4px 14px rgba(31,174,118,.25);
+  animation: matchPop .4s ease;
+}
+.match-item.matched::after {
+  content: "✓";
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 22px;
+  height: 22px;
+  background: var(--green);
+  color: #fff;
+  font-size: .8rem;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  box-shadow: 0 2px 6px rgba(31,174,118,.4);
+}
+@keyframes matchPop {
+  0%,100% { transform: scale(1); }
+  45%     { transform: scale(1.06); }
+}
+
+/* Ghép sai — rung lắc */
+.match-item.wrong-pair {
+  border-color: var(--red);
+  background: var(--red-soft);
+  color: var(--red-deep);
+  animation: shake .4s;   /* tái dùng @keyframes shake có sẵn */
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  .matching-grid { gap: 10px; }
+  .matching-col-head { font-size: .7rem; padding: 7px 6px; letter-spacing: .06em; }
+  .match-item { padding: 11px 12px; font-size: .92rem; border-radius: var(--r-sm); }
+  .match-item.matched::after { width: 18px; height: 18px; font-size: .68rem; right: 8px; }
+  .matching-status {
+    font-size: .82rem;
+    padding: 8px 14px;
+    flex-direction: column;
+    gap: 4px;
+    text-align: center;
   }
 }
