@@ -1767,7 +1767,7 @@ main{position:relative;z-index:1;max-width:1200px;margin:0 auto;padding:0 clamp(
 /* Quiz-header đẩy xuống dưới topbar */
 .quiz-header {
   position: sticky;
-  top: 68px;              /* = chiều cao topbar */
+  top: 8px;              /* = chiều cao topbar */
   z-index: 90;            /* thấp hơn topbar (z:100) */
   padding: 14px 20px;
   background: rgba(255, 255, 255, 0.96);
