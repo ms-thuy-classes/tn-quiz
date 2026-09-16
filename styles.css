@@ -1785,3 +1785,20 @@ main{position:relative;z-index:1;max-width:1200px;margin:0 auto;padding:0 clamp(
 @media (max-width: 640px) {
   .quiz-header { top: 58px; }
 }
+/* Đảm bảo quiz-header không bị topbar che */
+.quiz-header {
+  position: sticky;
+  top: 68px;   /* = chiều cao topbar (thường 60-70px) */
+  z-index: 90;
+}
+
+@media (max-width: 640px) {
+  .quiz-header {
+    top: 58px;
+  }
+}
+
+/* Padding-top cho q-stage để không bị dính vào header */
+.q-stage {
+  padding-top: 8px;
+}
