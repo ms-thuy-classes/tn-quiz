@@ -7,6 +7,38 @@ async function initPostPage() {
   const esc = window.esc;
   const $  = id  => document.getElementById(id);
   const $$ = sel => document.querySelectorAll(sel);
+     // ============================================================
+  // 🏠 TỰ ĐỘNG CHÈN NÚT HOME VÀO TOPBAR (không cần sửa HTML)
+  // ============================================================
+  (function injectHomeButton() {
+    const topbar = document.querySelector('.topbar');
+    if (!topbar) return;
+    if (topbar.querySelector('.btn-home')) return; // đã có thì bỏ qua
+
+    // Tạo container bọc nút Home + nút Sound
+    let actions = topbar.querySelector('.topbar-actions');
+    if (!actions) {
+      actions = document.createElement('div');
+      actions.className = 'topbar-actions';
+      // Chuyển soundBtn (nếu có) vào actions
+      const sBtn = topbar.querySelector('#soundBtn');
+      if (sBtn) {
+        topbar.removeChild(sBtn);
+        actions.appendChild(sBtn);
+      }
+      topbar.appendChild(actions);
+    }
+
+    // Tạo nút Home
+    const home = document.createElement('a');
+    home.href = 'index.html';
+    home.className = 'btn-home';
+    home.title = 'Về trang chủ';
+    home.innerHTML = '🏠 <span>Trang chủ</span>';
+
+    // Chèn Home lên trước soundBtn
+    actions.insertBefore(home, actions.firstChild);
+  })();
 
   const params = new URLSearchParams(location.search);
   const postId = params.get('id');
