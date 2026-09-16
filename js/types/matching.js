@@ -12,10 +12,10 @@
 
     return '<div class="matching-wrap">' +
       '<p style="color:var(--ink-soft);font-size:.95rem;margin-bottom:12px">🎯 Ghép từng từ bên trái với nghĩa tiếng Việt bên phải.</p>' +
-      '<div style="display:flex;justify-content:space-between;margin-bottom:12px;font-size:.9rem;color:var(--ink-soft)">' +
-        '<span>Đã ghép: <b id="matchCount">0</b>/' + item._pairs.length + '</span>' +
-        '<span>' + (item._completed ? '✅ Hoàn thành' : '⏳ Đang ghép...') + '</span>' +
-      '</div>' +
+     '<div class="matching-status">' +
+  '<span>🎯 Đã ghép: <b id="matchCount">0</b>/' + item._pairs.length + '</span>' +
+  '<span id="matchState">⏳ Đang ghép...</span>' +
+'</div>' +
       '<div class="matching-grid">' +
         '<div class="matching-col"><div class="matching-col-head">🔤 English</div>' +
           left.map(x => '<div class="match-item" data-side="L" data-i="' + x.idx + '">' + esc(x.text) + '</div>').join('') +
@@ -57,13 +57,14 @@
             Quiz.updateLiveScore();
             const countEl = document.getElementById('matchCount');
             if (countEl) countEl.textContent = item._matches;
+            if (countEl) { countEl.classList.remove('bump'); void countEl.offsetWidth; countEl.classList.add('bump'); }
 
             if (item._matches === item._pairs.length) {
               item._completed = true;
               game.answers[game.idx] = { chosen: 'matched all', ok: true };
               Quiz.showToast('🎉 Ghép hết rồi!', 'good');
-              const statusEl = document.querySelector('#qStage .matching-wrap span:last-child');
-              if (statusEl) statusEl.textContent = '✅ Hoàn thành';
+             const stateEl = document.getElementById('matchState');
+if (stateEl) { stateEl.textContent = '✅ Hoàn thành'; stateEl.classList.add('done'); }
               document.querySelectorAll('#qStage .match-item:not(.matched)').forEach(x => {
                 x.style.opacity = '0.5'; x.style.cursor = 'default';
               });
