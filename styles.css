@@ -1252,3 +1252,62 @@ main{position:relative;z-index:1;max-width:1200px;margin:0 auto;padding:0 clamp(
     text-align: center;
   }
 }
+/* ============================================================
+   Fix intro layout — căn giữa khi không có visual bên phải
+   ============================================================ */
+
+/* Topbar actions (nút Home + Sound) */
+.topbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.topbar-home {
+  padding: 10px 18px;
+  font-size: .92rem;
+  border-radius: var(--r-md);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+  color: var(--ink);
+}
+.topbar-home:hover {
+  border-color: var(--primary);
+  color: var(--primary-deep);
+  transform: translateY(-2px);
+}
+@media (max-width: 560px) {
+  .topbar-home .home-text { display: none; }  /* mobile chỉ còn 🏠 */
+  .topbar-home { padding: 10px 14px; }
+}
+
+/* Khi intro-visual rỗng → ẩn + căn giữa cột còn lại */
+.intro-visual:empty { display: none; }
+
+.intro-grid:has(.intro-visual:empty) {
+  grid-template-columns: minmax(0, 680px);
+  justify-content: center;
+}
+.intro-grid:has(.intro-visual:empty) .intro-copy {
+  text-align: center;
+  margin: 0 auto;
+}
+.intro-grid:has(.intro-visual:empty) .lede {
+  margin-left: auto;
+  margin-right: auto;
+}
+.intro-grid:has(.intro-visual:empty) .chips {
+  justify-content: center;
+}
+.intro-grid:has(.intro-visual:empty) .field-row {
+  justify-content: center;
+}
+.intro-grid:has(.intro-visual:empty) .start-form {
+  max-width: 520px;
+  margin: 0 auto;
+  text-align: left;
+}
+.intro-grid:has(.intro-visual:empty) .field-label {
+  text-align: left;
+}
