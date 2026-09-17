@@ -107,61 +107,61 @@
       "hint": "Gõ từ hoặc cụm từ thích hợp dựa theo gợi ý vào chỗ trống",
       "questions": [
         {
-          "q": "Don't forget to pack your ________ before going to the tennis court.",
+          "q": "Don't forget to pack your ________ before going to the tennis court. ( s_____    g________)",
           "a": ["sports gear"],
           "vi": "Đừng quên đóng gói dụng cụ thể thao của bạn trước khi đến sân tennis.",
           "ex": "'Sports gear' có nghĩa là dụng cụ hoặc trang phục thể thao."
         },
         {
-          "q": "They stayed at a quiet ________ near the river.",
+          "q": "They stayed at a quiet ________ near the river. (g_________   h_________ : nhà nghỉ) ) ",
           "a": ["guest house"],
           "vi": "Họ đã ở tại một nhà nghỉ yên tĩnh gần sông.",
           "ex": "'Guest house' có nghĩa là nhà nghỉ."
         },
         {
-          "q": "Thousands of ________ cheered loudly when the match ended.",
+          "q": "Thousands of ________ cheered loudly when the match ended. (s___________: khán giả xem thể thao) ",
           "a": ["spectators"],
           "vi": "Hàng ngàn khán giả đã reo hò lớn khi trận đấu kết thúc.",
           "ex": "'Spectators' là khán giả xem thể thao (dạng số nhiều)."
         },
         {
-          "q": "My parents always ________ together on Sunday evenings.",
+          "q": "My parents always ________ together on Sunday evenings. (chuẩn bị bữa ăn ) ",
           "a": ["prepare a meal", "prepare meals"],
           "vi": "Bố mẹ tôi luôn cùng nhau chuẩn bị bữa ăn vào tối Chủ Nhật.",
           "ex": "Cụm 'prepare a meal' hoặc 'prepare meals' có nghĩa là chuẩn bị bữa ăn."
         },
         {
-          "q": "Watching the live football match was extremely ________.",
+          "q": "Watching the live football match was extremely ________. (t________: kịch tính) ",
           "a": ["thrilling"],
           "vi": "Xem trận bóng đá trực tiếp vô cùng kịch tính.",
           "ex": "'Thrilling' có nghĩa là kịch tính, giật gân."
         },
         {
-          "q": "My grandfather teaches me how to ____ chess every weekend.",
+          "q": "My grandfather teaches me how to ____ chess every weekend. (play/ do/ go) ",
           "a": ["play"],
           "vi": "Ông tôi dạy tôi cách chơi cờ vào mỗi cuối tuần.",
           "ex": "Cờ (chess) là trò chơi trí tuệ cạnh tranh, dùng động từ 'play'."
         },
         {
-          "q": "She has been training to ____ gymnastics since she was five years old.",
+          "q": "She has been training to ____ gymnastics since she was five years old. (play/ do/ go)",
           "a": ["do"],
           "vi": "Cô ấy đã luyện tập thể dục dụng cụ từ khi mới 5 tuổi.",
           "ex": "Thể dục dụng cụ (gymnastics) dùng động từ 'do'."
         },
         {
-          "q": "In the winter, many tourists go to the mountains to ____ skiing.",
+          "q": "In the winter, many tourists go to the mountains to ____ skiing. (play/ do/ go)",
           "a": ["go"],
           "vi": "Vào mùa đông, nhiều du khách lên núi để đi trượt tuyết.",
           "ex": "Hoạt động di chuyển trượt tuyết (skiing) đi với động từ 'go'."
         },
         {
-          "q": "Hiking and canoeing are two of his favorite ________.",
+          "q": "Hiking and canoeing are two of his favorite ________. (o________  p________ : hoạt động ngoài trời) ",
           "a": ["outdoor pursuits"],
           "vi": "Đi bộ đường dài và chèo thuyền canoeing là hai trong số các hoạt động ngoài trời yêu thích của anh ấy.",
           "ex": "'Outdoor pursuits' là danh từ số nhiều chỉ các hoạt động giải trí ngoài trời."
         },
         {
-          "q": "Could you please ________ my dog while I am away on holiday?",
+          "q": "Could you please ________ my dog while I am away on holiday? (l_______   a________: chăm sóc) ",
           "a": ["look after"],
           "vi": "Bạn có thể vui lòng chăm sóc chú chó của tôi trong khi tôi đi nghỉ không?",
           "ex": "Phrasal verb 'look after' có nghĩa là chăm sóc, trông nom."
