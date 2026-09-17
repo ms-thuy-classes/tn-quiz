@@ -1,0 +1,172 @@
+{
+  "id": "vovab-hobbies-2",
+  "title": "Test từ vựng về sở thích (P2) ",
+  "tags": ["Unit 3", "Vocabulary", "Grammar", "IELTS"],
+  "cover": "⚽",
+  "gradient": "linear-gradient(135deg,#7a67ee,#5a9df5 55%,#3ecfa0)",
+  "description": "30 câu luyện tập từ vựng, ngữ pháp Play/Do/Go và các cụm từ về sở thích.",
+  "duration": "45 phút",
+  "parts": [
+    {
+      "type": "matching",
+      "name": "Phần 1 · Matching (Nối từ vựng)",
+      "hint": "Ghép từ/cụm từ tiếng Anh với nghĩa tiếng Việt tương ứng",
+      "pairs": [
+        { "left": "Spectator", "right": "Khán giả xem thể thao" },
+        { "left": "Monotonous", "right": "Đơn điệu, nhàm chán" },
+        { "left": "Outdoor pursuit", "right": "Hoạt động giải trí ngoài trời" },
+        { "left": "Popular", "right": "Phổ biến, được yêu thích" },
+        { "left": "Sports gear", "right": "Dụng cụ hoặc trang phục thể thao" },
+        { "left": "Recharge one's batteries", "right": "Nạp lại năng lượng" },
+        { "left": "Do martial arts", "right": "Tập võ thuật" },
+        { "left": "Score a goal", "right": "Ghi bàn thắng" },
+        { "left": "Go on a trail", "right": "Đi bộ đường dài / leo núi" },
+        { "left": "Look after", "right": "Chăm sóc, trông nom" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "name": "Phần 2 · Trắc nghiệm lựa chọn",
+      "hint": "Choose the correct answer A, B, C, or D",
+      "questions": [
+        {
+          "q": "She wants to ________ fit, so she goes to the gym every morning.",
+          "o": ["play", "do", "get", "go"],
+          "a": 2,
+          "vi": "Cô ấy muốn giữ dáng, vì vậy cô ấy đến phòng tập mỗi sáng.",
+          "ex": "Cụm từ cố định 'get fit' có nghĩa là giữ dáng, rèn luyện thể lực."
+        },
+        {
+          "q": "We decided to ________ white water rafting on our trip to the activity centre.",
+          "o": ["play", "do", "go", "score"],
+          "a": 2,
+          "vi": "Chúng tôi đã quyết định đi chèo thuyền vượt thác trong chuyến đi đến trung tâm hoạt động.",
+          "ex": "Hoạt động kết thúc bằng đuôi -ing chỉ sự di chuyển dùng động từ 'go' (go white water rafting)."
+        },
+        {
+          "q": "After working non-stop for ten hours, I felt completely ________.",
+          "o": ["exhausted", "thrilling", "popular", "competitive"],
+          "a": 0,
+          "vi": "Sau khi làm việc liên tục 10 tiếng, tôi cảm thấy hoàn toàn kiệt sức.",
+          "ex": "'Exhausted' là tính từ chỉ cảm giác kiệt sức, vô cùng mệt mỏi."
+        },
+        {
+          "q": "Football is a very ________ sport that requires great teamwork.",
+          "o": ["monotonous", "competitive", "exhausted", "guest"],
+          "a": 1,
+          "vi": "Bóng đá là một môn thể thao rất mang tính cạnh tranh đòi hỏi tinh thần đồng đội cao.",
+          "ex": "'Competitive' mang nghĩa tính cạnh tranh, thi đấu."
+        },
+        {
+          "q": "My brother likes to ________ karate twice a week at the community club.",
+          "o": ["play", "do", "go", "get"],
+          "a": 1,
+          "vi": "Anh trai tôi thích tập karate hai lần một tuần ở câu lạc bộ cộng đồng.",
+          "ex": "Các môn võ thuật dùng động từ 'do' (do karate)."
+        },
+        {
+          "q": "Riding a roller coaster is an ________ experience for thrill-seekers.",
+          "o": ["exhausted", "monotonous", "exhilarating", "activity"],
+          "a": 2,
+          "vi": "Đi tàu siêu tốc là một trải nghiệm vô cùng phấn khích cho những người thích cảm giác mạnh.",
+          "ex": "'Exhilarating' chỉ cảm giác hồ hởi, phấn khích."
+        },
+        {
+          "q": "We didn't stay in a luxury hotel; instead, we booked a room at a local ________.",
+          "o": ["guest house", "sports gear", "outdoor pursuit", "spectator"],
+          "a": 0,
+          "vi": "Chúng tôi không ở khách sạn sang trọng; thay vào đó, chúng tôi đặt phòng ở một nhà nghỉ địa phương.",
+          "ex": "'Guest house' có nghĩa là nhà nghỉ."
+        },
+        {
+          "q": "On weekends, they often ________ badminton in the park.",
+          "o": ["do", "go", "play", "get"],
+          "a": 2,
+          "vi": "Vào cuối tuần, họ thường chơi cầu lông ở công viên.",
+          "ex": "Môn thể thao có dùng vợt/cầu/bóng mang tính đối kháng sử dụng động từ 'play'."
+        },
+        {
+          "q": "Reading a book by the beach is a great way to ________ your batteries after a long exam week.",
+          "o": ["look", "recharge", "score", "prepare"],
+          "a": 1,
+          "vi": "Đọc sách bên bờ biển là một cách tuyệt vời để nạp lại năng lượng sau một tuần thi dài.",
+          "ex": "Cụm thành ngữ 'recharge one's batteries' nghĩa là nạp lại năng lượng."
+        },
+        {
+          "q": "The referee checked all the player's ________ before allowing them onto the field.",
+          "o": ["sports gear", "spectators", "guest houses", "activity centres"],
+          "a": 0,
+          "vi": "Trọng tài đã kiểm tra toàn bộ dụng cụ/trang phục thể thao của cầu thủ trước khi cho họ vào sân.",
+          "ex": "'Sports gear' là đồ dùng/trang phục thể thao."
+        }
+      ]
+    },
+    {
+      "type": "type-in",
+      "name": "Phần 3 · Điền từ thích hợp",
+      "hint": "Gõ từ hoặc cụm từ thích hợp dựa theo gợi ý vào chỗ trống",
+      "questions": [
+        {
+          "q": "Don't forget to pack your ________ before going to the tennis court.",
+          "a": ["sports gear"],
+          "vi": "Đừng quên đóng gói dụng cụ thể thao của bạn trước khi đến sân tennis.",
+          "ex": "'Sports gear' có nghĩa là dụng cụ hoặc trang phục thể thao."
+        },
+        {
+          "q": "They stayed at a quiet ________ near the river.",
+          "a": ["guest house"],
+          "vi": "Họ đã ở tại một nhà nghỉ yên tĩnh gần sông.",
+          "ex": "'Guest house' có nghĩa là nhà nghỉ."
+        },
+        {
+          "q": "Thousands of ________ cheered loudly when the match ended.",
+          "a": ["spectators"],
+          "vi": "Hàng ngàn khán giả đã reo hò lớn khi trận đấu kết thúc.",
+          "ex": "'Spectators' là khán giả xem thể thao (dạng số nhiều)."
+        },
+        {
+          "q": "My parents always ________ together on Sunday evenings.",
+          "a": ["prepare a meal", "prepare meals"],
+          "vi": "Bố mẹ tôi luôn cùng nhau chuẩn bị bữa ăn vào tối Chủ Nhật.",
+          "ex": "Cụm 'prepare a meal' hoặc 'prepare meals' có nghĩa là chuẩn bị bữa ăn."
+        },
+        {
+          "q": "Watching the live football match was extremely ________.",
+          "a": ["thrilling"],
+          "vi": "Xem trận bóng đá trực tiếp vô cùng kịch tính.",
+          "ex": "'Thrilling' có nghĩa là kịch tính, giật gân."
+        },
+        {
+          "q": "My grandfather teaches me how to ____ chess every weekend.",
+          "a": ["play"],
+          "vi": "Ông tôi dạy tôi cách chơi cờ vào mỗi cuối tuần.",
+          "ex": "Cờ (chess) là trò chơi trí tuệ cạnh tranh, dùng động từ 'play'."
+        },
+        {
+          "q": "She has been training to ____ gymnastics since she was five years old.",
+          "a": ["do"],
+          "vi": "Cô ấy đã luyện tập thể dục dụng cụ từ khi mới 5 tuổi.",
+          "ex": "Thể dục dụng cụ (gymnastics) dùng động từ 'do'."
+        },
+        {
+          "q": "In the winter, many tourists go to the mountains to ____ skiing.",
+          "a": ["go"],
+          "vi": "Vào mùa đông, nhiều du khách lên núi để đi trượt tuyết.",
+          "ex": "Hoạt động di chuyển trượt tuyết (skiing) đi với động từ 'go'."
+        },
+        {
+          "q": "Hiking and canoeing are two of his favorite ________.",
+          "a": ["outdoor pursuits"],
+          "vi": "Đi bộ đường dài và chèo thuyền canoeing là hai trong số các hoạt động ngoài trời yêu thích của anh ấy.",
+          "ex": "'Outdoor pursuits' là danh từ số nhiều chỉ các hoạt động giải trí ngoài trời."
+        },
+        {
+          "q": "Could you please ________ my dog while I am away on holiday?",
+          "a": ["look after"],
+          "vi": "Bạn có thể vui lòng chăm sóc chú chó của tôi trong khi tôi đi nghỉ không?",
+          "ex": "Phrasal verb 'look after' có nghĩa là chăm sóc, trông nom."
+        }
+      ]
+    }
+  ]
+}
