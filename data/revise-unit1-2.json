@@ -125,10 +125,10 @@
       "hint": "Điền từ tiếng Anh thích hợp dựa theo gợi ý trong ngoặc đơn",
       "questions": [
         {
-          "q": "My mom bought some fresh ____ (tôm) from the market to cook soup.",
+          "q": "My mom bought some fresh ____ (tôm sông) from the market to cook soup.",
           "a": ["prawns"],
           "vi": "Mẹ tôi đã mua một ít tôm tươi từ chợ về nấu canh.",
-          "ex": "Từ tiếng Anh chỉ 'tôm' là 'prawns'."
+          "ex": "Từ tiếng Anh chỉ 'tôm sông' là 'prawns'."
         },
         {
           "q": "____ (Thịt cừu) is very popular in Middle Eastern cuisine.",
