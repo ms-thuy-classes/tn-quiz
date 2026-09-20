@@ -35,15 +35,15 @@
         },
         {
           "q": "It was absolutely __________ in Dubai; the temperature reached 45 degrees.",
-          "o": ["hot", "cold", "boiling", "freezing"],
+          "o": ["hilarious", "cold", "boiling", "freezing"],
           "a": 2,
           "vi": "Thời tiết ở Dubai vô cùng nóng; nhiệt độ lên tới 45 độ.",
           "ex": "Boiling = Very hot."
         },
         {
           "q": "Her father was __________ when he found out about the car accident.",
-          "o": ["very furious", "furious", "angry", "Both B and C are correct"],
-          "a": 3,
+          "o": ["very furious", "furious", "hungry", "enormous"],
+          "a": 1,
           "vi": "Bố cô ấy rất giận dữ khi biết về vụ tai nạn xe hơi.",
           "ex": "Có thể dùng 'angry' hoặc 'furious'. Lưu ý: 'furious' không đi cùng 'very'."
         },
@@ -82,7 +82,7 @@
         },
         {
           "q": "After playing in the mud all day, the dog's paws were completely __________.",
-          "o": ["dirty", "filthy", "small", "freezing"],
+          "o": ["furious", "filthy", "small", "freezing"],
           "a": 1,
           "vi": "Sau khi chơi trong bùn cả ngày, chân chú chó hoàn toàn bẩn dơ.",
           "ex": "Filthy = Very dirty."
