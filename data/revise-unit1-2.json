@@ -1,0 +1,190 @@
+{
+  "id": "revise-unit1-2",
+  "title": "Vocabulary & Grammar · Food, Cooking & Grammar Revision",
+  "tags": ["Vocabulary", "Grammar", "Food & Cooking"],
+  "cover": "🥗",
+  "gradient": "linear-gradient(135deg,#7a67ee,#5a9df5 55%,#3ecfa0)",
+  "description": "25 câu ôn tập từ vựng chủ đề thực phẩm, phương pháp chế biến và cấu trúc 'be going to'.",
+  "duration": "30 phút",
+  "parts": [
+    {
+      "type": "mcq",
+      "name": "Phần 1 · Trắc nghiệm (MCQ)",
+      "hint": "Choose the correct answer",
+      "questions": [
+        {
+          "q": "Which of the following is NOT a type of seafood?",
+          "o": ["Prawns", "Mussels", "Squid", "Duck"],
+          "a": 3,
+          "vi": "Từ nào sau đây KHÔNG phải là hải sản?",
+          "ex": "'Duck' có nghĩa là thịt vịt (gia cầm), trong khi prawns, mussels và squid đều là hải sản."
+        },
+        {
+          "q": "Which word belongs to the seafood group?",
+          "o": ["Lamb", "Crab", "Beef", "Pork"],
+          "a": 1,
+          "vi": "Từ nào thuộc nhóm hải sản?",
+          "ex": "'Crab' có nghĩa là cua (hải sản). Lamb (thịt cừu), Beef (thịt bò) và Pork (thịt lợn) là các loại thịt đỏ."
+        },
+        {
+          "q": "Which item is a vegetable, not a fruit?",
+          "o": ["Cherry", "Pear", "Peach", "Beetroot"],
+          "a": 3,
+          "vi": "Món nào là rau củ, không phải trái cây?",
+          "ex": "'Beetroot' là củ dền (rau củ), còn cherry, pear và peach đều là trái cây."
+        },
+        {
+          "q": "Which of the following is a fruit, not a vegetable?",
+          "o": ["Raspberry", "Cucumber", "Pepper", "Cabbage"],
+          "a": 0,
+          "vi": "Món nào sau đây là trái cây, không phải rau củ?",
+          "ex": "'Raspberry' là quả mâm xôi (trái cây). Cucumber, pepper và cabbage thuộc nhóm rau củ."
+        },
+        {
+          "q": "Which word refers to a type of food, NOT a cooking method?",
+          "o": ["Fried", "Baked", "Roast", "Chicken"],
+          "a": 3,
+          "vi": "Từ nào chỉ loại thực phẩm, KHÔNG phải phương pháp chế biến?",
+          "ex": "'Chicken' là thịt gà (thực phẩm), trong khi fried (rán), baked (nướng lò) và roast (quay) là các phương pháp chế biến."
+        },
+        {
+          "q": "Listening to music is a great ________ after a hard working day.",
+          "o": ["stress reliever", "relieve stress", "decoration", "blueberries"],
+          "a": 0,
+          "vi": "Nghe nhạc là một thứ giải tỏa căng thẳng tuyệt vời sau một ngày làm việc mệt mỏi.",
+          "ex": "Chỗ trống cần một danh từ chỉ 'thứ giải trí/giải tỏa căng thẳng' -> 'stress reliever'."
+        },
+        {
+          "q": "I usually play sports to ________ after studying.",
+          "o": ["stress reliever", "relieve stress", "decoration", "be going to"],
+          "a": 1,
+          "vi": "Tôi thường chơi thể thao để giải tỏa căng thẳng sau khi học tập.",
+          "ex": "Sau 'to' cần động từ nguyên thể chỉ hành động 'giải tỏa căng thẳng' -> 'relieve stress'."
+        },
+        {
+          "q": "They put up colourful ________ for the birthday party.",
+          "o": ["mushroom", "bean", "decoration", "prawns"],
+          "a": 2,
+          "vi": "Họ trang trí những đồ trang trí đầy màu sắc cho buổi tiệc sinh nhật.",
+          "ex": "'Decoration' có nghĩa là đồ trang trí / sự trang trí."
+        },
+        {
+          "q": "Look at those dark clouds! It ________ rain soon.",
+          "o": ["is going to", "will going to", "goes to", "is go to"],
+          "a": 0,
+          "vi": "Nhìn những đám mây đen kìa! Trời sắp mưa rồi.",
+          "ex": "Dùng cấu trúc 'be going to + V0' (is going to) để diễn tả dự đoán có căn cứ ở hiện tại."
+        },
+        {
+          "q": "She is allergic to dairy, so she has to cut down on ________.",
+          "o": ["milk", "cherry", "cucumber", "mussels"],
+          "a": 0,
+          "vi": "Cô ấy bị dị ứng với sản phẩm từ sữa, nên cô ấy phải cắt giảm sữa.",
+          "ex": "'Milk' là sản phẩm từ sữa."
+        },
+        {
+          "q": "________ are small dark blue sour berries that are often used in cakes.",
+          "o": ["Blueberries", "Beetroots", "Cabbages", "Peppers"],
+          "a": 0,
+          "vi": "Việt quất là những quả mộng nhỏ màu xanh đậm có vị chua thường được dùng trong bánh.",
+          "ex": "'Blueberries' có nghĩa là quả việt quất."
+        },
+        {
+          "q": "We are going to buy some ________ to make a salad.",
+          "o": ["cucumber", "roast", "baked", "relieve stress"],
+          "a": 0,
+          "vi": "Chúng tôi định mua một ít dưa chuột để làm món salad.",
+          "ex": "'Cucumber' là dưa chuột, phù hợp làm món salad."
+        },
+        {
+          "q": "What ________ you ________ do this weekend?",
+          "o": ["are / going to", "is / going to", "do / going to", "are / go to"],
+          "a": 0,
+          "vi": "Bạn định làm gì vào cuối tuần này?",
+          "ex": "Cấu trúc câu hỏi với 'be going to': Wh-word + am/is/are + S + going to + V0? Chủ ngữ 'you' đi với 'are'."
+        },
+        {
+          "q": "Pizza is often ________ in a high-temperature oven.",
+          "o": ["baked", "fried", "boiled", "raw"],
+          "a": 0,
+          "vi": "Pizza thường được nướng trong lò nhiệt độ cao.",
+          "ex": "'Baked' có nghĩa là nướng bằng lò."
+        },
+        {
+          "q": "I like eating ________ chicken with crispy skin.",
+          "o": ["roast", "relieve", "decoration", "mussel"],
+          "a": 0,
+          "vi": "Tôi thích ăn gà quay với phần da giòn.",
+          "ex": "'Roast chicken' có nghĩa là gà quay."
+        }
+      ]
+    },
+    {
+      "type": "type-in",
+      "name": "Phần 2 · Điền từ vào chỗ trống",
+      "hint": "Điền từ tiếng Anh thích hợp dựa theo gợi ý trong ngoặc đơn",
+      "questions": [
+        {
+          "q": "My mom bought some fresh ____ (tôm) from the market to cook soup.",
+          "a": ["prawns"],
+          "vi": "Mẹ tôi đã mua một ít tôm tươi từ chợ về nấu canh.",
+          "ex": "Từ tiếng Anh chỉ 'tôm' là 'prawns'."
+        },
+        {
+          "q": "____ (Thịt cừu) is very popular in Middle Eastern cuisine.",
+          "a": ["Lamb"],
+          "vi": "Thịt cừu rất phổ biến trong ẩm thực Trung Đông.",
+          "ex": "Từ tiếng Anh chỉ 'thịt cừu' là 'lamb'."
+        },
+        {
+          "q": "Can you slice the ____ (dưa chuột) for the sandwich?",
+          "a": ["cucumber"],
+          "vi": "Bạn có thể thái dưa chuột cho món bánh mì kẹp được không?",
+          "ex": "Từ tiếng Anh chỉ 'dưa chuột' là 'cucumber'."
+        },
+        {
+          "q": "I love eating French ____ (khoai tây chiên) with tomato sauce.",
+          "a": ["fries", "fried potatoes"],
+          "vi": "Tôi thích ăn khoai tây chiên với sốt cà chua.",
+          "ex": "Từ dạng tính từ chỉ chế biến chiên/rán là 'fried'."
+        },
+        {
+          "q": "Watching TV shows is a great stress ____ (thứ giải tỏa căng thẳng) for me.",
+          "a": ["reliever"],
+          "vi": "Xem các chương trình truyền hình là một thứ giải tỏa căng thẳng tuyệt vời đối với tôi.",
+          "ex": "Cụm danh từ đầy đủ là 'stress reliever', ở đây từ cần điền là 'reliever'."
+        },
+        {
+          "q": "We need to buy some ____ (nấm) to put into the hotpot.",
+          "a": ["mushrooms", "mushroom"],
+          "vi": "Chúng ta cần mua một ít nấm để bỏ vào nồi lẩu.",
+          "ex": "Từ tiếng Anh chỉ 'nấm' là 'mushroom' / 'mushrooms'."
+        },
+        {
+          "q": "The cake is decorated with fresh ____ (trái việt quất) on top.",
+          "a": ["blueberries"],
+          "vi": "Chiếc bánh được trang trí với trái việt quất tươi ở phía trên.",
+          "ex": "Từ tiếng Anh chỉ 'trái việt quất' (số nhiều) là 'blueberries'."
+        },
+        {
+          "q": "Doing yoga helps me ____ (giải tỏa) stress after work.",
+          "a": ["relieve"],
+          "vi": "Tập yoga giúp tôi giải tỏa căng thẳng sau giờ làm.",
+          "ex": "Cụm từ 'relieve stress', từ cần điền ở vị trí động từ là 'relieve'."
+        },
+        {
+          "q": "They are ____ (định / sắp) to visit their grandparents this Sunday.",
+          "a": ["going"],
+          "vi": "Họ định đi thăm ông bà vào Chủ Nhật tuần này.",
+          "ex": "Cấu trúc 'be going to + V0', từ cần điền sau 'are' là 'going'."
+        },
+        {
+          "q": "Red ____ (củ dền) contains a lot of vitamins and minerals.",
+          "a": ["beetroot"],
+          "vi": "Củ dền đỏ chứa rất nhiều vitamin và khoáng chất.",
+          "ex": "Từ tiếng Anh chỉ 'củ dền' là 'beetroot'."
+        }
+      ]
+    }
+  ]
+}
