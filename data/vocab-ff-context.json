@@ -27,7 +27,7 @@
           "ex": "'Tolerant of sth/sb' có nghĩa là hay tha thứ, khoan dung."
         },
         {
-          "q": "Priceless paintings by artists like Van Gogh and Rembrandt should not be in the hands of private collectors.",
+          "q": "_______ paintings by artists like Van Gogh and Rembrandt should not be in the hands of private collectors.",
           "o": ["worthless", "priceless", "mediocre", "exhaustive"],
           "a": 1,
           "vi": "Những bức tranh vô giá của các họa sĩ như Van Gogh...",
