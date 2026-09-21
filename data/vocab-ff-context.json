@@ -1,0 +1,187 @@
+{
+  "id": "vocab-ff-context",
+  "title": "Vocabulary · Confusing Words & Vocabulary in Context",
+  "tags": ["Vocabulary", "Confusing Words", "Advanced English"],
+  "cover": "📚",
+  "gradient": "linear-gradient(135deg,#7a67ee,#5a9df5 55%,#3ecfa0)",
+  "description": "Bài tập trắc nghiệm, nối từ và điền từ dành cho nhóm từ dễ gây nhầm lẫn và từ vựng nâng cao.",
+  "duration": "30 phút",
+  "parts": [
+    {
+      "type": "mcq",
+      "name": "Phần 1 · Trắc nghiệm (Multiple Choice)",
+      "hint": "Choose the best option to complete each sentence",
+      "questions": [
+        {
+          "q": "The journey across the hills was long and ________, much of it having to be done on foot in temperatures of over 40°C.",
+          "o": ["mediocre", "arduous", "nocturnal", "elusive"],
+          "a": 1,
+          "vi": "Hành trình băng qua các ngọn đồi rất gian nan và mệt mỏi...",
+          "ex": "'Arduous' nghĩa là gian nan, vất vả, đòi hỏi nhiều nỗ lực."
+        },
+        {
+          "q": "People need to be more ________ of their neighbours, and not complain every time they make too much noise.",
+          "o": ["tolerant", "tolerable", "respectable", "respectful"],
+          "a": 0,
+          "vi": "Mọi người cần phải khoan dung/tha thứ hơn đối với hàng xóm...",
+          "ex": "'Tolerant of sth/sb' có nghĩa là hay tha thứ, khoan dung."
+        },
+        {
+          "q": "Priceless paintings by artists like Van Gogh and Rembrandt should not be in the hands of private collectors.",
+          "o": ["worthless", "priceless", "mediocre", "exhaustive"],
+          "a": 1,
+          "vi": "Những bức tranh vô giá của các họa sĩ như Van Gogh...",
+          "ex": "'Priceless' nghĩa là vô giá, cực kỳ quý giá."
+        },
+        {
+          "q": "It's important to ________ your English whenever possible.",
+          "o": ["process", "practise", "remind", "cite"],
+          "a": 1,
+          "vi": "Điều quan trọng là luyện tập tiếng Anh bất cứ khi nào có thể.",
+          "ex": "Cần động từ 'practise' (thực hành, luyện tập)."
+        },
+        {
+          "q": "The remarkable success of Simon Weber's book on owls, bats, foxes and other ________ creatures is not surprising.",
+          "o": ["nocturnal", "elusive", "principal", "exhaustive"],
+          "a": 0,
+          "vi": "Thành công của cuốn sách về cú, dơi, cáo và các sinh vật hoạt động về đêm khác...",
+          "ex": "'Nocturnal' nghĩa là thuộc về đêm / hoạt động về đêm."
+        },
+        {
+          "q": "In response to the oil crisis, most airlines had to ________ their fares.",
+          "o": ["rise", "raise", "cure", "treat"],
+          "a": 1,
+          "vi": "Để ứng phó với khủng hoảng dầu mỏ, hầu hết các hãng hàng không phải tăng giá vé.",
+          "ex": "'Raise' là ngoại động từ, theo sau cần có tân ngữ ('their fares')."
+        },
+        {
+          "q": "Many people refuse to eat meat on ________.",
+          "o": ["principal", "process", "principle", "trouble"],
+          "a": 2,
+          "vi": "Nhiều người từ chối ăn thịt dựa trên nguyên tắc cá nhân.",
+          "ex": "'On principle' là thành ngữ mang nghĩa 'theo nguyên tắc'."
+        },
+        {
+          "q": "Foxes are a common sight in our towns and cities, where they ________ in dustbins, in gardens and on waste ground.",
+          "o": ["forage", "cure", "cite", "process"],
+          "a": 0,
+          "vi": "Cáo thường được nhìn thấy ở các thị trấn, nơi chúng tìm kiếm thức ăn trong thùng rác...",
+          "ex": "'Forage' nghĩa là tìm kiếm thức ăn."
+        },
+        {
+          "q": "Many hospitals are so understaffed that they are refusing to ________ patients with minor injuries.",
+          "o": ["cure", "treat", "raise", "remind"],
+          "a": 1,
+          "vi": "Nhiều bệnh viện thiếu nhân sự đến mức từ chối điều trị cho bệnh nhân bị thương nhẹ.",
+          "ex": "'Treat' nghĩa là điều trị, chữa trị (bệnh/bệnh nhân)."
+        },
+        {
+          "q": "Language teachers often ________ their students that the best way to remember new words is to use them.",
+          "o": ["remember", "remind", "cite", "process"],
+          "a": 1,
+          "vi": "Giáo viên ngoại ngữ thường nhắc nhở học sinh rằng...",
+          "ex": "'Remind sb' nghĩa là nhắc nhở ai đó."
+        },
+        {
+          "q": "This is a remarkable ________, considering the complexity of the subject and the science that is often involved.",
+          "o": ["process", "trouble", "feat", "procession"],
+          "a": 2,
+          "vi": "Đây là một kỳ tích đáng chú ý, khi xét đến độ phức tạp của chủ đề...",
+          "ex": "'Feat' nghĩa là kỳ tích, thành tựu ấn tượng."
+        },
+        {
+          "q": "He writes ________ on the subject, beginning by looking at basic facts before discussing complex theories.",
+          "o": ["coherently", "arduously", "tolerably", "elusively"],
+          "a": 0,
+          "vi": "Anh ấy viết một cách mạch lạc về chủ đề này...",
+          "ex": "'Coherently' nghĩa là mạch lạc, rõ ràng."
+        },
+        {
+          "q": "The research they carried out was ________, so by the time the project was complete, they knew everything.",
+          "o": ["elusive", "exhaustive", "mediocre", "respectable"],
+          "a": 1,
+          "vi": "Nghiên cứu họ thực hiện rất toàn diện...",
+          "ex": "'Exhaustive' nghĩa là toàn diện, thấu đáo, chi tiết."
+        },
+        {
+          "q": "The highlight of the carnival is a huge ________ along the town's main street.",
+          "o": ["process", "problem", "procession", "principle"],
+          "a": 2,
+          "vi": "Điểm nhấn của lễ hội là một đoàn diễu hành lớn dọc theo trục đường chính.",
+          "ex": "'Procession' nghĩa là đoàn người/xe diễu hành."
+        },
+        {
+          "q": "The hotel we stayed in was a ________ place, with small rooms, rather dull food and an uninspiring view.",
+          "o": ["priceless", "mediocre", "arduous", "exhaustive"],
+          "a": 1,
+          "vi": "Khách sạn chúng tôi ở là một nơi tầm thường/xoàng xĩnh...",
+          "ex": "'Mediocre' nghĩa là tầm thường, không có gì nổi bật."
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "name": "Phần 2 · Nối từ (Matching)",
+      "hint": "Ghép từ tiếng Anh với định nghĩa hoặc từ đồng nghĩa phù hợp",
+      "pairs": [
+        {
+          "left": "Elusive",
+          "right": "Difficult to find, catch, or achieve"
+        },
+        {
+          "left": "Cite",
+          "right": "To mention something as proof or an example"
+        },
+        {
+          "left": "Respectful",
+          "right": "Showing proper respect and politeness"
+        },
+        {
+          "left": "Worthless",
+          "right": "Having no value, usefulness, or importance"
+        },
+        {
+          "left": "Principal",
+          "right": "The head of a school, or the most important element"
+        }
+      ]
+    },
+    {
+      "type": "type-in",
+      "name": "Phần 3 · Điền từ vào chỗ trống (Type-in)",
+      "hint": "Gõ từ chính xác vào chỗ trống dựa theo gợi ý trong ngoặc",
+      "questions": [
+        {
+          "q": "I can ________ my first day at school really well. (ghi nhớ, nhớ lại)",
+          "a": ["remember"],
+          "vi": "Tôi có thể nhớ ngày đầu tiên đi học rất rõ.",
+          "ex": "Động từ 'remember' nghĩa là nhớ/ghi nhớ."
+        },
+        {
+          "q": "Applying for a visa can be a long and frustrating ________. (quá trình, quy trình)",
+          "a": ["process"],
+          "vi": "Xin visa có thể là một quá trình dài và gây mệt mỏi.",
+          "ex": "Danh từ 'process' nghĩa là quá trình/quy trình."
+        },
+        {
+          "q": "The noise from passing trains is ________, but many living near the railway lines disagree. (có thể chịu đựng được)",
+          "a": ["tolerable"],
+          "vi": "Tiếng ồn từ tàu hỏa chạy qua là có thể chịu đựng được...",
+          "ex": "Tính từ 'tolerable' nghĩa là có thể chấp nhận/chịu đựng được."
+        },
+        {
+          "q": "He ________ the research carried out by others in his book. (trích dẫn)",
+          "a": ["cites", "cited"],
+          "vi": "Anh ấy trích dẫn nghiên cứu được thực hiện bởi những người khác trong cuốn sách của mình.",
+          "ex": "Động từ 'cite' nghĩa là trích dẫn."
+        },
+        {
+          "q": "I was wondering if you could help me with a little ________ I'm having. (vấn đề, rắc rối)",
+          "a": ["problem"],
+          "vi": "Tôi đang thắc mắc liệu bạn có thể giúp tôi giải quyết một vấn đề nhỏ mà tôi đang gặp phải không.",
+          "ex": "Danh từ 'problem' nghĩa là vấn đề."
+        }
+      ]
+    }
+  ]
+}
