@@ -1,0 +1,172 @@
+{
+  "id": "vocab-tourist-attraction",
+  "title": "Vocabulary · IELTS & Lớp 11-12 · Travel & Tourist Attractions",
+  "tags": ["IELTS Speaking", "Vocabulary", "Travel"],
+  "cover": "🏔️",
+  "gradient": "linear-gradient(135deg,#4e73df,#1cc88a 55%,#36b9cc)",
+  "description": "30 câu luyện tập từ vựng chủ đề Travel & Tourist Attractions (Nối từ, Trắc nghiệm & Điền từ).",
+  "duration": "45 phút",
+  "parts": [
+    {
+      "type": "matching",
+      "name": "Phần 1 · Nối từ vựng (Matching)",
+      "hint": "Ghép cụm từ tiếng Anh ở cột trái với nghĩa tiếng Việt tương ứng ở cột phải.",
+      "pairs": [
+        { "left": "tourist attraction", "right": "điểm thu hút khách du lịch" },
+        { "left": "breathtaking scenery", "right": "phong cảnh đẹp đến nghẹt thở" },
+        { "left": "perfect getaway", "right": "nơi nghỉ ngơi hoàn hảo" },
+        { "left": "lush pine forests", "right": "những cánh rừng thông xanh tươi" },
+        { "left": "peaceful atmosphere", "right": "bầu không khí yên bình" },
+        { "left": "local cuisine", "right": "ẩm thực địa phương" },
+        { "left": "pristine nature", "right": "thiên nhiên nguyên sơ" },
+        { "left": "rolling hills", "right": "những ngọn đồi nhấp nhô" },
+        { "left": "outdoor activities", "right": "các hoạt động ngoài trời" },
+        { "left": "daily routines", "right": "thói quen / công việc hàng ngày" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "name": "Phần 2 · Trắc nghiệm (MCQ)",
+      "hint": "Chọn đáp án đúng nhất để hoàn thành câu.",
+      "questions": [
+        {
+          "q": "Da Lat is a very popular ________ for people who want to escape the summer heat.",
+          "o": ["destination", "location", "attraction", "getaway"],
+          "a": 0,
+          "vi": "Đà Lạt là một điểm đến rất phổ biến cho những ai muốn tránh cái nóng mùa hè.",
+          "ex": "Cụm từ 'popular destination' có nghĩa là điểm đến phổ biến/được ưa chuộng."
+        },
+        {
+          "q": "We decided to go to the mountains to ________ the heat of the city.",
+          "o": ["take", "escape", "get", "make"],
+          "a": 1,
+          "vi": "Chúng tôi quyết định lên núi để tránh cái nóng của thành phố.",
+          "ex": "Cụm động từ 'escape the heat' nghĩa là tránh nóng."
+        },
+        {
+          "q": "The city is located in the ________ of Vietnam, so the weather is cool all year round.",
+          "o": ["central highlands", "rolling hills", "geographical location", "pristine nature"],
+          "a": 0,
+          "vi": "Thành phố nằm ở vùng cao nguyên trung tâm (Tây Nguyên) của Việt Nam, nên thời tiết mát mẻ quanh năm.",
+          "ex": "'Central highlands' nghĩa là vùng cao nguyên trung tâm (Tây Nguyên)."
+        },
+        {
+          "q": "Visiting the countryside helps urban residents ________ with nature.",
+          "o": ["get in touch", "take a break", "escape the heat", "blow my mind"],
+          "a": 0,
+          "vi": "Đi thăm vùng quê giúp dân cư thành thị hòa mình với thiên nhiên.",
+          "ex": "Cụm từ 'get in touch with nature' có nghĩa là hòa mình / kết nối với thiên nhiên."
+        },
+        {
+          "q": "The view from the top of the mountain was so ________ that everyone was speechlessly amazed.",
+          "o": ["stunning", "tasty", "pristine", "peaceful"],
+          "a": 0,
+          "vi": "Khung cảnh nhìn từ đỉnh núi tuyệt đẹp đến mức ai cũng phải ngỡ ngàng.",
+          "ex": "'Stunning landscapes' hoặc 'stunning view' mang nghĩa phong cảnh tuyệt đẹp."
+        },
+        {
+          "q": "After a stressful working week, I feel completely ________ after this weekend trip.",
+          "o": ["refreshed and rejuvenated", "hustle and bustle", "mouth-watering and fresh", "deeply impressed"],
+          "a": 0,
+          "vi": "Sau một tuần làm việc căng thẳng, tôi cảm thấy hoàn toàn sảng khoái và tràn đầy năng lượng sau chuyến đi cuối tuần.",
+          "ex": "'Refreshed and rejuvenated' mô tả trạng thái sảng khoái và tươi mới."
+        },
+        {
+          "q": "Ha Long Bay left a ________ on all the international tourists who visited it.",
+          "o": ["lasting impression", "geographical location", "peaceful atmosphere", "daily routine"],
+          "a": 0,
+          "vi": "Vịnh Hạ Long đã để lại ấn tượng sâu sắc cho tất cả du khách quốc tế đến thăm.",
+          "ex": "Cụm từ 'lasting impression' có nghĩa là ấn tượng lâu dài / sâu sắc."
+        },
+        {
+          "q": "The seafood in this coastal town is always ________ and fresh.",
+          "o": ["mouth-watering", "breathtaking", "peaceful", "rolling"],
+          "a": 0,
+          "vi": "Hải sản ở thành phố ven biển này luôn tươi ngon chảy nước miếng.",
+          "ex": "'Mouth-watering' mô tả món ăn thơm ngon đến mức chảy nước miếng."
+        },
+        {
+          "q": "The local dish was so delicious that it completely ________!",
+          "o": ["blew my mind", "took a break", "escaped the heat", "got in touch"],
+          "a": 0,
+          "vi": "Món ăn địa phương ngon đến mức khiến tôi hoàn toàn bất ngờ và ngạc nhiên!",
+          "ex": "'Blow my mind' (quá khứ là blew my mind) có nghĩa là làm ai đó vô cùng kinh ngạc / ấn tượng."
+        },
+        {
+          "q": "The tourist guide ________ that we visit the ancient cave early in the morning.",
+          "o": ["recommended", "refreshed", "escaped", "impressed"],
+          "a": 0,
+          "vi": "Hướng dẫn viên du lịch gợi ý chúng tôi đi thăm động cổ vào sáng sớm.",
+          "ex": "Động từ 'recommend' nghĩa là gợi ý, đề xuất."
+        }
+      ]
+    },
+    {
+      "type": "type-in",
+      "name": "Phần 3 · Điền từ thích hợp (Type-in)",
+      "hint": "Gõ cụm từ tiếng Anh thích hợp vào ô trống dựa vào gợi ý trong ngoặc.",
+      "questions": [
+        {
+          "q": "Da Lat is a famous tourist ________ (điểm thu hút khách du lịch) in Vietnam.",
+          "a": ["attraction"],
+          "vi": "Đà Lạt là một điểm thu hút khách du lịch nổi tiếng ở Việt Nam.",
+          "ex": "Cụm từ đầy đủ: tourist attraction."
+        },
+        {
+          "q": "Many tourists visit high mountain towns to escape the ________ (sự xô bồ) of big cities.",
+          "a": ["hustle and bustle"],
+          "vi": "Nhiều du khách đến các thị trấn vùng cao để thoát khỏi sự xô bồ của đô thị lớn.",
+          "ex": "Cụm từ cố định: hustle and bustle."
+        },
+        {
+          "q": "The mountain resort offers a ________ (bầu không khí yên bình) that relaxes every visitor.",
+          "a": ["peaceful atmosphere"],
+          "vi": "Khu nghỉ dưỡng trên núi mang đến bầu không khí yên bình giúp mọi du khách thư thái.",
+          "ex": "Cụm từ: peaceful atmosphere."
+        },
+        {
+          "q": "You can enjoy a magnificent view of ________ (những ngọn đồi nhấp nhô) from the balcony.",
+          "a": ["rolling hills"],
+          "vi": "Bạn có thể ngắm nhìn quang cảnh tuyệt đẹp của những ngọn đồi nhấp nhô từ ban công.",
+          "ex": "Cụm từ: rolling hills."
+        },
+        {
+          "q": "We spent the afternoon hiking through the ________ (những cánh rừng thông xanh tươi).",
+          "a": ["lush pine forests"],
+          "vi": "Chúng tôi dành cả buổi chiều đi bộ xuyên qua những cánh rừng thông xanh tươi.",
+          "ex": "Cụm từ: lush pine forests."
+        },
+        {
+          "q": "If you feel exhausted, you should take a ________ (nghỉ ngơi) from your work.",
+          "a": ["break"],
+          "vi": "Nếu cảm thấy kiệt sức, bạn nên nghỉ ngơi khỏi công việc.",
+          "ex": "Cụm từ: take a break."
+        },
+        {
+          "q": "We love sampling the delicious ________ (ẩm thực địa phương) whenever we travel.",
+          "a": ["local cuisine"],
+          "vi": "Chúng tôi thích thưởng thức ẩm thực địa phương thơm ngon mỗi khi đi du lịch.",
+          "ex": "Cụm từ: local cuisine."
+        },
+        {
+          "q": "During our trip to Ha Long, we decided to take a ________ (chuyến dạo chơi bằng thuyền) around the bay.",
+          "a": ["boat trip"],
+          "vi": "Trong chuyến đi Hạ Long, chúng tôi quyết định đi dạo bằng thuyền quanh vịnh.",
+          "ex": "Cụm từ: take a boat trip."
+        },
+        {
+          "q": "I was deeply ________ (bị ấn tượng) by the hospitality of the local residents.",
+          "a": ["impressed"],
+          "vi": "Tôi bị ấn tượng sâu sắc bởi sự hiếu khách của người dân địa phương.",
+          "ex": "Cụm từ: deeply impressed."
+        },
+        {
+          "q": "This island is famous for its ________ (thiên nhiên nguyên sơ) and crystal clear water.",
+          "a": ["pristine nature"],
+          "vi": "Hòn đảo này nổi tiếng với thiên nhiên nguyên sơ và làn nước trong suốt như pha lê.",
+          "ex": "Cụm từ: pristine nature."
+        }
+      ]
+    }
+  ]
+}
