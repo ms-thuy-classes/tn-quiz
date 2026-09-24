@@ -2,6 +2,12 @@
 (function () {
   'use strict';
   const esc = window.esc, shuffle = window.shuffle;
+  function formatOption(text) {
+  return esc(text).replace(
+    /\[(.*?)\]/g,
+    '<span class="under">$1</span>'
+  );
+}
 
   function renderMCQ(item) {
     const shuffled = shuffle(item.o.map((t, i) => ({ text: t, correct: i === item.a })));
@@ -17,7 +23,7 @@
       shuffled.map((opt, i) =>
         '<button class="opt" data-i="' + i + '" type="button">' +
           '<span class="opt-letter">' + LETTERS[i] + '</span>' +
-          '<span class="opt-text">' + esc(opt.text) + '</span>' +
+         '<span class="opt-text">' + formatOption(opt.text) + '</span>' +
         '</button>'
       ).join('') +
     '</div>';
