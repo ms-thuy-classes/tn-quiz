@@ -15,10 +15,10 @@
         {
           "q": "Choose the word whose underlined part is pronounced differently: b<u>u</u>rn, doct<u>o</u>r, t<u>e</u>ach, <u>a</u>bout",
             "o": [
-    "b[ur]n",
-    "d[o]ctor",
-    "t[ea]ch",
-    "[a]bout"
+    "l[ear]n",
+    "w[or]ld",
+    "f[ur]",
+    "col[or]"
   ],
           "a": 0,
           "vi": "Chọn từ có phần gạch chân phát âm khác.",
@@ -27,10 +27,10 @@
         {
           "q": "Choose the word whose underlined part is pronounced differently:",
            "o": [
-    "b[ur]n",
-    "d[o]ctor",
-    "t[ea]ch",
-    "[a]bout"
+    "s[ur]e",
+    "nat[ur]e",
+    "struct[ur]e",
+    "press[ur]e"
   ],
           "a": 3,
           "vi": "Chọn từ có phần gạch chân phát âm khác.",
