@@ -14,14 +14,24 @@
       "questions": [
         {
           "q": "Choose the word whose underlined part is pronounced differently: b<u>u</u>rn, doct<u>o</u>r, t<u>e</u>ach, <u>a</u>bout",
-          "o": ["burn", "doctor", "teach", "about"],
+            "o": [
+    "b[ur]n",
+    "d[o]ctor",
+    "t[ea]ch",
+    "[a]bout"
+  ],
           "a": 0,
           "vi": "Chọn từ có phần gạch chân phát âm khác.",
           "ex": "'burn' phát âm là /ɜː/, các từ còn lại chứa âm /ə/."
         },
         {
-          "q": "Choose the word whose underlined part is pronounced differently: g<u>i</u>rl, f<u>i</u>rst, t<u>u</u>rn, pap<u>e</u>r",
-          "o": ["girl", "first", "turn", "paper"],
+          "q": "Choose the word whose underlined part is pronounced differently:",
+           "o": [
+    "b[ur]n",
+    "d[o]ctor",
+    "t[ea]ch",
+    "[a]bout"
+  ],
           "a": 3,
           "vi": "Chọn từ có phần gạch chân phát âm khác.",
           "ex": "'paper' phát âm là /ə/, các từ còn lại phát âm là /ɜː/."
