@@ -9,7 +9,12 @@
     window.esc = s => String(s).replace(/[&<>"]/g, c => (
       { '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;' }[c]
     ));
+     
   }
+   window.formatMarkedText = function(text){
+  return window.esc(text == null ? '' : text)
+    .replace(/\[(.*?)\]/g, '<span class="under">$1</span>');
+};
   if (typeof window.shuffle !== 'function') {
     window.shuffle = function (a) {
       a = a.slice();
@@ -146,7 +151,7 @@
     const esc = window.esc;
     const art = document.createElement('article');
     art.className = 'review-item';
-    let qHtml = esc(qText || '').split('____').join('<span class="blank">&nbsp;</span>');
+    let qHtml = window.formatMarkedText(qText || '').split('____').join('<span class="blank">&nbsp;</span>');
     if (q && (q._partType === 'synonym' || q._partType === 'antonym') && q.keyword) {
       const regex = new RegExp('\\b' + q.keyword.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + '\\b','i');
       qHtml = qHtml.replace(regex, '<mark>' + q.keyword + '</mark>');
@@ -169,8 +174,8 @@
       '<span style="font-family:Space Mono,monospace;font-size:.75rem;color:var(--ink-faint)">' + esc(partName || '') + '</span></div>' +
       '<p class="review-q">' + qHtml + '</p>' +
       imgHtml +
-      '<div class="review-ans wrong">❌ Em chọn: <b>&nbsp;' + esc(chosen) + '</b></div>' +
-      '<div class="review-ans right">✅ Đáp án: <b>&nbsp;' + esc(right) + '</b></div>' +
+      '<div class="review-ans wrong">❌ Em chọn: <b>&nbsp;' + window.formatMarkedText(chosen) + '</b></div>' +
+      '<div class="review-ans right">✅ Đáp án: <b>&nbsp;' + window.formatMarkedText(right) + '</b></div>' +
       (vi ? '<p class="review-vi">🇻🇳 ' + esc(vi) + '</p>' : '') +
       (ex ? '<p class="review-ex">💡 ' + esc(ex) + '</p>' : '');
     return art;
