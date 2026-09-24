@@ -20,7 +20,7 @@
     "f[ur]",
     "col[or]"
   ],
-          "a": 0,
+          "a": 3,
           "vi": "Chọn từ có phần gạch chân phát âm khác.",
           "ex": "'color' phát âm là /əː/, các từ còn lại chứa âm /ɜː/."
         },
@@ -32,7 +32,7 @@
     "struct[ur]e",
     "press[ur]e"
   ],
-          "a": 3,
+          "a": 0,
           "vi": "Chọn từ có phần gạch chân phát âm khác.",
           "ex": "'turn' phát âm là /ɜː/, các từ còn lại phát âm là /ə/."
         },
