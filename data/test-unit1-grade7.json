@@ -8,6 +8,18 @@
   "duration": "45 phút",
   "parts": [
     {
+  "type": "matching",
+  "name": "Nối từ",
+  "hint": "Ghép từ tiếng Anh với nghĩa tiếng Việt tương ứng",
+  "pairs": [
+    { "left": "cardboard", "right": "bìa các-tông" },
+    { "left": "insect", "right": "con bọ, côn trùng" },
+    { "left": "maturity", "right": "sự trưởng thành" },
+    { "left": "stress", "right": "sự căng thẳng" },
+    { "left": "valuable", "right": "quý giá, có giá trị" }
+  ]
+},
+    {
       "type": "mcq",
       "name": "Phần 1 · Trắc nghiệm tổng hợp (30 câu)",
       "hint": "Choose the correct answer",
