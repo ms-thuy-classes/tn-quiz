@@ -1,0 +1,282 @@
+{
+  "id": "1-unit1-hobbies-test",
+  "title": "Unit 1: Hobbies · Grade 7 / Level A2",
+  "tags": ["Grade 7", "Vocabulary", "Grammar", "Pronunciation"],
+  "cover": "🎨",
+  "gradient": "linear-gradient(135deg,#7a67ee,#5a9df5 55%,#3ecfa0)",
+  "description": "Bài kiểm tra 40 câu tổng hợp từ vựng, ngữ pháp thì hiện tại đơn, động từ chỉ sự yêu thích + V-ing, phát âm /ə/ - /ɜ:/ và trọng âm.",
+  "duration": "45 phút",
+  "parts": [
+    {
+      "type": "mcq",
+      "name": "Phần 1 · Trắc nghiệm tổng hợp (30 câu)",
+      "hint": "Choose the correct answer",
+      "questions": [
+        {
+          "q": "Choose the word whose underlined part is pronounced differently: b<u>u</u>rn, doct<u>o</u>r, t<u>e</u>ach, <u>a</u>bout",
+          "o": ["burn", "doctor", "teach", "about"],
+          "a": 0,
+          "vi": "Chọn từ có phần gạch chân phát âm khác.",
+          "ex": "'burn' phát âm là /ɜː/, các từ còn lại chứa âm /ə/."
+        },
+        {
+          "q": "Choose the word whose underlined part is pronounced differently: g<u>i</u>rl, f<u>i</u>rst, t<u>u</u>rn, pap<u>e</u>r",
+          "o": ["girl", "first", "turn", "paper"],
+          "a": 3,
+          "vi": "Chọn từ có phần gạch chân phát âm khác.",
+          "ex": "'paper' phát âm là /ə/, các từ còn lại phát âm là /ɜː/."
+        },
+        {
+          "q": "Choose the word that has a different stress pattern:",
+          "o": ["benefit", "dollhouse", "patient", "belong"],
+          "a": 3,
+          "vi": "Chọn từ có trọng âm khác.",
+          "ex": "'belong' có trọng âm rơi vào âm tiết thứ 2, các từ còn lại rơi vào âm tiết thứ 1."
+        },
+        {
+          "q": "Choose the word that has a different stress pattern:",
+          "o": ["unusual", "popular", "valuable", "cardboard"],
+          "a": 0,
+          "vi": "Chọn từ có trọng âm khác.",
+          "ex": "'unusual' có trọng âm rơi vào âm tiết thứ 2, các từ còn lại rơi vào âm tiết thứ 1."
+        },
+        {
+          "q": "My younger sister loves building a small ________ for her dolls.",
+          "o": ["dollhouse", "cardboard", "stress", "insect"],
+          "a": 0,
+          "vi": "Em gái tôi thích xây một ngôi nhà búp bê nhỏ cho búp bê của nó.",
+          "ex": "'dollhouse' nghĩa là nhà búp bê."
+        },
+        {
+          "q": "Playing sports brings many health ________ to young people.",
+          "o": ["bugs", "benefits", "maturity", "glue"],
+          "a": 1,
+          "vi": "Chơi thể thao mang lại nhiều lợi ích sức khỏe cho người trẻ.",
+          "ex": "'benefits' nghĩa là lợi ích."
+        },
+        {
+          "q": "Building small cars and airplanes is a hobby called making ________.",
+          "o": ["yoga", "models", "gardening", "jogging"],
+          "a": 1,
+          "vi": "Làm ô tô và máy bay nhỏ là sở thích được gọi là làm mô hình.",
+          "ex": "'making models' nghĩa là làm mô hình."
+        },
+        {
+          "q": "You need to be very ________ when making small detailed items.",
+          "o": ["unusual", "stress", "patient", "valuable"],
+          "a": 2,
+          "vi": "Bạn cần phải rất kiên nhẫn khi làm những đồ vật nhỏ chi tiết.",
+          "ex": "'patient' nghĩa là kiên nhẫn."
+        },
+        {
+          "q": "Football is a very ________ sport among teenagers in Viet Nam.",
+          "o": ["popular", "maturity", "responsibility", "set"],
+          "a": 0,
+          "vi": "Bóng đá là môn thể thao rất phổ biến đối với giới trẻ ở Việt Nam.",
+          "ex": "'popular' nghĩa là phổ biến, được ưa thích."
+        },
+        {
+          "q": "You should use some ________ to stick these pieces of paper together.",
+          "o": ["stress", "glue", "bug", "yoga"],
+          "a": 1,
+          "vi": "Bạn nên dùng một ít keo dán để dán những mảnh giấy này lại với nhau.",
+          "ex": "'glue' nghĩa là keo dán/hồ dán."
+        },
+        {
+          "q": "Collecting stamps is an ________ hobby because not many people do it now.",
+          "o": ["popular", "unusual", "valuable", "patient"],
+          "a": 1,
+          "vi": "Sưu tầm tem là một sở thích khác thường/đặc biệt vì hiện nay không nhiều người làm điều đó.",
+          "ex": "'unusual' nghĩa là lạ, khác thường."
+        },
+        {
+          "q": "Does this red notebook ________ to you or to Linh?",
+          "o": ["belong", "set", "take on", "benefit"],
+          "a": 0,
+          "vi": "Cuốn sổ đỏ này thuộc về bạn hay của Linh?",
+          "ex": "'belong to' nghĩa là thuộc về."
+        },
+        {
+          "q": "Doing ________ every morning helps her relax and keep fit.",
+          "o": ["horse riding", "cardboard", "yoga", "model"],
+          "a": 2,
+          "vi": "Tập yoga mỗi sáng giúp cô ấy thư giãn và giữ dáng.",
+          "ex": "Cụm từ 'do yoga' nghĩa là tập yoga."
+        },
+        {
+          "q": "The sun ________ in the West every evening.",
+          "o": ["sets", "belongs", "stress", "takes on"],
+          "a": 0,
+          "vi": "Mặt trời lặn ở hướng Tây mỗi chiều.",
+          "ex": "'set' có nghĩa là (mặt trời) lặn."
+        },
+        {
+          "q": "My father ________ newspaper every morning before work.",
+          "o": ["read", "reads", "reading", "is reading"],
+          "a": 1,
+          "vi": "Bố tôi đọc báo mỗi sáng trước khi đi làm.",
+          "ex": "Thì hiện tại đơn với chủ ngữ số ít 'My father' nên động từ thêm -s: 'reads'."
+        },
+        {
+          "q": "They ________ go to school on Sundays because it's the weekend.",
+          "o": ["doesn't", "don't", "isn't", "aren't"],
+          "a": 1,
+          "vi": "Họ không đi học vào Chủ nhật vì đó là cuối tuần.",
+          "ex": "Thì hiện tại đơn phủ định với chủ ngữ 'They' dùng trợ động từ 'don't'."
+        },
+        {
+          "q": "________ your brother like playing computer games in his free time?",
+          "o": ["Do", "Is", "Does", "Are"],
+          "a": 2,
+          "vi": "Anh trai bạn có thích chơi game máy tính vào thời gian rảnh không?",
+          "ex": "Câu hỏi thì hiện tại đơn với chủ ngữ ngôi thứ 3 số ít 'your brother' dùng 'Does'."
+        },
+        {
+          "q": "She ________ live in a big city; she lives in a small village.",
+          "o": ["don't", "doesn't", "isn't", "aren't"],
+          "a": 1,
+          "vi": "Cô ấy không sống ở thành phố lớn; cô ấy sống ở một ngôi làng nhỏ.",
+          "ex": "Chủ ngữ 'She' dùng trợ động từ phủ định 'doesn't'."
+        },
+        {
+          "q": "Where ________ your parents work?",
+          "o": ["do", "does", "are", "is"],
+          "a": 0,
+          "vi": "Bố mẹ bạn làm việc ở đâu?",
+          "ex": "Chủ ngữ số nhiều 'your parents' dùng trợ động từ 'do'."
+        },
+        {
+          "q": "I usually ________ up at 6:30 AM every day.",
+          "o": ["gets", "getting", "get", "to get"],
+          "a": 2,
+          "vi": "Tôi thường thức dậy lúc 6:30 sáng mỗi ngày.",
+          "ex": "Chủ ngữ 'I' đi với động từ nguyên mẫu 'get'."
+        },
+        {
+          "q": "Water ________ at 100 degrees Celsius.",
+          "o": ["boil", "boils", "boiling", "to boil"],
+          "a": 1,
+          "vi": "Nước sôi ở 100 độ C.",
+          "ex": "Sự thật hiển nhiên, danh từ không đếm được 'Water' chia động từ thêm -s: 'boils'."
+        },
+        {
+          "q": "Nam and Minh ________ best friends; they always help each other.",
+          "o": ["is", "be", "am", "are"],
+          "a": 3,
+          "vi": "Nam và Minh là bạn thân; họ luôn giúp đỡ lẫn nhau.",
+          "ex": "Chủ ngữ 'Nam and Minh' là số nhiều nên dùng động từ to be 'are'."
+        },
+        {
+          "q": "She ________ usually late for class.",
+          "o": ["isn't", "doesn't", "don't", "aren't"],
+          "a": 0,
+          "vi": "Cô ấy thường không đi học muộn.",
+          "ex": "'late' là tính từ nên dùng động từ to be chia theo chủ ngữ 'She': 'isn't'."
+        },
+        {
+          "q": "How often ________ you visit your grandparents?",
+          "o": ["does", "do", "are", "is"],
+          "a": 1,
+          "vi": "Bạn có thường xuyên về thăm ông bà không?",
+          "ex": "Câu hỏi hiện tại đơn với chủ ngữ 'you' dùng trợ động từ 'do'."
+        },
+        {
+          "q": "My mom loves ________ plants and flowers in the garden.",
+          "o": ["garden", "gardening", "to gardening", "gardened"],
+          "a": 1,
+          "vi": "Mẹ tôi thích làm vườn trồng cây và hoa.",
+          "ex": "Cấu trúc: love + V-ing."
+        },
+        {
+          "q": "Nam hates ________ TV all day because it makes his eyes tired.",
+          "o": ["watch", "watched", "watching", "watches"],
+          "a": 2,
+          "vi": "Nam ghét xem TV cả ngày vì nó làm mắt cậu ấy bị mỏi.",
+          "ex": "Cấu trúc: hate + V-ing."
+        },
+        {
+          "q": "Do you enjoy ________ models in your free time?",
+          "o": ["making", "make", "made", "to making"],
+          "a": 0,
+          "vi": "Bạn có thích làm mô hình vào thời gian rảnh không?",
+          "ex": "Cấu trúc: enjoy + V-ing."
+        },
+        {
+          "q": "She likes ________ jogging in the park every morning.",
+          "o": ["go", "goes", "going", "gone"],
+          "a": 2,
+          "vi": "Cô ấy thích đi chạy bộ trong công viên mỗi sáng.",
+          "ex": "Cấu trúc: like + V-ing."
+        },
+        {
+          "q": "My brother dislikes ________ horse riding because he is afraid of horses.",
+          "o": ["try", "trying", "tried", "tries"],
+          "a": 1,
+          "vi": "Anh trai tôi không thích thử cưỡi ngựa vì anh ấy sợ ngựa.",
+          "ex": "Cấu trúc: dislike + V-ing."
+        },
+        {
+          "q": "They love ________ photos of nature on weekends.",
+          "o": ["taking", "take", "took", "takes"],
+          "a": 0,
+          "vi": "Họ thích chụp ảnh thiên nhiên vào cuối tuần.",
+          "ex": "Cấu trúc: love + V-ing."
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "name": "Phần 2 · Nối từ vựng (5 câu)",
+      "hint": "Ghép từ tiếng Anh với nghĩa tiếng Việt tương ứng",
+      "pairs": [
+        { "left": "cardboard", "right": "bìa các-tông" },
+        { "left": "insect", "right": "con bọ, côn trùng" },
+        { "left": "maturity", "right": "sự trưởng thành" },
+        { "left": "stress", "right": "sự căng thẳng" },
+        { "left": "valuable", "right": "quý giá, có giá trị" }
+      ]
+    },
+    {
+      "type": "fill",
+      "name": "Phần 3 · Điền từ vào chỗ trống (5 câu)",
+      "hint": "Chọn từ thích hợp từ danh sách gợi ý để hoàn thành câu",
+      "questions": [
+        {
+          "q": "Taking care of a pet helps children learn about ________.",
+          "words": ["belong", "horse riding", "patient", "responsibility", "unusual"],
+          "a": ["responsibility"],
+          "vi": "Chăm sóc thú cưng giúp trẻ em học về trách nhiệm.",
+          "ex": "'responsibility' nghĩa là trách nhiệm."
+        },
+        {
+          "q": "My uncle loves outdoor activities, especially ________ in the countryside.",
+          "words": ["belong", "horse riding", "patient", "responsibility", "unusual"],
+          "a": ["horse riding"],
+          "vi": "Cậu tôi thích các hoạt động ngoài trời, đặc biệt là cưỡi ngựa ở vùng quê.",
+          "ex": "'horse riding' nghĩa là cưỡi ngựa."
+        },
+        {
+          "q": "Does this beautiful painting ________ to your family?",
+          "words": ["belong", "horse riding", "patient", "responsibility", "unusual"],
+          "a": ["belong"],
+          "vi": "Bức tranh đẹp này có thuộc về gia đình bạn không?",
+          "ex": "'belong to' nghĩa là thuộc về."
+        },
+        {
+          "q": "He has an ________ hobby; he collects old buttons from different countries.",
+          "words": ["belong", "horse riding", "patient", "responsibility", "unusual"],
+          "a": ["unusual"],
+          "vi": "Anh ấy có một sở thích đặc biệt; anh ấy sưu tầm cúc áo cũ từ các quốc gia khác nhau.",
+          "ex": "'unusual' nghĩa là khác thường, độc lạ."
+        },
+        {
+          "q": "You need to be very ________ when teaching small children how to draw.",
+          "words": ["belong", "horse riding", "patient", "responsibility", "unusual"],
+          "a": ["patient"],
+          "vi": "Bạn cần phải rất kiên nhẫn khi dạy trẻ nhỏ học vẽ.",
+          "ex": "'patient' nghĩa là kiên nhẫn."
+        }
+      ]
+    }
+  ]
+}
