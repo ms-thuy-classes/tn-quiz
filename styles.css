@@ -1785,3 +1785,7 @@ main{position:relative;z-index:1;max-width:1200px;margin:0 auto;padding:0 clamp(
   padding-top: 14px;
   scroll-margin-top: 140px;   /* khi scroll đến câu mới, không bị che */
 }
+.under{
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
