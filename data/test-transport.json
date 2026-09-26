@@ -27,84 +27,84 @@
 "hint": "Choose the correct answer",
 "questions": [
 {
-"q": "In London, people often refer to the underground train system as the .",
+"q": "In London, people often refer to the underground train system as the ______  .",
 "o": ["freeway", "motorway", "Underground", "tram"],
 "a": 2,
 "vi": "Ở London, người ta thường gọi hệ thống tàu điện ngầm là Underground.",
 "ex": "'The Underground' là từ tiếng Anh - Anh dùng để chỉ tàu điện ngầm."
 },
 {
-"q": "Drivers must not exceed the speed ________ on school grounds.",
+"q": "Drivers must not exceed the speed _____ on school grounds.",
 "o": ["rank", "limit", "jam", "fine"],
 "a": 1,
 "vi": "Tài xế không được vượt quá giới hạn tốc độ trong khu vực trường học.",
 "ex": "'Speed limit' nghĩa là giới hạn tốc độ."
 },
 {
-"q": "We were stuck in a heavy traffic ________ for nearly two hours.",
+"q": "We were stuck in a heavy traffic ____ for nearly two hours.",
 "o": ["jam", "crash", "works", "lane"],
 "a": 0,
 "vi": "Chúng tôi bị kẹt trong một vụ tắc đường nghiêm trọng gần 2 tiếng đồng hồ.",
 "ex": "'Traffic jam' nghĩa là sự ùn tắc giao thông."
 },
 {
-"q": "Don't forget to fasten your seat ________ before driving.",
+"q": "Don't forget to fasten your seat ______ before driving.",
 "o": ["zone", "line", "belt", "lights"],
 "a": 2,
 "vi": "Đừng quên thắt dây an toàn trước khi lái xe.",
 "ex": "'Seat belt' nghĩa là dây an toàn."
 },
 {
-"q": "He received a parking ________ because he left his vehicle in a no-parking zone.",
+"q": "He received a parking ______ because he left his vehicle in a no-parking zone.",
 "o": ["fine", "rank", "limit", "camera"],
 "a": 0,
 "vi": "Anh ấy bị phạt tiền vì đỗ xe ở khu vực cấm đỗ.",
 "ex": "'Parking fine' nghĩa là phiếu phạt/tiền phạt đỗ xe sai quy định."
 },
 {
-"q": "Cars are not allowed in this area because it is a pedestrian .",
+"q": "Cars are not allowed in this area because it is a pedestrian _____.",
 "o": ["station", "rank", "zone", "limit"],
 "a": 2,
 "vi": "Xe ô tô không được phép vào khu vực này vì đây là phố đi bộ.",
 "ex": "'Pedestrian zone' nghĩa là khu vực dành riêng cho người đi bộ."
 },
 {
-"q": "Look at the traffic ; red means you have to stop.",
+"q": "Look at the traffic ______ ; red means you have to stop.",
 "o": ["cameras", "lights", "lanes", "works"],
 "a": 1,
 "vi": "Hãy nhìn đèn giao thông; màu đỏ có nghĩa là bạn phải dừng lại.",
 "ex": "'Traffic lights' nghĩa là đèn giao thông."
 },
 {
-"q": "The large ________ carried goods across the country from the factory.",
+"q": "The large _____ carried goods across the country from the factory.",
 "o": ["scooter", "lorry", "taxi", "tram"],
 "a": 1,
 "vi": "Chiếc xe tải lớn đã chở hàng hóa khắp cả nước từ nhà máy.",
 "ex": "'Lorry' nghĩa là xe tải chở hàng lớn."
 },
 {
-"q": "We took a ________ across the river to reach the island.",
+"q": "We took a _____ across the river to reach the island.",
 "o": ["ferry", "van", "coach", "motorbike"],
 "a": 0,
 "vi": "Chúng tôi đi phà qua sông để đến hòn đảo.",
 "ex": "'Ferry' nghĩa là phà chở khách/phương tiện qua sông, biển."
 },
 {
-"q": "Please slow down! Drivers must yield to pedestrians at the zebra .",
+"q": "Please slow down! Drivers must yield to pedestrians at the zebra ______ .",
 "o": ["lane", "crossing", "station", "limit"],
 "a": 1,
 "vi": "Xin hãy giảm tốc độ! Tài xế phải nhường đường cho người đi bộ tại vạch sang đường.",
 "ex": "'Zebra crossing' nghĩa là vạch sang đường cho người đi bộ."
 },
 {
-"q": "You can find many cabs waiting for passengers at the taxi .",
+"q": "You can find many cabs waiting for passengers at the taxi _____ .",
 "o": ["rank", "zone", "lane", "works"],
 "a": 0,
 "vi": "Bạn có thể tìm thấy nhiều xe taxi đang chờ khách tại điểm đỗ taxi.",
 "ex": "'Taxi rank' nghĩa là bến/điểm đỗ xe taxi."
 },
 {
-"q": "Be careful when driving through road; workers are repairing the street.",
+"q": "Be careful when driving through road _____; workers are repairing the street.",
 "o": ["jams", "works", "crashes", "limits"],
 "a": 1,
 "vi": "Hãy cẩn thận khi lái xe qua công trường làm đường; công nhân đang sửa chữa đường phố.",
