@@ -125,61 +125,61 @@
 "hint": "Điền từ thích hợp vào chỗ trống dựa theo chữ cái gợi ý trong ngoặc",
 "questions": [
 {
-"q": "You should always wear a helmet when riding a (m).",
+"q": "You should always wear a helmet when riding a m_______.",
 "a": ["motorbike"],
 "vi": "Bạn nên luôn đội mũ bảo hiểm khi đi xe máy.",
 "ex": "Từ bắt đầu bằng chữ 'm' phù hợp ngữ cảnh đi xe đội mũ bảo hiểm là 'motorbike'."
 },
 {
-"q": "A (v) was used to move all our furniture to the new apartment.",
+"q": "A v______ was used to move all our furniture to the new apartment.",
 "a": ["van"],
 "vi": "Một chiếc xe tải nhỏ đã được sử dụng để chuyển toàn bộ đồ đạc của chúng tôi sang căn hộ mới.",
 "ex": "Từ bắt đầu bằng chữ 'v' dùng để chở đồ đạc là 'van'."
 },
 {
-"q": "Drive carefully! There is a speed (c)__________ ahead monitoring vehicles.",
+"q": "Drive carefully! There is a speed c_____ ahead monitoring vehicles.",
 "a": ["camera"],
 "vi": "Lái xe cẩn thận! Phía trước có camera bắn tốc độ đang giám sát các phương tiện.",
 "ex": "Cụm từ ghép là 'speed camera'."
 },
 {
-"q": "I missed the early (c)______________ to Hanoi, so I had to buy a ticket for the next bus.",
+"q": "I missed the early c______ to Hanoi, so I had to buy a ticket for the next bus.",
 "a": ["coach"],
 "vi": "Tôi đã bỏ lỡ chuyến xe khách sớm đi Hà Nội, vì vậy tôi phải mua vé chuyến tiếp theo.",
 "ex": "Từ bắt đầu bằng 'c' chỉ xe bus đường dài/xe khách là 'coach'."
 },
 {
-"q": "In American English, a motorway is often called a (f).",
+"q": "In American English, a motorway is often called a f_____.",
 "a": ["freeway"],
 "vi": "Trong tiếng Anh-Mỹ, đường cao tốc (motorway) thường được gọi là freeway.",
 "ex": "Từ đồng nghĩa tiếng Anh-Mỹ của 'motorway' là 'freeway'."
 },
 {
-"q": "The driver had to stop to refuel his car at the nearest (p) station.",
+"q": "The driver had to stop to refuel his car at the nearest p_____ station.",
 "a": ["petrol"],
 "vi": "Tài xế phải dừng lại để đổ thêm nhiên liệu cho xe tại trạm xăng gần nhất.",
 "ex": "Cụm từ ghép là 'petrol station' (trạm xăng)."
 },
 {
-"q": "Two cars collided on the highway yesterday, causing a serious car (c).",
+"q": "Two cars collided on the highway yesterday, causing a serious car c______.",
 "a": ["crash"],
 "vi": "Hai xe ô tô đâm nhau trên đường cao tốc hôm qua, gây ra một vụ tai nạn xe nghiêm trọng.",
 "ex": "Cụm từ ghép là 'car crash' (vụ va chạm/tai nạn xe ô tô)."
 },
 {
-"q": "Riding a (s) is very convenient for daily commuting in busy cities.",
+"q": "Riding a s_____ is very convenient for daily commuting in busy cities.",
 "a": ["scooter"],
 "vi": "Đi xe tay ga rất tiện lợi cho việc đi lại hàng ngày ở các thành phố đông đúc.",
 "ex": "Từ bắt đầu bằng chữ 's' chỉ phương tiện di chuyển cá nhân tiện lợi là 'scooter'."
 },
 {
-"q": "In the US, people use the word '(s)' instead of 'the Underground'.",
+"q": "In the US, people use the word 's_____' instead of 'the Underground'.",
 "a": ["subway"],
 "vi": "Ở Mỹ, người ta sử dụng từ 'subway' thay vì 'the Underground'.",
 "ex": "Từ Anh-Mỹ tương đương với 'the Underground' là 'subway'."
 },
 {
-"q": "During (r) hour, public transport is usually packed with people.",
+"q": "During r_____ hour, public transport is usually packed with people.",
 "a": ["rush"],
 "vi": "Trong giờ cao điểm, phương tiện giao thông công cộng thường đông nghẹt người.",
 "ex": "Cụm từ ghép chỉ giờ cao điểm là 'rush hour'."
