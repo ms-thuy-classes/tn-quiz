@@ -1,0 +1,103 @@
+{
+  "id": "reading-vocab2",
+  "title": "IELTS Reading · The Transformation of Shoreford",
+  "tags": ["IELTS", "Reading", "Vocabulary"],
+  "cover": "🏙️",
+  "gradient": "linear-gradient(135deg,#3ecfa0,#5a9df5 55%,#8ecdfd)",
+  "description": "Bài đọc IELTS Reading luyện tập từ vựng chủ đề môi trường & đô thị hóa với dạng True/False/Not Given và Form Completion.",
+  "duration": "20 phút",
+  "parts": [
+    {
+      "type": "reading",
+      "name": "Part 1 · True / False / Not Given",
+      "passage": "Shoreford was once a quiet town situated by the sea, located on the outskirts of a major metropolitan region. Julian Vance, a world-renowned violinist, was born and brought up in this coastal settlement. For decades, the town had a strong reputation for its clean air, scenic coastline, and spectacular sunsets. Most inhabitants earned their living through traditional fishing and local crafts. However, during the late 20th century, the area experienced rapid development, transforming from a serene retreat into a bustling industrial center.\n\nThis sudden expansion brought about complicated economic and environmental changes. A large manufacturing complex was constructed near the coast, operating at an exceptionally fast pace. While local authorities were initially pleased with the economic boost, environmentalists soon raised concerns about rising pollution levels. Industrial waste, combined with air pollution from heavy traffic, severely degraded the local ecology. Many residents considered these changes completely unacceptable and urged the municipal council to re-examine its urban planning policies before permanent damage was done.\n\nAssessing the environmental impact proved extremely challenging for local researchers. While scientists attempted to quantify the extent of marine contamination, certain chemical pollutants were almost indistinguishable from naturally occurring minerals in the water. Furthermore, a series of inexplicable fish die-offs near the harbour confounded experts, who struggled to determine the exact cause. Despite these obstacles, community leaders encouraged young residents to learn to take action to protect their native environment for future generations.",
+      "questions": [
+        {
+          "q": "Shoreford was originally located in the center of a large city.",
+          "o": ["TRUE", "FALSE", "NOT GIVEN"],
+          "a": 1,
+          "vi": "Shoreford ban đầu nằm ở trung tâm của một thành phố lớn.",
+          "ex": "Đoạn A ghi: 'Shoreford was once a quiet town situated by the sea, located on the outskirts...' (Thị trấn nằm ở ngoại ô, không phải ở trung tâm)."
+        },
+        {
+          "q": "Julian Vance lived in Shoreford throughout his entire childhood.",
+          "o": ["TRUE", "FALSE", "NOT GIVEN"],
+          "a": 0,
+          "vi": "Julian Vance đã sống ở Shoreford trong suốt thời thơ ấu của mình.",
+          "ex": "Đoạn A ghi: 'Julian Vance... was born and brought up in this coastal settlement.' (Sinh ra và lớn lên ở đây)."
+        },
+        {
+          "q": "The fishing industry in Shoreford went bankrupt after the factories were built.",
+          "o": ["TRUE", "FALSE", "NOT GIVEN"],
+          "a": 2,
+          "vi": "Ngành đánh bắt cá ở Shoreford đã phá sản sau khi các nhà máy được xây dựng.",
+          "ex": "Bài đọc có nhắc đến việc người dân làm nghề đánh bắt cá truyền thống, nhưng không đề cập đến việc ngành này có bị phá sản hay không."
+        },
+        {
+          "q": "Local authorities were dissatisfied with the initial financial benefits brought by industrialization.",
+          "o": ["TRUE", "FALSE", "NOT GIVEN"],
+          "a": 1,
+          "vi": "Chính quyền địa phương không hài lòng với lợi ích tài chính ban đầu do công nghiệp hóa mang lại.",
+          "ex": "Đoạn B ghi: 'While local authorities were initially pleased with the economic boost...' (Ban đầu chính quyền rất hài lòng với sự phát triển kinh tế)."
+        },
+        {
+          "q": "Measuring the exact amount of environmental damage was easy for local researchers.",
+          "o": ["TRUE", "FALSE", "NOT GIVEN"],
+          "a": 1,
+          "vi": "Việc đo lường chính xác mức độ thiệt hại môi trường rất dễ dàng đối với các nhà nghiên cứu địa phương.",
+          "ex": "Đoạn C ghi: 'Assessing the environmental impact proved extremely challenging for local researchers.' (Đánh giá tác động môi trường tỏ ra cực kỳ thách thức/khó khăn)."
+        },
+        {
+          "q": "Chemical pollutants in the harbour water were difficult to tell apart from natural minerals.",
+          "o": ["TRUE", "FALSE", "NOT GIVEN"],
+          "a": 0,
+          "vi": "Các chất ô nhiễm hóa học trong nước cảng rất khó phân biệt với các khoáng chất tự nhiên.",
+          "ex": "Đoạn C ghi: 'certain chemical pollutants were almost indistinguishable from naturally occurring minerals in the water.' ('indistinguishable' = khó phân biệt)."
+        }
+      ]
+    },
+    {
+      "type": "type-in",
+      "name": "Part 2 · Form Completion",
+      "passage": "Shoreford Development and Environmental Report\n\nEarly Background:\n• Location: Located near the ocean and on the (7) ________ of a big metropolitan region.\n• Key attractions: Known for its clean air, beautiful coastline, and (8) ________ sunsets.\n• Local population: The main (9) ________ worked in traditional fishing and crafts.\n\nRecent Concerns:\n• Community reaction: Residents found environmental pollution (10) ________ and demanded policy reviews.\n• Scientific challenges:\n  - Researchers found it difficult to (11) ________ the precise level of sea contamination.\n  - Recent deaths of fish near the harbour were described as (12) ________ by experts.",
+      "questions": [
+        {
+          "q": "Location: Located near the ocean and on the (7) ____ of a big metropolitan region.",
+          "a": ["outskirts"],
+          "vi": "Nằm gần đại dương và ở vùng ngoại ô của một vùng đô thị lớn.",
+          "ex": "Đoạn A: 'located on the outskirts of a major metropolitan region.'"
+        },
+        {
+          "q": "Key attractions: Known for its clean air, beautiful coastline, and (8) ____ sunsets.",
+          "a": ["spectacular"],
+          "vi": "Nổi tiếng với không khí trong lành, bờ biển đẹp và cảnh hoàng hôn ngoạn mục.",
+          "ex": "Đoạn A: 'scenic coastline, and spectacular sunsets.'"
+        },
+        {
+          "q": "Local population: The main (9) ____ worked in traditional fishing and crafts.",
+          "a": ["inhabitants"],
+          "vi": "Đa số cư dân làm nghề đánh bắt cá truyền thống và thủ công mỹ nghệ.",
+          "ex": "Đoạn A: 'Most inhabitants earned their living through traditional fishing...'"
+        },
+        {
+          "q": "Community reaction: Residents found environmental pollution (10) ____ and demanded policy reviews.",
+          "a": ["unacceptable"],
+          "vi": "Cư dân thấy sự ô nhiễm môi trường là không thể chấp nhận được.",
+          "ex": "Đoạn B: 'Many residents considered these changes completely unacceptable...'"
+        },
+        {
+          "q": "Scientific challenges: Researchers found it difficult to (11) ____ the precise level of sea contamination.",
+          "a": ["quantify"],
+          "vi": "Các nhà nghiên cứu thấy khó đo lường/định lượng mức độ ô nhiễm biển.",
+          "ex": "Đoạn C: 'While scientists attempted to quantify the extent of marine contamination...'"
+        },
+        {
+          "q": "Scientific challenges: Recent deaths of fish near the harbour were described as (12) ____ by experts.",
+          "a": ["inexplicable"],
+          "vi": "Việc cá chết gần cảng được các chuyên gia mô tả là khó hiểu / không thể giải thích được.",
+          "ex": "Đoạn C: 'a series of inexplicable fish die-offs near the harbour confounded experts...'"
+        }
+      ]
+    }
+  ]
+}
