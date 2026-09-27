@@ -1,0 +1,214 @@
+{
+  "id": "ielts-advanced-words",
+  "title": "IELTS Reading High-Level Vocabulary Practice",
+  "tags": ["IELTS", "Reading", "Vocabulary"],
+  "cover": "📚",
+  "gradient": "linear-gradient(135deg,#7a67ee,#5a9df5 55%,#3ecfa0)",
+  "description": "30 câu luyện tập từ vựng IELTS Reading cấp cao phân loại theo 4 dạng bài tập.",
+  "duration": "45 phút",
+  "parts": [
+    {
+      "type": "matching",
+      "name": "Phần 1 · Matching (Nối từ với từ đồng nghĩa)",
+      "hint": "Ghép từ cấp cao với nghĩa/từ đồng nghĩa tương ứng",
+      "pairs": [
+        { "left": "Prohibitive", "right": "Extremely expensive" },
+        { "left": "Peripheral", "right": "Secondary / Minor" },
+        { "left": "Arduous", "right": "Strenuous / Exhausting" },
+        { "left": "Viable", "right": "Feasible / Possible" },
+        { "left": "Induce", "right": "Persuade / Cause" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "name": "Phần 2 · Trắc nghiệm điền từ (Multiple Choice)",
+      "hint": "Choose the correct option to complete the sentence",
+      "questions": [
+        {
+          "q": "The company decided to ________ a new marketing strategy to boost sales next quarter.",
+          "o": ["hinder", "implement", "taper", "sway"],
+          "a": 1,
+          "vi": "Công ty quyết định thực thi chiến lược tiếp thị mới để tăng doanh số.",
+          "ex": "'Implement' có nghĩa là thực thi, tiến hành một kế hoạch hay hệ thống."
+        },
+        {
+          "q": "Continued pollution will severely ________ the survival of many marine species.",
+          "o": ["jeopardise", "refine", "forage", "attribute"],
+          "a": 0,
+          "vi": "Ô nhiễm kéo dài sẽ đe dọa nghiêm trọng sự sống sót của nhiều loài sinh vật biển.",
+          "ex": "'Jeopardise' nghĩa là gây nguy hiểm, đe dọa làm hại."
+        },
+        {
+          "q": "The cost of living in the capital city has become ________, forcing many young people to move away.",
+          "o": ["coarse", "prohibitive", "peripheral", "mediocre"],
+          "a": 1,
+          "vi": "Chi phí sinh hoạt ở thủ đô đã trở nên quá đắt đỏ, buộc nhiều người trẻ phải chuyển đi.",
+          "ex": "'Prohibitive' mô tả giá cả cực kỳ đắt đỏ, vượt quá khả năng chi trả."
+        },
+        {
+          "q": "After months of non-stop studying, she conducted an ________ review of all the course materials.",
+          "o": ["exhaustive", "elusive", "flimsy", "arduous"],
+          "a": 0,
+          "vi": "Sau nhiều tháng học không ngừng nghỉ, cô ấy đã thực hiện một đợt ôn tập toàn diện.",
+          "ex": "'Exhaustive' nghĩa là kỹ lưỡng, toàn diện và đầy đủ."
+        },
+        {
+          "q": "Wild bears usually ________ for food in the forest before entering hibernation.",
+          "o": ["stack", "propagate", "forage", "address"],
+          "a": 2,
+          "vi": "Gấu rừng thường đi tìm kiếm thức ăn trong rừng trước khi ngủ đông.",
+          "ex": "'Forage' nghĩa là tìm kiếm thức ăn trên diện rộng."
+        },
+        {
+          "q": "The local community showed incredible ________ and quickly rebuilt their homes after the storm.",
+          "o": ["burden", "resilience", "array", "fringe"],
+          "a": 1,
+          "vi": "Cộng đồng địa phương thể hiện sự kiên cường đáng ngạc nhiên và nhanh chóng dựng lại nhà cửa.",
+          "ex": "'Resilience' là danh từ của 'resilient', nghĩa là khả năng phục hồi nhanh chóng/kiên cường."
+        },
+        {
+          "q": "The tower is wider at the base and gently ________ towards the top.",
+          "o": ["hinders", "tapers", "shifts", "induces"],
+          "a": 1,
+          "vi": "Tòa tháp rộng hơn ở phần chân và nhỏ thon lại về phía đỉnh.",
+          "ex": "'Taper' nghĩa là thon lại, nhỏ dần về phía cuối."
+        },
+        {
+          "q": "The mayor delivered a speech to ________ the growing concerns regarding public transportation.",
+          "o": ["address", "stack", "warrant", "attribute"],
+          "a": 0,
+          "vi": "Thị trưởng đã có bài phát biểu để giải quyết những lo ngại ngày càng tăng về giao thông công cộng.",
+          "ex": "'Address' nghĩa là giải quyết, chú tâm tới một vấn đề."
+        },
+        {
+          "q": "Scientists are working on a ________ solution to tackle climate change at its core.",
+          "o": ["flimsy", "radical", "coarse", "mediocre"],
+          "a": 1,
+          "vi": "Các nhà khoa học đang tìm kiếm một giải pháp triệt để/căn bản để giải quyết biến đổi khí hậu.",
+          "ex": "'Radical' nghĩa là hoàn toàn mới, triệt để hoặc từ căn bản."
+        },
+        {
+          "q": "The museum features an impressive ________ of ancient artifacts from around the world.",
+          "o": ["array", "outset", "patent", "burden"],
+          "a": 0,
+          "vi": "Bảo tàng trưng bày một mảng/tập hợp ấn tượng các cổ vật từ khắp nơi trên thế giới.",
+          "ex": "'An array of' có nghĩa là một dải, mảng hoặc nhóm lớn những thứ được trưng bày."
+        },
+        {
+          "q": "Heavy rain and fog may ________ the search and rescue operations in the mountains.",
+          "o": ["propagate", "hinder", "refine", "integrate"],
+          "a": 1,
+          "vi": "Mưa lớn và sương mù có thể cản trở các hoạt động tìm kiếm cứu hộ.",
+          "ex": "'Hinder' có nghĩa là cản trở, làm chậm sự tiến triển."
+        },
+        {
+          "q": "The speaker tried to ________ the audience's opinion by presenting strong statistical evidence.",
+          "o": ["sway", "stack", "taper", "forage"],
+          "a": 0,
+          "vi": "Diễn giả đã cố gắng làm lay chuyển ý kiến của khán giả bằng cách đưa ra bằng chứng thống kê.",
+          "ex": "'Sway' nghĩa là làm đung đưa, hoặc ảnh hưởng/lay chuyển ý kiến của ai đó."
+        },
+        {
+          "q": "The prototype needs to be slightly ________ before it can be mass-produced for the public.",
+          "o": ["attributed", "refined", "induced", "shifted"],
+          "a": 1,
+          "vi": "Mẫu thử nghiệm cần được tinh chỉnh nhẹ trước khi đưa vào sản xuất hàng loạt.",
+          "ex": "'Refine' nghĩa là cải tiến, tinh chỉnh nhẹ để hoàn thiện."
+        },
+        {
+          "q": "The police searched for the ________ suspect who had managed to evade capture for weeks.",
+          "o": ["optimal", "elusive", "coarse", "viable"],
+          "a": 1,
+          "vi": "Cảnh sát tìm kiếm nghi phạm lẩn tránh khéo léo, kẻ đã trốn thoát sự truy bắt trong nhiều tuần.",
+          "ex": "'Elusive' chỉ người/vật khó bắt, khó tìm thấy."
+        },
+        {
+          "q": "It is absolutely ________ that all safety protocols are followed strictly during the experiment.",
+          "o": ["imperative", "mediocre", "flimsy", "peripheral"],
+          "a": 0,
+          "vi": "Cực kỳ cấp bách/quan trọng là phải tuân thủ nghiêm ngặt mọi quy trình an toàn.",
+          "ex": "'Imperative' nghĩa là cực kỳ quan trọng và cấp bách."
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "name": "Phần 3 · Điền từ có Word Bank (Select from Bank)",
+      "hint": "Chọn từ thích hợp trong khung word bank để điền vào chỗ trống",
+      "questions": [
+        {
+          "q": "From the very ________ of the project, the team knew they would face financial challenges.",
+          "words": ["outset", "patent", "coarse", "prey", "innovative"],
+          "a": ["outset"],
+          "vi": "Ngay từ lúc bắt đầu dự án, cả nhóm đã biết họ sẽ đối mặt với thách thức tài chính.",
+          "ex": "'Outset' nghĩa là sự bắt đầu, khởi đầu của một sự việc."
+        },
+        {
+          "q": "The invention was so unique that the scientist immediately applied for a ________.",
+          "words": ["patent", "outset", "coarse", "prey", "innovative"],
+          "a": ["patent"],
+          "vi": "Phát minh độc đáo đến mức nhà khoa học đã nộp đơn xin bằng sáng chế ngay lập tức.",
+          "ex": "'Patent' có nghĩa là bằng sáng chế."
+        },
+        {
+          "q": "The sand on this beach is quite ________ and hurts to walk on barefoot.",
+          "words": ["coarse", "outset", "patent", "prey", "innovative"],
+          "a": ["coarse"],
+          "vi": "Cát trên bãi biển này khá thô ráp và làm đau chân khi đi chân trần.",
+          "ex": "'Coarse' mô tả bề mặt thô, sần sùi, không mịn."
+        },
+        {
+          "q": "Eagles use their sharp talons and keen vision to spot their ________ from high in the sky.",
+          "words": ["prey", "outset", "patent", "coarse", "innovative"],
+          "a": ["prey"],
+          "vi": "Đại bàng sử dụng móng nanh sắc nhọn và thị lực tinh tường để phát hiện con mồi.",
+          "ex": "'Prey' nghĩa là con mồi."
+        },
+        {
+          "q": "Her ________ approach to interior design earned her several international awards.",
+          "words": ["innovative", "outset", "patent", "coarse", "prey"],
+          "a": ["innovative"],
+          "vi": "Cách tiếp cận mang tính sáng tạo của cô ấy trong thiết kế nội thất đã giúp cô giành nhiều giải thưởng.",
+          "ex": "'Innovative' nghĩa là mang tính đổi mới, sáng tạo."
+        }
+      ]
+    },
+    {
+      "type": "type-in",
+      "name": "Phần 4 · Tự nhập từ theo gợi ý tiếng Việt (Type-in)",
+      "hint": "Gõ từ tiếng Anh chính xác vào chỗ trống dựa vào nghĩa trong ngoặc",
+      "questions": [
+        {
+          "q": "It took months of ____ effort to complete the mountain trek.",
+          "a": ["arduous"],
+          "vi": "Phải mất nhiều tháng nỗ lực gian khổ để hoàn thành chuyến đi bộ đường dài qua núi.",
+          "ex": "'Arduous' nghĩa là gian khổ, đòi hỏi cực kỳ nhiều nỗ lực."
+        },
+        {
+          "q": "The doctor reassured him that the minor symptoms did not ____ urgent medical intervention.",
+          "a": ["warrant"],
+          "vi": "Bác sĩ trấn an rằng các triệu chứng nhẹ không đòi hỏi/biện minh cho việc can thiệp y tế khẩn cấp.",
+          "ex": "'Warrant' nghĩa là chứng minh là cần thiết hoặc đáng làm."
+        },
+        {
+          "q": "Many small businesses struggle to ____ into the global market.",
+          "a": ["integrate"],
+          "vi": "Nhiều doanh nghiệp nhỏ gặp khó khăn trong việc hòa nhập vào thị trường toàn cầu.",
+          "ex": "'Integrate' nghĩa là hòa nhập, hội nhập."
+        },
+        {
+          "q": "Fake news can easily ____ across social media platforms if not checked.",
+          "a": ["propagate"],
+          "vi": "Tin giả có thể dễ dàng lan truyền trên các nền tảng mạng xã hội nếu không được kiểm duyệt.",
+          "ex": "'Propagate' nghĩa là lan truyền, truyền bá thông tin hoặc ý tưởng."
+        },
+        {
+          "q": "The famous quote was incorrectly ____ to Shakespeare in the article.",
+          "a": ["attributed"],
+          "vi": "Trích dẫn nổi tiếng đó đã bị quy cho Shakespeare một cách không chính xác trong bài báo.",
+          "ex": "'Attributed' là dạng quá khứ/phân từ của 'attribute', nghĩa là quy cho/gán cho ai."
+        }
+      ]
+    }
+  ]
+}
