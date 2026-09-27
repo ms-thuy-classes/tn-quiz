@@ -138,35 +138,35 @@
       "questions": [
         {
           "q": "From the very ________ of the project, the team knew they would face financial challenges.",
-          "words": ["outset", "patent", "coarse", "prey", "innovative"],
+          "words": ["outset", "patent", "coarse", "prey", "innovative", "mediocre" ],
           "a": ["outset"],
           "vi": "Ngay từ lúc bắt đầu dự án, cả nhóm đã biết họ sẽ đối mặt với thách thức tài chính.",
           "ex": "'Outset' nghĩa là sự bắt đầu, khởi đầu của một sự việc."
         },
         {
           "q": "The invention was so unique that the scientist immediately applied for a ________.",
-          "words": ["patent", "outset", "coarse", "prey", "innovative"],
+          "words": ["patent", "outset", "coarse", "prey", "innovative",  "mediocre"],
           "a": ["patent"],
           "vi": "Phát minh độc đáo đến mức nhà khoa học đã nộp đơn xin bằng sáng chế ngay lập tức.",
           "ex": "'Patent' có nghĩa là bằng sáng chế."
         },
         {
           "q": "The sand on this beach is quite ________ and hurts to walk on barefoot.",
-          "words": ["coarse", "outset", "patent", "prey", "innovative"],
+          "words": ["coarse", "outset", "patent", "prey", "innovative" , "mediocre"],
           "a": ["coarse"],
           "vi": "Cát trên bãi biển này khá thô ráp và làm đau chân khi đi chân trần.",
           "ex": "'Coarse' mô tả bề mặt thô, sần sùi, không mịn."
         },
         {
           "q": "Eagles use their sharp talons and keen vision to spot their ________ from high in the sky.",
-          "words": ["prey", "outset", "patent", "coarse", "innovative"],
+          "words": ["prey", "outset", "patent", "coarse", "innovative", "mediocre"],
           "a": ["prey"],
           "vi": "Đại bàng sử dụng móng nanh sắc nhọn và thị lực tinh tường để phát hiện con mồi.",
           "ex": "'Prey' nghĩa là con mồi."
         },
         {
           "q": "Her ________ approach to interior design earned her several international awards.",
-          "words": ["innovative", "outset", "patent", "coarse", "prey"],
+          "words": ["innovative", "outset", "patent", "coarse", "prey", "mediocre"],
           "a": ["innovative"],
           "vi": "Cách tiếp cận mang tính sáng tạo của cô ấy trong thiết kế nội thất đã giúp cô giành nhiều giải thưởng.",
           "ex": "'Innovative' nghĩa là mang tính đổi mới, sáng tạo."
@@ -179,31 +179,31 @@
       "hint": "Gõ từ tiếng Anh chính xác vào chỗ trống dựa vào nghĩa trong ngoặc",
       "questions": [
         {
-          "q": "It took months of ____ effort to complete the mountain trek.",
+          "q": "It took months of (a)____ effort to complete the mountain trek.",
           "a": ["arduous"],
           "vi": "Phải mất nhiều tháng nỗ lực gian khổ để hoàn thành chuyến đi bộ đường dài qua núi.",
           "ex": "'Arduous' nghĩa là gian khổ, đòi hỏi cực kỳ nhiều nỗ lực."
         },
         {
-          "q": "The doctor reassured him that the minor symptoms did not ____ urgent medical intervention.",
+          "q": "The doctor reassured him that the minor symptoms did not (w)____ urgent medical intervention.",
           "a": ["warrant"],
           "vi": "Bác sĩ trấn an rằng các triệu chứng nhẹ không đòi hỏi/biện minh cho việc can thiệp y tế khẩn cấp.",
           "ex": "'Warrant' nghĩa là chứng minh là cần thiết hoặc đáng làm."
         },
         {
-          "q": "Many small businesses struggle to ____ into the global market.",
+          "q": "Many small businesses struggle to (i)____ into the global market.",
           "a": ["integrate"],
           "vi": "Nhiều doanh nghiệp nhỏ gặp khó khăn trong việc hòa nhập vào thị trường toàn cầu.",
           "ex": "'Integrate' nghĩa là hòa nhập, hội nhập."
         },
         {
-          "q": "Fake news can easily ____ across social media platforms if not checked.",
+          "q": "Fake news can easily (p)____ across social media platforms if not checked.",
           "a": ["propagate"],
           "vi": "Tin giả có thể dễ dàng lan truyền trên các nền tảng mạng xã hội nếu không được kiểm duyệt.",
           "ex": "'Propagate' nghĩa là lan truyền, truyền bá thông tin hoặc ý tưởng."
         },
         {
-          "q": "The famous quote was incorrectly ____ to Shakespeare in the article.",
+          "q": "The famous quote was incorrectly (a)____ to Shakespeare in the article.",
           "a": ["attributed"],
           "vi": "Trích dẫn nổi tiếng đó đã bị quy cho Shakespeare một cách không chính xác trong bài báo.",
           "ex": "'Attributed' là dạng quá khứ/phân từ của 'attribute', nghĩa là quy cho/gán cho ai."
