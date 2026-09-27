@@ -1,1 +1,212 @@
-a
+{
+  "id": "vocab-23-words-practice",
+  "title": "Ôn tập Từ vựng Tiếng Anh · 23 Vocabulary Words",
+  "tags": ["Vocabulary", "Practice", "English"],
+  "cover": "📚",
+  "gradient": "linear-gradient(135deg,#7a67ee,#5a9df5 55%,#3ecfa0)",
+  "description": "Bài tập ôn tập toàn bộ 23 từ vựng gồm Nối từ (Matching), Trắc nghiệm (MCQ) và Điền từ (Type-in).",
+  "duration": "30 phút",
+  "parts": [
+    {
+      "type": "matching",
+      "name": "Phần 1 · Ghép từ & Nghĩa (Matching)",
+      "hint": "Ghép từ/cụm từ tiếng Anh ở cột trái với nghĩa tiếng Việt tương ứng ở cột phải",
+      "pairs": [
+        { "left": "on the outskirts", "right": "ở vùng ngoại ô" },
+        { "left": "by the sea", "right": "ở bên bờ biển" },
+        { "left": "be born and brought up", "right": "sinh ra và lớn lên" },
+        { "left": "inhabitant", "right": "cư dân" },
+        { "left": "spectacular", "right": "ngoạn mục, tuyệt đẹp" },
+        { "left": "reputation", "right": "danh tiếng, sự nổi tiếng" },
+        { "left": "unacceptable", "right": "không thể chấp nhận" },
+        { "left": "inexplicable", "right": "khó giải thích, khó hiểu" },
+        { "left": "indistinguishable", "right": "không thể phân biệt" },
+        { "left": "quantify", "right": "đo lường, định lượng" },
+        { "left": "violinist", "right": "nghệ sĩ vĩ cầm" },
+        { "left": "complicated", "right": "phức tạp" },
+        { "left": "challenging", "right": "thách thức, khó khăn" },
+        { "left": "re-examine", "right": "kiểm tra lại, xem xét lại" },
+        { "left": "exceptionally", "right": "đặc biệt, khác thường" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "name": "Phần 2 · Trắc nghiệm điền từ (MCQ)",
+      "hint": "Chọn đáp án đúng nhất (A, B, C hoặc D) để hoàn thành các câu sau",
+      "questions": [
+        {
+          "q": "She was ________ in a small coastal village before moving to the capital city.",
+          "o": ["born and brought up", "learnt to", "re-examined", "quantified"],
+          "a": 0,
+          "vi": "Cô ấy sinh ra và lớn lên tại một ngôi làng ven biển nhỏ trước khi chuyển đến thủ đô.",
+          "ex": "'be born and brought up' có nghĩa là sinh ra và lớn lên."
+        },
+        {
+          "q": "They decided to buy a house ________ near the peaceful coast so they could enjoy the ocean view.",
+          "o": ["in a hurry", "by the sea", "in an industrial", "on an exception"],
+          "a": 1,
+          "vi": "Họ quyết định mua một ngôi nhà bên bờ biển gần bờ biển yên bình để ngắm cảnh đại dương.",
+          "ex": "'by the sea' có nghĩa là ở cạnh bờ biển."
+        },
+        {
+          "q": "The fireworks display over the bay was absolutely ________, leaving the crowd in awe.",
+          "o": ["unacceptable", "spectacular", "indistinguishable", "inexplicable"],
+          "a": 1,
+          "vi": "Màn bắn pháo hoa trên vịnh thật tuyệt đẹp, khiến đám đông trầm ồ kinh ngạc.",
+          "ex": "'spectacular' (đồng nghĩa với 'wonderful') có nghĩa là ngoạn mục, tuyệt đẹp."
+        },
+        {
+          "q": "The town has a strong ________ for producing high-quality handmade ceramics.",
+          "o": ["inhabitant", "cigarette", "reputation", "violinist"],
+          "a": 2,
+          "vi": "Thành phố này có danh tiếng lớn về việc sản xuất gốm sứ thủ công chất lượng cao.",
+          "ex": "'reputation' (đồng nghĩa với 'well-known for') có nghĩa là danh tiếng, sự nổi tiếng."
+        },
+        {
+          "q": "Due to heavy traffic during peak hours, we had to ________ to catch our train on time.",
+          "o": ["re-examine", "rush", "quantify", "learn to"],
+          "a": 1,
+          "vi": "Do giao thông đông đúc giờ cao điểm, chúng tôi phải vội vã để kịp chuyến tàu.",
+          "ex": "'rush' (đồng nghĩa với 'hurry') có nghĩa là vội vã, vội vàng."
+        },
+        {
+          "q": "After working hard for months, the manager was very ________ with the team's project results.",
+          "o": ["pleased", "industrial", "inexplicable", "rapid"],
+          "a": 0,
+          "vi": "Sau nhiều tháng làm việc chăm chỉ, quản lý rất hài lòng với kết quả dự án của nhóm.",
+          "ex": "'pleased' (đồng nghĩa với 'satisfied') có nghĩa là hài lòng."
+        },
+        {
+          "q": "The behavior of the rude customer was completely ________ and offended all the staff members.",
+          "o": ["satisfied", "unacceptable", "spectacular", "able"],
+          "a": 1,
+          "vi": "Hành vi của vị khách thô lỗ hoàn toàn không thể chấp nhận được và làm mất lòng các nhân viên.",
+          "ex": "'unacceptable' có nghĩa là không thể chấp nhận được."
+        },
+        {
+          "q": "Before making a final decision, the board decided to ________ all the financial records carefully.",
+          "o": ["re-examine", "hurry", "bring up", "quantify"],
+          "a": 0,
+          "vi": "Trước khi đưa ra quyết định cuối cùng, hội đồng quyết định kiểm tra lại toàn bộ hồ sơ tài chính.",
+          "ex": "'re-examine' có nghĩa là kiểm tra lại, xem xét lại."
+        },
+        {
+          "q": "It was an ________ warm winter day, with temperatures reaching mid-summer levels.",
+          "o": ["exceptionally", "industrially", "complicatedly", "distinguishably"],
+          "a": 0,
+          "vi": "Đó là một ngày mùa đông ấm áp một cách khác thường, với nhiệt độ đạt mức giữa mùa hè.",
+          "ex": "'exceptionally' (đồng nghĩa với 'unusual') có nghĩa là đặc biệt, khác thường."
+        },
+        {
+          "q": "The doctor advised him to stop smoking ________ to improve his health.",
+          "o": ["cigarettes", "inhabitants", "violinists", "outskirts"],
+          "a": 0,
+          "vi": "Bác sĩ khuyên anh ấy ngừng hút thuốc lá để cải thiện sức khỏe.",
+          "ex": "'cigarettes' có nghĩa là thuốc lá."
+        },
+        {
+          "q": "Solving this advanced physics problem proved to be very ________ for the students.",
+          "o": ["rapid", "satisfied", "challenging", "unusual"],
+          "a": 2,
+          "vi": "Giải bài tập vật lý nâng cao này tỏ ra rất đầy thử thách đối với học sinh.",
+          "ex": "'challenging' (đồng nghĩa với 'difficult') có nghĩa là đầy thử thách, khó khăn."
+        },
+        {
+          "q": "The two twin brothers look so similar that they are almost ________ from each other.",
+          "o": ["indistinguishable", "industrial", "rapid", "pleased"],
+          "a": 0,
+          "vi": "Hai anh em sinh đôi trông giống nhau đến mức họ gần như không thể phân biệt được.",
+          "ex": "'indistinguishable' có nghĩa là không thể phân biệt được."
+        },
+        {
+          "q": "Heavy manufacturing factories are located in the large ________ zone outside the town center.",
+          "o": ["industrial", "rapid", "inexplicable", "outskirts"],
+          "a": 0,
+          "vi": "Các nhà máy sản xuất nặng nằm trong khu công nghiệp lớn bên ngoài trung tâm thành phố.",
+          "ex": "'industrial' có nghĩa là thuộc về công nghiệp."
+        },
+        {
+          "q": "The talented ________ played a breathtaking solo piece during the classical concert.",
+          "o": ["inhabitant", "violinist", "cigarette", "reputation"],
+          "a": 1,
+          "vi": "Nghệ sĩ vĩ cầm tài năng đã chơi một bản độc tấu ngoạn mục trong buổi hòa nhạc cổ điển.",
+          "ex": "'violinist' có nghĩa là nghệ sĩ vĩ cầm."
+        },
+        {
+          "q": "He didn't know ________ fix the broken engine without proper tools.",
+          "o": ["how to", "be able to", "learn to", "by the sea"],
+          "a": 0,
+          "vi": "Anh ấy không biết cách sửa động cơ bị hỏng nếu không có dụng cụ phù hợp.",
+          "ex": "'how to' có nghĩa là cách làm gì đó."
+        }
+      ]
+    },
+    {
+      "type": "type-in",
+      "name": "Phần 3 · Điền từ thích hợp (Type-in)",
+      "hint": "Gõ từ hoặc cụm từ thích hợp nhất để điền vào chỗ trống",
+      "questions": [
+        {
+          "q": "After taking intensive lessons, she hopes to ________ speak fluent French. (có thể) ",
+          "a": ["be able to"],
+          "vi": "Sau khi học các lớp cấp tốc, cô ấy hy vọng có thể nói tiếng Pháp lưu hoát.",
+          "ex": "'be able to' có nghĩa là có khả năng / có thể làm gì."
+        },
+        {
+          "q": "Children usually ___ ____ ride a bicycle at a young age. (học)",
+          "a": ["learn to"],
+          "vi": "Trẻ em thường học cách đi xe đạp từ khi còn nhỏ.",
+          "ex": "'learn to + V' có nghĩa là học cách làm gì."
+        },
+        {
+          "q": "The city has experienced ______ (r...) economic growth over the past decade.",
+          "a": ["rapid"],
+          "vi": "Thành phố đã trải qua sự tăng trưởng kinh tế nhanh chóng trong thập kỷ qua.",
+          "ex": "'rapid' (đồng nghĩa với 'fast') có nghĩa là nhanh chóng."
+        },
+        {
+          "q": "Every ________ of the island community participated in the annual festival. (cư dân) ",
+          "a": ["inhabitant"],
+          "vi": "Mọi cư dân trên đảo đều tham gia vào lễ hội hàng năm.",
+          "ex": "'inhabitant' (đồng nghĩa với 'population') có nghĩa là cư dân."
+        },
+        {
+          "q": "The mysterious disappearance of the airplane remains ________ to this day. (không thể giải thích được) ",
+          "a": ["inexplicable"],
+          "vi": "Sự mất tích bí ẩn của chiếc máy bay vẫn khó hiểu/không thể giải thích được cho đến ngày nay.",
+          "ex": "'inexplicable' có nghĩa là không thể giải thích được."
+        },
+        {
+          "q": "It is difficult to _____ (q....) the exact impact of climate change on local wildlife.",
+          "a": ["quantify"],
+          "vi": "Rất khó để đo lường tác động chính xác của biến đổi khí hậu đối với động vật hoang dã địa phương.",
+          "ex": "'quantify' (đồng nghĩa với 'measure') có nghĩa là đo lường, định lượng."
+        },
+        {
+          "q": "The instructions were so ________ that everyone got confused while assembling the table. (phức tạp) ",
+          "a": ["complicated"],
+          "vi": "Các hướng dẫn quá phức tạp đến mức mọi người đều bị bối rối khi lắp ráp chiếc bàn.",
+          "ex": "'complicated' có nghĩa là phức tạp."
+        },
+    
+          "q": "Living ________ gives you more space and quiet compared to the city center. (ở vùng ngoại ô) ",
+          "a": ["on the outskirts"],
+          "vi": "Sống ở vùng ngoại ô mang lại cho bạn nhiều không gian và sự yên tĩnh hơn so với trung tâm thành phố.",
+          "ex": "'on the outskirts' (đồng nghĩa với 'in the suburbs') có nghĩa là ở vùng ngoại ô."
+        },
+        {
+          "q": "The teacher was so s______ with her students' progress that she praised them in class. (hài lòng) ",
+          "a": ["pleased", "satisfied"],
+          "vi": "Cô giáo rất hài lòng với sự tiến bộ của học sinh đến mức cô đã khen ngợi họ trước lớp.",
+          "ex": "'pleased' hoặc 'satisfied' đều có nghĩa là hài lòng."
+        },
+        {
+          "q": "The doctor decided to r_- ____ the patient to ensure no injuries were missed.",
+          "a": ["re-examine"],
+          "vi": "Bác sĩ quyết định kiểm tra lại bệnh nhân để đảm bảo không bỏ sót chấn thương nào.",
+          "ex": "'re-examine' có nghĩa là kiểm tra lại, tái khám."
+        }
+      ]
+    }
+  ]
+}
