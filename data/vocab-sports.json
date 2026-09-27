@@ -1,1 +1,257 @@
-
+{
+  "id": "vocab-sports",
+  "title": "Key Vocabulary · Sports & Physical Health",
+  "tags": ["Vocabulary", "Sports", "IELTS Speaking"],
+  "cover": "⚽",
+  "gradient": "linear-gradient(135deg,#7a67ee,#5a9df5 55%,#3ecfa0)",
+  "description": "40 câu bài tập từ vựng chủ đề Thể thao và Sức khỏe bao gồm Nối từ, Trắc nghiệm và Điền từ.",
+  "duration": "45 phút",
+  "parts": [
+    {
+      "type": "matching",
+      "name": "Bài 1 · Matching (Nối từ)",
+      "hint": "Ghép từ/cụm từ tiếng Anh ở cột trái với nghĩa tiếng Việt tương ứng ở cột phải.",
+      "pairs": [
+        { "left": "extra-curricular activity", "right": "hoạt động ngoại khóa" },
+        { "left": "sedentary lifestyle", "right": "lối sống ít vận động" },
+        { "left": "character building", "right": "rèn luyện tính cách" },
+        { "left": "role model", "right": "hình mẫu tốt" },
+        { "left": "football hooligans", "right": "cổ động viên quá khích, quấy phá" },
+        { "left": "self-discipline", "right": "sự kỷ luật bản thân" },
+        { "left": "take banned drugs", "right": "sử dụng thuốc cấm (doping)" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "name": "Bài 2 · Multiple Choice Questions (Trắc nghiệm)",
+      "hint": "Chọn đáp án đúng nhất để hoàn thành câu.",
+      "questions": [
+        {
+          "q": "By and ____, football is the most popular sport in our country.",
+          "o": ["large", "big", "great", "huge"],
+          "a": 0,
+          "vi": "Nhìn chung thì bóng đá là môn thể thao phổ biến nhất ở nước tôi.",
+          "ex": "Cụm từ 'by and large' có nghĩa là nhìn chung, nói chung."
+        },
+        {
+          "q": "Doing physical exercise helps people keep ____ and stay healthy.",
+          "o": ["fat", "fit", "form", "flat"],
+          "a": 1,
+          "vi": "Tập thể dục giúp mọi người giữ cơ thể thon gọn khỏe mạnh.",
+          "ex": "Cụm từ 'keep fit' có nghĩa là giữ vóc dáng/cơ thể khỏe mạnh."
+        },
+        {
+          "q": "Extreme sports like skydiving are very ____, giving people a big rush of excitement.",
+          "o": ["boring", "exhilarating", "tiring", "dull"],
+          "a": 1,
+          "vi": "Các môn thể thao mạo hiểm như nhảy dù rất phấn khích, đem lại cảm giác hào hứng lớn.",
+          "ex": "'Exhilarating' có nghĩa là làm phấn khích, hấp dẫn."
+        },
+        {
+          "q": "Playing sports is a great way to take your mind ____ everyday stress.",
+          "o": ["on", "out", "off", "up"],
+          "a": 2,
+          "vi": "Chơi thể thao là một cách tuyệt vời để giải tỏa đầu óc khỏi áp lực hàng ngày.",
+          "ex": "Cụm từ 'take one's mind off something' có nghĩa là làm thư giãn đầu óc, quên đi mệt mỏi."
+        },
+        {
+          "q": "Swimming is an excellent sport for improving physical and ____ health.",
+          "o": ["mental", "mind", "brain", "head"],
+          "a": 0,
+          "vi": "Bơi lội là môn thể thao tuyệt vời để cải thiện sức khỏe thể chất và tinh thần.",
+          "ex": "'Physical and mental health' nghĩa là sức khỏe thể chất và tinh thần."
+        },
+        {
+          "q": "To prevent a ____ lifestyle, teenagers should engage in more outdoor activities.",
+          "o": ["active", "sedentary", "dynamic", "energetic"],
+          "a": 1,
+          "vi": "Để ngăn ngừa lối sống ít vận động, thanh thiếu niên nên tham gia nhiều hoạt động ngoài trời hơn.",
+          "ex": "'Sedentary lifestyle' nghĩa là lối sống thụ động/ít vận động."
+        },
+        {
+          "q": "Taking part in team sports helps youngsters learn ____ and cooperation.",
+          "o": ["loneliness", "teamwork", "selfishness", "isolation"],
+          "a": 1,
+          "vi": "Tham gia các môn thể thao đồng đội giúp giới trẻ học kỹ năng làm việc nhóm và sự hợp tác.",
+          "ex": "'Teamwork' nghĩa là làm việc nhóm."
+        },
+        {
+          "q": "Football matches usually attract millions of ____ around the world.",
+          "o": ["spectators", "listeners", "readers", "viewings"],
+          "a": 0,
+          "vi": "Các trận đấu bóng đá thường thu hút hàng triệu khán giả trên toàn thế giới.",
+          "ex": "'Spectator' dùng chỉ khán giả xem trực tiếp hoặc theo dõi thể thao."
+        },
+        {
+          "q": "He decided to take ____ tennis to improve his physical endurance.",
+          "o": ["up", "on", "in", "off"],
+          "a": 0,
+          "vi": "Anh ấy quyết định bắt đầu chơi môn quần vợt để cải thiện thể lực.",
+          "ex": "Cụm động từ 'take up + sport' nghĩa là bắt đầu chơi một môn thể thao."
+        },
+        {
+          "q": "Famous athletes should behave properly because they are role ____ for children.",
+          "o": ["types", "models", "shapes", "figures"],
+          "a": 1,
+          "vi": "Các vận động viên nổi tiếng nên ứng xử đúng mực vì họ là hình mẫu cho trẻ em.",
+          "ex": "'Role model' có nghĩa là hình mẫu/tấm gương tốt."
+        },
+        {
+          "q": "Playing basketball requires good hand-eye ____ to pass and shoot accurately.",
+          "o": ["cooperation", "coordination", "combination", "connection"],
+          "a": 1,
+          "vi": "Chơi bóng rổ đòi hỏi sự phối hợp tốt giữa tay và mắt để chuyền và ném chính xác.",
+          "ex": "'Hand-eye coordination' là sự phối hợp giữa tay và mắt."
+        },
+        {
+          "q": "Yoga is a ____ activity that helps people relax after a long working day.",
+          "o": ["recreational", "exhausting", "stressful", "harmful"],
+          "a": 0,
+          "vi": "Tập yoga là một hoạt động giải trí giúp mọi người thư giãn sau ngày làm việc dài.",
+          "ex": "'Recreational' có nghĩa là mang tính giải trí."
+        },
+        {
+          "q": "Athletes who test positive for ____ are banned from professional competitions.",
+          "o": ["doping", "vitamin", "medicine", "protein"],
+          "a": 0,
+          "vi": "Các vận động viên có kết quả xét nghiệm dương tính với doping sẽ bị cấm thi đấu chuyên nghiệp.",
+          "ex": "'Doping' nghĩa là sử dụng chất kích thích cấm trong thể thao."
+        },
+        {
+          "q": "Regular physical training promotes concentration and self-____ in students.",
+          "o": ["control", "discipline", "rule", "duty"],
+          "a": 1,
+          "vi": "Rèn luyện thể chất thường xuyên giúp tăng cường sự tập trung và tính kỷ luật bản thân ở học sinh.",
+          "ex": "'Self-discipline' nghĩa là tính kỷ luật bản thân."
+        },
+        {
+          "q": "Over-____ behavior in youth sports can lead to unsporting incidents.",
+          "o": ["friendly", "competitive", "peaceful", "passive"],
+          "a": 1,
+          "vi": "Hành vi quá hiếu thắng trong thể thao thanh thiếu niên có thể dẫn đến các sự cố thiếu tinh thần thể thao.",
+          "ex": "'Over-competitive' có nghĩa là quá hiếu thắng/cạnh tranh quá mức."
+        },
+        {
+          "q": "Participating in sports helps students build problem ____ skills effectively.",
+          "o": ["solving", "doing", "making", "finding"],
+          "a": 0,
+          "vi": "Tham gia thể thao giúp học sinh rèn luyện kỹ năng giải quyết vấn đề một cách hiệu quả.",
+          "ex": "'Problem solving skills' nghĩa là kỹ năng giải quyết vấn đề."
+        },
+        {
+          "q": "Football ____ caused serious damage outside the stadium after the loss.",
+          "o": ["hooligans", "players", "coaches", "referees"],
+          "a": 0,
+          "vi": "Những cổ động viên quá khích đã gây ra thiệt hại nghiêm trọng bên ngoài sân vận động sau trận thua.",
+          "ex": "'Football hooligans' chỉ những CĐV bóng đá quá khích, hay quấy phá."
+        },
+        {
+          "q": "Going to the gym regularly helps people stay in ____.",
+          "o": ["form", "shape", "figure", "health"],
+          "a": 1,
+          "vi": "Đi tập gym thường xuyên giúp mọi người giữ vóc dáng thon gọn.",
+          "ex": "Cụm từ 'stay in shape' có nghĩa là giữ vóc dáng."
+        },
+        {
+          "q": "Physical sports are great for character ____ because they teach perseverance.",
+          "o": ["building", "making", "creating", "forming"],
+          "a": 0,
+          "vi": "Các môn thể thao thể chất rất tốt cho việc rèn luyện tính cách vì chúng dạy sự kiên trì.",
+          "ex": "'Character building' nghĩa là rèn luyện tính cách."
+        },
+        {
+          "q": "Many people prefer to get ____ on weekends rather than staying indoors.",
+          "o": ["outdoors", "inside", "upstairs", "downstairs"],
+          "a": 0,
+          "vi": "Nhiều người thích ra ngoài trời vào cuối tuần hơn là ở trong nhà.",
+          "ex": "'Get outdoors' nghĩa là ra ngoài không gian mở/ngoài trời."
+        }
+      ]
+    },
+    {
+      "type": "type-in",
+      "name": "Bài 3 · Type-in (Điền từ vào chỗ trống)",
+      "hint": "Điền từ tiếng Anh thích hợp vào chỗ trống dựa vào gợi ý chữ cái đầu trong ngoặc.",
+      "questions": [
+        {
+          "q": "The main subjects are part of the school (c)________.",
+          "a": ["curriculum"],
+          "vi": "Các môn học chính là một phần của chương trình học ở trường. (Gợi ý: c...)",
+          "ex": "Chương trình học trong tiếng Anh là 'curriculum'."
+        },
+        {
+          "q": "Football is considered the (p)________ sport in many South American countries.",
+          "a": ["predominant", "preeminent", "prevalent", "preferred"],
+          "vi": "Bóng đá được xem là môn thể thao chiếm ưu thế/thịnh hành ở nhiều quốc gia Nam Mỹ. (Gợi ý: p...)",
+          "ex": "Các từ bắt đầu bằng 'p' chỉ sự phổ biến/chiếm ưu thế: predominant, prevalent, preferred."
+        },
+        {
+          "q": "Fishing is a relaxing (p)________ for many elderly people.",
+          "a": ["pastime"],
+          "vi": "Câu cá là trò tiêu khiển thư giãn đối với nhiều người lớn tuổi. (Gợi ý: p...)",
+          "ex": "Trò tiêu khiển trong tiếng Anh là 'pastime'."
+        },
+        {
+          "q": "Students are encouraged to (p)________ in at least one sports club.",
+          "a": ["participate"],
+          "vi": "Học sinh được khuyến khích tham gia vào ít nhất một câu lạc bộ thể thao. (Gợi ý: p...)",
+          "ex": "Động từ tham gia bắt đầu bằng 'p' là 'participate' (đi với giới từ 'in')."
+        },
+        {
+          "q": "I usually (w)________ out at the local gym three times a week.",
+          "a": ["work"],
+          "vi": "Tôi thường tập thể hình ở phòng gym địa phương ba lần một tuần. (Gợi ý: w...)",
+          "ex": "Cụm động từ tập thể hình là 'work out'."
+        },
+        {
+          "q": "The national football (t)________ will begin next month with sixteen teams.",
+          "a": ["tournament"],
+          "vi": "Giải đấu bóng đá quốc gia sẽ bắt đầu vào tháng tới với mười sáu đội. (Gợi ý: t...)",
+          "ex": "Giải đấu bắt đầu bằng chữ 't' là 'tournament'."
+        },
+        {
+          "q": "Doing regular physical exercises can help (p)________ various cardiovascular diseases.",
+          "a": ["prevent"],
+          "vi": "Tập thể dục thường xuyên có thể giúp ngăn ngừa nhiều bệnh tim mạch. (Gợi ý: p...)",
+          "ex": "Động từ ngăn ngừa là 'prevent'."
+        },
+        {
+          "q": "Playing games together is a good way for young people to (s)________ and make friends.",
+          "a": ["socialize"],
+          "vi": "Chơi game cùng nhau là cách tốt để người trẻ giao lưu và kết bạn. (Gợi ý: s...)",
+          "ex": "Động từ giao lưu xã hội là 'socialize'."
+        },
+        {
+          "q": "Winning the championship was an (i)________ experience for the whole team.",
+          "a": ["invigorating"],
+          "vi": "Giành chức vô địch là một trải nghiệm tiếp thêm sức sống/hào hứng cho cả đội. (Gợi ý: i...)",
+          "ex": "Tính từ tiếp sức sống/làm phấn khởi là 'invigorating'."
+        },
+        {
+          "q": "Listening to peaceful music can help (r)________ stress after working hours.",
+          "a": ["reduce"],
+          "vi": "Nghe nhạc êm dịu có thể giúp giảm căng thẳng sau giờ làm việc. (Gợi ý: r...)",
+          "ex": "Động từ giảm bớt là 'reduce'."
+        },
+        {
+          "q": "Cheating and (u)________ behaviour should not be tolerated in sports.",
+          "a": ["unsporting"],
+          "vi": "Gian lận và hành vi thiếu tinh thần thể thao không nên được chấp nhận. (Gợi ý: u...)",
+          "ex": "Tính từ thiếu tinh thần thượng võ/thể thao là 'unsporting'."
+        },
+        {
+          "q": "Athletes must not take (b)________ drugs before entering the race.",
+          "a": ["banned"],
+          "vi": "Các vận động viên không được sử dụng thuốc cấm trước khi bước vào cuộc đua. (Gợi ý: b...)",
+          "ex": "Thuốc cấm là 'banned drugs'."
+        },
+        {
+          "q": "High levels of (c)________ are required during a chess match.",
+          "a": ["concentration"],
+          "vi": "Mức độ tập trung cao là bắt buộc trong suốt trận đấu cờ vua. (Gợi ý: c...)",
+          "ex": "Danh từ chỉ sự tập trung bắt đầu bằng 'c' là 'concentration'."
+        }
+      ]
+    }
+  ]
+}
