@@ -1,0 +1,257 @@
+{
+  "id": "sports-present-simple",
+  "title": "Ôn tập Từ vựng Thể thao & Ngữ pháp (Hiện tại đơn, Tiếp diễn, Stative Verbs)",
+  "tags": ["Sports", "Grammar", "Present Simple", "Present Continuous", "Stative Verbs"],
+  "cover": "⚽",
+  "gradient": "linear-gradient(135deg,#7a67ee,#5a9df5 55%,#3ecfa0)",
+  "description": "Bài tập ôn tập 30 câu bao gồm từ vựng thể thao, thì Hiện tại đơn, Hiện tại tiếp diễn và Động từ chỉ nhận thức/cảm giác.",
+  "duration": "30 phút",
+  "parts": [
+    {
+      "type": "mcq",
+      "name": "Phần 1 · Trắc nghiệm Từ vựng & Ngữ pháp (MCQ)",
+      "hint": "Chọn đáp án đúng nhất (A, B, C hoặc D) để hoàn thành các câu sau",
+      "questions": [
+        {
+          "q": "Look! He ________ the ball to his teammate.",
+          "o": ["passes", "is passing", "pass", "is pass"],
+          "a": 1,
+          "vi": "Nhìn kìa! Anh ấy đang chuyền bóng cho đồng đội.",
+          "ex": "Hành động đang diễn ra ngay lúc nói, có dấu hiệu nhận biết 'Look!' nên dùng thì Hiện tại tiếp diễn."
+        },
+        {
+          "q": "Do you ________ the rules of cricket?",
+          "o": ["knowing", "knows", "know", "are knowing"],
+          "a": 2,
+          "vi": "Bạn có biết luật chơi môn dế (cricket) không?",
+          "ex": "'Know' là động từ chỉ nhận thức, tư duy nên không chia ở thì tiếp diễn. Trong câu hỏi Hiện tại đơn dùng trợ động từ Do + V-bare."
+        },
+        {
+          "q": "We usually ________ judo on Tuesday afternoons.",
+          "o": ["go", "play", "do", "make"],
+          "a": 2,
+          "vi": "Chúng tôi thường tập võ judo vào các chiều thứ Ba.",
+          "ex": "Cụm từ cố định: 'do judo' (tập võ judo)."
+        },
+        {
+          "q": "Listen! The referee ________ the whistle to start the match.",
+          "o": ["blows", "blow", "is blowing", "blowing"],
+          "a": 2,
+          "vi": "Lắng nghe kìa! Trọng tài đang thổi còi để bắt đầu trận đấu.",
+          "ex": "Hành động đang xảy ra tại thời điểm nói, có dấu hiệu 'Listen!' dùng thì Hiện tại tiếp diễn."
+        },
+        {
+          "q": "I ________ this strawberry cake tastes delicious.",
+          "o": ["think", "am thinking", "thinks", "thought"],
+          "a": 0,
+          "vi": "Tôi nghĩ chiếc bánh dâu này có vị rất ngon.",
+          "ex": "'Think' mang nghĩa là 'nghĩ rằng/cho rằng' (chỉ quan điểm/nhận thức) thì dùng Hiện tại đơn, không chia tiếp diễn."
+        },
+        {
+          "q": "Which activity goes with the verb 'go'?",
+          "o": ["gymnastics", "athletics", "skiing", "chess"],
+          "a": 2,
+          "vi": "Hoạt động nào đi kèm với động từ 'go'?",
+          "ex": "Các môn thể thao kết thúc bằng '-ing' thường đi với động từ 'go' (go skiing)."
+        },
+        {
+          "q": "Right now, she ________ in the pool with her friends.",
+          "o": ["swims", "is swimming", "swim", "is swiming"],
+          "a": 1,
+          "vi": "Ngay lúc này, cô ấy đang bơi trong hồ bơi cùng bạn bè.",
+          "ex": "Dấu hiệu 'Right now' chia Hiện tại tiếp diễn. Động từ 'swim' nhân đôi chữ 'm' trước khi thêm '-ing' (swimming)."
+        },
+        {
+          "q": "They never ________ football when it rains heavily.",
+          "o": ["play", "do", "go", "are playing"],
+          "a": 0,
+          "vi": "Họ không bao giờ chơi bóng đá khi trời mưa to.",
+          "ex": "Các môn thể thao có bóng dùng động từ 'play'. Từ 'never' chỉ thói quen nên chia Hiện tại đơn."
+        },
+        {
+          "q": "I ________ what you mean, so you don't need to explain again.",
+          "o": ["am understanding", "understand", "understands", "understanding"],
+          "a": 1,
+          "vi": "Tôi hiểu ý bạn rồi, nên bạn không cần phải giải thích lại đâu.",
+          "ex": "'Understand' là động từ chỉ trí óc/nhận thức, không dùng ở thì tiếp diễn."
+        },
+        {
+          "q": "Look at the scoreboard! Our team ________ the match 3-1!",
+          "o": ["wins", "win", "is winning", "are wining"],
+          "a": 2,
+          "vi": "Nhìn vào bảng điểm kìa! Đội của chúng ta đang dẫn trước/thắng trận đấu với tỷ số 3-1!",
+          "ex": "Tình huống đang diễn ra trực tiếp quan sát được, dùng thì Hiện tại tiếp diễn."
+        },
+        {
+          "q": "She needs a new racket because she loves playing ________.",
+          "o": ["volleyball", "tennis", "judo", "hiking"],
+          "a": 1,
+          "vi": "Cô ấy cần một chiếc vợt mới vì cô ấy thích chơi quần vợt.",
+          "ex": "Dụng cụ 'racket' (vợt) được dùng trong môn quần vợt (tennis) hoặc cầu lông (badminton)."
+        },
+        {
+          "q": "The soup ________ great; can I have some more?",
+          "o": ["is smelling", "smell", "smells", "smelling"],
+          "a": 2,
+          "vi": "Món súp có mùi thật tuyệt; tôi có thể ăn thêm một ít được không?",
+          "ex": "'Smell' là động từ chỉ giác quan (có mùi như thế nào) chia ở Hiện tại đơn."
+        },
+        {
+          "q": "My brother ________ his bicycle to school every morning.",
+          "o": ["rides", "is riding", "ride", "is ride"],
+          "a": 0,
+          "vi": "Anh trai tôi đạp xe đến trường mỗi sáng.",
+          "ex": "Diễn tả thói quen lặp đi lặp lại 'every morning', chủ ngữ số ít 'My brother' đi với 'rides'."
+        },
+        {
+          "q": "Find the odd word out: sailing, swimming, canoeing, boxing.",
+          "o": ["sailing", "swimming", "canoeing", "boxing"],
+          "a": 3,
+          "vi": "Tìm từ khác loại: sailing, swimming, canoeing, boxing.",
+          "ex": "Sailing, swimming, canoeing đều là các môn thể thao dưới nước (water sports), còn boxing không phải."
+        },
+        {
+          "q": "What ________ you ________ right now? You look confused.",
+          "o": ["do / think", "are / thinking", "do / thinking", "are / think"],
+          "a": 1,
+          "vi": "Bạn đang suy nghĩ điều gì ngay lúc này vậy? Trông bạn có vẻ bối rối.",
+          "ex": "Khi 'think' mang nghĩa là suy nghĩ (hành động của trí óc đang diễn ra) và có dấu hiệu 'right now', ta dùng Hiện tại tiếp diễn."
+        }
+      ]
+    },
+    {
+      "type": "type-in",
+      "name": "Phần 2 · Chia dạng đúng của động từ (Type-in)",
+      "hint": "Gõ dạng đúng của động từ trong ngoặc để hoàn thành câu",
+      "questions": [
+        {
+          "q": "My father usually (go) ________ cycling in the park on Sundays.",
+          "a": ["goes"],
+          "vi": "Bố tôi thường đi đạp xe ở công viên vào các ngày Chủ nhật.",
+          "ex": "Thói quen có dấu hiệu 'usually' và 'on Sundays' -> chia Hiện tại đơn số ít: goes."
+        },
+        {
+          "q": "Be quiet! The athletes (prepare) ________ for the race.",
+          "a": ["are preparing"],
+          "vi": "Trật tự nào! Các vận động viên đang chuẩn bị cho cuộc đua.",
+          "ex": "Dấu hiệu 'Be quiet!' chỉ hành động đang diễn ra -> chia Hiện tại tiếp diễn: are preparing."
+        },
+        {
+          "q": "I (not / believe) ________ that our team will lose the tournament today.",
+          "a": ["don't believe", "do not believe"],
+          "vi": "Tôi không tin rằng đội của chúng ta sẽ thua giải đấu hôm nay.",
+          "ex": "'Believe' là động từ chỉ nhận thức/niềm tin -> chia Hiện tại đơn phủ định: don't believe / do not believe."
+        },
+        {
+          "q": "At the moment, they (play) ________ basketball in the gym.",
+          "a": ["are playing"],
+          "vi": "Hiện tại, họ đang chơi bóng rổ trong nhà thi đấu.",
+          "ex": "Dấu hiệu 'At the moment' -> chia Hiện tại tiếp diễn: are playing."
+        },
+        {
+          "q": "Water sports like windsurfing always (require) ________ good balance.",
+          "a": ["require"],
+          "vi": "Các môn thể thao dưới nước như lướt ván buồm luôn đòi hỏi sự cân bằng tốt.",
+          "ex": "Diễn tả sự thật / chân lý tổng quát -> chia Hiện tại đơn. Chủ ngữ số nhiều 'Water sports' đi với động từ nguyên mẫu: require."
+        },
+        {
+          "q": "She (prefer) ________ swimming to running.",
+          "a": ["prefers"],
+          "vi": "Cô ấy thích bơi lội hơn chạy bộ.",
+          "ex": "'Prefer' là động từ chỉ sự yêu thích/nhận thức -> chia Hiện tại đơn số ít: prefers."
+        },
+        {
+          "q": "Look! The goalkeeper (try) ________ to catch the ball.",
+          "a": ["is trying"],
+          "vi": "Nhìn kìa! Thủ môn đang cố gắng bắt bóng.",
+          "ex": "Dấu hiệu 'Look!' -> chia Hiện tại tiếp diễn số ít: is trying."
+        },
+        {
+          "q": "He (not / like) ________ winter sports because it is too cold.",
+          "a": ["doesn't like", "does not like"],
+          "vi": "Anh ấy không thích các môn thể thao mùa đông vì trời quá lạnh.",
+          "ex": "'Like' là động từ chỉ cảm xúc/sở thích -> chia Hiện tại đơn phủ định số ít: doesn't like / does not like."
+        },
+        {
+          "q": "We (have) ________ a great time at the stadium right now.",
+          "a": ["are having"],
+          "vi": "Ngay lúc này chúng tôi đang có khoảng thời gian rất tuyệt vời tại sân vận động.",
+          "ex": "'Have a great time' diễn tả trải nghiệm đang diễn ra với dấu hiệu 'right now' -> chia Hiện tại tiếp diễn: are having."
+        },
+        {
+          "q": "My sister (do) ________ gymnastics twice a week.",
+          "a": ["does"],
+          "vi": "Em gái tôi tập thể dục dụng cụ hai lần một tuần.",
+          "ex": "Diễn tả tần suất thói quen 'twice a week' -> chia Hiện tại đơn số ít: does (do gymnastics)."
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "name": "Phần 3 · Chọn câu đúng (MCQ)",
+      "hint": "Chọn câu đúng nhất về mặt ngữ pháp và từ vựng trong các phương án sau",
+      "questions": [
+        {
+          "q": "Chọn câu đúng nhất:",
+          "o": [
+            "I am wanting to buy a new pair of running shoes today.",
+            "I want to buy a new pair of running shoes today.",
+            "I wants to buy a new pair of running shoes today.",
+            "I am want to buy a new pair of running shoes today."
+          ],
+          "a": 1,
+          "vi": "Tôi muốn mua một đôi giày chạy bộ mới vào hôm nay.",
+          "ex": "Động từ 'want' chỉ mong muốn/nhận thức nên dùng Hiện tại đơn với chủ ngữ 'I': 'I want'."
+        },
+        {
+          "q": "Chọn câu đúng nhất:",
+          "o": [
+            "They is playing rugby on the pitch right now.",
+            "They plays rugby on the pitch right now.",
+            "They are playing rugby on the pitch right now.",
+            "They is play rugby on the pitch right now."
+          ],
+          "a": 2,
+          "vi": "Bây giờ họ đang chơi bóng bầu dục trên sân.",
+          "ex": "Dấu hiệu 'right now' chia Hiện tại tiếp diễn. Chủ ngữ 'They' đi với tobe 'are': 'They are playing'."
+        },
+        {
+          "q": "Chọn câu đúng nhất:",
+          "o": [
+            "My uncle does horse-riding every Saturday morning, but today he goes hiking.",
+            "My uncle goes horse-riding every Saturday morning, but today he is going hiking.",
+            "My uncle plays horse-riding every Saturday morning, but today he is going hiking.",
+            "My uncle is doing horse-riding every Saturday morning, but today he goes hiking."
+          ],
+          "a": 1,
+          "vi": "Chú tôi đi cưỡi ngựa vào mỗi sáng thứ Bảy, nhưng hôm nay chú ấy đi đi bộ đường dài.",
+          "ex": "Môn 'horse-riding' đi với 'go' (goes horse-riding). Thói quen tạm thời hôm nay dùng Hiện tại tiếp diễn (is going hiking)."
+        },
+        {
+          "q": "Chọn câu đúng nhất:",
+          "o": [
+            "Look! The referee is giving a red card to the defender.",
+            "Look! The referee gives a red card to the defender.",
+            "Look! The referee give a red card to the defender.",
+            "Look! The referee giving a red card to the defender."
+          ],
+          "a": 0,
+          "vi": "Nhìn kìa! Trọng tài đang rút thẻ đỏ phạt hậu vệ.",
+          "ex": "Dấu hiệu 'Look!' chỉ hành động đang diễn ra ngay lúc quan sát -> chọn 'is giving'."
+        },
+        {
+          "q": "Chọn câu đúng nhất:",
+          "o": [
+            "She is understanding the rules of baseball very well.",
+            "She understand the rules of baseball very well.",
+            "She is understand the rules of baseball very well.",
+            "She understands the rules of baseball very well."
+          ],
+          "a": 3,
+          "vi": "Cô ấy hiểu rất rõ các quy tắc của môn bóng chày.",
+          "ex": "'Understand' là động từ chỉ nhận thức (Stative Verb), chia Hiện tại đơn số ít: 'understands'."
+        }
+      ]
+    }
+  ]
+}
