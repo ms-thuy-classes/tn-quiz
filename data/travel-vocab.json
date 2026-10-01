@@ -1,0 +1,152 @@
+{
+  "id": "travel-vocab",
+  "title": "Vocabulary · Travel & Holidays",
+  "tags": ["Vocabulary", "Travel", "Holidays"],
+  "cover": "✈️",
+  "gradient": "linear-gradient(135deg,#7a67ee,#5a9df5 55%,#3ecfa0)",
+  "description": "Bộ câu hỏi ôn tập từ vựng về chủ đề du lịch và các hoạt động trong kỳ nghỉ.",
+  "duration": "20 phút",
+  "parts": [
+    {
+      "type": "matching",
+      "name": "Bài 1 · Nối nghĩa tiếng Việt",
+      "hint": "Ghép từ/cụm từ tiếng Anh với nghĩa tiếng Việt tương ứng",
+      "pairs": [
+        {
+          "left": "Language exchange",
+          "right": "Kỳ nghỉ trao đổi ngôn ngữ"
+        },
+        {
+          "left": "City break",
+          "right": "Chuyến du lịch ngắn ngày ở thành phố"
+        },
+        {
+          "left": "Host family",
+          "right": "Gia đình chủ nhà (ở cùng khi đi trao đổi/du học)"
+        },
+        {
+          "left": "Mountain climbing",
+          "right": "Leo núi"
+        },
+        {
+          "left": "Wildlife experience",
+          "right": "Trải nghiệm thiên nhiên / động vật hoang dã"
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "name": "Bài 2 · Trắc nghiệm",
+      "hint": "Choose the correct answer",
+      "questions": [
+        {
+          "q": "If you like trying different local dishes, you should go on a ________ tour.",
+          "o": ["cycling", "food", "sailing", "beach"],
+          "a": 1,
+          "vi": "Nếu bạn thích thử các món ăn địa phương khác nhau, bạn nên tham gia một tour du lịch ẩm thực.",
+          "ex": "'food tour' là tour du lịch thưởng thức ẩm thực/món ăn địa phương."
+        },
+        {
+          "q": "We stayed at a luxury accommodation in a beach ________ to relax and watch the sunset.",
+          "o": ["resort", "tour", "exchange", "park"],
+          "a": 0,
+          "vi": "Chúng tôi đã ở tại một chỗ nghỉ sang trọng tại khu nghỉ dưỡng ven biển để thư giãn và ngắm hoàng hôn.",
+          "ex": "'beach resort' có nghĩa là khu nghỉ dưỡng ven biển."
+        },
+        {
+          "q": "An adventure holiday in the great outdoors is suitable for people who want to go ________.",
+          "o": ["shopping", "horse riding", "to museums", "to art galleries"],
+          "a": 1,
+          "vi": "Một kỳ nghỉ mạo hiểm ngoài thiên nhiên rất phù hợp cho những ai muốn đi cưỡi ngựa.",
+          "ex": "'horse riding' (cưỡi ngựa) là hoạt động mạo hiểm ngoài trời."
+        },
+        {
+          "q": "During our language exchange program, we stayed with a local ________ family.",
+          "o": ["host", "wild", "beach", "guest"],
+          "a": 0,
+          "vi": "Trong chương trình trao đổi ngôn ngữ, chúng tôi đã ở cùng với một gia đình chủ nhà địa phương.",
+          "ex": "'host family' nghĩa là gia đình chủ nhà đón tiếp học sinh/du khách."
+        },
+        {
+          "q": "You can go ________ in the sea if you love water sports.",
+          "o": ["mountain climbing", "cycling", "snorkelling", "horse riding"],
+          "a": 2,
+          "vi": "Bạn có thể đi lặn biển ngắm cá/san hô dưới biển nếu bạn yêu thích các môn thể thao dưới nước.",
+          "ex": "'snorkelling' là hoạt động lặn biển có ống thở, thuộc thể thao dưới nước."
+        },
+        {
+          "q": "On a city break, tourists often visit art galleries, museums, and see famous ________.",
+          "o": ["animals", "buildings", "wildlife", "instructors"],
+          "a": 1,
+          "vi": "Trong chuyến du lịch thành phố ngắn ngày, du khách thường ghé thăm phòng triển lãm nghệ thuật, bảo tàng và tham quan các tòa nhà nổi tiếng.",
+          "ex": "'see famous buildings' nghĩa là ngắm/tham quan các tòa nhà nổi tiếng."
+        },
+        {
+          "q": "A ________ trip is a short trip taken for pleasure during a single day.",
+          "o": ["day", "night", "week", "year"],
+          "a": 0,
+          "vi": "Chuyến đi trong ngày là một chuyến đi ngắn để giải trí diễn ra trọn trong một ngày.",
+          "ex": "'day trip' có nghĩa là chuyến đi chơi trong ngày."
+        },
+        {
+          "q": "You can learn how to protect animals and see them in their natural environment on a ________ experience holiday.",
+          "o": ["sailing", "wildlife", "food", "city"],
+          "a": 1,
+          "vi": "Bạn có thể học cách bảo vệ động vật và ngắm nhìn chúng trong môi trường tự nhiên trong kỳ nghỉ trải nghiệm động vật hoang dã.",
+          "ex": "'wildlife experience' là kỳ nghỉ trải nghiệm thiên nhiên và động vật hoang dã."
+        },
+        {
+          "q": "Beginners can learn the basics of sailing with qualified sailing ________.",
+          "o": ["chefs", "hosts", "instructors", "families"],
+          "a": 2,
+          "vi": "Người mới bắt đầu có thể học những kỹ năng thuyền buồm cơ bản với các huấn luyện viên chèo thuyền có chuyên môn.",
+          "ex": "'sailing instructors' nghĩa là các huấn luyện viên/người hướng dẫn chèo thuyền."
+        },
+        {
+          "q": "You can go on ________ visits to learn about the history and culture of the city you are visiting.",
+          "o": ["cultural", "beach", "sports", "water"],
+          "a": 0,
+          "vi": "Bạn có thể tham gia các chuyến tham quan văn hóa để tìm hiểu về lịch sử và văn hóa của thành phố bạn ghé thăm.",
+          "ex": "'cultural visits' có nghĩa là các chuyến tham quan văn hóa."
+        }
+      ]
+    },
+    {
+      "type": "type-in",
+      "name": "Bài 3 · Điền từ có gợi ý chữ cái đầu",
+      "hint": "Điền từ thích hợp vào chỗ trống dựa vào chữ cái gợi ý",
+      "questions": [
+        {
+          "q": "We went on a c________ tour around the countryside on our bicycles.",
+          "a": ["cycling"],
+          "vi": "Chúng tôi đã tham gia một chuyến du lịch bằng xe đạp quanh vùng nông thôn.",
+          "ex": "Cụm từ 'cycling tour' nghĩa là chuyến du lịch bằng xe đạp."
+        },
+        {
+          "q": "Children love going to w________ p________ to swim and play on water slides.",
+          "a": ["water parks", "water park"],
+          "vi": "Trẻ em rất thích đến công viên nước để bơi và chơi cầu trượt nước.",
+          "ex": "Cụm từ 'water parks' có nghĩa là các công viên nước."
+        },
+        {
+          "q": "You can go s________ in the town center to buy souvenirs and local products.",
+          "a": ["shopping"],
+          "vi": "Bạn có thể đi mua sắm ở trung tâm thị trấn để mua quà lưu niệm và các sản phẩm địa phương.",
+          "ex": "Cụm từ 'go shopping' nghĩa là đi mua sắm."
+        },
+        {
+          "q": "During the holiday, we visited many local a________ like museums and parks.",
+          "a": ["attractions"],
+          "vi": "Trong kỳ nghỉ, chúng tôi đã ghé thăm nhiều điểm tham quan địa phương như bảo tàng và công viên.",
+          "ex": "'local attractions' có nghĩa là các điểm thu hút du khách / điểm tham quan địa phương."
+        },
+        {
+          "q": "On a language exchange, you have a chance to p________ speaking English every day.",
+          "a": ["practise", "practice"],
+          "vi": "Trong một chương trình trao đổi ngôn ngữ, bạn có cơ hội thực hành nói tiếng Anh mỗi ngày.",
+          "ex": "'practise' (hoặc 'practice') nghĩa là thực hành, luyện tập."
+        }
+      ]
+    }
+  ]
+}
