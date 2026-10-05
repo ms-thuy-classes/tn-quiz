@@ -1,0 +1,211 @@
+{
+"id": "store.json",
+"title": "IELTS Speaking Part 2 · Customer Service & Shopping",
+"tags": ["IELTS", "Vocabulary", "Grammar", "Speaking Part 2"],
+"cover": "🛍️",
+"gradient": "linear-gradient(135deg,#7a67ee,#5a9df5 55%,#3ecfa0)",
+"description": "30 câu luyện tập từ vựng, ngữ pháp và cấu trúc IELTS Speaking Part 2 về chủ đề Dịch vụ & Mua sắm.",
+"duration": "45 phút",
+"parts": [
+{
+"type": "matching",
+"name": "Phần 1 · Nối từ & Cụm từ",
+"hint": "Ghép cụm từ tiếng Anh với nghĩa tiếng Việt tương ứng",
+"pairs": [
+{
+"left": "pick out an outfit",
+"right": "chọn ra một bộ trang phục"
+},
+{
+"left": "assist somebody in",
+"right": "hỗ trợ ai đó làm việc gì"
+},
+{
+"left": "put together a stylish outfit",
+"right": "phối/kết hợp một bộ đồ thời trang"
+},
+{
+"left": "feel appreciated and welcomed",
+"right": "cảm thấy được trân trọng và đón tiếp"
+},
+{
+"left": "extremely satisfied with",
+"right": "cực kỳ hài lòng với..."
+},
+{
+"left": "keep a smile on someone's face",
+"right": "luôn giữ nụ cười trên môi"
+},
+{
+"left": "offer a replacement",
+"right": "đưa ra sản phẩm thay thế"
+}
+]
+},
+{
+"type": "mcq",
+"name": "Phần 2 · Trắc nghiệm từ vựng & Ngữ pháp",
+"hint": "Choose the correct answer",
+"questions": [
+{
+"q": "If I remember , it was two weeks ago when I wanted to buy some new clothes.",
+"o": ["correct", "correctly", "correctness", "correcting"],
+"a": 1,
+"vi": "Nếu tôi nhớ không nhầm thì đó là 2 tuần trước khi tôi muốn mua vài bộ đồ mới.",
+"ex": "Cụm từ cố định 'If I remember correctly' (sử dụng trạng từ 'correctly' bổ nghĩa cho động từ 'remember')."
+},
+{
+"q": "I went to a popular ________ store to look for a suit for my job interview.",
+"o": ["menswear", "womenwear", "clothingman", "male apparel"],
+"a": 0,
+"vi": "Tôi đã đến một cửa hàng thời trang nam phổ biến để tìm một bộ suit cho buổi phỏng vấn.",
+"ex": "'Menswear store' nghĩa là cửa hàng bán đồ nam."
+},
+{
+"q": "The shop offers very well-designed men's , which attracts a lot of young customers.",
+"o": ["app", "apparels", "apparel", "appliance"],
+"a": 2,
+"vi": "Cửa hàng cung cấp trang phục nam thiết kế rất đẹp, thu hút nhiều khách hàng trẻ.",
+"ex": "'Apparel' là danh từ không đếm được mang nghĩa là quần áo/trang phục."
+},
+{
+"q": "I went to the store with my sister because I wanted to get a ________ opinion.",
+"o": ["second", "next", "double", "twin"],
+"a": 0,
+"vi": "Tôi đến cửa hàng với chị gái vì muốn tham khảo thêm ý kiến của người khác.",
+"ex": "Cụm từ 'get a second opinion' có nghĩa là xin/tham khảo ý kiến thứ hai từ người khác."
+},
+{
+"q": "Two weeks ago, I went to a clothes shop near my house ________ pick out an outfit for the party.",
+"o": ["for", "so as", "to", "in order"],
+"a": 2,
+"vi": "Hai tuần trước, tôi đến cửa hàng quần áo gần nhà để chọn một bộ đồ cho bữa tiệc.",
+"ex": "Cấu trúc chỉ mục đích: [Time], I [Action] + to + [Purpose] (dùng 'to' + động từ nguyên thể)."
+},
+{
+"q": "The staff assisted me in choosing items, trying them on, and ________ the clothes before I left.",
+"o": ["ironed", "iron", "irons", "ironing"],
+"a": 3,
+"vi": "Nhân viên hỗ trợ tôi chọn đồ, thử đồ và ủi quần áo trước khi tôi rời đi.",
+"ex": "Sử dụng cấu trúc song song sau giới từ 'in': choosing, trying, and ironing."
+},
+{
+"q": "The sales assistant was very ; she answered all my questions patiently.",
+"o": ["unhelpful", "helpful", "inattentive", "impatient"],
+"a": 1,
+"vi": "Nhân viên bán hàng rất nhiệt tình; cô ấy kiên nhẫn trả lời mọi câu hỏi của tôi.",
+"ex": "'Helpful' (nhiệt tình, hữu ích) phù hợp với ngữ cảnh kiên nhẫn giải đáp thắc mắc."
+},
+{
+"q": "Because the sweater had a defect, the manager offered a ________ for the faulty product.",
+"o": ["recommendation", "replacement", "revision", "request"],
+"a": 1,
+"vi": "Vì chiếc áo svơ-tơ bị lỗi, người quản lý đã đưa ra sản phẩm thay thế.",
+"ex": "Cụm từ 'offer a replacement for faulty products' nghĩa là đổi trả/đưa ra sản phẩm thay thế cho hàng bị lỗi."
+},
+{
+"q": "She didn't ________ me with her fashion suggestions; the outfit looked amazing.",
+"o": ["disappointed", "disappointing", "disappoint", "disappointment"],
+"a": 2,
+"vi": "Cô ấy đã không làm tôi thất vọng với những gợi ý thời trang của mình; bộ đồ trông rất tuyệt.",
+"ex": "Sau trợ động từ phủ định 'didn't' ta dùng động từ nguyên thể không 'to' (disappoint)."
+},
+{
+"q": "The store staff were very attentive and gave me great fashion .",
+"o": ["advise", "advises", "advices", "advice"],
+"a": 3,
+"vi": "Nhân viên cửa hàng rất chu đáo và cho tôi những lời khuyên thời trang tuyệt vời.",
+"ex": "'Advice' là danh từ không đếm được (không có dạng số nhiều 'advices'). 'Advise' là động từ."
+},
+{
+"q": "The waiter was very rude and ignored our requests, which was extremely .",
+"o": ["professional", "unprofessional", "attentive", "reliable"],
+"a": 1,
+"vi": "Phục vụ bàn rất thô lỗ và lờ đi yêu cầu của chúng tôi, điều đó cực kỳ thiếu chuyên nghiệp.",
+"ex": "'Unprofessional' nghĩa là thiếu chuyên nghiệp, phù hợp ngữ cảnh thô lỗ."
+},
+{
+"q": "Overall, I felt ________ and welcomed because the staff kept a smile on their faces.",
+"o": ["appreciated", "appreciative", "appreciate", "appreciation"],
+"a": 0,
+"vi": "Nhìn chung, tôi cảm thấy được trân trọng và chào đón vì nhân viên luôn giữ nụ cười trên môi.",
+"ex": "Cụm tính từ bị động 'feel appreciated' (cảm thấy được trân trọng)."
+},
+{
+"q": "I'll definitely go back to shop there in the future because of the ________ customer service.",
+"o": ["worst", "excellent", "unacceptable", "unhelpful"],
+"a": 1,
+"vi": "Tôi nhất định sẽ quay lại đó mua sắm trong tương lai vì dịch vụ chăm sóc khách hàng xuất sắc.",
+"ex": "'Excellent customer service' nghĩa là dịch vụ khách hàng tuyệt vời/xuất sắc."
+}
+]
+},
+{
+"type": "type-in",
+"name": "Phần 3 · Điền từ thích hợp",
+"hint": "Gõ từ thích hợp dựa vào chữ cái gợi ý đầu tiên trong ngoặc",
+"questions": [
+{
+"q": "I went to the store two weeks ago to (p) out an outfit for an upcoming event.",
+"a": ["pick"],
+"vi": "Tôi đã đến cửa hàng hai tuần trước để chọn ra một bộ trang phục cho sự kiện sắp tới.",
+"ex": "Cụm động từ 'pick out' nghĩa là chọn lựa."
+},
+{
+"q": "The sales assistant gave me helpful (r) on which shirt matches these trousers.",
+"a": ["recommendations", "recommendation"],
+"vi": "Nhân viên bán hàng đã cho tôi những gợi ý hữu ích về việc chiếc áo nào hợp với chiếc quần này.",
+"ex": "'Give recommendations' nghĩa là đưa ra các gợi ý."
+},
+{
+"q": "Before buying the jacket, I decided to (t) it on to check if it fit me well.",
+"a": ["try"],
+"vi": "Trước khi mua chiếc áo khoác, tôi quyết định thử nó vào để xem có vừa vặn không.",
+"ex": "Cụm từ 'try something on' có nghĩa là thử đồ."
+},
+{
+"q": "I was completely (s) with the service because the staff were polite and attentive.",
+"a": ["satisfied"],
+"vi": "Tôi hoàn toàn hài lòng với dịch vụ vì nhân viên rất lịch sự và chu đáo.",
+"ex": "Cụm từ 'satisfied with' nghĩa là hài lòng với cái gì."
+},
+{
+"q": "The shop assistant helped me put (t) a very stylish outfit.",
+"a": ["together"],
+"vi": "Nhân viên bán hàng đã giúp tôi phối một bộ đồ rất thời trang.",
+"ex": "Cụm từ 'put together an outfit' nghĩa là phối/phối hợp một bộ trang phục."
+},
+{
+"q": "Being (i)________ to customers is a bad trait for any salesperson; they should always be attentive.",
+"a": ["inattentive"],
+"vi": "Thiếu quan tâm/lơ đễnh với khách hàng là một tính xấu của nhân viên bán hàng; họ nên luôn chu đáo.",
+"ex": "'Inattentive' là tính từ trái nghĩa của 'attentive' (chu đáo, quan tâm)."
+},
+{
+"q": "He was an (u)________ driver because he was frequently late and drove recklessly.",
+"a": ["unreliable"],
+"vi": "Anh ấy là một tài xế không đáng tin cậy vì thường xuyên đến trễ và lái xe ẩu.",
+"ex": "'Unreliable' là tính từ trái nghĩa của 'reliable' (đáng tin cậy)."
+},
+{
+"q": "A good sales assistant should always (g)________ customers with a warm smile.",
+"a": ["greet"],
+"vi": "Một nhân viên bán hàng tốt nên luôn chào đón khách hàng bằng một nụ cười ấm áp.",
+"ex": "Cụm từ 'greet customers' nghĩa là chào hỏi khách hàng."
+},
+{
+"q": "When I couldn't decide, she helped me choose the (b)-looking ones.",
+"a": ["better"],
+"vi": "Khi tôi không thể quyết định, cô ấy đã giúp tôi chọn những món đồ trông đẹp hơn.",
+"ex": "'Better-looking' nghĩa là đẹp hơn, nhìn tốt hơn."
+},
+{
+"q": "The store will replace any (f) products if you keep the receipt.",
+"a": ["faulty"],
+"vi": "Cửa hàng sẽ thay thế bất kỳ sản phẩm nào bị lỗi nếu bạn giữ lại hóa đơn.",
+"ex": "'Faulty products' nghĩa là các sản phẩm bị hỏng/lỗi."
+}
+]
+}
+]
+}
