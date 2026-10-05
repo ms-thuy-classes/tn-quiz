@@ -48,7 +48,7 @@
 "hint": "Choose the correct answer",
 "questions": [
 {
-"q": "If I remember , it was two weeks ago when I wanted to buy some new clothes.",
+"q": "If I remember ____ , it was two weeks ago when I wanted to buy some new clothes.",
 "o": ["correct", "correctly", "correctness", "correcting"],
 "a": 1,
 "vi": "Nếu tôi nhớ không nhầm thì đó là 2 tuần trước khi tôi muốn mua vài bộ đồ mới.",
@@ -62,7 +62,7 @@
 "ex": "'Menswear store' nghĩa là cửa hàng bán đồ nam."
 },
 {
-"q": "The shop offers very well-designed men's , which attracts a lot of young customers.",
+"q": "The shop offers very well-designed men's _____ , which attracts a lot of young customers.",
 "o": ["app", "apparels", "apparel", "appliance"],
 "a": 2,
 "vi": "Cửa hàng cung cấp trang phục nam thiết kế rất đẹp, thu hút nhiều khách hàng trẻ.",
@@ -90,7 +90,7 @@
 "ex": "Sử dụng cấu trúc song song sau giới từ 'in': choosing, trying, and ironing."
 },
 {
-"q": "The sales assistant was very ; she answered all my questions patiently.",
+"q": "The sales assistant was very _____ ; she answered all my questions patiently.",
 "o": ["unhelpful", "helpful", "inattentive", "impatient"],
 "a": 1,
 "vi": "Nhân viên bán hàng rất nhiệt tình; cô ấy kiên nhẫn trả lời mọi câu hỏi của tôi.",
@@ -111,14 +111,14 @@
 "ex": "Sau trợ động từ phủ định 'didn't' ta dùng động từ nguyên thể không 'to' (disappoint)."
 },
 {
-"q": "The store staff were very attentive and gave me great fashion .",
+"q": "The store staff were very attentive and gave me great fashion _____ .",
 "o": ["advise", "advises", "advices", "advice"],
 "a": 3,
 "vi": "Nhân viên cửa hàng rất chu đáo và cho tôi những lời khuyên thời trang tuyệt vời.",
 "ex": "'Advice' là danh từ không đếm được (không có dạng số nhiều 'advices'). 'Advise' là động từ."
 },
 {
-"q": "The waiter was very rude and ignored our requests, which was extremely .",
+"q": "The waiter was very rude and ignored our requests, which was extremely ____ .",
 "o": ["professional", "unprofessional", "attentive", "reliable"],
 "a": 1,
 "vi": "Phục vụ bàn rất thô lỗ và lờ đi yêu cầu của chúng tôi, điều đó cực kỳ thiếu chuyên nghiệp.",
@@ -146,61 +146,61 @@
 "hint": "Gõ từ thích hợp dựa vào chữ cái gợi ý đầu tiên trong ngoặc",
 "questions": [
 {
-"q": "I went to the store two weeks ago to (p) out an outfit for an upcoming event.",
+"q": "I went to the store two weeks ago to (p)____ out an outfit for an upcoming event.",
 "a": ["pick"],
 "vi": "Tôi đã đến cửa hàng hai tuần trước để chọn ra một bộ trang phục cho sự kiện sắp tới.",
 "ex": "Cụm động từ 'pick out' nghĩa là chọn lựa."
 },
 {
-"q": "The sales assistant gave me helpful (r) on which shirt matches these trousers.",
+"q": "The sales assistant gave me helpful (r)____ on which shirt matches these trousers.",
 "a": ["recommendations", "recommendation"],
 "vi": "Nhân viên bán hàng đã cho tôi những gợi ý hữu ích về việc chiếc áo nào hợp với chiếc quần này.",
 "ex": "'Give recommendations' nghĩa là đưa ra các gợi ý."
 },
 {
-"q": "Before buying the jacket, I decided to (t) it on to check if it fit me well.",
+"q": "Before buying the jacket, I decided to (t)____ it on to check if it fit me well.",
 "a": ["try"],
 "vi": "Trước khi mua chiếc áo khoác, tôi quyết định thử nó vào để xem có vừa vặn không.",
 "ex": "Cụm từ 'try something on' có nghĩa là thử đồ."
 },
 {
-"q": "I was completely (s) with the service because the staff were polite and attentive.",
+"q": "I was completely (s)____ with the service because the staff were polite and attentive.",
 "a": ["satisfied"],
 "vi": "Tôi hoàn toàn hài lòng với dịch vụ vì nhân viên rất lịch sự và chu đáo.",
 "ex": "Cụm từ 'satisfied with' nghĩa là hài lòng với cái gì."
 },
 {
-"q": "The shop assistant helped me put (t) a very stylish outfit.",
+"q": "The shop assistant helped me put (t)____ a very stylish outfit.",
 "a": ["together"],
 "vi": "Nhân viên bán hàng đã giúp tôi phối một bộ đồ rất thời trang.",
 "ex": "Cụm từ 'put together an outfit' nghĩa là phối/phối hợp một bộ trang phục."
 },
 {
-"q": "Being (i)________ to customers is a bad trait for any salesperson; they should always be attentive.",
+"q": "Being (i)______ to customers is a bad trait for any salesperson; they should always be attentive.",
 "a": ["inattentive"],
 "vi": "Thiếu quan tâm/lơ đễnh với khách hàng là một tính xấu của nhân viên bán hàng; họ nên luôn chu đáo.",
 "ex": "'Inattentive' là tính từ trái nghĩa của 'attentive' (chu đáo, quan tâm)."
 },
 {
-"q": "He was an (u)________ driver because he was frequently late and drove recklessly.",
+"q": "He was an (u)______ driver because he was frequently late and drove recklessly.",
 "a": ["unreliable"],
 "vi": "Anh ấy là một tài xế không đáng tin cậy vì thường xuyên đến trễ và lái xe ẩu.",
 "ex": "'Unreliable' là tính từ trái nghĩa của 'reliable' (đáng tin cậy)."
 },
 {
-"q": "A good sales assistant should always (g)________ customers with a warm smile.",
+"q": "A good sales assistant should always (g)______ customers with a warm smile.",
 "a": ["greet"],
 "vi": "Một nhân viên bán hàng tốt nên luôn chào đón khách hàng bằng một nụ cười ấm áp.",
 "ex": "Cụm từ 'greet customers' nghĩa là chào hỏi khách hàng."
 },
 {
-"q": "When I couldn't decide, she helped me choose the (b)-looking ones.",
+"q": "When I couldn't decide, she helped me choose the (b)____-looking ones.",
 "a": ["better"],
 "vi": "Khi tôi không thể quyết định, cô ấy đã giúp tôi chọn những món đồ trông đẹp hơn.",
 "ex": "'Better-looking' nghĩa là đẹp hơn, nhìn tốt hơn."
 },
 {
-"q": "The store will replace any (f) products if you keep the receipt.",
+"q": "The store will replace any (f)____ products if you keep the receipt.",
 "a": ["faulty"],
 "vi": "Cửa hàng sẽ thay thế bất kỳ sản phẩm nào bị lỗi nếu bạn giữ lại hóa đơn.",
 "ex": "'Faulty products' nghĩa là các sản phẩm bị hỏng/lỗi."
